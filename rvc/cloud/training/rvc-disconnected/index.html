@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/en">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.759898948290">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.759906742566">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -31,12 +31,12 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../../img/logo1.png" rel="icon">
-    <link href="../../../../resources/css/retype.css?v=3.5.0.759898948290" rel="stylesheet">
+    <link href="../../../../img/b.png" rel="icon">
+    <link href="../../../../resources/css/retype.css?v=3.5.0.759906742566" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../../resources/js/config.js?v=3.5.0.759898948290" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../../resources/js/config.js?v=3.5.0.759906742566" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=3.5.0.759898948290" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=3.5.0.759906742566" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -52,12 +52,11 @@
                 <div class="flex items-center justify-between h-full py-2 md:w-75">
                     <div class="flex items-center px-2 md:px-6">
                         <a id="docs-site-logo" href="../../../../" class="flex items-center leading-snug text-2xl">
-                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
-                                <img class="max-h-10 dark:hidden md:inline-block" src="../../../../img/logo1.png">
-                                <img class="max-h-10 hidden dark:inline-block" src="../../../../img/logo1.png">
+                            <span class="grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../../../img/a.png">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../../../img/a.png">
                             </span>
-                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">AI HUB</span>
-                        </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">Docs</span>
+                        </a>
                     </div>
         
                     <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
@@ -253,10 +252,10 @@
     </h6>
 </doc-anchor-target>
 <ul>
-<li><p>RVC Disconnected a port of RVC to <a href="https://rvc-docs.github.io/Docs/other/glossary/#google-colab"><u>Google Colab</u></a>, for exclusively training.<br />
+<li><p>RVC Disconnected a port of RVC to <a href="https://aihubdocs.github.io/en/other/glossary/#google-colab"><u>Google Colab</u></a>, for exclusively training.<br />
 Notebook made by <a href="https://huggingface.co/Kit-Lemonfoot"><u>Kit Lemonfoot</u></a>.</p>
 </li>
-<li><p>It&#x27;s free, includes all the necesary tools for a quality model, the <a href="https://rvc-docs.github.io/Docs/rvc-resources/epochs-overtraining--tensorboard/#what-is-tensorboard"><u>Tensorboard</u></a>, &amp; it&#x27;s the fastest Colab space for training.</p>
+<li><p>It&#x27;s free, includes all the necesary tools for a quality model, the <a href="https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#what-is-tensorboard"><u>Tensorboard</u></a>, &amp; it&#x27;s the fastest Colab space for training.</p>
 </li>
 <li><p>Making it the go-to method for training for cloud RVC users. Pretty much the only big downside is the time limit (but you can switch to another account &amp; continue).<br />
 ‎</p>
@@ -348,7 +347,7 @@ Speeds up the process.</li>
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5><u>Important notes:</u></h5>
-<p>• ‎ This guide is centered around the <a href="https://rvc-docs.github.io/Docs/rvc-resources/epochs-overtraining--tensorboard/"><u>TensorBoard</u></a>. Read it first if you haven&#x27;t already.<br />
+<p>• ‎ This guide is centered around the <a href="https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/"><u>TensorBoard</u></a>. Read it first if you haven&#x27;t already.<br />
 • ‎ Turn on <a href="https://cleeng.zendesk.com/hc/en-us/articles/360009526800-How-to-enable-third-party-cookies-on-my-browser-"><u>third-party cookies</u></a>, or TB might not work.</p>
         </div>
     </div>
@@ -448,7 +447,7 @@ Don&#x27;t include spaces/special characters.</p>
 </li>
 <li><p>Set <code v-pre>pretrain_type</code> as <code v-pre>original</code> if you aren&#x27;t familiar with it.</p>
 </li>
-<li><p>Select <code v-pre>target_sample_rate</code> as your dataset&#x27;s <a href="https://rvc-docs.github.io/Docs/rvc-resources/audio-formats--sample-rate/#sample-rate"><u>sample rate</u></a>.</p>
+<li><p>Select <code v-pre>target_sample_rate</code> as your dataset&#x27;s <a href="https://aihubdocs.github.io/en/rvc-resources/audio-formats--sample-rate/#sample-rate"><u>sample rate</u></a>.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
@@ -478,7 +477,7 @@ Don&#x27;t include spaces/special characters.</p>
 <ol type="a" start="5">
 <li><p>In <code v-pre>pitch_extraction_algorithm</code> select either <code v-pre>RMVPE</code>, <code v-pre>Crepe</code> or <code v-pre>Mangio-Crepe</code>, according to your needs.<br />
 Don&#x27;t use Harvest, as it&#x27;s obsolete.</p>
-<p>Learn more <a href="https://rvc-docs.github.io/Docs/essentials/how-to-make-an-rvc-voice-model/"><u>here</u></a>.</p>
+<p>Learn more <a href="https://aihubdocs.github.io/en/essentials/how-to-make-an-rvc-voice-model/"><u>here</u></a>.</p>
 </li>
 </ol>
 <hr>
@@ -519,7 +518,7 @@ Example: <code v-pre>kalomaze.zip</code>.</p>
     </h4>
 </doc-anchor-target>
 <ol type="a">
-<li><p>Run <code v-pre>Index Training</code> to create the <a href="https://rvc-docs.github.io/Docs/essentials/voice-models--how-to-search-them/"><u>.INDEX</u></a> file.</p>
+<li><p>Run <code v-pre>Index Training</code> to create the <a href="https://aihubdocs.github.io/en/essentials/voice-models--how-to-search-them/"><u>.INDEX</u></a> file.</p>
 <p><img src="../rvcdisconnected-img/17.png" alt="image" width="450" height="auto">‎<br />
 ‎</p>
 </li>
@@ -545,7 +544,7 @@ Example: <code v-pre>kalomaze.zip</code>.</p>
 <p><img src="../rvcdisconnected-img/10.png" alt="image" width="350" height="auto">‎<br />
 ‎</p>
 </li>
-<li><p>In <code v-pre>Save frequency</code> you determine at how many <a href="https://rvc-docs.github.io/Docs/rvc-resources/epochs-overtraining--tensorboard/"><u>epochs</u></a> the model will saved at.<br />
+<li><p>In <code v-pre>Save frequency</code> you determine at how many <a href="https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/"><u>epochs</u></a> the model will saved at.<br />
 If you are a newbie, leave it at <code v-pre>15</code>.</p>
 <ul>
 <li>Think of it as how often RVC will make a &quot;saving checkpoint&quot; file of your model.</li>
@@ -556,7 +555,7 @@ If you are a newbie, leave it at <code v-pre>15</code>.</p>
 </ul>
 </li>
 <li><p>In <code v-pre>total_epochs</code> input the total amount of epochs (training cycles) used for the training.</p>
-<p>Since we&#x27;ll use a TensorBoard, using an arbitrarely large value like <code v-pre>2000</code> is probably enough, to avoid re-training. Learn more <a href="https://rvc-docs.github.io/Docs/rvc-resources/epochs-overtraining--tensorboard/"><u>here</u></a> if you haven&#x27;t already.<br />
+<p>Since we&#x27;ll use a TensorBoard, using an arbitrarely large value like <code v-pre>2000</code> is probably enough, to avoid re-training. Learn more <a href="https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/"><u>here</u></a> if you haven&#x27;t already.<br />
 ‎</p>
 </li>
 <li><p>Leave <code v-pre>batch_size</code> as <code v-pre>8</code> if you are a newbie.<br />
@@ -616,7 +615,7 @@ Be patient, it may take hours.</p>
 <li><p>Once you detect overtraining, to stop training click the stop button of the <code v-pre>Training</code> cell.</p>
 </li>
 <li><p>Click the folder symbol on the right, open the <code v-pre>Mangio-RVC-Fork</code> folder, then <code v-pre>weights</code>.<br />
-You&#x27;ll find a list of each <a href="https://rvc-docs.github.io/Docs/essentials/voice-models--how-to-search-them/#voice-model-files"><u>.PTH</u></a> file of every epoch cycle/training step, with this format: <code v-pre>modelname_epochnumber_stepnumber.pth</code>.</p>
+You&#x27;ll find a list of each <a href="https://aihubdocs.github.io/en/essentials/voice-models--how-to-search-them/#voice-model-files"><u>.PTH</u></a> file of every epoch cycle/training step, with this format: <code v-pre>modelname_epochnumber_stepnumber.pth</code>.</p>
 <p>Right-click the right training point &amp; press <code v-pre>Download</code>.</p>
 <p><img src="../rvcdisconnected-img/12.png" alt="image" width="230" height="auto">‎</p>
 <p>And that&#x27;s all. Have fun with your model.</p>
@@ -663,7 +662,7 @@ You&#x27;ll find a list of each <a href="https://rvc-docs.github.io/Docs/essenti
 <p><img src="../rvcdisconnected-img/16.png" alt="image" width="450" height="auto">‎<br />
 ‎</p>
 </li>
-<li><p>And now you can resume training. Run the <code v-pre>Training</code> cell, &amp; rememeber to keep an eye on the <a href="https://rvc-docs.github.io/Docs/rvc-resources/epochs-overtraining--tensorboard/#what-is-tensorboard"><u>TB</u></a>.</p>
+<li><p>And now you can resume training. Run the <code v-pre>Training</code> cell, &amp; rememeber to keep an eye on the <a href="https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#what-is-tensorboard"><u>TB</u></a>.</p>
 </li>
 </ol>
 <hr>
