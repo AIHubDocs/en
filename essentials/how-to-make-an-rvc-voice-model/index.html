@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/en">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.759908055869">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.759987726845">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -15,7 +15,7 @@
     <!-- Primary Meta Tags -->
     <title>How To Make An RVC Voice Model</title>
     <meta name="title" content="How To Make An RVC Voice Model">
-    <meta name="description" content="Written by Julia Last update: Jan 28, 2024">
+    <meta name="description" content="Written by Julia Last update: Jan 30, 2024">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://aihubdocs.github.io/en/essentials/how-to-make-an-rvc-voice-model/">
@@ -24,22 +24,22 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aihubdocs.github.io/en/essentials/how-to-make-an-rvc-voice-model/">
     <meta property="og:title" content="How To Make An RVC Voice Model">
-    <meta property="og:description" content="Written by Julia Last update: Jan 28, 2024">
+    <meta property="og:description" content="Written by Julia Last update: Jan 30, 2024">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://aihubdocs.github.io/en/essentials/how-to-make-an-rvc-voice-model/">
     <meta property="twitter:title" content="How To Make An RVC Voice Model">
-    <meta property="twitter:description" content="Written by Julia Last update: Jan 28, 2024">
+    <meta property="twitter:description" content="Written by Julia Last update: Jan 30, 2024">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../img/b.png" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.759908055869" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.759987726845" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.759908055869" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.759987726845" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.759908055869" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.759987726845" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -232,7 +232,7 @@
     </h1>
 </doc-anchor-target>
 <p><em><code v-pre>Written by Julia</code></em><br />
-<code v-pre>Last update: Jan 28, 2024</code></p>
+<code v-pre>Last update: Jan 30, 2024</code></p>
 <hr>
 <doc-anchor-target id="section">
     <h6>
@@ -253,9 +253,9 @@
         <span>‎</span>
     </h6>
 </doc-anchor-target>
-<p>For many, the process of making a (<em>decent</em>) voice model can get a little tedious and confusing for many.<br />
+<p>For many, the process of making a (<em>decent</em>) voice model can get a little tedious &amp; confusing.<br />
 Let&#x27;s explain the procedure piece by piece &amp; slowly.</p>
-<p>We&#x27;ll divide the model training process into 3 chapters:<br />
+<p>We&#x27;ll divide the process into 3 chapters:<br />
 <strong>1.</strong> Preparing the dataset<br />
 <strong>2.</strong> Setting up RVC<br />
 <strong>3.</strong> Training the model</p>
@@ -298,7 +298,7 @@ Let&#x27;s first start by <strong>properly</strong> learning what a model is exa
 <ul>
 <li><p>RVC (Retrieval-based Voice Conversion) is an advanced AI voice cloning software. It is free and <u><a href="https://aihubdocs.github.io/en/other/glossary/#open-source">open-source</a></u>.</p>
 </li>
-<li><p>Originally designed for desktop, requiring decent specs and <u><a href="https://aihubdocs.github.io/en/other/glossary/#gpu">GPU</a></u> to run it effectively.</p>
+<li><p>It was originally designed for desktop, requiring decent <u>[specs</u>] &amp; <u><a href="https://aihubdocs.github.io/en/other/glossary/#gpu">GPU</a></u> to train effectively.</p>
 </li>
 <li><p>It can be executed through a cloud server and be used in any device, in case you don&#x27;t meet the previous requirement.</p>
 </li>
@@ -353,8 +353,8 @@ So be sure to remove any undesired noises.</p>
         <span>2. Set up RVC.</span>
     </h3>
 </doc-anchor-target>
-<p>With your dataset ready, it&#x27;s time to set up RVC. Choose the right one according to your needs.<br />
-Begin using it once you have read the next chapter.<br />
+<p>With your dataset ready, it&#x27;s time to set up RVC &amp; train the model. Choose the right one according to your needs.<br />
+Begin using it once you have read chapter 3.<br />
 ‎</p>
 <doc-anchor-target id="for-local-users">
     <h4>
@@ -376,7 +376,7 @@ This is the original version of RVC, being the simplest &amp; quickest to use fo
 <ul>
 <li>We recommend <a href="https://aihubdocs.github.io/en/rvc/cloud/training/rvc-disconnected/"><u><strong>RVC Disconnected</strong></u></a> or <a href="https://aihubdocs.github.io/en/rvc/cloud/paperspace/"><u><strong>Paperspace</strong></u></a>.
 <ul>
-<li>First one is a port of RVC to <u><a href="https://aihubdocs.github.io/en/other/glossary/#google-colab">Google Colab</a></u> for training.</li>
+<li>First one is a port of the <a href="">Mangio</a> fork to <u><a href="https://aihubdocs.github.io/en/other/glossary/#google-colab">Google Colab</a></u> for training.</li>
 <li>Second one works similarly except it&#x27;s much faster. A more convenient option if you don&#x27;t mind paying a monthly <strong>suscription</strong>.</li>
 </ul>
 </li>
@@ -397,9 +397,9 @@ This is the original version of RVC, being the simplest &amp; quickest to use fo
 <p>Before you start training, there&#x27;s something <strong>important</strong> you need to know:<br />
 The training guides are centered around the <u><a href="https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#how-to-use-tensorboard"><strong>TensorBoard</strong></a></u>, a tool for determining exactly when to stop training.</p>
 <p>A common mistake RVC users make is train the model for a semi-arbitrary amount of time.<br />
-But this isn&#x27;t a convenient method if you aim towards a quality model, as it can screw up the quality.</p>
+But this isn&#x27;t a convenient method if you aim towards a quality model, as it can screw up the results.</p>
 <p>Go ahead &amp; begin the training process, you&#x27;ll be adviced when to read/set up TB.<br />
-Have fun &amp; be patient!</p>
+Good luck &amp; remember to be patient!</p>
 
                                 
                                 <!-- Required only on API pages -->
