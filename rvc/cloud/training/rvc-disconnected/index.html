@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/en">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.761199702506">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.761247380749">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -15,7 +15,7 @@
     <!-- Primary Meta Tags -->
     <title>RVC Disconnected</title>
     <meta name="title" content="RVC Disconnected">
-    <meta name="description" content="Last update: Feb 9, 2024">
+    <meta name="description" content="Last update: Feb 14, 2024">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://aihubdocs.github.io/en/rvc/cloud/training/rvc-disconnected/">
@@ -24,22 +24,22 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aihubdocs.github.io/en/rvc/cloud/training/rvc-disconnected/">
     <meta property="og:title" content="RVC Disconnected">
-    <meta property="og:description" content="Last update: Feb 9, 2024">
+    <meta property="og:description" content="Last update: Feb 14, 2024">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://aihubdocs.github.io/en/rvc/cloud/training/rvc-disconnected/">
     <meta property="twitter:title" content="RVC Disconnected">
-    <meta property="twitter:description" content="Last update: Feb 9, 2024">
+    <meta property="twitter:description" content="Last update: Feb 14, 2024">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../../img/b.png" rel="icon">
-    <link href="../../../../resources/css/retype.css?v=3.5.0.761199702506" rel="stylesheet">
+    <link href="../../../../resources/css/retype.css?v=3.5.0.761247380749" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../../resources/js/config.js?v=3.5.0.761199702506" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../../resources/js/config.js?v=3.5.0.761247380749" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=3.5.0.761199702506" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=3.5.0.761247380749" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -231,7 +231,7 @@
         <span>RVC Disconnected</span>
     </h1>
 </doc-anchor-target>
-<p><code v-pre>Last update: Feb 9, 2024</code></p>
+<p><code v-pre>Last update: Feb 14, 2024</code></p>
 <hr>
 <doc-anchor-target id="section">
     <h6>
@@ -324,10 +324,10 @@ Speeds up the process.</li>
         <span>‎</span>
     </h6>
 </doc-anchor-target>
-<div class="content-center"><doc-anchor-target id="how-to-train">
+<div class="content-center"><doc-anchor-target id="how-to-train-">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#how-to-train">#</doc-anchor-trigger>
-        <span>How to Train</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#how-to-train-">#</doc-anchor-trigger>
+        <span>How to Train <svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M8.75 11a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5a.75.75 0 0 1 .75-.75Zm7.25.75a.75.75 0 0 0-1.5 0v3.5a.75.75 0 0 0 1.5 0v-3.5Z"/><path d="M9.813 1h2.437a.75.75 0 0 1 .75.75V5h6.75A2.25 2.25 0 0 1 22 7.25v5.25h1.25a.75.75 0 0 1 0 1.5H22v5.75A2.25 2.25 0 0 1 19.75 22H4.25A2.25 2.25 0 0 1 2 19.75V14H.75a.75.75 0 0 1 0-1.5H2V7.25A2.25 2.25 0 0 1 4.25 5h7.25V2.5H9.813A.75.75 0 0 1 9.812 1ZM3.5 7.25v12.5c0 .414.336.75.75.75h15.5a.75.75 0 0 0 .75-.75V7.25a.75.75 0 0 0-.75-.75H4.25a.75.75 0 0 0-.75.75Z"/></g></g></svg></span>
     </h2>
 </doc-anchor-target>
 <doc-anchor-target id="section-3">
@@ -540,7 +540,7 @@ Then execute the cell.</p>
 <dd>The total amount of <u><a href="https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard//">epochs</a></u> for the model. But since we&#x27;ll use <u><a href="https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard">TensorBoard</a></u>, use an arbitrarily large number like <code v-pre>2000</code>.</dd>
 <dt><code v-pre>batch_size</code></dt>
 <dd>Use <code v-pre>8</code> if you are a newbie.
-But if your dataset is small (around 2 minutes or less), usa <code v-pre>4</code>.</dd>
+But if your dataset is small (around 2 minutes or less), use <code v-pre>4</code>.</dd>
 </dl>
 <hr>
 <doc-anchor-target id="section-10">
@@ -558,7 +558,7 @@ But if your dataset is small (around 2 minutes or less), usa <code v-pre>4</code
 <ul>
 <li><p>Execute the <code v-pre>Training</code> cell to begin the training. Be patient, it may take hours.</p>
 </li>
-<li><p><u><a href="https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard">TB</a></u> will open up after a few seconds, remember to monitor it.</p>
+<li><p><u><a href="https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard">TB</a></u> will open up after a few seconds, remember to monitor it. The graphs will take a minute to appear.</p>
 </li>
 <li><p>The cell will be showing you information about the epochs &amp; when the checkpoints happen.<br />
 ‎</p>
@@ -614,24 +614,40 @@ E.g: <code v-pre>arianagrande_e60_s120.pth</code></p>
 And that&#x27;s all. Have fun with your model. Remember to move them to a new folder to stay organized.</p>
 <p>To test it, do a normal <u><a href="https://aihubdocs.github.io/en/essentials/how-to-make-ai-cover/">inference</a></u> as usual.</p>
 <hr>
-<doc-anchor-target id="section-12">
+<div class="content-center"><doc-anchor-target id="section-12">
     <h6>
         <doc-anchor-trigger class="header-anchor-trigger" to="#section-12">#</doc-anchor-trigger>
         <span>‎</span>
     </h6>
 </doc-anchor-target>
-<doc-anchor-target id="retraining">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#retraining">#</doc-anchor-trigger>
-        <span>Retraining</span>
-    </h3>
+<doc-anchor-target id="retraining-">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#retraining-">#</doc-anchor-trigger>
+        <span>Retraining <svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M3.38 8A9.502 9.502 0 0 1 12 2.5a9.502 9.502 0 0 1 9.215 7.182.75.75 0 1 0 1.456-.364C21.473 4.539 17.15 1 12 1a10.995 10.995 0 0 0-9.5 5.452V4.75a.75.75 0 0 0-1.5 0V8.5a1 1 0 0 0 1 1h3.75a.75.75 0 0 0 0-1.5H3.38Zm-.595 6.318a.75.75 0 0 0-1.455.364C2.527 19.461 6.85 23 12 23c4.052 0 7.592-2.191 9.5-5.451v1.701a.75.75 0 0 0 1.5 0V15.5a1 1 0 0 0-1-1h-3.75a.75.75 0 0 0 0 1.5h2.37A9.502 9.502 0 0 1 12 21.5c-4.446 0-8.181-3.055-9.215-7.182Z"/></g></g></svg></span>
+    </h2>
 </doc-anchor-target>
-<p>If the training finished but the model still needed training, you don&#x27;t need to start from scratch.</p>
-<doc-anchor-target id="instructions">
-    <h5>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#instructions">#</doc-anchor-trigger>
-        <span><u>Instructions:</u></span>
-    </h5>
+</div>
+<doc-anchor-target id="section-13">
+    <h6>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#section-13">#</doc-anchor-trigger>
+        <span>‎</span>
+    </h6>
+</doc-anchor-target>
+<ul>
+<li><p>If the training finished but the model still needed training, you don&#x27;t need to start from scratch.<br />
+You can continue from latest checkpoint, and the process is pretty easy.</p>
+</li>
+<li><p>Depending on if you want to retrain from the same account or switch to another one, the process is a little different.</p>
+</li>
+</ul>
+<doc-tabs>
+<doc-tab v-cloak id="retraining">
+<template #title>Retraining</template>
+<doc-anchor-target id="section-14">
+    <h6>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#section-14">#</doc-anchor-trigger>
+        <span>‎</span>
+    </h6>
 </doc-anchor-target>
 <ol>
 <li><p>Go to the Colab space &amp; input the same data as before, &amp; execute the cells like normal, <u>except</u> <code v-pre>Preprocessing</code> &amp; <code v-pre>Feature Extraction</code>.</p>
@@ -649,10 +665,43 @@ And that&#x27;s all. Have fun with your model. Remember to move them to a new fo
 <li><p>Run the <code v-pre>Training</code> cell to retrain. Remember to monitor <u><a href="https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard">TB</u></a> as before.</p>
 </li>
 </ol>
-<hr>
-<doc-anchor-target id="section-13">
+</doc-tab>
+<doc-tab v-cloak id="switching-account">
+<template #title>Switching Account</template>
+<doc-anchor-target id="section-15">
     <h6>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#section-13">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#section-15">#</doc-anchor-trigger>
+        <span>‎</span>
+    </h6>
+</doc-anchor-target>
+<ol>
+<li><p>Execute the <code v-pre>Export Model</code> cell.</p>
+<p><img src="../rvcdisconnected-img/21.png" alt="image" width="450" height="auto">‎</p>
+</li>
+<li><p>In GD, download the <code v-pre>rvcDisconnected</code> folder on your device.</p>
+</li>
+<li><p>Move the folder to your other account&#x27;s GD storage. Make sure it&#x27;s in the <code v-pre>My Drive</code> unit.</p>
+</li>
+<li><p>Open RVC-D with the other account. Input the same data as before &amp; execute the cells from start like normal, <u>except</u> <code v-pre>Preprocessing</code> &amp; <code v-pre>Feature Extraction</code>.</p>
+</li>
+<li><p>Execute the <code v-pre>Load preprocessed dataset files</code> cell.</p>
+<p><img src="../rvcdisconnected-img/14.png" alt="image" width="450" height="auto">‎<br />
+‎</p>
+</li>
+<li><p>Go to the <code v-pre>Import Model from Drive to Notebook</code> cell. In <code v-pre>STEPCOUNT</code> introduce <code v-pre>2333333</code> &amp; execute it.</p>
+<p><img src="../rvcdisconnected-img/16.png" alt="image" width="450" height="auto">‎<br />
+‎</p>
+</li>
+<li><p>You can change the <code v-pre>save_frequency</code> or increase the <code v-pre>total_epochs</code>, in case you didn&#x27;t input enough before.</p>
+</li>
+<li><p>Run the <code v-pre>Training</code> cell to retrain. Remember to monitor <u><a href="https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard">TB</u></a> as before.</p>
+</li>
+</ol>
+</doc-tab>
+</doc-tabs>
+<doc-anchor-target id="section-16">
+    <h6>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#section-16">#</doc-anchor-trigger>
         <span>‎</span>
     </h6>
 </doc-anchor-target>
@@ -685,10 +734,10 @@ And that&#x27;s all. Have fun with your model. Remember to move them to a new fo
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../../../rvc/local/mainline/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../../../rvc-resources/epochs-overtraining--tensorboard/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Mainline</span>
+                                                <span class="block mt-1">Epochs, Overtraining & Tensorboard</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
