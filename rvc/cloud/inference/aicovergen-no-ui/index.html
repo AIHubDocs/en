@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/en">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.761436748686">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.761498793591">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -15,7 +15,7 @@
     <!-- Primary Meta Tags -->
     <title>AICoverGen NO UI</title>
     <meta name="title" content="AICoverGen NO UI">
-    <meta name="description" content="Last update: Feb 14, 2024‎">
+    <meta name="description" content="Last update: Feb 17, 2024‎">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://aihubdocs.github.io/en/rvc/cloud/inference/aicovergen-no-ui/">
@@ -24,22 +24,22 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aihubdocs.github.io/en/rvc/cloud/inference/aicovergen-no-ui/">
     <meta property="og:title" content="AICoverGen NO UI">
-    <meta property="og:description" content="Last update: Feb 14, 2024‎">
+    <meta property="og:description" content="Last update: Feb 17, 2024‎">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://aihubdocs.github.io/en/rvc/cloud/inference/aicovergen-no-ui/">
     <meta property="twitter:title" content="AICoverGen NO UI">
-    <meta property="twitter:description" content="Last update: Feb 14, 2024‎">
+    <meta property="twitter:description" content="Last update: Feb 17, 2024‎">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../../img/b.png" rel="icon">
-    <link href="../../../../resources/css/retype.css?v=3.5.0.761436748686" rel="stylesheet">
+    <link href="../../../../resources/css/retype.css?v=3.5.0.761498793591" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../../resources/js/config.js?v=3.5.0.761436748686" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../../resources/js/config.js?v=3.5.0.761498793591" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=3.5.0.761436748686" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=3.5.0.761498793591" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -231,7 +231,7 @@
         <span>AICoverGen NO UI</span>
     </h1>
 </doc-anchor-target>
-<p><code v-pre>Last update: Feb 14, 2024</code>
+<p><code v-pre>Last update: Feb 17, 2024</code>
 ‎</p>
 <hr>
 <doc-anchor-target id="section">
@@ -252,7 +252,7 @@
 </li>
 <li><p>This version (<strong>Eddy&#x27;s Version</strong>) is an upgrade from the original Colab space, bringing bug fixes, improvements, &amp; extra features. Credits to Eddy &amp; Raid.</p>
 </li>
-<li><p>Because of its <strong>quick</strong> <u><a href="https://aihubdocs.github.io/en/other/glossary/#inference">inference</a></u>, automatic vocal extraction, &amp; compatibility with YouTube links, it&#x27;s considered one of the best Colab spaces for inferencing in RVC.<br />
+<li><p>It&#x27;s ideal for users who want &#x27;<em>quick &amp; dirty</em>&#x27; AI covers, as the whole process is automated. You can input a YouTube link and the vocal isolation &amp; song mixing process will be automatized.
 ‎</p>
 </li>
 </ul>
@@ -302,7 +302,7 @@
     <div class="px-5 py-3 docs-columns-content">
 <ul>
 <li>Usage limit for free users.</li>
-<li>Takes 10-15 mins to load.</li>
+<li>Takes 6 mins to load.</li>
 <li>UI is not great.</li>
 <li>No control over the stem separation process. Could be a problem.</li>
 <li>Said extraction will always run. You&#x27;ll waste time if you input clean vocals.</li>
@@ -565,28 +565,10 @@ Tweak them accordingly for better results if you wish.</p>
 </doc-anchor-target>
 <ol type="a">
 <li><p>Click the folder symbol ( <svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M2 4.75C2 3.784 2.784 3 3.75 3h4.971c.58 0 1.12.286 1.447.765l1.404 2.063c.046.069.124.11.207.11h8.471c.966 0 1.75.783 1.75 1.75V19.25A1.75 1.75 0 0 1 20.25 21H3.75A1.75 1.75 0 0 1 2 19.25Zm1.75-.25a.25.25 0 0 0-.25.25v14.5c0 .138.112.25.25.25h16.5a.25.25 0 0 0 .25-.25V7.687a.25.25 0 0 0-.25-.25h-8.471a1.75 1.75 0 0 1-1.447-.765L8.928 4.61a.252.252 0 0 0-.208-.11Z"/></g></g></svg> ) on the right.<br />
-Open the <code v-pre>content</code> folder, then <code v-pre>FIX</code>, <code v-pre>song_output</code>, &amp; you&#x27;ll see a folder with a bunch of numbers, containing the results and some stems.</p>
-<p>The inferred vocals will be named with the <strong>algorithm</strong> that you chose (Crepe or RMVPE), followed by &quot;<strong>mixed</strong>&quot; at the end.</p>
+Open the <code v-pre>content</code> folder, then <code v-pre>FIX</code>, <code v-pre>song_output</code>, &amp; the folder with a bunch of numbers.</p>
 </li>
-<li><p>Right-click the audio, press <code v-pre>Download</code> &amp; that&#x27;s all.</p>
+<li><p>Right-click the first file &amp; press <code v-pre>Download</code>. The rest of the audios are the stems, that you can download too if you wish.</p>
 <p><img src="../aicovergen-img/10.png" alt="image" width="550" height="auto">‎</p>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-<p>If you want the output without <code v-pre>REMIX_MIX_RATE</code>&#x27;s influence, use the one without &quot;mixed&quot; at the end.</p>
-        </div>
-    </div>
-</div>
 </li>
 </ol>
 <doc-anchor-target id="section-10">
