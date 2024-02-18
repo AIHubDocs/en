@@ -13,24 +13,24 @@
     <meta name="generator" content="Retype 3.5.0">
 
     <!-- Primary Meta Tags -->
-    <title>Audio Formats &amp; Sample Rate</title>
-    <meta name="title" content="Audio Formats & Sample Rate">
-    <meta name="description" content="Last update: Feb 10, 2024">
+    <title>Illusion Diffusion</title>
+    <meta name="title" content="Illusion Diffusion">
+    <meta name="description" content="Last update: Feb 18, 2024">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://aihubdocs.github.io/en/rvc-resources/audio-formats--sample-rate/">
+    <link rel="canonical" href="https://aihubdocs.github.io/en/other/illusion-diffusion/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://aihubdocs.github.io/en/rvc-resources/audio-formats--sample-rate/">
-    <meta property="og:title" content="Audio Formats & Sample Rate">
-    <meta property="og:description" content="Last update: Feb 10, 2024">
+    <meta property="og:url" content="https://aihubdocs.github.io/en/other/illusion-diffusion/">
+    <meta property="og:title" content="Illusion Diffusion">
+    <meta property="og:description" content="Last update: Feb 18, 2024">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://aihubdocs.github.io/en/rvc-resources/audio-formats--sample-rate/">
-    <meta property="twitter:title" content="Audio Formats & Sample Rate">
-    <meta property="twitter:description" content="Last update: Feb 10, 2024">
+    <meta property="twitter:url" content="https://aihubdocs.github.io/en/other/illusion-diffusion/">
+    <meta property="twitter:title" content="Illusion Diffusion">
+    <meta property="twitter:description" content="Last update: Feb 18, 2024">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
@@ -225,250 +225,78 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="audio-formats--sample-rate" class="break-words">
+<doc-anchor-target id="illusion-diffusion" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#audio-formats--sample-rate">#</doc-anchor-trigger>
-        <span>Audio Formats &amp; Sample Rate</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#illusion-diffusion">#</doc-anchor-trigger>
+        <span>Illusion Diffusion</span>
     </h1>
 </doc-anchor-target>
-<p><code v-pre>Last update: Feb 10, 2024</code></p>
+<p><code v-pre>Last update: Feb 18, 2024</code></p>
 <hr>
-<div class="content-center"><doc-anchor-target id="lossy-formats">
+<div class="content-center"><doc-anchor-target id="creating-subliminal-images-online-for-free-with-hugging-face">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#creating-subliminal-images-online-for-free-with-hugging-face">#</doc-anchor-trigger>
+        <span>Creating Subliminal Images Online for FREE with Hugging Face</span>
+    </h1>
+</doc-anchor-target>
+<doc-anchor-target id="introduction">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#lossy-formats">#</doc-anchor-trigger>
-        <span>Lossy Formats</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#introduction">#</doc-anchor-trigger>
+        <span>Introduction</span>
     </h2>
 </doc-anchor-target>
-</div>
-<ul>
-<li><p>Common lossy formats are <strong>MP3</strong>, OGG, OPUS, M4A, etc.</p>
-</li>
-<li><p>These compress (lose) the original quality. They&#x27;re built to be faster for transmission &amp; be space-efficient.</p>
-</li>
-<li><p>By getting rid of some data (in this case, quality), they achieve a smaller file size.</p>
-</li>
-</ul>
-<hr>
-<doc-anchor-target id="section">
-    <h6>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#section">#</doc-anchor-trigger>
-        <span>‎</span>
-    </h6>
-</doc-anchor-target>
-<div class="content-center"><doc-anchor-target id="lossless-formats">
+<p>Have you ever wanted to merge two images to create a subliminal message? Or perhaps you&#x27;re intrigued by the idea of an illusion where a hidden image becomes visible when you blur your eyes. Look no further! In this guide, we&#x27;ll walk you through the process using Hugging Face&#x27;s &quot;Input Illusion&quot; feature.</p>
+<doc-anchor-target id="prerequisites">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#lossless-formats">#</doc-anchor-trigger>
-        <span>Lossless Formats</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#prerequisites">#</doc-anchor-trigger>
+        <span>Prerequisites</span>
     </h2>
 </doc-anchor-target>
-<doc-anchor-target id="ideal-for-rvc">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#ideal-for-rvc">#</doc-anchor-trigger>
-        <span><em><code v-pre>(ideal for RVC)</code></em></span>
-    </h4>
-</doc-anchor-target>
-</div>
+<p>Before you begin, make sure you have the following:</p>
 <ul>
-<li><p>The main ones are <strong>WAV</strong> &amp; <strong>FLAC</strong>. These don&#x27;t compress the original quality.</p>
-</li>
-<li><p><strong>FLAC</strong> uses an algorithm that compresses the data without losing quality. We recommend it over WAV since it&#x27;s space-efficient.</p>
-</li>
-<li><p><strong>WAV</strong> doesn&#x27;t do any kind of compression. It&#x27;s purely the full original data. Therefore it has a much bigger file size.</p>
-</li>
-<li><p>They&#x27;re recommended for RVC, as the more quality an audio has, the more accurate results they&#x27;ll give.</p>
-</li>
+<li>An image you want to hide inside another image.</li>
+<li>Access to Hugging Face&#x27;s platform.</li>
 </ul>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5><u>NOTES:</u></h5>
-<p>Both formats give the same results &amp; don&#x27;t have an audible difference.<br />
-Converting a lossy audio to a lossless one won&#x27;t restore the lost quality.</p>
-        </div>
-    </div>
-</div>
-<hr>
-<doc-anchor-target id="section-1">
-    <h6>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#section-1">#</doc-anchor-trigger>
-        <span>‎</span>
-    </h6>
-</doc-anchor-target>
-<div class="content-center"><doc-anchor-target id="sample-rate">
+<doc-anchor-target id="steps">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#sample-rate">#</doc-anchor-trigger>
-        <span>Sample Rate</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#steps">#</doc-anchor-trigger>
+        <span>Steps</span>
     </h2>
 </doc-anchor-target>
+<ol>
+<li><p><strong>Upload Your Image</strong></p>
+<ul>
+<li>Go to <a href="https://huggingface.co/">Hugging Face</a>.</li>
+<li>Click on &quot;Input Illusion.&quot;</li>
+<li>Upload the image you want to hide inside another image.</li>
+</ul>
+</li>
+<li><p><strong>Adjust Illusion Strength</strong></p>
+<ul>
+<li>Use the &quot;Illusion Strength&quot; slider.</li>
+<li>Higher strength makes your subliminal message more visible.</li>
+<li>Lower strength keeps it more hidden in the final output image (you&#x27;ll need to blur or squint your eyes to see it).</li>
+</ul>
+</li>
+<li><p><strong>Choose a Prompt</strong></p>
+<ul>
+<li>Describe the final image you want (e.g., medieval castle, flowery meadow, high quality, specific image style, etc.).</li>
+</ul>
+</li>
+<li><p><strong>Negative Prompt (Optional)</strong></p>
+<ul>
+<li>Specify what the AI should NOT do when creating the image (e.g., low quality, specific styles to avoid, etc.).</li>
+</ul>
+</li>
+<li><p><strong>Click &quot;Run&quot;</strong></p>
+<ul>
+<li>Be patient; there might be a queue.</li>
+<li>If you encounter an error, try clicking again until it works.</li>
+</ul>
+</li>
+</ol>
+<div class="content-right"><p><code v-pre>Written by Nick088</code></p>
 </div>
-<ul>
-<li><p>Sample rate is a unit that determines the total amount of samples (data) that can fit within one second of an audio.</p>
-</li>
-<li><p>This higher the sample rate, the more information it stores, therefore the higher the quality.</p>
-</li>
-<li><p>They are measured in kilohertz.</p>
-</li>
-<li><p>The most common sample rates are <strong>32, 40, 44.1, &amp; 48</strong>.</p>
-</li>
-</ul>
-<doc-anchor-target id="section-2">
-    <h6>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#section-2">#</doc-anchor-trigger>
-        <span>‎</span>
-    </h6>
-</doc-anchor-target>
-<doc-anchor-target id="determining-sample-rate">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#determining-sample-rate">#</doc-anchor-trigger>
-        <span>Determining Sample Rate</span>
-    </h3>
-</doc-anchor-target>
-<ul>
-<li><p>While training in RVC, you&#x27;ll have to input the <strong>target sample rate</strong> of your dataset.</p>
-</li>
-<li><p>Inputting an incorrect one will affect the final quality.</p>
-</li>
-<li><p>To determine the amount, we&#x27;ll use <strong>Ilaria Audio Analyzer</strong></p>
-<hr>
-<doc-anchor-target id="instructions">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#instructions">#</doc-anchor-trigger>
-        <span><u>Instructions:</u></span>
-    </h4>
-</doc-anchor-target>
-<ul>
-<li><doc-anchor-target id="step-1">
-    <h5>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#step-1">#</doc-anchor-trigger>
-        <span>STEP 1:</span>
-    </h5>
-</doc-anchor-target>
-Enter the HF space <u><a href="https://huggingface.co/spaces/TheStinger/Ilaria_Audio_Analyzer">here</u></a>.</li>
-</ul>
-<hr>
-<ul>
-<li><doc-anchor-target id="step-2">
-    <h5>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#step-2">#</doc-anchor-trigger>
-        <span>STEP 2:</span>
-    </h5>
-</doc-anchor-target>
-<p>Press the box on the right to input your audio. Or just simply drag the file to it.<br />
-Then click <code v-pre>Create Spectrogram and Get Info</code>.</p>
-<p><img src="../audioformats-img/1.png" alt="image" width="500" height="auto">‎</p>
-</li>
-</ul>
-<hr>
-<ul>
-<li><doc-anchor-target id="step-3">
-    <h5>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#step-3">#</doc-anchor-trigger>
-        <span>STEP 3:</span>
-    </h5>
-</doc-anchor-target>
-<p>At the right in <code v-pre>Samples per second</code> you&#x27;ll see the audio&#x27;s full sample rate.</p>
-  <img src="../audioformats-img/2.png" alt="image" width="400" height="auto">   
-</li>
-</ul>
-<hr>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-yellow-500"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-yellow-500" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
-                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5><u>Important Note:</u></h5>
-<p>If the frequencies don&#x27;t reach the top of the spectrogram, see at which number peaks &amp; multiply it by <U><strong>2</strong></u>.</p>
-        </div>
-    </div>
-</div>
-<doc-anchor-target id="section-3">
-    <h6>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#section-3">#</doc-anchor-trigger>
-        <span>‎</span>
-    </h6>
-</doc-anchor-target>
-<ul class="list-icon">
-<li><doc-anchor-target id="example">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#example">#</doc-anchor-trigger>
-        <span><u>Example:</u></span>
-    </h4>
-</doc-anchor-target>
-<img src="../audioformats-img/3.png" alt="image" width="480" height="auto">‎<br />
-‎</li>
-</ul>
-<blockquote>
-<p>Here it reached 20 kHz. <strong>Doubling</strong> it gives 40kHz. Therefore the ideal target sample rate would be <code v-pre>40k</code></p>
-</blockquote>
-</li>
-</ul>
-<hr>
-<doc-anchor-target id="section-4">
-    <h6>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#section-4">#</doc-anchor-trigger>
-        <span>‎</span>
-    </h6>
-</doc-anchor-target>
-<div class="content-center"><doc-anchor-target id="bitrate--bit-depth">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#bitrate--bit-depth">#</doc-anchor-trigger>
-        <span>Bitrate &amp; Bit Depth</span>
-    </h2>
-</doc-anchor-target>
-<doc-anchor-target id="extra-info">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#extra-info">#</doc-anchor-trigger>
-        <span><em><code v-pre>Extra info</code></em></span>
-    </h4>
-</doc-anchor-target>
-</div>
-<doc-anchor-target id="bitrate">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#bitrate">#</doc-anchor-trigger>
-        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M5.22 8.22a.749.749 0 0 0 0 1.06l6.25 6.25a.749.749 0 0 0 1.06 0l6.25-6.25a.749.749 0 1 0-1.06-1.06L12 13.939 6.28 8.22a.749.749 0 0 0-1.06 0Z"/></g></g></svg> BITRATE:</span>
-    </h4>
-</doc-anchor-target>
-<ul>
-<li>The amount of data processed per unit of time. Usually measured in kilobits per second (KBPS).</li>
-<li>Higher bitrate equals a higher quality.</li>
-<li>You can think of it as video resolution (240, 480p, 1080p, etc.).</li>
-</ul>
-<doc-anchor-target id="section-5">
-    <h6>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#section-5">#</doc-anchor-trigger>
-        <span>‎</span>
-    </h6>
-</doc-anchor-target>
-<doc-anchor-target id="bit-depth">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#bit-depth">#</doc-anchor-trigger>
-        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M5.22 8.22a.749.749 0 0 0 0 1.06l6.25 6.25a.749.749 0 0 0 1.06 0l6.25-6.25a.749.749 0 1 0-1.06-1.06L12 13.939 6.28 8.22a.749.749 0 0 0-1.06 0Z"/></g></g></svg> BIT DEPTH:</span>
-    </h4>
-</doc-anchor-target>
-<ul>
-<li>Defines the dynamic range of each sample.</li>
-<li>This determines the difference between the quietest &amp; loudest sound of an audio.</li>
-<li>Basically, higher bit depths represent more accurately the loudness of an audio.</li>
-</ul>
-<hr>
-<div class="content-right"><p><code v-pre>Written by Julia &amp; Alex</code></p>
 </div>
 <p>‎</p>
 <div class="content-right"><p><a href="http://aihubdocs.github.io/en/#contributions" class="no-link inline-flex align-middle items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-none bg-blue-500 hover:bg-blue-700 text-white px-4 h-10 text-sm rounded-full">
@@ -488,20 +316,20 @@ Then click <code v-pre>Create Spectrogram and Get Info</code>.</p>
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../rvc-resources/artifacting/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../other/glossary/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Artifacting</span>
+                                                <span class="block mt-1">Glossary</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../vocal-isolation--datasets/datasets/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../license/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Datasets</span>
+                                                <span class="block mt-1">License CC BY-​NC-​SA 4.​0</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -545,6 +373,6 @@ Then click <code v-pre>Create Spectrogram and Get Info</code>.</p>
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Audio Formats & Sample Rate", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Illusion Diffusion", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
