@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/en">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.761950951228">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.761958684810">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -37,11 +37,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../img/b.png" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.761950951228" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.761958684810" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.761950951228" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.761958684810" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.761950951228" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.761958684810" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -241,28 +241,35 @@
         <span>Google Colab Help</span>
     </h1>
 </doc-anchor-target>
-<doc-anchor-target id="section">
+<doc-anchor-target id="runtime-disconnected-due-to-inactivity">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#section">#</doc-anchor-trigger>
-        <span></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#runtime-disconnected-due-to-inactivity">#</doc-anchor-trigger>
+        <span>RUNTIME DISCONNECTED DUE TO INACTIVITY</span>
     </h1>
-</doc-anchor-target>
-<doc-anchor-target id="you-got-disconnected-from-your-runtime-for-being-afk-away-from-keyboard-running-a-cell-that-takes-much-time-while-you-do-something-else-for-example-while-training-an-ai-voice-model-with-rvc">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#you-got-disconnected-from-your-runtime-for-being-afk-away-from-keyboard-running-a-cell-that-takes-much-time-while-you-do-something-else-for-example-while-training-an-ai-voice-model-with-rvc">#</doc-anchor-trigger>
-        <span>You got disconnected from your runtime for being AFK (Away From Keyboard, running a cell that takes much time while you do something else), for example while training an ai voice model with RVC?</span>
-    </h2>
 </doc-anchor-target>
 <p><figure class="content-center">
     <img src="https://github.com/AIHubDocs/en/assets/91847579/a67f1fbc-e285-4708-bc81-030d98502b0e" alt="image">
     <figcaption class="caption">image</figcaption>
 </figure>
 </p>
-<p>Here’s the guide for you!</p>
+<doc-anchor-target id="you-got-disconnected-from-your-runtime-for-being-afk-away-from-keyboard-running-a-cell-that-takes-much-time-while-you-do-something-else-for-example-while-training-an-ai-voice-model-with-rvc-here-are-some-ways-to-fix-that">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#you-got-disconnected-from-your-runtime-for-being-afk-away-from-keyboard-running-a-cell-that-takes-much-time-while-you-do-something-else-for-example-while-training-an-ai-voice-model-with-rvc-here-are-some-ways-to-fix-that">#</doc-anchor-trigger>
+        <span>You got disconnected from your runtime for being AFK (Away From Keyboard, running a cell that takes much time while you do something else), for example while training an ai voice model with RVC? Here are some ways to fix that:</span>
+    </h2>
+</doc-anchor-target>
 <p><strong>PC Method:</strong></p>
 <ol>
 <li>Use the Google Colab.</li>
-<li>After you runned everything you needed, and now are waiting afk, do Ctrl+ Shift + i for windows/Command + Option + C for Mac, (or just click a random point of the page and click “inspect”) to open the Chrome DevTools.</li>
+<li>After you runned everything you needed, and now are waiting afk, there’s 4 ways to open the ChromeDevTools also named Inspect Element:</li>
+</ol>
+<ul>
+<li>Windows: Do Ctrl+ Shift + i</li>
+<li>Mac: Do Command + Option + C</li>
+<li>Click a random point of the page and click “inspect”</li>
+<li>On the top right corner, click on the 3 dots, then Other Tools, and click DevTools</li>
+</ul>
+<ol start="3">
 <li>Then goto the Console Tab and paste (without the “”) :
 “function ClickConnect(){
 console.log(&quot;Working&quot;);
@@ -297,6 +304,7 @@ eruda.init()
 <li><strong>Allow Pasting Method:</strong></li>
 </ol>
 <ol type="a">
+<li>Open DevTools.</li>
 <li>type “allow pasting” , press enter and confirm it.</li>
 <li>Once you’ve allowed pasting once, the warning won’t appear again.</li>
 <li>Just paste again the code and press enter.</li>
@@ -305,8 +313,7 @@ eruda.init()
 <li><strong>Manual Toggle:</strong></li>
 </ol>
 <ol type="a">
-<li>Open DevTools (click the three dots in the top-right corner and select “More tools” &gt; “Developer tools”).</li>
-<li>Click the Settings icon (the gear icon).</li>
+<li>Open DevTools.</li>
 <li>Navigate to Experiments.</li>
 <li>In the filter, type “Pasting” to find the relevant option.</li>
 <li>Toggle “Show warning about self-XSS when pasting code” to disable the warning.</li>
