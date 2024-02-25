@@ -242,9 +242,9 @@ It'll finish when the output box says `Successful index Construction`.
 :::
 ###### ‎         
 #### 9. Select save frequency.
-In `Save frequency` determine at how many <u>[epochs](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/)</u> the model will saved at. These saved models are known as the "checkpoints".
+- Rate at which the model will be saved, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/)</u>. The saved models are known as the "checkpoints".    
 
-If you are a newbie, leave it at `15`.      
+If you are a newbie, leave it at `15`.   
     
 E.g: with a value of ``10``, it will be saved after the epoch 10, 20, 30, etc.                  
 ‎   
@@ -368,6 +368,11 @@ If the training finished but the model still needed training, you don't have to 
 process.
 - For <u>[inference](https://aihubdocs.github.io/en/extra/glossary/#inference)</u>, it's best to use <u>[Ilaria RVC](https://aihubdocs.github.io/en/rvc/cloud/ilaria-rvc/)</u>. And for training models, <u>[RVC Disconnected](https://aihubdocs.github.io/en/rvc/cloud/rvc-disconnected/)</u> or a
 [Paperspace](https://aihubdocs.github.io/en/rvc/cloud/paperspace/)</u>.
+===
+
+==- *I couldn't find my answer.*
+###### ‎   
+- Report your issue to any of us on Discord: **@ailen2091** - **@eddycrack864**
 ===
 
 ***

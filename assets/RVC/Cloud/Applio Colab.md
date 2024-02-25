@@ -3,7 +3,7 @@ icon: chevron-right
 order: 5000
 ---
 
-``Last update: Feb 22, 2024``
+``Last update: Feb 25, 2024``
 
 ***
 :::content-center
@@ -60,7 +60,7 @@ Then log in to your Google account.
     <img src="..\appliocolab-img\2-instdone.png" alt="image" width="260">‎     
 
 ***
-3. If you are going to <u>[infer]()</u>/train models, click the folder on the left ( :icon-file-directory-fill: ) & press the Google Drive button.
+3. If you are going to <u>[infer](https://aihubdocs.github.io/en/extra/glossary/#inference)</u>/train models, click the folder on the left ( :icon-file-directory-fill: ) & press the Google Drive button.
 
     <img src="..\appliocolab-img\2-files.png" alt="image" width="210">‎     
 ‎       
@@ -88,7 +88,7 @@ Then log in to your Google account.
 :::content-center
 ## Inference :icon-unmute:   
 !!!success
-Be sure to read the <u>[Troubleshooting](https://aihubdocs.github.io/en/rvc/local/mainline/#troubleshooting-)</u> chapter if any issue arises.
+Be sure to read the <u>[Troubleshooting](https://aihubdocs.github.io/en/rvc/cloud/applio-colab/#troubleshooting)</u> chapter if any issue arises.
 !!!
 :::
 ###### ‎  
@@ -214,7 +214,7 @@ iv. Then paste it on the `Dataset Path` bar.
 ###### ‎     
 ##### c. Sampling Rate
 ###### ‎    
-- Select your dataset's sample rate. If you don't know the amount, click <u>[here](https://aihubdocs.github.io/en/rvc/local/applio/#extra)</u>.
+- Select your dataset's sample rate. If you don't know the amount, click <u>[here](https://aihubdocs.github.io/en/rvc/cloud/applio-colab/#extra)</u>.
 
     <img src="..\appliocolab-img\4-samplerate.png" alt="image" width="300">‎  
 
@@ -269,7 +269,7 @@ It'll finish when it says `extracted successfully`.
 ###### ‎  
 ##### b. Save Every Epoch
 ###### ‎  
-- Determine at how many <u>[epochs](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/)</u> the model will saved at. These saved models are known as the "checkpoints".         
+- Rate at which the model will be saved, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/)</u>. The saved models are known as the "checkpoints".    
 ‎   
 - If you are a newbie, leave it at `15`.              
 
@@ -367,7 +367,7 @@ iii. And that's all, have fun with your model. To test it, do a normal <u>[infer
 
 - You can also use it with **RVC models** & apply the <u>[inference settings](https://aihubdocs.github.io/en/rvc-resources/inference-settings/)</u> if you wish.
 
-- Additionally, you can download the **Eleven Labs** TTS <u>[plugin](https://aihubdocs.github.io/en/rvc/local/applio/#plugins)</u>.       
+- Additionally, you can download the **Eleven Labs** TTS <u>[plugin](https://aihubdocs.github.io/en/rvc/cloud/applio-colab/#plugins)</u>.       
 ***
 ###### ‎  
 #### <u>Instructions:</u>
@@ -378,7 +378,7 @@ iii. And that's all, have fun with your model. To test it, do a normal <u>[infer
 ***   
 ###### ‎   
 
-2. If you want to use an RVC model, <u>[download it](https://aihubdocs.github.io/en/rvc/local/applio/#1-upload-voice-model)</u>, go to **TTS**, click `Refresh` & select it in **Voice Model** & **Index File**.
+2. If you want to use an RVC model, <u>[download it](https://aihubdocs.github.io/en/rvc/cloud/applio-colab/#1-upload-voice-model)</u>, go to **TTS**, click `Refresh` & select it in **Voice Model** & **Index File**.
 
    <img src="../appliocolab-img/5-vm.png" alt="image" width="600" height="auto">‎    
 ‎             
@@ -504,6 +504,10 @@ If the frequencies don't reach the top of the spectrogram, see at which number p
 
 ===
 
+==- *I couldn't find my answer.*
+###### ‎   
+- Report your issue to any of us on Discord: **@ailen2091** - **@eddycrack864**
+===
 ***
 :::content-right
 ``Written by Julia & Poopmaster``    

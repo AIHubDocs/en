@@ -46,18 +46,8 @@ setInterval(ClickConnect,60000)”
 5. Now go to the site,in this case the Colab, and go on the search bar where you will search Inspect Element (or whatever name you gave the bookmark), there will be a result that is the Bookmarked one, click it.
 6. Now after 5 seconds you will have a gear icon at the bottom right of the site,click it and now you have the inspect element view.
 
-### If you get a warning when trying to paste the code
-
-![image](https://github.com/AIHubDocs/en/assets/91847579/8bcef65d-1e68-447a-b5ae-c902733ecfa9)
-
-, not letting you to, you got 2 methods to fix it:
-1. **Allow Pasting Method:**
-  A. Goto the Console Tab of the Chrome DevTools
-  B. Write “allow pasting” 
-  C. Press Enter
-  D. Just paste again the code and press enter.
-
-3. **Manual Toggle:**
+### If you get a warning when trying to paste the code, not letting you to, you got 2 methods to fix it:
+**Manual Toggle:**
   A. Open DevTools.
   B. Navigate to Experiments.
   C. In the filter, type “Pasting” to find the relevant option.

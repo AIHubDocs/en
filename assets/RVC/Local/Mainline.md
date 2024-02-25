@@ -235,7 +235,7 @@ It'll finish when the output box says something like this:
 :::
 ###### ‎           
 #### 9. Select save frequency.
-In `Save frequency` determine at how many <u>[epochs](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/)</u> the model will saved at. These saved models are known as the "checkpoints".
+- Rate at which the model will be saved, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/)</u>. The saved models are known as the "checkpoints".     
 
 If you are a newbie, leave it at `15`.      
     
@@ -359,9 +359,15 @@ If the training finished but the model still needed training, you don't have to 
 - For <u>[inference](https://aihubdocs.github.io/en/extra/glossary/#inference)</u>, it's best to use <u>[Ilaria RVC](https://aihubdocs.github.io/en/rvc/cloud/ilaria-rvc/)</u>. And for training models, <u>[RVC Disconnected](https://aihubdocs.github.io/en/rvc/cloud/rvc-disconnected/)</u> or <u>[Paperspace](https://aihubdocs.github.io/en/rvc/cloud/paperspace/)</u>.
 ===
 
-==- *I can't see the Stop Training button.*
+==- *I don't see the Stop Training button.*
 - This is a common bug. Close the console to stop RVC entirely.
 ===
+
+==- *I couldn't find my answer.*
+###### ‎   
+- Report your issue to any of us on Discord: **@ailen2091** - **@eddycrack864**
+===
+
 ***
 :::content-right
 ``Written by Julia & Poopmaster``    
@@ -369,6 +375,6 @@ If the training finished but the model still needed training, you don't have to 
 ‎ 
 :::content-right
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
-‎     
-‎     
 :::
+‎     
+***

@@ -233,7 +233,7 @@ It'll finish when it says `extracted successfully`.
 ###### ‎  
 ##### b. Save Every Epoch
 ###### ‎  
-- Determine at how many <u>[epochs](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/)</u> the model will saved at. These saved models are known as the "checkpoints".         
+- Rate at which the model will be saved, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/)</u>. The saved models are known as the "checkpoints".    
 ‎   
 - If you are a newbie, leave it at `15`.              
 
@@ -482,6 +482,12 @@ Then you'll be able to see the plugin in the **Plugins** tab.
 process.
 - Therefore it's best to use Applio's <u>[cloud version](https://colab.research.google.com/github/iahispano/applio/blob/master/assets/Applio.ipynb)</u>.
 ===
+
+==- *I couldn't find my answer.*
+###### ‎   
+- Report your issue to any of us on Discord: **@ailen2091** - **@eddycrack864**
+===
+
 ***
 :::content-right
 ``Written by Julia & Poopmaster``    
@@ -490,6 +496,5 @@ process.
 :::content-right
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
 :::
-‎   
 ‎   
 ***

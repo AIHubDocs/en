@@ -3,7 +3,7 @@ icon: chevron-right
 order: 6000
 ---
 
-``Last update: Feb 14, 2024``
+``Last update: Feb 25, 2024``
 ‎ 
 ***  
 ###### ‎ 
@@ -214,8 +214,8 @@ At the right press the three dots & then `Download`.
 ===
 
 ==- *I couldn't find my answer.*
-###### ‎
-- Join our server <u>[AI Hub</u>](https://discord.com/invite/aihub) & ask for help in `#help-chat`, or make a post in `help-forum`.
+###### ‎   
+- Report your issue to any of us on Discord: **@ailen2091** - **@eddycrack864**
 ===
 ***
 :::content-right

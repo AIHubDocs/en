@@ -26,32 +26,30 @@ order: 2000
 - Has Mangio-Crepe.     
 - Option to save model to HF.  
 - Includes the latest *pretrains*.
-    Speeds up the process.
 ||| ❌ **CONS**     
-- Doesn't have a great UI.   
+- Inconvenient I.   
 - Takes some time to set up.      
 - You can't leave training unsupervised.
 - <u>For free users:</u>     
     - It's slower compared to local RVC.  
-    - Can't train long datasets without having to pause the process.   
+    - Can't train long datasets without pausing the process.   
 |||
 ===
 ***
 ###### ‎ 
 :::content-center
-## How to Train :icon-dependabot:
+## Setting Up :icon-download:
 
 ###### ‎ 
-!!!warning IMPORTANT NOTE:
-1.‎ This guide is centered around the <u>[TensorBoard](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard)</u>. Read it first if you haven't already.    
+!!!warning WARNING:
+1.‎ The guide is centered around the <u>[TensorBoard](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard)</u>. Read it first if you haven't already.    
 2. Turn on <u>[third-party cookies</u>](https://cleeng.zendesk.com/hc/en-us/articles/360009526800-How-to-enable-third-party-cookies-on-my-browser-), or TB might not work.
 !!!
 :::
 ###### ‎    
-#### 1. Prepare the dataset
+#### 1. Prepare dataset
 
-a. First make a folder named after your model & move your dataset inside of it. 
-Don't include spaces/special characters.     
+a. Make a folder named after your model & move the dataset inside of it. Don't include spaces/special characters.     
 
     <img src="../rvcdisconnected-img/1.png" alt="image" width="210" height="auto">‎                     
 ‎       
@@ -64,24 +62,29 @@ b. Then <u>[zip</u>](https://support.microsoft.com/en-us/windows/zip-and-unzip-f
 !!!
 ***
 ###### ‎ 
-#### 2. Set up the Colab space.     
-a. Log in to Google account & head over to the <u>[Colab space</u>](https://colab.research.google.com/drive/1XIPCP9ken63S7M6b5ui1b36Cs17sP-NS#scrollTo=ZodNcumpg-JM).
+#### 2. Set up Colab     
+a. Head over to the <u>[Colab space</u>](https://colab.research.google.com/drive/1XIPCP9ken63S7M6b5ui1b36Cs17sP-NS#scrollTo=ZodNcumpg-JM) & **Sign in** to your Google account.
 
 a. Execute the ``Dependencies`` cell & press `Run anyways`
 
     <img src="../rvcdisconnected-img/3.png" alt="image" width="280" height="auto">‎  
 ‎       
-b. When this appears, press ``Connect to Google Drive`` & select your Google account.
+b. When this appears, press ``Connect to Google Drive`` & select your account.
 
     <img src="../rvcdisconnected-img/4.png" alt="image" width="400" height="auto">‎       
 ‎       
-c. Once the cell is done loading, in Google Drive go to the ``rvcDisconnected`` folder, and place the dataset's .ZIP inside said folder.
+c. Once the cell is done loading, in GD go to the ``rvcDisconnected`` folder, and place the dataset's .ZIP inside of it.
 
     <img src="../rvcdisconnected-img/5.png" alt="image" width="335" height="auto">‎    
 
 ***
 ###### ‎ 
-#### 3. Set Training Variables.     
+###### ‎ 
+:::content-center
+## Training :icon-rocket:
+:::
+###### ‎ 
+#### 1. Training variables    
 a. Go to the `Set Training Variables` cell.      
 
     <img src="../rvcdisconnected-img/18.png" alt="image" width="335" height="auto">‎   
@@ -97,44 +100,44 @@ a. Go to the `Set Training Variables` cell.
 :   Select your dataset's <u>[sample rate</u>](https://aihubdocs.github.io/en/rvc-resources/audio-formats--sample-rate/#sample-rate).
 
 ``pitch_extraction_algorithm``
-:   Learn about them <u>[here](https://aihubdocs.github.io/en/rvc-resources/inference-settings/#pitch-extraction-algorithm)</u>. Don't use Harvest, it's obsolete.        
+:   The <u>[extraction method](https://aihubdocs.github.io/en/rvc-resources/inference-settings/#pitch-extraction-algorithm)</u>. Don't use Harvest, as it's obsolete.        
 
 `crepe_hop_length`
-:   Works if you use `Mangio-Crepe`. Modifies its Hop Length.
+:   If you chose `Mangio-Crepe`, this defines the <u>[Hop Length](https://aihubdocs.github.io/en/rvc-resources/inference-settings/#mangio-crepe)</u>.
 
 ***
 ###### ‎ 
-#### 4. Set the environment.        
+#### 2. Set the environment      
 
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ <img src="../rvcdisconnected-img/8.png" alt="image" width="500" height="auto">‎   
+‎   
+a. Go to `Load Dataset` cell. In the **dataset** bar type the dataset's .ZIP name followed by **.zip**, then execute the cell.      
+Example: ``kalomaze.zip``     
 
-a. Go to `Load Dataset` cell, and in the `dataset` bar type the dataset's .ZIP name followed by ".zip". Example: `kalomaze:zip`.        
-Then execute the cell.
-
-b. Below, execute `Preprocessing`, ``Feature Extraction``, & ``Save preprocessed dataset files to Google Drive``.
+b. Below, execute **Preprocessing, Feature Extraction**, & **Save preprocessed dataset files to Google Drive**.
 
     <img src="../rvcdisconnected-img/9.png" alt="image" width="335" height="auto">‎   
 ***
 ###### ‎ 
-#### 5. Train Index.  
-a. Run ``Index Training`` to create the model's <u>[.INDEX</u>](https://aihubdocs.github.io/en/essentials/voice-models/#voice-model-files) file.      
+#### 3. Train Index  
+a. Run **Index Training** to create the model's <u>[.INDEX</u>](https://aihubdocs.github.io/en/essentials/voice-models/#voice-model-files) file.      
 
     <img src="../rvcdisconnected-img/17.png" alt="image" width="450" height="auto">‎        
 ‎       
-b. To download it, open `rvcDisconnected` in GD. Open the folder named after the model and download the .INDEX named `added`.
+b. To download it, in GD open `rvcDisconnected` & the folder named after the model. Download the .INDEX named `added`.
  
     <img src="../rvcdisconnected-img/13.png" alt="image" width="450" height="auto">‎  
 ***
 ###### ‎ 
-#### 6. Set Training.       
-- Go to the `Training` cell.  
+#### 4. Set Training      
+- Go to the **Training** cell.  
 
     <img src="../rvcdisconnected-img/10.png" alt="image" width="350" height="auto">‎    
 ‎   
 - #### <u>Define these values:</u>
 
 `save_frequency`
-:   At how many <u>[epochs](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/)</u> the model will be saved at. These saved models are known as the "checkpoints". If you are a newbie, leave it at `15`.      
+:   Rate at which the model will be saved, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/)</u>. The saved models are known as the "checkpoints". If you are a newbie, leave it at `15`.      
 <u>E.g:</u> with a value of ``10``, it will be saved after the epoch 10, 20, 30, etc.   
 
 `total_epochs`
@@ -146,91 +149,92 @@ But if your dataset is small (around 2 minutes or less), use ``4``.
  
 ***
 ###### ‎ 
-#### 7. Begin training
-- Execute the `Training` cell to begin the training. Be patient, it may take hours.
-
-- <u>[TB](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard)</u> will open up after a few seconds, remember to monitor it. The graphs will take a minute to appear.
-
-- The cell will be showing you errors if they happen, and information about the epochs & checkpoints.  
-‎   
-!!!warning <u>While training, you might get disconnected if you:</u>
-• Ran out of usage time.       
-• Didn't interact with the space for a long time (staying AFK).     
-• Get disconnected from your Internet.       
-• Don't solve the captchas that (might) pop up occasionally. 
-!!!
+#### 5. Begin training
+- Execute the **Training** cell to begin training. <u>[TB](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard)</u> will open up after a few seconds, & the graphs will take a minute to appear.         
+‎    
+- Remember to monitor it, as well as the cell's logs. The latter will show you errors if they happen, and information about the epochs & checkpoints.         
+‎       
+- **While training, you might get disconnected if you:**      
+   - Don't interact with the space for a long time (staying AFK).     
+   - Get disconnected from your Internet.       
+   - Don't solve the captchas that (might) pop up occasionally.    
+   - Ran out of usage time.     
+‎    
+- To avoid the last one, at around 2:30 hours of training begin the <u>[account switching](http://aihubdocs.github.io/en/rvc/cloud/rvc-disconnected/#switching-account)</u> procedure.
 ***
 ###### ‎ 
-#### 8. Download model. 
-- Once you are sure of overtraining, you can stop training by pressing the stop button of the ``Training`` cell. 
+#### 6. Download model. 
+a. When you're very sure of overtraining, you can stop training by pressing the stop button of the **Training** cell. 
 
-- Click the folder symbol on the right.     
+b. Click the folder symbol on the left.     
 (For mobile users: tap the three lines on the top left & `Show file browser`)     
 
-    Open the ``Mangio-RVC-Fork`` folder, then `weights`. There you'll find the model's checkpoints.    
+    Open the ``Mangio-RVC-Fork`` folder, then `weights`. You'll find the checkpoints.    
 
     <img src="../rvcdisconnected-img/20.png" alt="image" width="210" height="auto">‎    
 ‎   
-- Right-click the one that's **closest** to ***before*** the overtraining point, and press `Download`.     
+c. Right-click the one that's **closest** to ***before*** the overtraining point, and press `Download`.     
 
-- The models will be organized with this format: **Name_Epoch_Step.pth**.       
-E.g: `arianagrande_e60_s120.pth`
-
+    The models will be organized with this format: **Name_Epoch_Step.pth**.       
+    E.g: `arianagrande_e60_s120.pth`    
 ‎   
-And that's all. Have fun with your model. Remember to move them to a new folder to stay organized.
-
-To test it, do a normal <u>[inference](https://aihubdocs.github.io/en/essentials/how-to-make-ai-cover/)</u> as usual.
+d. And that's all. To test it, do a normal <u>[inference](https://aihubdocs.github.io/en/essentials/how-to-make-ai-cover/)</u> as usual.
 
 ***
 :::content-center
 ###### ‎  
+###### ‎  
 ## Retraining :icon-sync:
 :::
 ###### ‎    
-- If the training finished but the model still needed training, you don't need to start from scratch.     
-You can continue from latest checkpoint, and the process is pretty easy.
+- If the training stops but the model still needed training, you can resume from the latest checkpoint.   
 
 - Depending on if you want to retrain from the same account or switch to another one, the process is a little different.
 
-+++ Retraining
++++ Retraining Only
 ###### ‎  
-1. Go to the Colab space & input the same data as before, & execute the cells like normal, <u>except</u> ``Preprocessing`` & ``Feature Extraction``.    
-
-2. Execute the `Load preprocessed dataset files` cell.   
+1. Go to the Colab space, input the same criteria as before & execute the cells like normal, <u>**except**</u> Preprocessing & Feature Extraction.    
+***
+2. Execute the **Load preprocessed dataset files** cell.   
 
     <img src="../rvcdisconnected-img/14.png" alt="image" width="450" height="auto">‎  
-‎       
-3. Go to the `Import Model from Drive to Notebook` cell. In `STEPCOUNT` introduce ``2333333`` & execute it.    
+***
+3. Go to the **Import Model from Drive to Notebook** cell. In **STEPCOUNT** introduce ``2333333`` & execute it.    
 
     <img src="../rvcdisconnected-img/16.png" alt="image" width="450" height="auto">‎  
-    ‎       
-4. You can change the `save_frequency` or increase the `total_epochs`, in case you didn't input enough before.
 
-5. Run the `Training` cell to retrain. Remember to monitor <u>[TB</u>](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard) as before.
-
+***
+4. You can change the **save frequency** or increase the **total epochs**, in case you didn't input enough before.
+***
+5. Run the **Training** cell to retrain. Remember to monitor <u>[TB</u>](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard) as before.       
+‎   
 +++ Switching Account
 ###### ‎  
-1. Execute the `Export Model` cell.
+1. First download the <u>[lowest point](http:aihubdocs.github.io/en/rvc/cloud/rvc-disconnected/#6-download-model)</u>. Keep it in your device in case you're already overtraining.
+***
+2. Execute the **Export Model** cell.
 
     <img src="../rvcdisconnected-img/21.png" alt="image" width="450" height="auto">‎  
-
-2. In GD, download the `rvcDisconnected` folder on your device.
-
-3. Move the folder to your other account's GD storage. Make sure it's in the `My Drive` unit.
-
-4. Open RVC-D with the other account. Input the same data as before & execute the cells from start like normal, <u>except</u> ``Preprocessing`` & ``Feature Extraction``.    
-
-5. Execute the `Load preprocessed dataset files` cell.   
+***
+3. In GD, download the `rvcDisconnected` folder to your device.
+***
+4. Move the folder to your other account's GD storage. Make sure it's in the `My Drive` unit.
+***
+5. Open RVC-D in the other account. input the same criteria as before & execute the cells like normal, <u>**except**</u> Preprocessing & Feature Extraction.    
+***
+6. Execute the **Load preprocessed dataset files** cell.   
 
     <img src="../rvcdisconnected-img/14.png" alt="image" width="450" height="auto">‎  
-‎       
-6. Go to the `Import Model from Drive to Notebook` cell. In `STEPCOUNT` introduce ``2333333`` & execute it.    
+***
+7. Go to the **Import Model from Drive to Notebook** cell. In **STEPCOUNT** introduce ``2333333`` & execute it.    
 
     <img src="../rvcdisconnected-img/16.png" alt="image" width="450" height="auto">‎  
-    ‎       
-7. You can change the `save_frequency` or increase the `total_epochs`, in case you didn't input enough before.
 
-8. Run the `Training` cell to retrain. Remember to monitor <u>[TB</u>](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard) as before.
+***
+8. You can change the **save frequency** or increase the **total epochs**, in case you didn't input enough before.
+***
+9. Run the **Training** cell to retrain. Remember to monitor <u>[TB</u>](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard) as before.       
+‎   
 +++
 
 ###### ‎
