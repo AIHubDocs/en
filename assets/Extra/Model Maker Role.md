@@ -41,13 +41,13 @@ order: 1000
 #### :icon-chevron-right: Model is low quality.
 - <u>**A bad model sounds:**</u>       
 
-   - Scratchy/screechy
-   - Muffled
-   - Inaccurate to the source
-   - Incapable of hitting certain notes
-   - With slurred speech
-   - Unable of pronouncing words correctly in its intended language
-   - With <u>[artifacting](https://aihubdocs.github.io/en/rvc-resources/artifacting/)</u>
+   - Scratchy/screechy.
+   - Muffled.
+   - Inaccurate to the source.
+   - Incapable of hitting certain notes.
+   - With slurred speech.
+   - Unable of pronouncing words correctly in its intended language.
+   - With <u>[artifacting](https://aihubdocs.github.io/en/rvc-resources/artifacting/)</u>.
 ***
 ###### ‎ 
 #### :icon-chevron-right: An outdated extraction method was used.
@@ -59,7 +59,10 @@ order: 1000
 ***
 ###### ‎ 
 #### :icon-chevron-right: The audio demo has an instrumental.
-- Due to concerns over copyright, don't include **ANY** music on the audio demo, even if it's not copyrighted.
+- Don't include **ANY** music on the audio demo, even if it's not copyrighted. This is due to:
+  
+     - Concerns over copyright.
+     - In many cases, the music can "hide" the flaws of the voice models, making it harder to judge the quality of the model.
 ***
 #### :icon-chevron-right: The audio demo is altered.
 - Don't add reverb, equalize, or alter the demo in any way, as that won't be a faithful representation of the model. It must be the raw, unmodified output from RVC.
@@ -100,7 +103,7 @@ order: 1000
 :     Its name.   
 
 **rvc**
-:     Version of RVC it was trained on (will almost always be v2)
+:     Version of RVC it was trained on (will almost always be v2).
 
 **extraction**
 :     The <u>[extraction method](https://aihubdocs.github.io/en/rvc-resources/inference-settings/#pitch-extraction-algorithm)</u> you used.
@@ -131,7 +134,7 @@ You can attach more samples when you repost the model to ``#voice-models``.
 
 - If everything went fine, your submission will be added to the queue & the bot will send a confirmation message, containing your **submission ID**.    
 <u>**With the ID you can:**</u>        
-   - Check your submission's number in queue with the command ``/queue`` followed by the ID. (e.g ``/queue 251``)        
+   - Check your submission's number in queue with the command ``/queue`` followed by the ID. (e.g ``/queue 251``).        
    - Cancel your submission with the command ``/cancel`` followed by the ID.    
 ‎     
 - Now wait for a **Model QC** (quality checker) to verify your model. You'll be notified once it has been reviewed.   

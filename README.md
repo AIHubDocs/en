@@ -3,7 +3,8 @@
 - This project is a beginner-friendly documentation of RVC (Retrieval-based Voice Conversion) & related apps, made by members of the AI Hub community.
 
 - Here you'll find simple & convenient guides verified by experts in RVC.
-<u>Topics include</u>: model training, inference, audio isolation, datasets, TensorBoard, & more. Either locally or through the cloud.
+
+<ins>Topics include</ins>: model training, inference, audio isolation, datasets, TensorBoard, & more. Either locally or through the cloud.
 
 ## Contributions
 - We are in early development, so we'll appreciate any feedback, big or small.      
