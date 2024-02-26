@@ -6,7 +6,7 @@ order: 6000
 
 # :icon-unmute: How to Make AI Cover
 
-``Last update: Feb 16, 2024``
+``Last update: Feb 25, 2024``
 
 ***
 :::content-center
@@ -41,7 +41,7 @@ Now let's begin with the steps.
 ***
 ###### ‎
 ### 2. Get voice model
-- Learn about them & how to search one <u>[here](https://aihubdocs.github.io/en/essentials/voice-models/)</u>.
+- Learn about them & how to search one <u>[here](https://aihubdocs.github.io/en/essentials/voice-models/)</u>. Be sure to leave credits to the original model maker.
 
 - In case the model doesn't exist, click <u>[here](https://aihubdocs.github.io/en/essentials/how-to-make-voice-models/)</u>.
 ***
