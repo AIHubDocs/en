@@ -63,8 +63,8 @@ For suggestions/reporting issues, contact any of us on <u>Discord</u>: ‎ **@ai
 - **Lead by:** Julia & Eddy       
 - **General Help:** Poopmaster, Raid, Light, Faze Masta, Alexolotl, Delik     
 - **Reviewing:** Faze Masta, Alexolotl, SimplCup, Delik, Litsa        
-- **OG Guides:** Litsa, Angetyde, LollenApe, Faze Masta, M0dz, FDG, Eddy, Julia       
-- **Other:** Grvyscale, Cthulhu (branding), Yui (GitHub)
+- **OG Guides:** Litsa, Angetyde, LollenApe, Faze Masta, M0dz, FDG, Eddy, Julia, Nick  
+- **Branding:** Grvyscale & Cthulhu
 
 ***
 :::content-right    
@@ -74,6 +74,5 @@ For suggestions/reporting issues, contact any of us on <u>Discord</u>: ‎ **@ai
 :::content-right
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
 ::: 
-‎  
-‎        
+‎     
 ***

@@ -46,5 +46,4 @@ Before you begin, make sure you have the following:
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
 :::
 ‎   
-‎   
 ***

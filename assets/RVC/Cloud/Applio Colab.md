@@ -3,7 +3,7 @@ icon: chevron-right
 order: 5000
 ---
 
-``Last update: Feb 25, 2024``
+``Last update: Feb 26, 2024``
 
 ***
 :::content-center
@@ -175,10 +175,7 @@ To download it, press the download symbol on its right.
 :::content-center
 ## Training :icon-dependabot:
 ###### ‎   
-!!!danger Unfinished chapter. Do not use.
-!!!
 :::
-###### ‎     
 :::content-center
 :::
 ==- 1. PREPROCESS
@@ -302,7 +299,7 @@ It'll finish when it says `extracted successfully`.
 ‎   
 - The latter will show you errors if they happen, and information about the epochs & checkpoints.   
 
-    <img src="..\appliocolab-img\4-logs.png" alt="image" width="450">‎   
+    <img src="..\appliocolab-img\4-logs.png" alt="image" width="600">‎   
 
 ===
 
@@ -335,11 +332,17 @@ i. In said folder you'll also find all the checkpoints.
 ‎  
 ii. Select the one **closest** to ***before*** the overtraining point, and move it to the new folder.
 
-    The checkpoints will be organized with this format: **ModelName_Epoch_Step.pth**   
-    Example: ``arianagrande_e60_s120.pth``
-
+    - The checkpoints will be organized with this format: **ModelName_Epoch.pth**   
+    Example: ``arianagrande_60e.pth``       
 ‎  
-    ‎            
+        <img src="../appliocolab-img/4-checkpoint.png" alt="image" width="200" height="auto">‎  
+‎  
+‎  
+    - You can determine the Step number of the checkpoints by looking at its epoch number on the logs.
+
+        <img src="../appliocolab-img/4-step.png" alt="image" width="600" height="auto">‎  
+    ‎          
+    ‎    
 iii. And that's all, have fun with your model. To test it, do a normal <u>[inference</u>](https://aihubdocs.github.io/en/rvc/local/applio/#inference-) as usual.
 
 ===
@@ -516,6 +519,5 @@ If the frequencies don't reach the top of the spectrogram, see at which number p
 :::content-right
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
 :::
-‎   
 ‎   
 ***
