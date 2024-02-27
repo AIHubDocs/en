@@ -42,13 +42,11 @@ order: 3000
 ***
 ###### ‎
 ### :icon-chevron-down:Google Colab
-- Google Colaboratory is a product of Google that allows anybody to write & execute arbitrary python code through websites.     
+- Google Colaboratory is a product of Google that allows anybody to write & execute arbitrary python code through websites.       
 
-- Cloud RVC users mainly use it for the RVC ports, like <u>[AICoverGen NO UI](https://aihubdocs.github.io/en/rvc/cloud/aicovergen-no-ui/)</u>, <u>[Ilaria RVC</u>](https://aihubdocs.github.io/en/rvc/cloud/ilaria-rvc/), & <u>[RVC Disconnected</u>](https://aihubdocs.github.io/en/rvc/cloud/rvc-disconnected/).    
+- It's free version is slower & with a usage limit of their GPUs, of around **3 hours a day**. Once you exhaust it, you'll have to wait 12 - 24 hours.
 
-- It's free version is slower & with a usage limit of **4 hours per day**. When you ran out of it you'll have to wait 24 hours, or switch to another account.
-
-- You can upgrade to a paid option for a better version too. 
+- Learn how to bypass their limitations <u>[here](https://rentry.org/colab_workarounds)</u>.
 ***
 ###### ‎       
 ### :icon-chevron-down:GPU

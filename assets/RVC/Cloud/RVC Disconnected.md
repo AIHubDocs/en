@@ -155,12 +155,12 @@ But if your dataset is small (around 2 minutes or less), use ``4``.
 - Remember to monitor it, as well as the cell's logs. The latter will show you errors if they happen, and information about the epochs & checkpoints.         
 ‎       
 - **While training, you might get disconnected if you:**      
-   - Don't interact with the space for a long time (staying AFK).     
-   - Get disconnected from your Internet.       
+   - <u>[Stay AFK](https://rentry.org/colab_workarounds)</u>.     
+   - Disconnect from your Internet.       
    - Don't solve the captchas that (might) pop up occasionally.    
-   - Ran out of usage time.     
+   - Run out of <u>[GPU runtime](http://aihubdocs.github.io/en/extra/glossary/#google-colab)</u>.     
 ‎    
-- To avoid the last one, at around 2:30 hours of training begin the <u>[account switching](http://aihubdocs.github.io/en/rvc/cloud/rvc-disconnected/#switching-account)</u> procedure.
+- For free tiers users, to avoid the latter, at around 2:30 hours of training begin the <u>[account switching](http://aihubdocs.github.io/en/rvc/cloud/rvc-disconnected/#switching-account)</u> procedure.
 ***
 ###### ‎ 
 #### 6. Download model. 

@@ -3,7 +3,7 @@ icon: chevron-right
 order: 5000
 ---
 
-``Last update: Feb 26, 2024``
+``Last update: Feb 27, 2024``
 
 ***
 :::content-center
@@ -298,8 +298,15 @@ It'll finish when it says `extracted successfully`.
 - <u>[TB](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard)</u> will be available in the Colab. Remember to monitor it, as well as the cell's logs just in case.           
 ‎   
 - The latter will show you errors if they happen, and information about the epochs & checkpoints.   
-
+‎  
     <img src="..\appliocolab-img\4-logs.png" alt="image" width="600">‎   
+‎       
+‎   
+- **While training, you might get disconnected if you:**      
+   - <u>[Stay AFK](https://rentry.org/colab_workarounds)</u>.     
+   - Disconnect from your Internet.       
+   - Don't solve the captchas that (might) pop up occasionally.    
+   - Run out of <u>[GPU runtime](http://aihubdocs.github.io/en/extra/glossary/#google-colab)</u>.         
 
 ===
 
@@ -507,9 +514,13 @@ If the frequencies don't reach the top of the spectrogram, see at which number p
 
 ===
 
+==- *Cannot connect to GPU backend.*
+- You have exhausted the daily GPU usage time. Learn more & how to bypass it <u>[here](http://aihubdocs.github.io/en/extra/glossary/#google-colab)</u>.
+===
+
 ==- *I couldn't find my answer.*
 ###### ‎   
-- Report your issue to any of us on Discord: **@ailen2091** - **@eddycrack864**
+- Report your issue <u>[here](http://aihubdocs.github.io/en/#contributions)</u>.
 ===
 ***
 :::content-right

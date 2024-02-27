@@ -213,9 +213,13 @@ At the right press the three dots & then `Download`.
 - This is an anomaly called "**artifacting**". Learn how to fix it <u><u>[here</u>](https://aihubdocs.github.io/en/rvc-resources/artifacting/)</u>.
 ===
 
+==- *Cannot connect to GPU backend.*
+- You have exhausted the daily GPU usage time. Learn more & how to bypass it <u>[here](http://aihubdocs.github.io/en/extra/glossary/#google-colab)</u>.
+===
+
 ==- *I couldn't find my answer.*
 ###### ‎   
-- Report your issue to any of us on Discord: **@ailen2091** - **@eddycrack864**
+- Report your issue <u>[here](http://aihubdocs.github.io/en/#contributions)</u>.
 ===
 ***
 :::content-right

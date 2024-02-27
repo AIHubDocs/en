@@ -485,7 +485,7 @@ process.
 
 ==- *I couldn't find my answer.*
 ###### ‎   
-- Report your issue to any of us on Discord: **@ailen2091** - **@eddycrack864**
+- Report your issue <u>[here](http://aihubdocs.github.io/en/#contributions)</u>.
 ===
 
 ***
