@@ -13,24 +13,24 @@
     <meta name="generator" content="Retype 3.5.0">
 
     <!-- Primary Meta Tags -->
-    <title>  How to Make Voice Models</title>
-    <meta name="title" content="  How to Make Voice Models">
-    <meta name="description" content="Last update: Feb 10, 2024">
+    <title>TTS</title>
+    <meta name="title" content="TTS">
+    <meta name="description" content="Last update: Feb 28, 2024">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://aihubdocs.github.io/en/essentials/how-to-make-voice-models/">
+    <link rel="canonical" href="https://aihubdocs.github.io/en/other-ai/tts/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://aihubdocs.github.io/en/essentials/how-to-make-voice-models/">
-    <meta property="og:title" content="  How to Make Voice Models">
-    <meta property="og:description" content="Last update: Feb 10, 2024">
+    <meta property="og:url" content="https://aihubdocs.github.io/en/other-ai/tts/">
+    <meta property="og:title" content="TTS">
+    <meta property="og:description" content="Last update: Feb 28, 2024">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://aihubdocs.github.io/en/essentials/how-to-make-voice-models/">
-    <meta property="twitter:title" content="  How to Make Voice Models">
-    <meta property="twitter:description" content="Last update: Feb 10, 2024">
+    <meta property="twitter:url" content="https://aihubdocs.github.io/en/other-ai/tts/">
+    <meta property="twitter:title" content="TTS">
+    <meta property="twitter:description" content="Last update: Feb 28, 2024">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
@@ -225,125 +225,268 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="how-to-make-voice-models" class="break-words">
+<doc-anchor-target id="tts" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#how-to-make-voice-models">#</doc-anchor-trigger>
-        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M8.75 11a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5a.75.75 0 0 1 .75-.75Zm7.25.75a.75.75 0 0 0-1.5 0v3.5a.75.75 0 0 0 1.5 0v-3.5Z"/><path d="M9.813 1h2.437a.75.75 0 0 1 .75.75V5h6.75A2.25 2.25 0 0 1 22 7.25v5.25h1.25a.75.75 0 0 1 0 1.5H22v5.75A2.25 2.25 0 0 1 19.75 22H4.25A2.25 2.25 0 0 1 2 19.75V14H.75a.75.75 0 0 1 0-1.5H2V7.25A2.25 2.25 0 0 1 4.25 5h7.25V2.5H9.813A.75.75 0 0 1 9.812 1ZM3.5 7.25v12.5c0 .414.336.75.75.75h15.5a.75.75 0 0 0 .75-.75V7.25a.75.75 0 0 0-.75-.75H4.25a.75.75 0 0 0-.75.75Z"/></g></g></svg>  How to Make Voice Models</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#tts">#</doc-anchor-trigger>
+        <span>TTS</span>
     </h1>
 </doc-anchor-target>
-<p><code v-pre>Last update: Feb 10, 2024</code></p>
+<p><code v-pre>Last update: Feb 28, 2024</code></p>
 <hr>
-<div class="content-center"><doc-anchor-target id="introduction">
+<div class="content-center"><doc-anchor-target id="tts">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#tts">#</doc-anchor-trigger>
+        <span>TTS</span>
+    </h1>
+</doc-anchor-target>
+<p>TTS Means Text To Speech!</p>
+<p>Inference means when you use the TTS.</p>
+<p>TTS Inference can be on CPU, even if it’s slower in some cases
+UI Means Interface</p>
+<p>Finetuning/Training means when you are making the TTS AI Voice based on the TTS you are using on your own dataset. You’d need a GPU for this.</p>
+<p>Some of those TTS have 0 Shot training, which in tts field means that you do inference cloning voice by an audio but without explicitly training (you can’t save the model). In some cases you can do it on GPU, some in CPU</p>
+<p>Some of the TTS mixes with RVC, which is Retrieval-based Voice Cloning, another ai that is audio to audio instead of using text, changing the audio voice, but in some cases like Applio, it generates a TTS Audio of Edge TTS and then it changes the audio voice to the RVC model voice.</p>
+<doc-anchor-target id="elevenlabs11labs">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#introduction">#</doc-anchor-trigger>
-        <span>Introduction</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#elevenlabs11labs">#</doc-anchor-trigger>
+        <span><strong>ElevenLabs/11Labs</strong></span>
     </h2>
 </doc-anchor-target>
-<dl>
-<dt>‎</dt>
-<dd>‎</dd>
-</dl>
-</div>
-<div class="content-center"><doc-anchor-target id="lost-in-how-to-make-an-ai-voice-model-heres-how">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#lost-in-how-to-make-an-ai-voice-model-heres-how">#</doc-anchor-trigger>
-        <span>Lost in how to make an AI voice model? Here&#x27;s how.</span>
-    </h4>
-</doc-anchor-target>
-</div>
-<ul>
-<li><p>To convert the the voice into your desired person, we&#x27;ll use the best software for this, <U><strong>RVC</strong></u>.</p>
-</li>
-<li><p>RVC (Retrieval-based Voice Conversion) is an advanced AI voice cloning software. It&#x27;s free &amp; open-source.</p>
-</li>
-<li><p>Requires <strong>great <u><a href="https://aihubdocs.github.io/en/extra/glossary/#specs">specs</u></a></strong> &amp; <u><a href="https://aihubdocs.github.io/en/extra/glossary/#gpu">GPU</a></u> (specifically NVIDIA) to train effectively, but it can be executed through the <u><a href="https://aihubdocs.github.io/en/extra/glossary/#cloud-based">cloud</a></u> &amp; be used in any device.</p>
-</li>
-</ul>
-<p>Now let&#x27;s begin with the steps. Keep in mind, it won&#x27;t be an instant process, remember to be patient.</p>
-<hr>
-<div class="content-center"><doc-anchor-target id="steps">
+<p><a href="https://elevenlabs.io/">https://elevenlabs.io/</a> is a <strong>freemium</strong> (only one in this guide) service that offers TTS, Training TTS Models/Voice Cloning for TTS &amp; Translating Videos from different languages</p>
+<doc-anchor-target id="bark-tts">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#steps">#</doc-anchor-trigger>
-        <span>Steps</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bark-tts">#</doc-anchor-trigger>
+        <span><strong>Bark TTS</strong></span>
     </h2>
 </doc-anchor-target>
+<p>Bark is a <strong>multilingual</strong> TTS model created by Suno AI. It’s good <strong>emotionally</strong>, There are Non-Speech Sounds you can use:
+[laughter]
+[laughs]
+[sighs]
+[music]
+[gasps]
+[clears throat]
+— or … for hesitations
+♪ for song lyrics
+capitalization for emphasis of a word
+MAN/WOMAN: for bias towards speaker</p>
+<p>It can be used both locally or online:</p>
+<p><strong>Locally</strong></p>
+<ul>
+<li><a href="https://github.com/suno-ai/bark">Official Bark TTS Guide</a></li>
+<li><a href="https://github.com/Nick088Official/bark-gui-fix">Bark GUI Fixed Fork </a> (Gradio UI, and finetuning)</li>
+<li><a href="https://github.com/KevinWang676/Bark-Voice-Cloning/tree/main">Bark GUI with Voice Cloning Fork</a> (Need GPU for Voice Cloning, 0 shot training)</li>
+</ul>
+<p><strong>Online</strong></p>
+<ul>
+<li><a href="https://colab.research.google.com/github/Nick088Official/Easier-Bark-TTS-Google-Colab/blob/main/Easier_Bark_TTS.ipynb">Easier Bark TTS Google Colab</a></li>
+<li><a href="https://huggingface.co/spaces/suno/bark">Official Bark TTS Hugging Face Space</a></li>
+<li><a href="https://colab.research.google.com/github/Nick088Official/bark-gui-fix-google-colab/blob/main/Bark_GUI_Fix.ipynb">Bark GUI Google Colab</a> (Gradio UI with finetuning)</li>
+<li><a href="https://colab.research.google.com/github/Nick088Official/Easier-Bark-Voice-Cloning-Google-Colab/blob/main/Bark_Voice_Cloning.ipynb">Easier Bark 0 Shot Voice Cloning Fork Google Colab</a></li>
+<li><a href="https://huggingface.co/spaces/kevinwang676/Bark-with-Voice-Cloning">Bark GUI 0 Shot Voice Cloning Hugging Face Space</a> (Need GPU for Voice Cloning 0 shot training, so unless you duplicate the space with your paid GPU, you can only TTS)</li>
+</ul>
+<doc-anchor-target id="edge-tts">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#edge-tts">#</doc-anchor-trigger>
+        <span><strong>Edge TTS</strong></span>
+    </h2>
+</doc-anchor-target>
+<p>This is Microsoft Edge TTS, which has <strong>good quality</strong>, and it’s multilingual with various premade voices, and works better on long sentences. It can be used only online (API) :</p>
+<p><strong>Online</strong></p>
+<ul>
+<li><a href="https://github.com/Nick088Official/Edge-TTS-Google-Colab/tree/main">Edge TTS Google Colab</a></li>
+<li><a href="https://huggingface.co/spaces/Nick088/Edge-TTS">Edge TTS Hugging Face Space</a></li>
+<li><a href="https://colab.research.google.com/drive/16LkwvFZeudTpUOsE_6bMjOq2qkxFo8Hr?usp=sharing#scrollTo=t8gn3pmO14On">Use Ilaria TTS inside of Ilaria RVC UI Colab</a> (with Voice Cloning, mixing with RVC)</li>
+<li><a href="https://huggingface.co/spaces/TheStinger/Ilaria_RVC">Use Ilaria TTS Inside of Ilaria RVC Hugging Face Space</a> (with Voice Cloning, mixing with RVC)</li>
+<li><a href="https://colab.research.google.com/github/iahispano/applio/blob/master/assets/Applio.ipynb">Use the TTS in Applio RVC Fork UI Google Colab</a> (with Voice Cloning, mixing with RVC)</li>
+<li><a href="https://huggingface.co/spaces/IAHispano/Applio">Use the TTS in Applio RVC Fork Hugging Face Space</a> (with Voice Cloning, mixing with RVC)</li>
+<li><a href="https://github.com/IAHispano/Applio">Use Applio RVC Fork</a> (with Voice Cloning, mixing with RVC)</li>
+<li>Microsoft Edge:
+<ol type="a">
+<li><p>Download the Microsoft Edge Browser</p>
+</li>
+<li><p>Open your Notepad</p>
+</li>
+<li><p>Paste the following code:</p>
+</li>
+</ol>
+</li>
+</ul>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body style=&quot;background-color:#dddddd&quot;&gt;
+
+&lt;h3 aria-hidden=&quot;true&quot;&gt;Browser TTS &quot;Hack&quot;&lt;/h3&gt;
+
+&lt;textarea rows=&quot;10&quot; cols=&quot;50&quot; id=&quot;ttsText&quot; style=&quot;background-color:#eeeeee&quot;&gt;&lt;/textarea&gt;
+&lt;br /&gt;
+&lt;button aria-hidden=&quot;true&quot; onclick=&quot;genText()&quot;&gt;&lt;font aria-hidden=&quot;true&quot;&gt;Generate&lt;/font&gt;&lt;/button&gt;
+
+&lt;pre id=&quot;tts&quot;&gt;&lt;/pre&gt;
+
+&lt;script&gt;
+function genText() {
+  var x = document.getElementById(&quot;ttsText&quot;).value;
+  document.getElementById(&quot;tts&quot;).innerHTML = x;
+}
+&lt;/script&gt;
+
+
+
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+</doc-codeblock></div>
+<ol type="a" start="4">
+<li><p>Save it as “Microsoft Edge TTS.txt”</p>
+</li>
+<li><p>Rename the file to “Microsoft Edge TTS.html”</p>
+</li>
+<li><p>Open Microsoft Edge</p>
+</li>
+<li><p>Drag the .html to it</p>
+</li>
+<li><p>Write anything you want</p>
+</li>
+<li><p>Use <a href="https://www.audacityteam.org/download/">Audacity</a> to record the audio, set the recording mode to loopback and it allows to record the internal audio (Realtek driver might be needed)</p>
+</li>
+<li><p>Click Generate and then stop recording when the voice is done.</p>
+</li>
+<li><p>After you click generate, you can also select Voice options in the toolbar and change the speed to a faster or slower speech pace.</p>
+</li>
+</ol>
+<doc-anchor-target id="styletts2">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#styletts2">#</doc-anchor-trigger>
+        <span><strong>StyleTTS2</strong></span>
+    </h2>
+</doc-anchor-target>
+<p>StyleTTS 2 aims to achieve human-level TTS synthesis only in English, It works better on full sentences, both available locally and online.
+It&#x27;s possible to finetune on your own dataset.
+It has 2 versions:
+<strong>LJSpeech</strong> &amp; <strong>LibriTTS</strong>.</p>
+<p><strong>Key Difference:</strong></p>
+<p><strong>LJSpeech</strong>: The dataset consists of <strong>single-speaker</strong> recordings, making it suitable for training TTS models with a consistent voice.
+<strong>LibriTTS</strong>: The dataset includes <strong>multispeaker</strong> recordings, allowing StyleTTS 2 to adapt to different voices.</p>
+<p><strong>Locally</strong></p>
+<ul>
+<li><a href="https://github.com/yl4579/StyleTTS2">Official StyleTTS2 Guide</a></li>
+</ul>
+<p><strong>Online</strong></p>
+<ul>
+<li><a href="https://huggingface.co/spaces/styletts2/styletts2">StyleTTS2 Hugging Face Space</a> (If you duplicate the space to skip queue, without GPU you can only inference)</li>
+<li><a href="https://colab.research.google.com/github/yl4579/StyleTTS2/blob/main/Colab/StyleTTS2_Demo_LJSpeech.ipynb">StyleTTS2 LJSpeech Inference Google Colab</a></li>
+<li><a href="https://colab.research.google.com/github/yl4579/StyleTTS2/blob/main/Colab/StyleTTS2_Demo_LibriTTS.ipynb">StyleTTS2 LibriTTS Inference Google Colab</a></li>
+<li><a href="https://colab.research.google.com/github/yl4579/StyleTTS2/blob/main/Colab/StyleTTS2_Finetune_Demo.ipynb">StyleTTS2 Finetuning Google Colab</a></li>
+</ul>
+<doc-anchor-target id="tortoise-tts">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#tortoise-tts">#</doc-anchor-trigger>
+        <span><strong>Tortoise TTS</strong></span>
+    </h2>
+</doc-anchor-target>
+<p>Tortoise is expressive but it’s kinda slow.
+You can use it both locally and online:</p>
+<p><strong>Locally</strong></p>
+<ul>
+<li><a href="https://github.com/neonbjb/tortoise-tts">Official Tortoise TTS Github Repository</a></li>
+</ul>
+<p><strong>Online</strong></p>
+<ul>
+<li><a href="https://huggingface.co/spaces/Manmay/tortoise-tts">Tortoise TTS Hugging Face Space</a></li>
+<li><a href="https://colab.research.google.com/github/Nick088Official/Easier-Tortoise-TTS-Google-Colab/blob/main/Easier_Tortoise_TTS.ipynb">Easier Tortoise TTS Google Colab</a></li>
+</ul>
+<doc-anchor-target id="xtts2">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#xtts2">#</doc-anchor-trigger>
+        <span><strong>XTTS2</strong></span>
+    </h2>
+</doc-anchor-target>
+<p>Developed by Coqui AI, which has been <strong>discontinued</strong> unfortunately, Built on the <span class="docs-emoji">&#x1F422;</span>Tortoise, ⓍTTS has important model changes that make <strong>cross-language 0 Shot voice cloning</strong> and <strong>multilingual</strong> speech generation super easy. <strong>You need less training data, at least a 2 minutes audio.</strong>
+You can use it either online or locally:</p>
+<p><strong>Locally</strong></p>
+<ul>
+<li><a href="https://docs.coqui.ai/en/latest/models/xtts.html">Official XTTS 2 Guide</a></li>
+<li><a href="https://github.com/BoltzmannEntropy/xtts2-ui">XTTS 2 UI Fork</a></li>
+</ul>
+<p><strong>Online</strong></p>
+<ul>
+<li><a href="https://huggingface.co/spaces/coqui/xtts">XTTS 2 Hugging Face Space</a></li>
+<li><a href="https://colab.research.google.com/github/camenduru/coqui-XTTS-colab/blob/main/coqui_XTTS_v2_colab.ipynb">XTTS 2 Inference UI Google Colab</a>: Run it and click the Gradio Public Link</li>
+<li><a href="https://colab.research.google.com/drive/1GiI4_X724M8q2W-zZ-jXo7cWTV7RfaH-?usp=sharing">XTTS 2 Training &amp; Inference UI Google Colab</a>: <a href="https://www.youtube.com/watch?v=8tpDiiouGxc">Watch this Video Tutorial for it!</a></li>
+</ul>
+<doc-anchor-target id="metavoice">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#metavoice">#</doc-anchor-trigger>
+        <span><strong>MetaVoice</strong></span>
+    </h2>
+</doc-anchor-target>
+<p><strong>MetaVoice-1B</strong> is a 1.2B parameter base model <strong>trained on 100K hours of speech for TTS</strong> (text-to-speech). It has been built with the following priorities:
+<strong>Emotional speech rhythm and tone in English.</strong>
+<strong>Zero-shot cloning for American &amp; British voices, with 30s reference audio.</strong>
+It can be used both locally and online:</p>
+<p><strong>Locally</strong></p>
+<ul>
+<li><a href="https://github.com/metavoiceio/metavoice-src">Official MetaVoice 1B Model Github Repository</a></li>
+</ul>
+<p><strong>Online</strong></p>
+<ul>
+<li><a href="https://ttsdemo.themetavoice.xyz/">MetaVoice 1B Model TTS with 0 Shot Training Demo</a></li>
+<li><a href="https://huggingface.co/spaces/mrfakename/MetaVoice-1B-v0.1">MetaVoice 1B Model TTS with 0 Shot Training Hugging Face Space</a></li>
+<li><a href="https://colab.research.google.com/github/Nick088Official/Easier-MetaVoice-1B-Google-Colab/blob/main/Easier_MetaVoice_1B.ipynb">Easier MetaVoice 1B Model TTS with 0 Shot Training Google Colab</a></li>
+<li><a href="https://colab.research.google.com/github/Nick088Official/Easier-MetaVoice-1B-Google-Colab/blob/main/Easier_MetaVoice_1B.ipynb">Freemium MetaVoice Studio Only Premade Voices</a></li>
+</ul>
+<doc-anchor-target id="melotts">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#melotts">#</doc-anchor-trigger>
+        <span><strong>MeloTTS</strong></span>
+    </h2>
+</doc-anchor-target>
+<p>MeloTTS is a <strong>high-quality multilingual</strong> text-to-speech library by MyShell.ai with <strong>almost real time inference</strong>.
+It can be used both locally and online:</p>
+<p><strong>Locally</strong></p>
+<ul>
+<li><a href="https://github.com/myshell-ai/MeloTTS">Official MeloTTS Github Repository</a></li>
+</ul>
+<p>Online:</p>
+<ul>
+<li><a href="https://huggingface.co/spaces/mrfakename/MeloTTS">MeloTTS Hugging Face Space</a></li>
+<li><a href="https://colab.research.google.com/github/Nick088Official/MeloTTS-Google-Colabs/blob/main/MeloTTS_UI.ipynb">MeloTTS UI Google Colab</a></li>
+<li><a href="https://colab.research.google.com/github/Nick088Official/MeloTTS-Google-Colabs/blob/main/MeloTTS_NO_UI.ipynb">MeloTTS NO UI Google Colab</a></li>
+</ul>
+<doc-anchor-target id="gpt-sovits">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#gpt-sovits">#</doc-anchor-trigger>
+        <span><strong>GPT-SoVITS</strong></span>
+    </h2>
+</doc-anchor-target>
+<p>GPT-SoVITS has <strong>cross language inference</strong>, but there could be some noises, it&#x27;s also very good especially with <strong>chinese</strong>, but also with english.
+<strong>WARNING: MOST PARTS OF THIS PROGRAM ARE IN JAPANESE AND NOT DEEPLY TESTED, will prolly have have a deeper guide when Delik releases it.</strong>
+It can be used both locally and online:</p>
+<p><strong>Locally</strong></p>
+<ul>
+<li><a href="https://github.com/RVC-Boss/GPT-SoVITS/">Official GPT-SoVITS Github Repository</a></li>
+</ul>
+<p><strong>Online</strong></p>
+<ul>
+<li><a href="https://colab.research.google.com/github/RVC-Boss/GPT-SoVITS/blob/main/colab_webui.ipynb#scrollTo=4oRGUzkrk8C7">GPT-SoVITS Google Colab Finetuning &amp; Inference UI</a></li>
+</ul>
+<doc-anchor-target id="gtts">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#gtts">#</doc-anchor-trigger>
+        <span><strong>gTTS</strong></span>
+    </h1>
+</doc-anchor-target>
+<p><strong>Google Text To Speech</strong>, the same one used in Google Translator, it has <strong>very few voices in different languages</strong>, kinda <strong>robotic</strong> and doesn’t let you choose the gender of the voice, except in the colab version where i made a function to change the pitch of it, but it isn&#x27;t that great. It can be used only online (API) :</p>
+<p><strong>Online</strong></p>
+<ul>
+<li><a href="https://colab.research.google.com/github/Nick088Official/gTTS-Google-Colab/blob/main/gTTS.ipynb">gTTS Google Colab</a></li>
+<li><a href="https://huggingface.co/spaces/Nick088/gTTS">gTTS Hugging Face Space</a></li>
+<li><a href="https://github.com/pndurette/gTTS">Official gTTS Guide</a></li>
+<li>Use Google Translator</li>
+</ul>
+<div class="content-right"><p><code v-pre>Written by Nick088</code></p>
 </div>
-<dl>
-<dt>‎</dt>
-<dd>‎</dd>
-</dl>
-<doc-anchor-target id="1-prepare-dataset">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#1-prepare-dataset">#</doc-anchor-trigger>
-        <span>1. Prepare dataset</span>
-    </h3>
-</doc-anchor-target>
-<ul>
-<li><p><em><strong>In the context of RVC</strong></em>, the dataset is an <strong>audio</strong> file containing the <strong>voice</strong> the model will replicate. It can be either speaking or singing.</p>
-</li>
-<li><p>For the best results, having a <strong>clean</strong> dataset is crucial, so take the time to remove any undesired noises.</p>
-</li>
-<li><doc-anchor-target id="learn-more-here">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#learn-more-here">#</doc-anchor-trigger>
-        <span>Learn more <u><a href="https://aihubdocs.github.io/en/vocal-isolation--datasets/datasets/">here</u></a>.</span>
-    </h4>
-</doc-anchor-target>
-</li>
-</ul>
-<hr>
-<doc-anchor-target id="section">
-    <h6>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#section">#</doc-anchor-trigger>
-        <span>‎</span>
-    </h6>
-</doc-anchor-target>
-<doc-anchor-target id="2-set-up-rvc">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#2-set-up-rvc">#</doc-anchor-trigger>
-        <span>2. Set up RVC</span>
-    </h3>
-</doc-anchor-target>
-<ul>
-<li><p>With your dataset ready, it&#x27;s time to set up RVC to train the model.</p>
-</li>
-<li><p>There are plenty of versions of RVC, but these are the best ones for beginners.<br />
-Pick according to your needs:</p>
-<doc-anchor-target id="--for-local-users">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#--for-local-users">#</doc-anchor-trigger>
-        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M8.954 17H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h18.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.565-1.243c.964-1.105 1.598-2.382 1.769-3.757ZM21.5 3.75a.25.25 0 0 0-.25-.25H2.75a.25.25 0 0 0-.25.25v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25ZM13.537 17h-3.074c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.659-1.055-1.098-2.234-1.223-3.5Z"/></g></g></svg> ‎ <u><a href="https://aihubdocs.github.io/en/rvc/local/mainline/">For local users</a></u></span>
-    </h4>
-</doc-anchor-target>
-<doc-anchor-target id="--for-cloud-users">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#--for-cloud-users">#</doc-anchor-trigger>
-        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M3.103 10.107c0-4.244 3.445-7.607 7.733-7.607 3.19 0 5.912 1.858 7.099 4.563l.01.022.001.006C21.348 7.345 24 10.095 24 13.536 24 17.148 21.076 20 17.431 20H5.017C2.23 20 0 17.83 0 15.06a4.899 4.899 0 0 1 3.112-4.581 7.696 7.696 0 0 1-.009-.372ZM10.836 4c-3.485 0-6.233 2.717-6.233 6.107 0 .284.022.602.052.756a.75.75 0 0 1-.552.869c-1.52.385-2.603 1.712-2.603 3.328 0 1.917 1.532 3.44 3.517 3.44h12.414c2.843 0 5.069-2.206 5.069-4.964 0-2.759-2.226-4.965-5.069-4.965a.75.75 0 0 1-.696-.47l-.179-.446C15.606 5.5 13.424 4 10.836 4Z"/></g></g></svg> ‎ <u><a href="https://aihubdocs.github.io/en/rvc/cloud/rvc-disconnected/">For cloud users</a></u></span>
-    </h4>
-</doc-anchor-target>
-</li>
-</ul>
-<hr>
-<doc-anchor-target id="section-1">
-    <h6>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#section-1">#</doc-anchor-trigger>
-        <span>‎</span>
-    </h6>
-</doc-anchor-target>
-<doc-anchor-target id="3-train-the-model">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#3-train-the-model">#</doc-anchor-trigger>
-        <span>3. Train the model</span>
-    </h3>
-</doc-anchor-target>
-<ul>
-<li><p>Before you start training, we inform you that the training guides are oriented around the use of <u><a href="https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard">TensorBoard</a></u>. Read about it &amp; install it after setting up RVC.</p>
-</li>
-<li><p>Now go &amp; train your model. Good luck &amp; be patient!</p>
-</li>
-</ul>
-<hr>
-<div class="content-right"><p><code v-pre>Written by Julia</code></p>
 </div>
 <p>‎</p>
 <div class="content-right"><p><a href="http://aihubdocs.github.io/en/#contributions" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-500 dark:text-blue-400 border border-blue-500 dark:border-blue-400 hover:bg-blue-100 dark:hover:bg-transparent dark:hover:border-blue-200 dark:hover:text-blue-200 transition-colors duration-200 ease-out h-8 px-4 text-base rounded-full">
@@ -351,8 +494,7 @@ Pick according to your needs:</p>
     <span><svg xmlns="http://www.w3.org/2000/svg" class="mb-px inline-flex ml-2" width="22" height="22" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M1.513 1.96a1.374 1.374 0 0 1 1.499-.21l19.335 9.215a1.147 1.147 0 0 1 0 2.07L3.012 22.25a1.374 1.374 0 0 1-1.947-1.46L2.49 12 1.065 3.21a1.375 1.375 0 0 1 .448-1.25Zm2.375 10.79-1.304 8.042L21.031 12 2.584 3.208l1.304 8.042h7.362a.75.75 0 0 1 0 1.5Z"/></g></svg></span>
 </a></p>
 </div>
-<p>‎<br />
-‎</p>
+<p>‎</p>
 <hr>
 
                                 
@@ -363,20 +505,20 @@ Pick according to your needs:</p>
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../essentials/how-to-make-ai-cover/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../other-ai/illusion-diffusion/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1"> How to Make AI Cover</span>
+                                                <span class="block mt-1">Illusion Diffusion</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../essentials/voice-models/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../license/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1"> Voice Models</span>
+                                                <span class="block mt-1">License CC BY-​NC-​SA 4.​0</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -420,6 +562,6 @@ Pick according to your needs:</p>
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "  How to Make Voice Models", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "TTS", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
