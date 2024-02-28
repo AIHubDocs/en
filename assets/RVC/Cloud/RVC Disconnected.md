@@ -3,11 +3,11 @@ icon: chevron-right
 order: 2000
 ---
 
-``Last update: Feb 14, 2024``
+``Last update: Feb 28, 2024``
 ***
 ###### ‎
 :::content-center
-## Introduction
+## Introduction :icon-book:
 :::
 ###### ‎              
 - RVC Disconnected (or RVC-D) is a port of <u>[Mangio](https://aihubdocs.github.io/en/rvc/local/mangio/)</u> to <u>[Google Colab</u>](https://aihubdocs.github.io/en/extra/glossary/#google-colab), for exclusively training. Notebook made by <u>[Kit Lemonfoot</u>](https://huggingface.co/Kit-Lemonfoot).
@@ -155,12 +155,14 @@ But if your dataset is small (around 2 minutes or less), use ``4``.
 - Remember to monitor it, as well as the cell's logs. The latter will show you errors if they happen, and information about the epochs & checkpoints.         
 ‎       
 - **While training, you might get disconnected if you:**      
-   - <u>[Stay AFK](https://rentry.org/colab_workarounds)</u>.     
+   - <u>[Stay AFK](https://rentry.org/colab_workarounds)</u> for a long time.     
    - Disconnect from your Internet.       
    - Don't solve the captchas that (might) pop up occasionally.    
    - Run out of <u>[GPU runtime](http://aihubdocs.github.io/en/extra/glossary/#google-colab)</u>.     
 ‎    
-- For free tiers users, to avoid the latter, at around 2:30 hours of training begin the <u>[account switching](http://aihubdocs.github.io/en/rvc/cloud/rvc-disconnected/#switching-account)</u> procedure.
+- So after around 2:30 hours of training, download the model of the lowest point, just in case you're already overtraining. As once the session ends, its files will be gone.      
+‎    
+- Once your GPU runtime resets, begin the <u>[retraining](http://aihubdocs.github.io/en/rvc/cloud/rvc-disconnected/#retraining-)</U> procedure.
 ***
 ###### ‎ 
 #### 6. Download model. 
@@ -187,12 +189,11 @@ d. And that's all. To test it, do a normal <u>[inference](https://aihubdocs.gith
 ## Retraining :icon-sync:
 :::
 ###### ‎    
-- If the training stops but the model still needed training, you can resume from the latest checkpoint.   
+- If the training stops but the model still needed training, you don't have to start from scratch.   
 
-- Depending on if you want to retrain from the same account or switch to another one, the process is a little different.
-
-+++ Retraining Only
+- You can resume from the latest checkpoint. But for this, the cell **Save preprocessed dataset files to Google Drive** must have executed prior to training. 
 ###### ‎  
+#### <ins>Instructions</ins>:
 1. Go to the Colab space, input the same criteria as before & execute the cells like normal, <u>**except**</u> Preprocessing & Feature Extraction.    
 ***
 2. Execute the **Load preprocessed dataset files** cell.   
@@ -207,42 +208,14 @@ d. And that's all. To test it, do a normal <u>[inference](https://aihubdocs.gith
 4. You can change the **save frequency** or increase the **total epochs**, in case you didn't input enough before.
 ***
 5. Run the **Training** cell to retrain. Remember to monitor <u>[TB</u>](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard) as before.       
-‎   
-+++ Switching Account
+
+***
 ###### ‎  
-1. First download the <u>[lowest point](http:aihubdocs.github.io/en/rvc/cloud/rvc-disconnected/#6-download-model)</u>. Keep it in your device in case you're already overtraining.
-***
-2. Execute the **Export Model** cell.
-
-    <img src="../rvcdisconnected-img/21.png" alt="image" width="450" height="auto">‎  
-***
-3. In GD, download the `rvcDisconnected` folder to your device.
-***
-4. Move the folder to your other account's GD storage. Make sure it's in the `My Drive` unit.
-***
-5. Open RVC-D in the other account. input the same criteria as before & execute the cells like normal, <u>**except**</u> Preprocessing & Feature Extraction.    
-***
-6. Execute the **Load preprocessed dataset files** cell.   
-
-    <img src="../rvcdisconnected-img/14.png" alt="image" width="450" height="auto">‎  
-***
-7. Go to the **Import Model from Drive to Notebook** cell. In **STEPCOUNT** introduce ``2333333`` & execute it.    
-
-    <img src="../rvcdisconnected-img/16.png" alt="image" width="450" height="auto">‎  
-
-***
-8. You can change the **save frequency** or increase the **total epochs**, in case you didn't input enough before.
-***
-9. Run the **Training** cell to retrain. Remember to monitor <u>[TB</u>](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard) as before.       
-‎   
-+++
-
-###### ‎
 :::content-center
 ``Original guide: Angetyde``     
 :::
 :::content-center
-``Re-done by: Julia, Eddy, Poopmaster & Light``      
+``Redone by: Julia, Eddy, Poopmaster, Light``      
 :::
 :::content-center
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)

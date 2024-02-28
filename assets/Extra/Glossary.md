@@ -3,7 +3,7 @@ icon: chevron-right
 order: 3000
 ---
 
-``Last update: Feb 19, 2024``
+``Last update: Feb 28, 2024``
 ***
 :::content-center
 
@@ -44,7 +44,7 @@ order: 3000
 ### :icon-chevron-down:Google Colab
 - Google Colaboratory is a product of Google that allows anybody to write & execute arbitrary python code through websites.       
 
-- It's free version is slower & with a usage limit of their GPUs, of around **3 hours a day**. Once you exhaust it, you'll have to wait 12 - 24 hours.
+- It's free version is slower & with a usage time of their GPUs of around **3 hours a day**. Once you exhaust it, you'll have to wait 12 - 24 hours.
 
 - Learn how to bypass their limitations <u>[here](https://rentry.org/colab_workarounds)</u>.
 ***

@@ -214,7 +214,8 @@ At the right press the three dots & then `Download`.
 ===
 
 ==- *Cannot connect to GPU backend.*
-- You have exhausted the daily GPU usage time. Learn more & how to bypass it <u>[here](http://aihubdocs.github.io/en/extra/glossary/#google-colab)</u>.
+###### ‎   
+- You have exhausted the <u>[GPU runtime](http://aihubdocs.github.io/en/extra/glossary/#google-colab)</u> of Colab.
 ===
 
 ==- *I couldn't find my answer.*

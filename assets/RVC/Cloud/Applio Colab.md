@@ -3,7 +3,7 @@ icon: chevron-right
 order: 5000
 ---
 
-``Last update: Feb 27, 2024``
+``Last update: Feb 28, 2024``
 
 ***
 :::content-center
@@ -303,10 +303,14 @@ It'll finish when it says `extracted successfully`.
 ‎       
 ‎   
 - **While training, you might get disconnected if you:**      
-   - <u>[Stay AFK](https://rentry.org/colab_workarounds)</u>.     
+   - <u>[Stay AFK](https://rentry.org/colab_workarounds)</u> for a long time.     
    - Disconnect from your Internet.       
    - Don't solve the captchas that (might) pop up occasionally.    
-   - Run out of <u>[GPU runtime](http://aihubdocs.github.io/en/extra/glossary/#google-colab)</u>.         
+   - Run out of <u>[GPU runtime](http://aihubdocs.github.io/en/extra/glossary/#google-colab)</u>.     
+‎    
+- So after around 2:30 hours of training, download the model of the lowest point, just in case you're already overtraining. As once the session ends, its files will be gone.      
+‎    
+- Once your GPU runtime resets, begin the <u>[retraining](http://aihubdocs.github.io/en/rvc/cloud/applio-colab/#5-retraining)</U> procedure.  
 
 ===
 
@@ -362,7 +366,7 @@ iii. And that's all, have fun with your model. To test it, do a normal <u>[infer
  ‎     
 - You can change the **save frequency**, or increase the **Total Epoch** amount in case you didn't input enough before.      
  ‎     
-- Begin training again & remember to monitor TB & logs like before.
+- Begin training again & remember to monitor <u>[TB</u>](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard) as before.  
 ===
 
 ###### ‎  
@@ -515,7 +519,8 @@ If the frequencies don't reach the top of the spectrogram, see at which number p
 ===
 
 ==- *Cannot connect to GPU backend.*
-- You have exhausted the daily GPU usage time. Learn more & how to bypass it <u>[here](http://aihubdocs.github.io/en/extra/glossary/#google-colab)</u>.
+###### ‎   
+- You have exhausted the <u>[GPU runtime](http://aihubdocs.github.io/en/extra/glossary/#google-colab)</u> of Colab.
 ===
 
 ==- *I couldn't find my answer.*
