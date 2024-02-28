@@ -4,7 +4,7 @@
 
 - Here you'll find simple & convenient guides verified by experts in RVC.
 
-<ins>Topics include</ins>: model training, inference, audio isolation, datasets, TensorBoard, & more. Either locally or through the cloud.
+- <ins>Topics include</ins>: model training, inference, audio isolation, datasets, TensorBoard, & more. Either locally or through the cloud.
 
 ## Contributions
 - We'll appreciate any **feedback**, big or small. You can directly **contact us** in <u>[AI Hub](https://discord.gg/aihub)</u>: **@eddycrack864** - **@ailen2091**
