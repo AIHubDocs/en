@@ -3,7 +3,7 @@ icon: chevron-right
 order: 5000
 ---
 
-``Last update: Feb 28, 2024``
+``Last update: Feb 22, 2024``
 
 ***
 :::content-center
@@ -46,7 +46,7 @@ order: 5000
 ## Download
 :::
 ###### ‎
-1. Easiest way to download it is by going to their Hugging Face repo <u>[here](https://huggingface.co/IAHispano/Applio/resolve/main/Compiled/ApplioV3.0.8.zip)</u>, and click [ :icon-download: **download** ] on the right.
+1. Easiest way to download it is by going to their Hugging Face repo <u>[here](https://huggingface.co/IAHispano/Applio/blob/main/Compiled/ApplioV3.0.7.zip)</u>, and click [ :icon-download: **download** ] on the right.
 
     <img src="..\applio-img\2-localappliodl.png" alt="image" width="400">
 
