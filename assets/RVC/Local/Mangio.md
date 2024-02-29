@@ -326,7 +326,7 @@ c. Now go to the ``weights`` folder. Here you'll find the model's checkpoints.
 ***
 ###### ‎   
 :::content-center
-### <u>Retraining</u> :icon-sync:
+### <u>Resuming</u> :icon-sync:
 :::
 ###### ‎       
 If the training finished but the model still needed training, you don't have to start from scratch.       

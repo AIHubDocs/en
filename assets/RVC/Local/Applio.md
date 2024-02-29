@@ -314,7 +314,7 @@ iii. And that's all, have fun with your model. To test it, do a normal <u>[infer
 
 ===
 
-==- 5. RETRAINING
+==- 5. RESUMING
 - In case the training finished but the model still needed training, you don't have to start from scratch.        
 ‎     
 - Simply enter the **same settings & criteria** that you've previously inserted. You don't have to do the preprocess or train the .INDEX again.      

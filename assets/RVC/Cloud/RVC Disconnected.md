@@ -162,7 +162,7 @@ But if your dataset is small (around 2 minutes or less), use ``4``.
 ‎    
 - So after around 2:30 hours of training, download the model of the lowest point, just in case you're already overtraining. As once the session ends, its files will be gone.      
 ‎    
-- Once your GPU runtime resets, begin the <u>[retraining](http://aihubdocs.github.io/en/rvc/cloud/rvc-disconnected/#retraining-)</U> procedure.
+- Once your GPU runtime resets, begin the <u>[retraining](http://aihubdocs.github.io/en/rvc/cloud/rvc-disconnected/#resuming-)</U> procedure.
 ***
 ###### ‎ 
 #### 6. Download model. 
@@ -186,7 +186,7 @@ d. And that's all. To test it, do a normal <u>[inference](https://aihubdocs.gith
 :::content-center
 ###### ‎  
 ###### ‎  
-## Retraining :icon-sync:
+## Resuming :icon-sync:
 :::
 ###### ‎    
 - If the training stops but the model still needed training, you don't have to start from scratch.   

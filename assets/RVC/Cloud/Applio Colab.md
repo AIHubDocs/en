@@ -310,7 +310,7 @@ It'll finish when it says `extracted successfully`.
 ‎    
 - So after around 2:30 hours of training, download the model of the lowest point, just in case you're already overtraining. As once the session ends, its files will be gone.      
 ‎    
-- Once your GPU runtime resets, begin the <u>[retraining](http://aihubdocs.github.io/en/rvc/cloud/applio-colab/#5-retraining)</U> procedure.  
+- Once your GPU runtime resets, begin the <u>[retraining](http://aihubdocs.github.io/en/rvc/cloud/applio-colab/#5-resuming)</U> procedure.  
 
 ===
 
@@ -358,7 +358,7 @@ iii. And that's all, have fun with your model. To test it, do a normal <u>[infer
 
 ===
 
-==- 5. RETRAINING
+==- 5. RESUMING
 ###### ‎  
 - In case the training finished but the model still needed training, you don't have to start from scratch.        
 ‎     
