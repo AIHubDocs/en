@@ -4,10 +4,6 @@ icon: chevron-right
 order: 1000
 ---
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 0e56ea9fa40e7da3d4871bed7b9169099360ddea
 ``Last update: Feb 29, 2024``
 ***
 ###### ‎ 
