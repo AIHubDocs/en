@@ -1,7 +1,7 @@
 ---
 icon: chevron-right
 order: 2000
-visibility: private
+visibility:
 ---
 
 ``Last update: Mar 1, 2024``
@@ -10,40 +10,41 @@ visibility: private
 
 ## Introduction :icon-book:
 ***
-- RVC (Retrieval-Based Voice Conversion) is an advanced AI voice cloning software, considered the best one to date. Developed by the <u>[RVC-Project team](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)</u>.
+- RVC (*Retrieval-Based Voice Conversion*) is an advanced AI **voice cloning** software, developed by the <u>[RVC-Project team](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)</u>. It's considered the best **free & open-source** one to date.
 
-- It was designed for desktop, requiring great specs to run it effectively, specially GPU for training models (specifically NVIDIA).
+- It was designed for desktop, requiring great **specs** to run it effectively, specially **GPU** for training models (specifically **NVIDIA**).
 
-- Though it can be executed through the <u>[cloud](https://aihubdocs.github.io/en/extra/glossary/#cloud-based)</u> & be used in any device, in case you don't meet the previous requirement.        
+- Though it can be executed through the <u>[cloud](https://aihubdocs.github.io/en/extra/glossary/#cloud-based)</u> & be used in **any** device, in case you don't meet the previous requirement.        
 ‎       
 ***
 ## Forks :icon-repo-forked:
 ***
-- A fork is a copy of a main GitHub project. It aims to make a different version of the project, with improvements, new features & modifications.
+- A fork is a **copy** of a main GitHub project. It aims to make a different **version** of the project, with improvements, new features & modifications.
 
-- RVC has quite a few forks made by the community, each one meeting different needs for the user, and with its pros & cons.     
+- RVC has quite a few forks made by the community, each one meeting different **needs** for the user, and with its pros & cons.     
 
 - These are the main ones, along with their <u>[cloud-based](https://aihubdocs.github.io/en/extra/glossary/#cloud-based)</u> counterparts:       
 
-{.list-icon}
-- #### :icon-chevron-right: <u>[Mainline](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)</u> (Original RVC)
-###### ‎    
-{.list-icon}
-- #### :icon-repo-forked: <u>[Applio](https://applio.org/)</u>
-    - ##### :icon-cloud: <u>[Applio Colab](https://colab.research.google.com/github/iahispano/applio/blob/master/assets/Applio.ipynb)</u>
-###### ‎   
-{.list-icon}
-- #### :icon-repo-forked: <u>[Mangio](https://github.com/Mangio621/Mangio-RVC-Fork)</u>
-    - ##### :icon-cloud: <u>[RVC Disconnected](https://colab.research.google.com/drive/1XIPCP9ken63S7M6b5ui1b36Cs17sP-NS#scrollTo=ZodNcumpg-JM)</u>
-    - ##### :icon-cloud: <u>[Ilaria RVC](https://colab.research.google.com/drive/16LkwvFZeudTpUOsE_6bMjOq2qkxFo8Hr?usp=sharing)</u>
-###### ‎  
-{.list-icon} 
-- #### :icon-repo-forked: <u>[AICoverGen](https://github.com/SociallyIneptWeeb/AICoverGen)</u>     
-    - ##### :icon-cloud: <u>[AICoverGen NO UI](https://colab.research.google.com/drive/1u1brjK8IZt647UsbZuGYfW29oFM2I4tk?usp%3Dsharing&sa=D&source=editors&ust=1704303145687891&usg=AOvVaw3M9tmokG80RXF-GD1LJqCL)</u>
-    - ##### :icon-cloud: <u>[AICoverGen UI](https://colab.research.google.com/github/hinabl/AICoverGen-Colab/blob/main/Hina_Mod_AICoverGen_colab.ipynb)</u>     
-‎       
+    {.list-icon}
+    - #### :icon-chevron-right: <u>[Mainline](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)</u> (Original RVC)
+    ###### ‎    
+    {.list-icon}
+    - #### :icon-repo-forked: <u>[Applio](https://applio.org/)</u>
+        - ##### :icon-cloud: <u>[Applio Colab](https://colab.research.google.com/github/iahispano/applio/blob/master/assets/Applio.ipynb)</u>
+    ###### ‎   
+    {.list-icon}
+    - #### :icon-repo-forked: <u>[Mangio](https://github.com/Mangio621/Mangio-RVC-Fork)</u>
+        - ##### :icon-cloud: <u>[RVC Disconnected](https://colab.research.google.com/drive/1XIPCP9ken63S7M6b5ui1b36Cs17sP-NS#scrollTo=ZodNcumpg-JM)</u>
+        - ##### :icon-cloud: <u>[Ilaria RVC](https://colab.research.google.com/drive/16LkwvFZeudTpUOsE_6bMjOq2qkxFo8Hr?usp=sharing)</u>
+    ###### ‎  
+    {.list-icon} 
+    - #### :icon-repo-forked: <u>[AICoverGen](https://github.com/SociallyIneptWeeb/AICoverGen)</u>     
+        - ##### :icon-cloud: <u>[AICoverGen NO UI](https://colab.research.google.com/drive/1u1brjK8IZt647UsbZuGYfW29oFM2I4tk?usp%3Dsharing&sa=D&source=editors&ust=1704303145687891&usg=AOvVaw3M9tmokG80RXF-GD1LJqCL)</u>
+        - ##### :icon-cloud: <u>[AICoverGen UI](https://colab.research.google.com/github/hinabl/AICoverGen-Colab/blob/main/Hina_Mod_AICoverGen_colab.ipynb)</u>     
+    ‎       
 ***
 ## FAQ :icon-question:
+#### `Frequently asked questions.`
 ***
 
 ==- *What's the best fork?*
@@ -73,7 +74,8 @@ Storage | 6 GB
 
 +++
 
-!!!
+!!! NOTES:
+- For inference, the storage requirement varies depending on the fork. It can be around 5 to 9 GB
 - If you don't meet these requirements, it's more convenient to use RVC on the cloud.
 - Regarding GPUs, RVC is only compatible with NVIDIA. Learn below why.
 !!!

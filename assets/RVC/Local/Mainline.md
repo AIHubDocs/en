@@ -13,7 +13,7 @@ order: 4000
 
 - Mainline RVC is the base, original, & unmodified version of RVC. Made by the <u>[RVC-Project</u>](https://github.com/RVC-Project) team.
 
-- It has less features compared to other <u>[forks</u>](https://aihubdocs.github.io/en/extra/glossary/#fork), but still has the necessary tools to do a decent job.
+- It has less features compared to other <u>[forks</u>](https://aihubdocs.github.io/en/essentials/whats-rvc/#forks), but still has the necessary tools to do a decent job.
 
 - It's specially liked because it's a little faster than other forks, as it's less bloated in a way. 
 
@@ -27,7 +27,7 @@ order: 4000
 ||| ✔️ **PROS** 
 - Easy to install.                   
 - Simpler to use.     
-- A bit faster compared w/ other <u>[forks](https://aihubdocs.github.io/en/extra/glossary/#fork)</u>. 
+- A bit faster compared w/ other forks. 
 ||| ❌ **CONS** 
 - Has less features.     
 - Doesn't include <u>[Mangio-Crepe</u>](https://aihubdocs.github.io/en/rvc-resources/inference-settings/#pitch-extraction-algorithm).      
@@ -350,13 +350,6 @@ If the training finished but the model still needed training, you don't have to 
 ###### ‎   
 - This a phenomenon called artifacting. To fix it, read <u>[here](https://aihubdocs.github.io/en/rvc-resources/artifacting/)</u>.
 
-===
-
-==- *RVC is slow in my machine with AMD/Intel GPU.*  
-###### ‎   
-- This is because AI apps aren't compatible with these <u>[GPUs](https://aihubdocs.github.io/en/extra/glossary/#gpu)</u>, only with NVIDIA.
-- Because of this, it's more prone to errors & you'll have to work with your CPU instead, which slows the process.
-- For <u>[inference](https://aihubdocs.github.io/en/extra/glossary/#inference)</u>, it's best to use <u>[Ilaria RVC](https://aihubdocs.github.io/en/rvc/cloud/ilaria-rvc/)</u>. And for training models, <u>[RVC Disconnected](https://aihubdocs.github.io/en/rvc/cloud/rvc-disconnected/)</u> or <u>[Paperspace](https://aihubdocs.github.io/en/rvc/cloud/paperspace/)</u>.
 ===
 
 ==- *I don't see the Stop Training button.*

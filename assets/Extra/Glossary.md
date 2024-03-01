@@ -32,7 +32,6 @@ order: 3000
 ###### ‎       
 ### :icon-chevron-down:DAW
 - It stands for **Digital Audio Workstation**, and it's any software used for making and mixing music.    
-
 - For **basic** audio editing, we recommend <u>[Audacity</u>](https://www.audacityteam.org/).     
 - For **professional** mixing, <u>[FL Studio</u>](https://www.image-line.com/fl-studio-download/).        
 ***

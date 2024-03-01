@@ -15,7 +15,7 @@ order: 5000
 :::content-center
 ## Introduction ‎
 :::
-- Applio is a <u>[fork](https://aihubdocs.github.io/en/extra/glossary/#fork)</u> of <u>[Mangio](https://aihubdocs.github.io/en/rvc/local/mangio/)</u> developed by the <u>[IA Hispano</u>](https://github.com/IAHispano)</u> team.
+- Applio is a <u>[fork](https://aihubdocs.github.io/en/essentials/whats-rvc/#forks)</u> of <u>[Mangio](https://aihubdocs.github.io/en/rvc/local/mangio/)</u> developed by the <u>[IA Hispano</u>](https://github.com/IAHispano)</u> team.
 
 - It's liked for its great **UI** & **lots** of extra features, such as TTS (with RVC models too), plugins, automatic model upload, customizable theme & more.
 
@@ -45,7 +45,7 @@ order: 5000
 ###### ‎
 ###### ‎
 :::content-center
-## Setting Up
+## Setting Up :icon-download:
 :::
 ###### ‎
 1. Access the Colab space [here](https://colab.research.google.com/github/iahispano/applio/blob/master/assets/Applio.ipynb).

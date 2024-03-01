@@ -2,7 +2,7 @@
 icon: home-fill
 ---
 # :icon-home-fill: Home
-``Last update: Feb 29, 2024``         
+``Last update: Mar 1, 2024``         
 ***
 :::content-center
 <img src=".\img\a.png" alt="image" width="345" height="auto">
@@ -19,16 +19,16 @@ icon: home-fill
 !!!success ‎  
 :::content-center
 ## <u>Essentials</u>
-#### - Most searched guides -      
+#### - Starting point for newbies -      
 :::
 ###### ‎
 #### :icon-chevron-right: 🎵 <u>[How to Make AI Cover](https://aihubdocs.github.io/en/essentials/how-to-make-ai-cover/)</u>
 ***
-#### :icon-chevron-right: :icon-rocket: <u>[How to Make Voice Models](http://aihubdocs.github.io/en/essentials/how-to-make-voice-models/)</u>
+#### :icon-chevron-right: :icon-rocket: ‎ <u>[How to Make Voice Models](http://aihubdocs.github.io/en/essentials/how-to-make-voice-models/)</u>
 ***
 #### :icon-chevron-right: 💾 <u>[Voice Models](https://aihubdocs.github.io/en/essentials/voice-models/)</u>
 ***
-#### :icon-chevron-right: 🤗 [<u>Uploading Models to Hugging Face](https://aihubdocs.github.io/en/essentials/uploading-models-to-hugging-face/)</u>
+#### :icon-chevron-right: :icon-info: ‎ [<u>What's RVC](https://aihubdocs.github.io/en/essentials/whats-rvc/)</u>
 ***
 #### :icon-chevron-right: 🍏 [<u>Applio Guide](http://aihubdocs.github.io/en/rvc/local/applio/)</u> - New!
 
@@ -52,7 +52,6 @@ icon: home-fill
 ###### ‎     
 ## To-Do :icon-checklist:
 
-- About RVC
 - EasyGUI
 - Advanced training
 - Advanced dataset cleaning

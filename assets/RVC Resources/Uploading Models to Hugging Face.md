@@ -1,7 +1,7 @@
 ---
 icon: chevron-right
 
-order: 2000
+order: 1000
 ---
 
 # :icon-upload: Uploading Models to Hugging Face

@@ -11,7 +11,7 @@ order: 3000
 ## Introduction :icon-book:
 :::
 
-- AICoverGen UI is a port of the AICoverGen <u>[fork</u>](https://aihubdocs.github.io/en/extra/glossary/#fork) to <u>[Google Colab</u>](https://aihubdocs.github.io/en/extra/glossary/#google-colab). Port by <u>[Hina](https://huggingface.co/HinaBl)</u>, original repo by <u>[SociallyIneptWeeb</u>](https://github.com/SociallyIneptWeeb/AICoverGen).    
+- AICoverGen UI is a port of the AICoverGen <u>[fork</u>](https://aihubdocs.github.io/en/essentials/whats-rvc/#forks) to <u>[Google Colab</u>](https://aihubdocs.github.io/en/extra/glossary/#google-colab). Port by <u>[Hina](https://huggingface.co/HinaBl)</u>, original repo by <u>[SociallyIneptWeeb</u>](https://github.com/SociallyIneptWeeb/AICoverGen).    
 
 - It's ideal for users who want '*quick & dirty*' AI covers, as the whole process of inputting audio, vocal isolation & song mixing is automated. 
 

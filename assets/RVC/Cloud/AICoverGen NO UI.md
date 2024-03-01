@@ -10,7 +10,7 @@ order: 4000
 :::content-center
 ## Introduction :icon-book:
 :::
-- AICoverGen NO UI is a port of the AICoverGen RVC <u>[fork</u>](https://aihubdocs.github.io/en/extra/glossary/#fork) to <u>[Google Colab</u>](https://aihubdocs.github.io/en/extra/glossary/#google-colab). Base notebook by <u>[Ardha27</u>](https://github.com/ardha27).    
+- AICoverGen NO UI is a port of the AICoverGen RVC <u>[fork</u>](https://aihubdocs.github.io/en/essentials/whats-rvc/#forks) to <u>[Google Colab</u>](https://aihubdocs.github.io/en/extra/glossary/#google-colab). Base notebook by <u>[Ardha27</u>](https://github.com/ardha27).    
 
 - This version (**Eddy's Version**) is an upgrade from the original Colab space, bringing bug fixes, improvements, & extra features. Credits to Eddy & Raid.
 

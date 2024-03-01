@@ -10,9 +10,9 @@ order: 2000
 :::content-center
 ## Introduction ‎ :icon-book:
 :::   
-- Mangio RVC is a <u>[fork</u>](https://aihubdocs.github.io/en/extra/glossary/#fork) of RVC, [Mangio621](https://github.com/Mangio621), [Kalomaze](https://github.com/kalomaze), & [Alexolotl](https://github.com/alexlnkp)
+- Mangio RVC is a <u>[fork</u>](https://aihubdocs.github.io/en/essentials/whats-rvc/#forks) of RVC, [Mangio621](https://github.com/Mangio621), [Kalomaze](https://github.com/kalomaze), & [Alexolotl](https://github.com/alexlnkp)
 
-- Considered one of the best [forks](https://aihubdocs.github.io/en/extra/glossary/#fork) out there. Mainly because of it's extra features, inclusion of <u>[Mangio-Crepe](https://aihubdocs.github.io/en/rvc-resources/inference-settings/#pitch-extraction-algorithm)</u>, & its stability.
+- Considered one of the best forks out there. Mainly because of it's extra features, inclusion of <u>[Mangio-Crepe](https://aihubdocs.github.io/en/rvc-resources/inference-settings/#pitch-extraction-algorithm)</u>, & its stability.
 
 - The project nowadays is a little abandoned, so don't expect many updates from the developers soon, unfortunately.     
 
@@ -359,15 +359,6 @@ If the training finished but the model still needed training, you don't have to 
 ###### ‎   
 - This a phenomenon called artifacting. To fix it, read <u>[here](https://aihubdocs.github.io/en/rvc-resources/artifacting/)</u>.
 
-===
-
-==- *RVC is slow in my machine with AMD/Intel GPU.*  
-###### ‎   
-- This is because AI apps aren't compatible with these <u>[GPUs](https://aihubdocs.github.io/en/extra/glossary/#gpu)</u>, only with NVIDIA.
-- Because of this, it's more prone to errors & you'll have to work with your CPU instead, which slows the 
-process.
-- For <u>[inference](https://aihubdocs.github.io/en/extra/glossary/#inference)</u>, it's best to use <u>[Ilaria RVC](https://aihubdocs.github.io/en/rvc/cloud/ilaria-rvc/)</u>. And for training models, <u>[RVC Disconnected](https://aihubdocs.github.io/en/rvc/cloud/rvc-disconnected/)</u> or a
-[Paperspace](https://aihubdocs.github.io/en/rvc/cloud/paperspace/)</u>.
 ===
 
 ==- *I couldn't find my answer.*

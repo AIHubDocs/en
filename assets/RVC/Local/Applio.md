@@ -3,7 +3,7 @@ icon: chevron-right
 order: 5000
 ---
 
-``Last update: Feb 22, 2024``
+``Last update: Mar 1, 2024``
 
 ***
 :::content-center
@@ -15,13 +15,13 @@ order: 5000
 :::content-center
 ## Introduction ‎
 :::
-- Applio is a <u>[fork](https://aihubdocs.github.io/en/extra/glossary/#fork)</u> of <u>[Mangio](https://aihubdocs.github.io/en/rvc/local/mangio/)</u> developed by the <u>[IA Hispano</u>](https://github.com/IAHispano)</u> team.
+- Applio is a <u>[fork](https://aihubdocs.github.io/en/essentials/whats-rvc/#forks)</u> of <u>[Mangio](https://aihubdocs.github.io/en/rvc/local/mangio/)</u> developed by the <u>[IA Hispano</u>](https://github.com/IAHispano)</u> team.
 
 - It's liked for its great **UI** & **lots** of extra features, such as TTS (with RVC models too), plugins, automatic model upload, customizable theme & more.
 
 - Because of its user-friendly experience & active development, it's considered to be one of the best forks.     
 
-- It also has a <u>[cloud version](https://colab.research.google.com/github/iahispano/applio/blob/master/assets/Applio.ipynb)</u>, in case you don't meet the requirements to run it locally.     
+- It also has a <u>[cloud version](https://colab.research.google.com/github/iahispano/applio/blob/master/assets/Applio.ipynb)</u>, in case you don't meet the <u>[requirements](https://aihubdocs.github.io/en/essentials/whats-rvc/#what-are-the-requirements-for-rvc-locally/)</u> to run it locally.     
 ‎      
 #### Pros & Cons :icon-tasklist:
 ==- *Learn more*
@@ -43,7 +43,7 @@ order: 5000
 ***
 ###### ‎
 :::content-center
-## Download
+## Download :icon-download:
 :::
 ###### ‎
 1. Easiest way to download it is by going to their Hugging Face repo <u>[here](https://huggingface.co/IAHispano/Applio/blob/main/Compiled/ApplioV3.0.7.zip)</u>, and click [ :icon-download: **download** ] on the right.
@@ -473,14 +473,6 @@ Then you'll be able to see the plugin in the **Plugins** tab.
 ###### ‎   
 - This a phenomenon called artifacting. To fix it, read <u>[here](https://aihubdocs.github.io/en/rvc-resources/artifacting/)</u>.
 
-===
-
-==- *RVC is slow in my machine with AMD/Intel GPU.*  
-###### ‎   
-- This is because AI apps aren't compatible with these <u>[GPUs](https://aihubdocs.github.io/en/extra/glossary/#gpu)</u>, only with NVIDIA.
-- Because of this, it's more prone to errors & you'll have to work with your CPU instead, which slows the 
-process.
-- Therefore it's best to use Applio's <u>[cloud version](https://colab.research.google.com/github/iahispano/applio/blob/master/assets/Applio.ipynb)</u>.
 ===
 
 ==- *I couldn't find my answer.*

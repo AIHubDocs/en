@@ -74,7 +74,7 @@ order: 4000
     - Usually sounds a little harsh   
     - Should be your **go-to** algorithm, due to its convenience       
     ***
-    Some <u>[forks](https://aihubdocs.github.io/en/extra/glossary/#fork)</u> include **RMVPE_GPU** & **RMVPE+**. Same algorithm, but with a modification:         
+    Some <u>[forks](https://aihubdocs.github.io/en/essentials/whats-rvc/#forks)</u> include **RMVPE_GPU** & **RMVPE+**. Same algorithm, but with a modification:         
 
     <u>**RMVPE GPU**</u>:
     :   Training only. Uses more GPU power, making you train faster.
