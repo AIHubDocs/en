@@ -6,39 +6,39 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.762621994637">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.762625553764">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
 
     <!-- Primary Meta Tags -->
-    <title> Uploading Models to Hugging Face</title>
-    <meta name="title" content=" Uploading Models to Hugging Face">
-    <meta name="description" content="Last update: Feb 10, 2024">
+    <title>What&#39;s RVC</title>
+    <meta name="title" content="What's RVC">
+    <meta name="description" content="Last update: Mar 1, 2024">
 
     <!-- Canonical -->
-    <link rel="canonical" href="/essentials/uploading-models-to-hugging-face/">
+    <link rel="canonical" href="/essentials/whats-rvc/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/essentials/uploading-models-to-hugging-face/">
-    <meta property="og:title" content=" Uploading Models to Hugging Face">
-    <meta property="og:description" content="Last update: Feb 10, 2024">
+    <meta property="og:url" content="/essentials/whats-rvc/">
+    <meta property="og:title" content="What's RVC">
+    <meta property="og:description" content="Last update: Mar 1, 2024">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="/essentials/uploading-models-to-hugging-face/">
-    <meta property="twitter:title" content=" Uploading Models to Hugging Face">
-    <meta property="twitter:description" content="Last update: Feb 10, 2024">
+    <meta property="twitter:url" content="/essentials/whats-rvc/">
+    <meta property="twitter:title" content="What's RVC">
+    <meta property="twitter:description" content="Last update: Mar 1, 2024">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../img/b.png" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.762621994637" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.762625553764" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.762621994637" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.762625553764" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.762621994637" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.762625553764" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -224,133 +224,332 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="uploading-models-to-hugging-face" class="break-words">
+<doc-anchor-target id="whats-rvc" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#uploading-models-to-hugging-face">#</doc-anchor-trigger>
-        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M4 20.25V18a.75.75 0 0 1 1.5 0v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25Z"/><path d="M5.22 9.53a.749.749 0 0 1 0-1.06l6.25-6.25a.749.749 0 0 1 1.06 0l6.25 6.25a.749.749 0 1 1-1.06 1.06l-4.97-4.969V16.75a.75.75 0 0 1-1.5 0V4.561L6.28 9.53a.749.749 0 0 1-1.06 0Z"/></g></g></svg> Uploading Models to Hugging Face</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#whats-rvc">#</doc-anchor-trigger>
+        <span>What&#x27;s RVC</span>
     </h1>
 </doc-anchor-target>
-<p><code v-pre>Last update: Feb 10, 2024</code></p>
+<p><code v-pre>Last update: Mar 1, 2024</code></p>
 <hr>
+<doc-anchor-target id="introduction">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#introduction">#</doc-anchor-trigger>
+        <span>Introduction <svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M0 3.75A.75.75 0 0 1 .75 3h7.497c1.566 0 2.945.8 3.751 2.014A4.495 4.495 0 0 1 15.75 3h7.5a.75.75 0 0 1 .75.75v15.063a.752.752 0 0 1-.755.75l-7.682-.052a3 3 0 0 0-2.142.878l-.89.891a.75.75 0 0 1-1.061 0l-.902-.901a2.996 2.996 0 0 0-2.121-.879H.75a.75.75 0 0 1-.75-.75Zm12.75 15.232a4.503 4.503 0 0 1 2.823-.971l6.927.047V4.5h-6.75a3 3 0 0 0-3 3ZM11.247 7.497a3 3 0 0 0-3-2.997H1.5V18h6.947c1.018 0 2.006.346 2.803.98Z"/></g></g></svg></span>
+    </h2>
+</doc-anchor-target>
+<hr>
+<ul>
+<li><p>RVC (<em>Retrieval-Based Voice Conversion</em>) is an advanced AI <strong>voice cloning</strong> software, developed by the <u><a href="https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI">RVC-Project team</a></u>. It&#x27;s considered the best <strong>free &amp; open-source</strong> one to date.</p>
+</li>
+<li><p>It was designed for desktop, requiring great <strong>specs</strong> to run it effectively, specially <strong>GPU</strong> for training models (specifically <strong>NVIDIA</strong>).</p>
+</li>
+<li><p>Though it can be executed through the <u><a href="https://aihubdocs.github.io/en/extra/glossary/#cloud-based">cloud</a></u> &amp; be used in <strong>any</strong> device, in case you don&#x27;t meet the previous requirement.<br />
+‎</p>
+</li>
+</ul>
+<hr>
+<doc-anchor-target id="forks">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#forks">#</doc-anchor-trigger>
+        <span>Forks <svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M8.75 19.25a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM15 4.75a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm-12.5 0a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM5.75 6.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 6.5ZM12 21a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 12 21Zm6.25-14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 18.25 6.5Z"/><path d="M6.5 7.75v1A2.25 2.25 0 0 0 8.75 11h6.5a2.25 2.25 0 0 0 2.25-2.25v-1H19v1a3.75 3.75 0 0 1-3.75 3.75h-6.5A3.75 3.75 0 0 1 5 8.75v-1Z"/><path d="M11.25 16.25v-5h1.5v5h-1.5Z"/></g></g></svg></span>
+    </h2>
+</doc-anchor-target>
+<hr>
+<ul>
+<li><p>A fork is a <strong>copy</strong> of a main GitHub project. It aims to make a different <strong>version</strong> of the project, with improvements, new features &amp; modifications.</p>
+</li>
+<li><p>RVC has quite a few forks made by the community, each one meeting different <strong>needs</strong> for the user, and with its pros &amp; cons.</p>
+</li>
+<li><p>These are the main ones, along with their <u><a href="https://aihubdocs.github.io/en/extra/glossary/#cloud-based">cloud-based</a></u> counterparts:</p>
+<ul class="list-icon">
+<li><doc-anchor-target id="-mainline-original-rvc">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-mainline-original-rvc">#</doc-anchor-trigger>
+        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/></g></g></svg> <u><a href="https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI">Mainline</a></u> (Original RVC)</span>
+    </h4>
+</doc-anchor-target>
+</li>
+</ul>
 <doc-anchor-target id="section">
     <h6>
         <doc-anchor-trigger class="header-anchor-trigger" to="#section">#</doc-anchor-trigger>
         <span>‎</span>
     </h6>
 </doc-anchor-target>
-<doc-anchor-target id="1-zip-the-model">
+<ul class="list-icon">
+<li><doc-anchor-target id="-applio">
     <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#1-zip-the-model">#</doc-anchor-trigger>
-        <span>1. <u>Zip the model.</u></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-applio">#</doc-anchor-trigger>
+        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M8.75 19.25a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM15 4.75a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm-12.5 0a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM5.75 6.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 6.5ZM12 21a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 12 21Zm6.25-14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 18.25 6.5Z"/><path d="M6.5 7.75v1A2.25 2.25 0 0 0 8.75 11h6.5a2.25 2.25 0 0 0 2.25-2.25v-1H19v1a3.75 3.75 0 0 1-3.75 3.75h-6.5A3.75 3.75 0 0 1 5 8.75v-1Z"/><path d="M11.25 16.25v-5h1.5v5h-1.5Z"/></g></g></svg> <u><a href="https://applio.org/">Applio</a></u></span>
     </h4>
 </doc-anchor-target>
 <ul>
-<li><p>Select your model&#x27;s correct <code v-pre>.PTH</code> &amp; <code v-pre>.INDEX</code>, and <u><a href="https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5">zip</u></a> them into a <strong>.ZIP</strong> file.<br />
-Ensure it&#x27;s .ZIP, and not .RAR or .7ZIP.</p>
-</li>
-<li><p>If you aren&#x27;t sure about right ones, learn <u><a href="https://aihubdocs.github.io/en/essentials/voice-models/#voice-model-files">here</a></u>.</p>
+<li><doc-anchor-target id="-applio-colab">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-applio-colab">#</doc-anchor-trigger>
+        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M3.103 10.107c0-4.244 3.445-7.607 7.733-7.607 3.19 0 5.912 1.858 7.099 4.563l.01.022.001.006C21.348 7.345 24 10.095 24 13.536 24 17.148 21.076 20 17.431 20H5.017C2.23 20 0 17.83 0 15.06a4.899 4.899 0 0 1 3.112-4.581 7.696 7.696 0 0 1-.009-.372ZM10.836 4c-3.485 0-6.233 2.717-6.233 6.107 0 .284.022.602.052.756a.75.75 0 0 1-.552.869c-1.52.385-2.603 1.712-2.603 3.328 0 1.917 1.532 3.44 3.517 3.44h12.414c2.843 0 5.069-2.206 5.069-4.964 0-2.759-2.226-4.965-5.069-4.965a.75.75 0 0 1-.696-.47l-.179-.446C15.606 5.5 13.424 4 10.836 4Z"/></g></g></svg> <u><a href="https://colab.research.google.com/github/iahispano/applio/blob/master/assets/Applio.ipynb">Applio Colab</a></u></span>
+    </h5>
+</doc-anchor-target>
 </li>
 </ul>
-<hr>
+</li>
+</ul>
 <doc-anchor-target id="section-1">
     <h6>
         <doc-anchor-trigger class="header-anchor-trigger" to="#section-1">#</doc-anchor-trigger>
         <span>‎</span>
     </h6>
 </doc-anchor-target>
-<doc-anchor-target id="2-log-in">
+<ul class="list-icon">
+<li><doc-anchor-target id="-mangio">
     <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#2-log-in">#</doc-anchor-trigger>
-        <span>2. <u>Log in.</u></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-mangio">#</doc-anchor-trigger>
+        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M8.75 19.25a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM15 4.75a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm-12.5 0a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM5.75 6.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 6.5ZM12 21a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 12 21Zm6.25-14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 18.25 6.5Z"/><path d="M6.5 7.75v1A2.25 2.25 0 0 0 8.75 11h6.5a2.25 2.25 0 0 0 2.25-2.25v-1H19v1a3.75 3.75 0 0 1-3.75 3.75h-6.5A3.75 3.75 0 0 1 5 8.75v-1Z"/><path d="M11.25 16.25v-5h1.5v5h-1.5Z"/></g></g></svg> <u><a href="https://github.com/Mangio621/Mangio-RVC-Fork">Mangio</a></u></span>
     </h4>
 </doc-anchor-target>
 <ul>
-<li>If you haven&#x27;t already, create one <u><a href="https://huggingface.co/join">here</u></a> and log in.</li>
+<li><doc-anchor-target id="-rvc-disconnected">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-rvc-disconnected">#</doc-anchor-trigger>
+        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M3.103 10.107c0-4.244 3.445-7.607 7.733-7.607 3.19 0 5.912 1.858 7.099 4.563l.01.022.001.006C21.348 7.345 24 10.095 24 13.536 24 17.148 21.076 20 17.431 20H5.017C2.23 20 0 17.83 0 15.06a4.899 4.899 0 0 1 3.112-4.581 7.696 7.696 0 0 1-.009-.372ZM10.836 4c-3.485 0-6.233 2.717-6.233 6.107 0 .284.022.602.052.756a.75.75 0 0 1-.552.869c-1.52.385-2.603 1.712-2.603 3.328 0 1.917 1.532 3.44 3.517 3.44h12.414c2.843 0 5.069-2.206 5.069-4.964 0-2.759-2.226-4.965-5.069-4.965a.75.75 0 0 1-.696-.47l-.179-.446C15.606 5.5 13.424 4 10.836 4Z"/></g></g></svg> <u><a href="https://colab.research.google.com/drive/1XIPCP9ken63S7M6b5ui1b36Cs17sP-NS#scrollTo=ZodNcumpg-JM">RVC Disconnected</a></u></span>
+    </h5>
+</doc-anchor-target>
+</li>
+<li><doc-anchor-target id="-ilaria-rvc">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-ilaria-rvc">#</doc-anchor-trigger>
+        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M3.103 10.107c0-4.244 3.445-7.607 7.733-7.607 3.19 0 5.912 1.858 7.099 4.563l.01.022.001.006C21.348 7.345 24 10.095 24 13.536 24 17.148 21.076 20 17.431 20H5.017C2.23 20 0 17.83 0 15.06a4.899 4.899 0 0 1 3.112-4.581 7.696 7.696 0 0 1-.009-.372ZM10.836 4c-3.485 0-6.233 2.717-6.233 6.107 0 .284.022.602.052.756a.75.75 0 0 1-.552.869c-1.52.385-2.603 1.712-2.603 3.328 0 1.917 1.532 3.44 3.517 3.44h12.414c2.843 0 5.069-2.206 5.069-4.964 0-2.759-2.226-4.965-5.069-4.965a.75.75 0 0 1-.696-.47l-.179-.446C15.606 5.5 13.424 4 10.836 4Z"/></g></g></svg> <u><a href="https://colab.research.google.com/drive/16LkwvFZeudTpUOsE_6bMjOq2qkxFo8Hr?usp=sharing">Ilaria RVC</a></u></span>
+    </h5>
+</doc-anchor-target>
+</li>
 </ul>
-<hr>
+</li>
+</ul>
 <doc-anchor-target id="section-2">
     <h6>
         <doc-anchor-trigger class="header-anchor-trigger" to="#section-2">#</doc-anchor-trigger>
         <span>‎</span>
     </h6>
 </doc-anchor-target>
-<doc-anchor-target id="3-make-repository">
+<ul class="list-icon">
+<li><doc-anchor-target id="-aicovergen">
     <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#3-make-repository">#</doc-anchor-trigger>
-        <span>3. <u>Make repository.</u></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-aicovergen">#</doc-anchor-trigger>
+        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M8.75 19.25a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM15 4.75a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm-12.5 0a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM5.75 6.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 6.5ZM12 21a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 12 21Zm6.25-14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 18.25 6.5Z"/><path d="M6.5 7.75v1A2.25 2.25 0 0 0 8.75 11h6.5a2.25 2.25 0 0 0 2.25-2.25v-1H19v1a3.75 3.75 0 0 1-3.75 3.75h-6.5A3.75 3.75 0 0 1 5 8.75v-1Z"/><path d="M11.25 16.25v-5h1.5v5h-1.5Z"/></g></g></svg> <u><a href="https://github.com/SociallyIneptWeeb/AICoverGen">AICoverGen</a></u></span>
     </h4>
 </doc-anchor-target>
-<ol type="a">
-<li><p>Once logged in, tap your profile on the upper right corner, &amp; then <code v-pre>New Model</code>.</p>
- <img src="../hfupload-img/1.png" alt="image" width="200" height="auto">
+<ul>
+<li><doc-anchor-target id="-aicovergen-no-ui">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-aicovergen-no-ui">#</doc-anchor-trigger>
+        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M3.103 10.107c0-4.244 3.445-7.607 7.733-7.607 3.19 0 5.912 1.858 7.099 4.563l.01.022.001.006C21.348 7.345 24 10.095 24 13.536 24 17.148 21.076 20 17.431 20H5.017C2.23 20 0 17.83 0 15.06a4.899 4.899 0 0 1 3.112-4.581 7.696 7.696 0 0 1-.009-.372ZM10.836 4c-3.485 0-6.233 2.717-6.233 6.107 0 .284.022.602.052.756a.75.75 0 0 1-.552.869c-1.52.385-2.603 1.712-2.603 3.328 0 1.917 1.532 3.44 3.517 3.44h12.414c2.843 0 5.069-2.206 5.069-4.964 0-2.759-2.226-4.965-5.069-4.965a.75.75 0 0 1-.696-.47l-.179-.446C15.606 5.5 13.424 4 10.836 4Z"/></g></g></svg> <u><a href="https://colab.research.google.com/drive/1u1brjK8IZt647UsbZuGYfW29oFM2I4tk?usp%3Dsharing&amp;sa=D&amp;source=editors&amp;ust=1704303145687891&amp;usg=AOvVaw3M9tmokG80RXF-GD1LJqCL">AICoverGen NO UI</a></u></span>
+    </h5>
+</doc-anchor-target>
+</li>
+<li><doc-anchor-target id="-aicovergen-ui">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-aicovergen-ui">#</doc-anchor-trigger>
+        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M3.103 10.107c0-4.244 3.445-7.607 7.733-7.607 3.19 0 5.912 1.858 7.099 4.563l.01.022.001.006C21.348 7.345 24 10.095 24 13.536 24 17.148 21.076 20 17.431 20H5.017C2.23 20 0 17.83 0 15.06a4.899 4.899 0 0 1 3.112-4.581 7.696 7.696 0 0 1-.009-.372ZM10.836 4c-3.485 0-6.233 2.717-6.233 6.107 0 .284.022.602.052.756a.75.75 0 0 1-.552.869c-1.52.385-2.603 1.712-2.603 3.328 0 1.917 1.532 3.44 3.517 3.44h12.414c2.843 0 5.069-2.206 5.069-4.964 0-2.759-2.226-4.965-5.069-4.965a.75.75 0 0 1-.696-.47l-.179-.446C15.606 5.5 13.424 4 10.836 4Z"/></g></g></svg> <u><a href="https://colab.research.google.com/github/hinabl/AICoverGen-Colab/blob/main/Hina_Mod_AICoverGen_colab.ipynb">AICoverGen UI</a></u></span>
+    </h5>
+</doc-anchor-target>
+</li>
+</ul>
+</li>
+</ul>
 <p>‎</p>
-<ol type="a" start="2">
-<li><p>In <code v-pre>Model name</code> you name the repo as you want.</p>
 </li>
-<li><p>Make sure <code v-pre>License</code> is set as <code v-pre>openrail</code>, and the repo is set as <code v-pre>Public</code>.</p>
-</li>
-<li><p>Once done, hit <code v-pre>Create model</code>.</p>
-</li>
-</ol>
-<p><img src="../hfupload-img/2.png" alt="image" width="480" height="auto"> ‎</p>
-</li>
-</ol>
+</ul>
 <hr>
+<doc-anchor-target id="faq">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#faq">#</doc-anchor-trigger>
+        <span>FAQ <svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M10.97 8.265a1.45 1.45 0 0 0-.487.57.75.75 0 0 1-1.341-.67c.2-.402.513-.826.997-1.148C10.627 6.69 11.244 6.5 12 6.5c.658 0 1.369.195 1.934.619a2.45 2.45 0 0 1 1.004 2.006c0 1.033-.513 1.72-1.027 2.215-.19.183-.399.358-.579.508l-.147.123a4.329 4.329 0 0 0-.435.409v1.37a.75.75 0 1 1-1.5 0v-1.473c0-.237.067-.504.247-.736.22-.28.486-.517.718-.714l.183-.153.001-.001c.172-.143.324-.27.47-.412.368-.355.569-.676.569-1.136a.953.953 0 0 0-.404-.806C12.766 8.118 12.384 8 12 8c-.494 0-.814.121-1.03.265ZM13 17a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Z"/></g></g></svg></span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="frequently-asked-questions">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#frequently-asked-questions">#</doc-anchor-trigger>
+        <span><code v-pre>Frequently asked questions.</code></span>
+    </h4>
+</doc-anchor-target>
+<hr>
+<doc-panel id="what-s-the-best-fork" collapsed>
+    <template #title><em>What&#x27;s the best fork?</em></template>
 <doc-anchor-target id="section-3">
     <h6>
         <doc-anchor-trigger class="header-anchor-trigger" to="#section-3">#</doc-anchor-trigger>
         <span>‎</span>
     </h6>
 </doc-anchor-target>
-<doc-anchor-target id="4-upload-model">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#4-upload-model">#</doc-anchor-trigger>
-        <span>4. <u>Upload model.</u></span>
-    </h4>
-</doc-anchor-target>
-<ol type="a">
-<li><p>It will redirect you to the repo. Head over to the <code v-pre>Files and versions</code> tab on the center, click <code v-pre>+ Add file</code> on the right, &amp; then <code v-pre>Upload files</code>.</p>
-<p><img src="../hfupload-img/3.png" alt="image" width="350" height="auto">‎<br />
-‎</p>
-</li>
-<li><p>Tap the large rectangle &amp; submit the ZIP. Or just drag the file into the box.</p>
-<p><img src="../hfupload-img/4.png" alt="image" width="" height="auto">‎<br />
-‎</p>
-</li>
-<li><p>Tap on <code v-pre>Commit changes to main</code> &amp; the model will begin to upload.</p>
-</li>
-</ol>
-<hr>
+<ul>
+<li>As explained before, it depends on your needs. It&#x27;s best to try them yourself.</li>
+<li>For <strong>local</strong> users, <u><a href="https://aihubdocs.github.io/en/rvc/local/mainline/">Mainline</a></u> is a great starting point. For <strong>cloud</strong> users, the <u><a href="https://aihubdocs.github.io/en/rvc/cloud/applio-colab/">Applio Colab</a></u>.</li>
+</ul>
+</doc-panel>
+<doc-panel id="what-are-the-requirements-for-rvc-locally" collapsed>
+    <template #title><em>What are the requirements for RVC locally?</em></template>
 <doc-anchor-target id="section-4">
     <h6>
         <doc-anchor-trigger class="header-anchor-trigger" to="#section-4">#</doc-anchor-trigger>
         <span>‎</span>
     </h6>
 </doc-anchor-target>
-<doc-anchor-target id="5-copy-link">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#5-copy-link">#</doc-anchor-trigger>
-        <span>5. <u>Copy link.</u></span>
-    </h4>
+<blockquote>
+<p>The minimum specs vary depending if it&#x27;s for training models or <u><a href="https://aihubdocs.github.io/en/extra/glossary/#inference">inference</a></u>.</p>
+</blockquote>
+<doc-tabs>
+<doc-tab v-cloak id="training">
+<template #title>Training</template>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th style="text-align: center;"><strong>SPEC</strong></th>
+<th style="text-align: center;"><strong>REQUIREMENT</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Operating System</td>
+<td style="text-align: center;">Windows 10</td>
+</tr>
+<tr>
+<td style="text-align: center;">GPU</td>
+<td style="text-align: center;">NVIDIA RTX 2060ti</td>
+</tr>
+<tr>
+<td style="text-align: center;">RAM</td>
+<td style="text-align: center;">16GB</td>
+</tr>
+<tr>
+<td style="text-align: center;">Storage</td>
+<td style="text-align: center;">30 GB</td>
+</tr>
+</tbody>
+</table>
+</div>
+</doc-tab>
+<doc-tab v-cloak id="inference">
+<template #title>Inference</template>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th style="text-align: center;"><strong>SPEC</strong></th>
+<th style="text-align: center;"><strong>REQUIREMENT</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Operating System</td>
+<td style="text-align: center;">Windows 10</td>
+</tr>
+<tr>
+<td style="text-align: center;">GPU</td>
+<td style="text-align: center;">NVIDIA GTX 1050ti</td>
+</tr>
+<tr>
+<td style="text-align: center;">RAM</td>
+<td style="text-align: center;">8GB</td>
+</tr>
+<tr>
+<td style="text-align: center;">Storage</td>
+<td style="text-align: center;">6 GB</td>
+</tr>
+</tbody>
+</table>
+</div>
+</doc-tab>
+</doc-tabs>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>NOTES:</h5>
+<ul>
+<li>For inference, the storage requirement varies depending on the fork. It can be around 5 to 9 GB</li>
+<li>If you don&#x27;t meet these requirements, it&#x27;s more convenient to use RVC on the cloud.</li>
+<li>Regarding GPUs, RVC is only compatible with NVIDIA. Learn below why.</li>
+</ul>
+        </div>
+    </div>
+</div>
+</doc-panel>
+<doc-panel id="can-i-use-it-on-my-intel-amd-gpu" collapsed>
+    <template #title><em>Can I use it on my Intel/AMD GPU?</em></template>
+<doc-anchor-target id="section-5">
+    <h6>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#section-5">#</doc-anchor-trigger>
+        <span>‎</span>
+    </h6>
 </doc-anchor-target>
 <ul>
-<li>And that&#x27;s all. Once it&#x27;s done, it will redirect you to the files list.</li>
-<li>So if you the model&#x27;s link, right-click the download button ( <svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75Z"/><path d="M5.22 9.97a.749.749 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.749.749 0 0 1-1.06 0l-6.25-6.25a.749.749 0 0 1 0-1.06Z"/></g></g></svg> ) of the .ZIP file on the right, and click <code v-pre>Copy Link</code>.</li>
+<li>You can, but it&#x27;s not recommended, as they aren&#x27;t compatible with AI software.</li>
+<li>Therefore RVC will be more prone to errors &amp; rely on your CPU, slowing down the process significantly.</li>
+<li>So it&#x27;s more convenient using RVC through the <u><a href="https://aihubdocs.github.io/en/extra/glossary/#cloud-based">cloud</a></u>.</li>
 </ul>
-<img src="../hfupload-img/5.png" alt="image" width="610" height="auto">
+</doc-panel>
+<doc-panel id="how-long-does-it-take-to-train" collapsed>
+    <template #title><em>How long does it take to train?</em></template>
+<doc-anchor-target id="section-6">
+    <h6>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#section-6">#</doc-anchor-trigger>
+        <span>‎</span>
+    </h6>
+</doc-anchor-target>
+<ul>
+<li><p>The total time depends on a lot of factors, like dataset length, batch size, pretrains, specs, etc.</p>
+</li>
+<li><p>A 10 min <u><a href="https://aihubdocs.github.io/en/vocal-isolation--datasets/datasets/">dataset</a></u> with <u><a href="https://aihubdocs.github.io/en/rvc-resources/inference-settings/#pitch-extraction-algorithm">RMVPE</a></u> may take around 1 to 2 hours.</p>
+</li>
+</ul>
+</doc-panel>
+<doc-panel id="can-i-run-it-on-a-mac" collapsed>
+    <template #title><em>Can I run it on a Mac?</em></template>
+<doc-anchor-target id="section-7">
+    <h6>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#section-7">#</doc-anchor-trigger>
+        <span>‎</span>
+    </h6>
+</doc-anchor-target>
+<ul>
+<li>Yes, on Macs of recent generations.</li>
+<li>But you can only do <u><a href="https://aihubdocs.github.io/en/extra/glossary/#inference">inference</a></u> &amp; it&#x27;s a little unstable.</li>
+</ul>
+</doc-panel>
+<doc-panel id="do-i-need-internet-to-use-it" collapsed>
+    <template #title><em>Do I need internet to use it?</em></template>
+<doc-anchor-target id="section-8">
+    <h6>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#section-8">#</doc-anchor-trigger>
+        <span>‎</span>
+    </h6>
+</doc-anchor-target>
+<ul>
+<li>If you&#x27;re using RVC locally, no.</li>
+<li>If you&#x27;re using it through the cloud, then yes.</li>
+</ul>
+</doc-panel>
 <hr>
-<div class="content-right"><p><code v-pre>Original guide: FDG</code><br />
-<code v-pre>Redone by: Julia</code></p>
+<div class="content-right"><p><code v-pre>Written by Julia</code></p>
 </div>
-<p>‎<br />
-‎</p>
+<p>‎</p>
 <div class="content-right"><p><a href="http://aihubdocs.github.io/en/#contributions" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-500 dark:text-blue-400 border border-blue-500 dark:border-blue-400 hover:bg-blue-100 dark:hover:bg-transparent dark:hover:border-blue-200 dark:hover:text-blue-200 transition-colors duration-200 ease-out h-8 px-4 text-base rounded-full">
     <span>Report Issues</span>
     <span><svg xmlns="http://www.w3.org/2000/svg" class="mb-px inline-flex ml-2" width="22" height="22" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M1.513 1.96a1.374 1.374 0 0 1 1.499-.21l19.335 9.215a1.147 1.147 0 0 1 0 2.07L3.012 22.25a1.374 1.374 0 0 1-1.947-1.46L2.49 12 1.065 3.21a1.375 1.375 0 0 1 .448-1.25Zm2.375 10.79-1.304 8.042L21.031 12 2.584 3.208l1.304 8.042h7.362a.75.75 0 0 1 0 1.5Z"/></g></svg></span>
 </a></p>
 </div>
-<p>‎<br />
-‎</p>
+<p>‎</p>
 <hr>
 
                                 
@@ -418,6 +617,6 @@ Ensure it&#x27;s .ZIP, and not .RAR or .7ZIP.</p>
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": " Uploading Models to Hugging Face", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "What's RVC", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
