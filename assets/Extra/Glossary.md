@@ -63,12 +63,12 @@ order: 3000
 ***
 ###### ‎       
 ### :icon-chevron-down:Training/Finetuning
-- In the context of AI, it's when you train an AI to make a model of it based on your own dataset, you need a GPU for this.       
+- In the context of AI, it's when you train an AI to make a model of it based on your own dataset based on the epochs you putted, you need a GPU for this.       
 ***
 ***
 ###### ‎       
 ### :icon-chevron-down:0 Shot Training
-- It's when you do inference on something without explicitly training on it, which is faster but with less quality (you won't be able to save the ai model), for example for TTS, means that you do inference cloning voice by an audio. In some cases you can do it on GPU, some in CPU.
+- It's when you do inference on something without explicitly training on it, which is faster but with less quality (you won't be able to save the ai model), for example for TTS, means that you do inference cloning voice by an audio, a data it hasn't seen before, different from making a dataset and doing the long training process based on epochs. In some cases you can do it on GPU, some in CPU.
 ***
 ###### ‎       
 ### :icon-chevron-down:Local running
