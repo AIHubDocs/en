@@ -8,19 +8,13 @@ icon: chevron-right
 
 # TTS
 
-TTS Means Text To Speech!
+### Introduction: 
 
-Inference means when you use the TTS.
-
-TTS Inference can be on CPU, even if it’s slower in some cases
-UI Means Interface
-
-Finetuning/Training means when you are making the TTS AI Voice based on the TTS you are using on your own dataset. You’d need a GPU for this.
-
-Some of those TTS have 0 Shot training, which in tts field means that you do inference cloning voice by an audio but without explicitly training (you can’t save the model). In some cases you can do it on GPU, some in CPU
+TTS is an abbreviation of Text To Speech, it means an AI that takes a text input to convert it to a vocal speech.
 
 Some of the TTS mixes with RVC, which is Retrieval-based Voice Cloning, another ai that is audio to audio instead of using text, changing the audio voice, but in some cases like Applio, it generates a TTS Audio of Edge TTS and then it changes the audio voice to the RVC model voice.
 
+Here are some TTS:
 
 ## **ElevenLabs/11Labs**
 
