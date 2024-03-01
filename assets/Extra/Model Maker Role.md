@@ -4,9 +4,8 @@ icon: chevron-right
 order: 1000
 ---
 
-# :icon-feed-tag: Model Maker Role
 
-``Last update: Feb 10, 2024``
+``Last update: Feb 29, 2024``
 ***
 ###### ‎ 
 :::content-center
@@ -93,7 +92,7 @@ order: 1000
 
 - Type the `/submit` command of **QCBot** and click the command.       
 
-<img src="../modelmaker-img/1.png" alt="image" width="800" height="auto">‎               
+<img src="../modelmaker-img/submit.png" alt="image" width="600" height="auto">‎               
 ‎     
 :::content-center
 #### ``Now fill up the information about your model:``  
@@ -141,7 +140,7 @@ You can attach more samples when you repost the model to ``#voice-models``.
 
 - If your model gets approved, the bot will notify you with something like this:    
 
-   <img src="../modelmaker-img/2.png" alt="image" width="" height="auto">‎     
+   <img src="../modelmaker-img/approved.png" alt="image" width="" height="auto">‎     
 ‎    
 - You can then repost the model (& future models) to the ``#voice-models`` forum.
 

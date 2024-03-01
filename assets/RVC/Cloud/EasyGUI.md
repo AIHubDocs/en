@@ -9,3 +9,4 @@ https://colab.research.google.com/drive/1r4IRL0UA7JEoZ0ZK8PKfMyTIBHKpyhcw#scroll
 - don't copy the path file, but the folder path of the dataset
 
 step 1 will take around 4 minutes
+
