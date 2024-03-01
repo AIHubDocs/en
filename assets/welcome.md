@@ -56,8 +56,8 @@ icon: home-fill
 - Advanced training
 - Advanced dataset cleaning
 - Reform Automaze commands
-- Other AIs
 - Pretrains
+- Kaggle
 
 ***
 ###### ‎      
