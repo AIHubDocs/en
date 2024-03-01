@@ -8,7 +8,7 @@ icon: chevron-right
 
 # TTS
 
-### Introduction: 
+## Introduction
 
 TTS is an abbreviation of Text To Speech, it means an AI that takes a text input to convert it to a vocal speech.
 
