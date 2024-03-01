@@ -58,7 +58,17 @@ order: 3000
 ***
 ###### ‎       
 ### :icon-chevron-down:Inference
-- In the context of RVC, is the process where a voice model is used to transform an audio, to make it sound like the model.       
+- In the context of AI, it's when you use an AI Model generally, usually you can do this even on CPU even if it would be way slower than GPU, for example in RVC, it's the process where a voice model is used to transform an audio, to make it sound like the model.       
+***
+***
+###### ‎       
+### :icon-chevron-down:Training/Finetuning
+- In the context of AI, it's when you train an AI to make a model of it based on your own dataset, you need a GPU for this.       
+***
+***
+###### ‎       
+### :icon-chevron-down:0 Shot Training
+- It's when you do inference on something without explicitly training on it, which is faster but with less quality (you won't be able to save the ai model), for example for TTS, means that you do inference cloning voice by an audio. In some cases you can do it on GPU, some in CPU.
 ***
 ###### ‎       
 ### :icon-chevron-down:Local running
@@ -72,6 +82,7 @@ order: 3000
 - It refers to a computer's specifications. Hardware like <u>[GPU</u>](https://aihubdocs.github.io/en/extra/glossary/#gpu), CPU, RAM, etc.     
 - The performance of the hardware of a computer directly correlates to the performance of all its software.
 ***
+
 :::content-right
 ``Written by Julia & Alex``    
 :::
