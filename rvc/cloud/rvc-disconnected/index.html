@@ -6,7 +6,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.762725042034">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.762731831621">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -34,11 +34,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../img/b.png" rel="icon">
-    <link href="../../../resources/css/retype.css?v=3.5.0.762725042034" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=3.5.0.762731831621" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.762725042034" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.762731831621" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.762725042034" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.762731831621" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -605,13 +605,18 @@ But if your dataset is small (around 2 minutes or less), use <code v-pre>4</code
 <ol>
 <li><p>For this, first download the model of the lowest point (<strong>Step 7b</strong>) in case you are already overtraining.</p>
 </li>
-<li><p>Then, run the <strong>Export Model from Notebook to Drive</strong> cell.</p>
+<li><p>Stop training by pressing the stop button of the <strong>Training</strong> cell.</p>
+</li>
+<li><p>Run the <strong>Export Model from Notebook to Drive</strong> cell.</p>
 <p><img src="../rvcdisconnected-img/22.png" alt="image" width="330" height="auto">‎<br />
 ‎</p>
 </li>
 <li><p>Once your GPU runtime resets, begin the <u><a href="http://aihubdocs.github.io/en/rvc/cloud/rvc-disconnected/#resuming-">retraining</a></U> procedure.</p>
 </li>
 </ol>
+<ul>
+<li>After exporting, you are free to resume training until runtime is exhausted or close the session.</li>
+</ul>
 <hr>
 <doc-anchor-target id="section-14">
     <h6>
