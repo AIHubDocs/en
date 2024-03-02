@@ -159,13 +159,22 @@ But if your dataset is small (around 2 minutes or less), use ``4``.
    - Disconnect from your Internet.       
    - Don't solve the captchas that (might) pop up occasionally.    
    - Run out of <u>[GPU runtime](http://aihubdocs.github.io/en/extra/glossary/#google-colab)</u>.     
-‎    
-- So after around 2:30 hours of training, download the model of the lowest point, just in case you're already overtraining. As once the session ends, its files will be gone.      
-‎    
-- Once your GPU runtime resets, begin the <u>[retraining](http://aihubdocs.github.io/en/rvc/cloud/rvc-disconnected/#resuming-)</U> procedure.
+
 ***
 ###### ‎ 
-#### 6. Download model. 
+#### 6. Export model
+- If after around 2:30 hours of training you don't detect overtraining, you must save the files so you can resume later, before the GPU runtime ends.    
+
+1. For this, first download the model of the lowest point (**Step 7b**) in case you are already overtraining.
+
+2. Then, run the **Export Model from Notebook to Drive** cell.
+
+    <img src="../rvcdisconnected-img/22.png" alt="image" width="330" height="auto">‎        
+‎       
+3. Once your GPU runtime resets, begin the <u>[retraining](http://aihubdocs.github.io/en/rvc/cloud/rvc-disconnected/#resuming-)</U> procedure.
+***
+###### ‎ 
+#### 7. Download model. 
 a. When you're very sure of overtraining, you can stop training by pressing the stop button of the **Training** cell. 
 
 b. Click the folder symbol on the left.     

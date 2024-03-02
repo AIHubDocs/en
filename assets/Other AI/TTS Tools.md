@@ -45,7 +45,7 @@ MAN/WOMAN: for bias towards speaker
 
 - This is Microsoft Edge TTS, which is **good quality**, multilingual & works great on long sentences. It can be used only online (API):
 
-  - **Online**
++++ Online
   - [Edge TTS Google Colab](https://github.com/Nick088Official/Edge-TTS-Google-Colab/tree/main)
   - [Edge TTS Hugging Face Space](https://huggingface.co/spaces/Nick088/Edge-TTS)
   - [Use Ilaria TTS inside of Ilaria RVC UI Colab](https://colab.research.google.com/drive/16LkwvFZeudTpUOsE_6bMjOq2qkxFo8Hr?usp=sharing#scrollTo=t8gn3pmO14On) (with Voice Cloning, mixing with RVC)
@@ -53,7 +53,7 @@ MAN/WOMAN: for bias towards speaker
   - [Use the TTS in Applio RVC Fork UI Google Colab](https://colab.research.google.com/github/iahispano/applio/blob/master/assets/Applio.ipynb) (with Voice Cloning, mixing with RVC)
   - [Use the TTS in Applio RVC Fork Hugging Face Space](https://huggingface.co/spaces/IAHispano/Applio) (with Voice Cloning, mixing with RVC)
   - [Use Applio RVC Fork](https://github.com/IAHispano/Applio) (with Voice Cloning, mixing with RVC)
-  - Microsoft Edge:
++++ Microsoft Edge:
   a. Download the Microsoft Edge Browser
   
   b. Open your Notepad
@@ -101,6 +101,7 @@ function genText() {
   j. Click Generate and then stop recording when the voice is done.
   
   k. After you click generate, you can also select Voice options in the toolbar and change the speed to a faster or slower speech pace.
++++
 ***
 ## StyleTTS2
 ***
@@ -114,74 +115,74 @@ It has 2 versions:
 **LJSpeech**: The dataset consists of **single-speaker** recordings, making it suitable for training TTS models with a consistent voice.
 **LibriTTS**: The dataset includes **multispeaker** recordings, allowing StyleTTS 2 to adapt to different voices.
 
-**Locally**
++++ Locally
 - [Official StyleTTS2 Guide](https://github.com/yl4579/StyleTTS2)
 
-**Online**
++++ Online
 - [StyleTTS2 Hugging Face Space](https://huggingface.co/spaces/styletts2/styletts2) (If you duplicate the space to skip queue, without GPU you can only inference)
 - [StyleTTS2 LJSpeech Inference Google Colab](https://colab.research.google.com/github/yl4579/StyleTTS2/blob/main/Colab/StyleTTS2_Demo_LJSpeech.ipynb)
 - [StyleTTS2 LibriTTS Inference Google Colab](https://colab.research.google.com/github/yl4579/StyleTTS2/blob/main/Colab/StyleTTS2_Demo_LibriTTS.ipynb)
 - [StyleTTS2 Finetuning Google Colab](https://colab.research.google.com/github/yl4579/StyleTTS2/blob/main/Colab/StyleTTS2_Finetune_Demo.ipynb) 
-
++++
 ***
 ## Tortoise TTS
 ***
-Tortoise is expressive but it’s kinda slow.
+- Tortoise is expressive but it’s kinda slow.
 You can use it both locally and online:
 
-**Locally**
++++ Locally
 - [Official Tortoise TTS Github Repository](https://github.com/neonbjb/tortoise-tts)
 
-**Online**
++++ Online
 - [Tortoise TTS Hugging Face Space](https://huggingface.co/spaces/Manmay/tortoise-tts)
 - [Easier Tortoise TTS Google Colab](https://colab.research.google.com/github/Nick088Official/Easier-Tortoise-TTS-Google-Colab/blob/main/Easier_Tortoise_TTS.ipynb)
-
++++
 ***
 ## XTTS2
 ***
-Developed by Coqui AI, which has been **discontinued** unfortunately, Built on the 🐢Tortoise, ⓍTTS has important model changes that make **cross-language 0 Shot voice cloning** and **multilingual** speech generation super easy. **You need less training data, at least a 2 minutes audio.**
+- Developed by Coqui AI, which has been **discontinued** unfortunately, Built on the 🐢Tortoise, ⓍTTS has important model changes that make **cross-language 0 Shot voice cloning** and **multilingual** speech generation super easy. **You need less training data, at least a 2 minutes audio.**
 You can use it either online or locally:
 
-**Locally**
++++ Locally
 - [Official XTTS 2 Guide](https://docs.coqui.ai/en/latest/models/xtts.html)
 - [XTTS 2 UI Fork](https://github.com/BoltzmannEntropy/xtts2-ui)
 
-**Online**
++++ Online
 - [XTTS 2 Hugging Face Space](https://huggingface.co/spaces/coqui/xtts)
 - [XTTS 2 Inference UI Google Colab](https://colab.research.google.com/github/camenduru/coqui-XTTS-colab/blob/main/coqui_XTTS_v2_colab.ipynb): Run it and click the Gradio Public Link
 - [XTTS 2 Training & Inference UI Google Colab](https://colab.research.google.com/drive/1GiI4_X724M8q2W-zZ-jXo7cWTV7RfaH-?usp=sharing): [Watch this Video Tutorial for it!](https://www.youtube.com/watch?v=8tpDiiouGxc)
-
++++
 ***
 ## MetaVoice
 ***
-**MetaVoice-1B** is a 1.2B parameter base model **trained on 100K hours of speech for TTS** (text-to-speech). It has been built with the following priorities:
+- **MetaVoice-1B** is a 1.2B parameter base model **trained on 100K hours of speech for TTS** (text-to-speech). It has been built with the following priorities:
 **Emotional speech rhythm and tone in English.**
 **Zero-shot cloning for American & British voices, with 30s reference audio.**
 It can be used both locally and online:
 
-**Locally**
-- [Official MetaVoice 1B Model Github Repository](https://github.com/metavoiceio/metavoice-src) 
++++ Locally
+- [MetaVoice 1B Model Github Repository](https://github.com/metavoiceio/metavoice-src) 
 
-**Online**
++++ Online
 - [MetaVoice 1B Model TTS with 0 Shot Training Demo](https://ttsdemo.themetavoice.xyz/)
 - [MetaVoice 1B Model TTS with 0 Shot Training Hugging Face Space](https://huggingface.co/spaces/mrfakename/MetaVoice-1B-v0.1)
 - [Easier MetaVoice 1B Model TTS with 0 Shot Training Google Colab](https://colab.research.google.com/github/Nick088Official/Easier-MetaVoice-1B-Google-Colab/blob/main/Easier_MetaVoice_1B.ipynb)
 - [Freemium MetaVoice Studio Only Premade Voices](https://colab.research.google.com/github/Nick088Official/Easier-MetaVoice-1B-Google-Colab/blob/main/Easier_MetaVoice_1B.ipynb)
-
++++
 ***
 ## MeloTTS
 ***
-MeloTTS is a **high-quality multilingual** text-to-speech library by MyShell.ai with **almost real time inference**.
+- MeloTTS is a **high-quality multilingual** text-to-speech library by MyShell.ai with **almost real time inference**.
 It can be used both locally and online:
 
-**Locally**
++++ Locally
 - [Official MeloTTS Github Repository](https://github.com/myshell-ai/MeloTTS)
 
-Online:
++++ Online
 - [MeloTTS Hugging Face Space](https://huggingface.co/spaces/mrfakename/MeloTTS)
 - [MeloTTS UI Google Colab](https://colab.research.google.com/github/Nick088Official/MeloTTS-Google-Colabs/blob/main/MeloTTS_UI.ipynb)
 - [MeloTTS NO UI Google Colab](https://colab.research.google.com/github/Nick088Official/MeloTTS-Google-Colabs/blob/main/MeloTTS_NO_UI.ipynb)
-
++++
 ***
 ## GPT-SoVITS
 ***
@@ -189,30 +190,31 @@ GPT-SoVITS has **cross language inference**, but there could be some noises, it'
 **WARNING: MOST PARTS OF THIS PROGRAM ARE IN JAPANESE AND NOT DEEPLY TESTED, will prolly have have a deeper guide when Delik releases it.**
 It can be used both locally and online:
 
-**Locally**
++++ Locally
 - [Official GPT-SoVITS Github Repository](https://github.com/RVC-Boss/GPT-SoVITS/)
 
-**Online**
++++ Online
 - [GPT-SoVITS Google Colab Finetuning & Inference UI](https://colab.research.google.com/github/RVC-Boss/GPT-SoVITS/blob/main/colab_webui.ipynb#scrollTo=4oRGUzkrk8C7)
-
++++
 ***
 ## gTTS
 ***
 **Google Text To Speech**, the same one used in Google Translator, it has **very few voices in different languages**, kinda **robotic** and doesn’t let you choose the gender of the voice, except in the colab version where i made a function to change the pitch of it, but it isn't that great. It can be used only online (API) :
 
-**Online**
+Online
 - [gTTS Google Colab](https://colab.research.google.com/github/Nick088Official/gTTS-Google-Colab/blob/main/gTTS.ipynb)
 - [gTTS Hugging Face Space](https://huggingface.co/spaces/Nick088/gTTS)
 - [Official gTTS Guide](https://github.com/pndurette/gTTS)
 - Use Google Translator
 
 ***
-:::content-right
-``Written by Nick088 - Redone by Julia``    
+:::content-center
+``Written by Nick088``
 :::
-‎   
-:::content-right
+:::content-center
+``Redone by Julia``    
+:::
+:::content-center
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
 :::
-‎   
 ***

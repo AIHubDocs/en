@@ -1,7 +1,7 @@
 input: ./assets
 output: .retype
 
-url: aihubdocs.github.io/en
+url: # aihubdocs.github.io/en
 
 branding:
   title:
