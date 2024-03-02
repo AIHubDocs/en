@@ -32,8 +32,15 @@ order: 3000
 ###### ‎       
 ### :icon-chevron-down:DAW
 - It stands for **Digital Audio Workstation**, and it's any software used for making and mixing music.    
+
 - For **basic** audio editing, we recommend <u>[Audacity</u>](https://www.audacityteam.org/).     
+
 - For **professional** mixing, <u>[FL Studio</u>](https://www.image-line.com/fl-studio-download/).        
+***
+###### ‎       
+### :icon-chevron-down:Fine-tuning
+- Further improving an AI model, training it with a smaller dataset.
+
 ***
 ###### ‎       
 ### :icon-chevron-down:Fork
@@ -58,31 +65,43 @@ order: 3000
 ***
 ###### ‎       
 ### :icon-chevron-down:Inference
-- In the context of AI, it's when you use an AI Model generally, usually you can do this even on CPU even if it would be way slower than GPU, for example in RVC, it's the process where a voice model is used to transform an audio, to make it sound like the model.       
+- In the context of AI, it's using an AI model to complete any task. 
+
+- For this, using the GPU is more convenient as it's faster. Though normally you can still use CPU, which takes longer.
+
+- For example, in RVC is when a voice model is used to transform an audio, to make it sound like the model.       
 ***
-***
-###### ‎       
-### :icon-chevron-down:Training/Finetuning
-- In the context of AI, it's when you train an AI to make a model of it based on your own dataset based on the epochs you putted, you need a GPU for this.       
-***
-***
-###### ‎       
-### :icon-chevron-down:0 Shot Training
-- It's when you do inference on something without explicitly training on it, which is faster but with less quality (you won't be able to save the ai model), for example for TTS, means that you do inference cloning voice by an audio, a data it hasn't seen before, different from making a dataset and doing the long training process based on epochs. In some cases you can do it on GPU, some in CPU.
-***
+
 ###### ‎       
 ### :icon-chevron-down:Local running
 - Running locally is a process that involves running apps in your own machine, using its resources.       
 
 - The opposite of <u>[cloud-based](https://aihubdocs.github.io/en/extra/glossary/#cloud-based)</u>.        
-   
+***
+
+###### ‎       
+### :icon-chevron-down:Model training
+- In the field of AI, is the process where an AI model is fed with its dataset & learns from it.
 ***
 ###### ‎       
 ### :icon-chevron-down:Specs
 - It refers to a computer's specifications. Hardware like <u>[GPU</u>](https://aihubdocs.github.io/en/extra/glossary/#gpu), CPU, RAM, etc.     
-- The performance of the hardware of a computer directly correlates to the performance of all its software.
-***
 
+- The performance of the hardware of a computer directly correlates to the performance of all its software.
+
+***
+###### ‎       
+### :icon-chevron-down:0 Shot Training
+- Doing <u>[inference](http://aihubdocs.github.io/en/extra/glossary/#inference)</u> on an AI model without explicitly training on it. 
+
+- It's faster but with less quality, and you won't be able to save the model.
+
+- For example, in TTS you do inference by cloning a voice with an audio, a data it hasn't seen before.
+
+- Different from making a dataset & doing the long training process, based on lots of criteria such as <u>[epochs](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/)</u>. 
+
+- In some cases you can do it on GPU, some in CPU.
+***
 :::content-right
 ``Written by Julia & Alex``    
 :::
