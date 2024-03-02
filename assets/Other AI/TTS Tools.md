@@ -2,7 +2,7 @@
 icon: chevron-right
 ---
 
-``Last update: Mar 1, 2024``
+``Last update: Mar 2, 2024``
 ***
 
 ## Introduction :icon-book:

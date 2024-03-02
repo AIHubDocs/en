@@ -3,7 +3,7 @@ icon: chevron-right
 order: 3000
 ---
 
-``Last update: Feb 28, 2024``
+``Last update: Mar 2, 2024``
 ***
 :::content-center
 
@@ -39,7 +39,7 @@ order: 3000
 ***
 ###### ‎       
 ### :icon-chevron-down:Fine-tuning
-- Further improving an AI model, training it with a smaller dataset.
+- Further improving an AI model, training it with a another dataset.
 
 ***
 ###### ‎       
