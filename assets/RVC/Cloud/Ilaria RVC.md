@@ -12,7 +12,7 @@ order: 6000
 :::
 - Ilaria RVC is a port of EasyGUI (<u>[Mangio</u>](https://aihubdocs.github.io/en/rvc/local/mangio/)) to <u>[Google Colab</u>](https://aihubdocs.github.io/en/extra/glossary/#google-colab). Made by <u>[Ilaria](https://ko-fi.com/ilariaowo)</u>.     
 
-- Works for <u>[inferencing](https://aihubdocs.github.io/en/extra/glossary/#inference)</u> only, has a pretty UI, huge speed, & the great tools that Mangio has (such as <u>[Mangio-Crepe](https://aihubdocs.github.io/en/rvc-resources/inference-settings/#pitch-extraction-algorithm)</u> algorithm).
+- Works for <u>[inferencing](https://aihubdocs.github.io/en/extra/glossary/#inference)</u> only, has a pretty UI, huge speed, & the great tools that Mangio has (such as <u>[Mangio-Crepe](https://aihubdocs.github.io/en/rvc/resources/inference-settings/#pitch-extraction-algorithm)</u> algorithm).
 
 - And for this it's considered one of the best alternatives for doing inference through the cloud.       
 ‎               
@@ -108,7 +108,7 @@ b. Unfold the `Choose the model` dropdown & select your model.
 ***
 ###### ‎ 
 #### 7. <u>Adjust settings.</u> (optional)    
-- If you wish, you can modify the <u>[inference settings</u>](https://aihubdocs.github.io/en/rvc-resources/inference-settings/#pitch-extraction-algorithm) in `Index Settings` & `Advanced Options` for better results.   
+- If you wish, you can modify the <u>[inference settings</u>](https://aihubdocs.github.io/en/rvc/resources/inference-settings/#pitch-extraction-algorithm) in `Index Settings` & `Advanced Options` for better results.   
 Tap them to unfold.      
 
     <img src="../ilarvc-img/6.png" alt="image" width="500" height="auto"> ‎                  
@@ -188,7 +188,7 @@ At the right press the three dots & then `Download`.
 
 ==- *My model doesn't have a link from HF/GD.*
 ###### ‎
-- You'll have to create the link yourself. Learn how <u>[here</u>](https://aihubdocs.github.io/en/rvc-resources/uploading-models-to-hugging-face/).
+- You'll have to create the link yourself. Learn how <u>[here</u>](https://aihubdocs.github.io/en/rvc/resources/uploading-models-to-hugging-face/).
 ===
 
 ==- *I can't download my model.* 
@@ -197,7 +197,7 @@ At the right press the three dots & then `Download`.
 
     1. **Link is private:** 
         - If it's from GD, ensure the `General access` is set as `Anyone with the link`.
-        - If it's from HF, ensure the repo is set as `Public`. Learn more <u><u>[here</u>](https://aihubdocs.github.io/en/rvc-resources/uploading-models-to-hugging-face/)</u>.            
+        - If it's from HF, ensure the repo is set as `Public`. Learn more <u><u>[here</u>](https://aihubdocs.github.io/en/rvc/resources/uploading-models-to-hugging-face/)</u>.            
         ‎   
     2. **Invalid HF link:**
         - The HF link must contain the word "**.zip**".
@@ -210,7 +210,7 @@ At the right press the three dots & then `Download`.
 
 ==- *The voice glitches out.*
 ###### ‎
-- This is an anomaly called "**artifacting**". Learn how to fix it <u><u>[here</u>](https://aihubdocs.github.io/en/rvc-resources/artifacting/)</u>.
+- This is an anomaly called "**artifacting**". Learn how to fix it <u><u>[here</u>](https://aihubdocs.github.io/en/rvc/resources/artifacting/)</u>.
 ===
 
 ==- *Cannot connect to GPU backend.*

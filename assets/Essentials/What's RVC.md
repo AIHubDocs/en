@@ -93,7 +93,7 @@ Storage | 6 GB
 ###### ‎      
 - The total time depends on a lot of factors, like dataset length, batch size, pretrains, specs, etc.
 
-- A 10 min <u>[dataset](https://aihubdocs.github.io/en/vocal-isolation--datasets/datasets/)</u> with <u>[RMVPE](https://aihubdocs.github.io/en/rvc-resources/inference-settings/#pitch-extraction-algorithm)</u> may take around 1 to 2 hours.
+- A 10 min <u>[dataset](https://aihubdocs.github.io/en/vocal-isolation--datasets/datasets/)</u> with <u>[RMVPE](https://aihubdocs.github.io/en/rvc/resources/inference-settings/#pitch-extraction-algorithm)</u> may take around 1 to 2 hours.
 === 
 
 ==- *Can I run it on a Mac?*

@@ -115,7 +115,7 @@ Then login to your Google account.
 ***
 ###### ‎  
 #### 4. Modify settings (optional)
-- Unfold **Voice conversion options** to modify the <u>[inference settings](https://aihubdocs.github.io/en/rvc-resources/inference-settings/)</u> for better results.
+- Unfold **Voice conversion options** to modify the <u>[inference settings](https://aihubdocs.github.io/en/rvc/resources/inference-settings/)</u> for better results.
 
 ***
 ###### ‎  
@@ -144,7 +144,7 @@ Then login to your Google account.
 
     <img src="..\aicovergenui-img\stems.png" alt="image" width="470">‎    
 ‎    
-- #### If the voice glitches out, click <u>[here](https://aihubdocs.github.io/en/rvc-resources/inference-settings/)</u>.
+- #### If the voice glitches out, click <u>[here](https://aihubdocs.github.io/en/rvc/resources/inference-settings/)</u>.
 ***
 :::content-right
 `Written by Julia`   

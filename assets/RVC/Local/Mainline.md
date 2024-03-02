@@ -30,7 +30,7 @@ order: 4000
 - A bit faster compared w/ other forks. 
 ||| ❌ **CONS** 
 - Has less features.     
-- Doesn't include <u>[Mangio-Crepe</u>](https://aihubdocs.github.io/en/rvc-resources/inference-settings/#pitch-extraction-algorithm).      
+- Doesn't include <u>[Mangio-Crepe</u>](https://aihubdocs.github.io/en/rvc/resources/inference-settings/#pitch-extraction-algorithm).      
 - Manual model upload.
 ||| 
 ===
@@ -102,7 +102,7 @@ In ``Enter the path of the audio file`` paste the <u>[path file</u>](https://sta
 ***
 ###### ‎  
 #### 4. Modify settings. (optional)      
-If you wish, modify the <u><u>[inference settings</u>](https://aihubdocs.github.io/en/rvc-resources/inference-settings/)</u> on display accordingly for better results.
+If you wish, modify the <u><u>[inference settings</u>](https://aihubdocs.github.io/en/rvc/resources/inference-settings/)</u> on display accordingly for better results.
 ***
 ###### ‎  
 #### 5. Convert.
@@ -123,7 +123,7 @@ To download, click the three dots on the right & hit `Download`.
 ## Training :icon-dependabot:
 ###### ‎   
 !!!warning <u> NOTES: </u>
-The training guide will be centered around using [TensorBoard](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard). Read about it first if you haven't already.      
+The training guide will be centered around using [TensorBoard](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard). Read about it first if you haven't already.      
 
 If you encounter an issue, be sure to read the <u>[Troubleshooting](https://aihubdocs.github.io/en/rvc/local/mainline/#troubleshooting-)</u> chapter.
 !!!
@@ -149,7 +149,7 @@ In `Enter the experiment name` you insert a name for your model. Don't include s
 
 ###### ‎  
 #### 3. Select Target Sample Rate.
-In `Target sample rate` select the number that matches your datasets' <u>[sample rate</u>](https://aihubdocs.github.io/en/rvc-resources/audio-formats--sample-rate/#sample-rate).        
+In `Target sample rate` select the number that matches your datasets' <u>[sample rate</u>](https://aihubdocs.github.io/en/rvc/resources/audio-formats--sample-rate/#sample-rate).        
 Inputting an incorrect one might screw up the final quality.
 
 <img src="../mainline-img/g.png" alt="image" width="" height="auto">         
@@ -201,7 +201,7 @@ In `Enter the GPU index(es)` determine which GPU(s) you'll use for training, by 
 ***
 ###### ‎  
 #### 7. Select pitch extraction algorithm.
-a. At the right select the <u>[**Pitch extraction algorithm**](https://aihubdocs.github.io/en/rvc-resources/inference-settings/#pitch-extraction-algorithm)</u>.       
+a. At the right select the <u>[**Pitch extraction algorithm**](https://aihubdocs.github.io/en/rvc/resources/inference-settings/#pitch-extraction-algorithm)</u>.       
 Only use ``RMVPE_GPU`` or ``Crepe``, as the rest are obsolete.      
 
     <img src="../mainline-img/16.png" alt="image" width="" height="auto"> ‎      
@@ -235,7 +235,7 @@ It'll finish when the output box says something like this:
 :::
 ###### ‎           
 #### 9. Select save frequency.
-- Rate at which the model will be saved, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/)</u>. The saved models are known as the "checkpoints".     
+- Rate at which the model will be saved, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u>. The saved models are known as the "checkpoints".     
 
 If you are a newbie, leave it at `15`.      
     
@@ -247,9 +247,9 @@ E.g: with a value of ``10``, it will be saved after the epoch 10, 20, 30, etc.
 ***
 ###### ‎  
 #### 10. Input epochs amount.
-In `Total training epochs` you determine the total amount of <u>[epochs](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/)</u> (training cycles) for the model.     
+In `Total training epochs` you determine the total amount of <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u> (training cycles) for the model.     
 
-But since we'll use [TensorBoard](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard), use an arbitrarily large value like `2000`.
+But since we'll use [TensorBoard](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard), use an arbitrarily large value like `2000`.
 
 <img src="../mainline-img/19.png" alt="image" width="" height="auto">  
 
@@ -267,7 +267,7 @@ If your dataset is short (around 2 minutes or less), use ``4`` instead.
 #### 12. Launch TensorBoard.
 Now before you start training, open TB.     
 
-If you haven't already, start reading about it here <u><u>[here</u>](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard)</u>.
+If you haven't already, start reading about it here <u><u>[here</u>](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard)</u>.
 ***
 ###### ‎  
 #### 13. Begin training.
@@ -348,7 +348,7 @@ If the training finished but the model still needed training, you don't have to 
 
 ==- *The voice glitches out.*
 ###### ‎   
-- This a phenomenon called artifacting. To fix it, read <u>[here](https://aihubdocs.github.io/en/rvc-resources/artifacting/)</u>.
+- This a phenomenon called artifacting. To fix it, read <u>[here](https://aihubdocs.github.io/en/rvc/resources/artifacting/)</u>.
 
 ===
 

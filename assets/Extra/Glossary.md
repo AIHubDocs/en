@@ -98,7 +98,7 @@ order: 3000
 
 - For example, in TTS you do inference by cloning a voice with an audio, a data it hasn't seen before.
 
-- Different from making a dataset & doing the long training process, based on lots of criteria such as <u>[epochs](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/)</u>. 
+- Different from making a dataset & doing the long training process, based on lots of criteria such as <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u>. 
 
 - In some cases you can do it on GPU, some in CPU.
 ***

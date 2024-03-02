@@ -130,7 +130,7 @@ Downloaded models will be saved until the Colab session ends.
 ***     
 ###### ‎   
 #### 4. <u>Modify settings.</u> (optional)        
-- Below ``RVC_DIRNAME`` until ``Audio Mixing Options`` you'll find the <u>[inference settings</u>](https://aihubdocs.github.io/en/rvc-resources/inference-settings/).     
+- Below ``RVC_DIRNAME`` until ``Audio Mixing Options`` you'll find the <u>[inference settings</u>](https://aihubdocs.github.io/en/rvc/resources/inference-settings/).     
 Tweak them accordingly for better results if you wish.
 
     <img src="../aicovergennoui-img/3.png" alt="image" width="270" height="auto">‎      
@@ -187,7 +187,7 @@ b. Right-click the first file & press `Download`. The other audios are the stems
     <img src="../aicovergennoui-img/10.png" alt="image" width="550" height="auto">‎   
 
 ###### ‎  
-- #### If the voice glitches out, click <u>[here</u>](https://aihubdocs.github.io/en/rvc-resources/artifacting/).
+- #### If the voice glitches out, click <u>[here</u>](https://aihubdocs.github.io/en/rvc/resources/artifacting/).
 ***
 ###### ‎   
 :::content-center

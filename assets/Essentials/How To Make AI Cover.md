@@ -56,7 +56,7 @@ For local users, first ensure you meet the <u>[minimum requirements](https://aih
 ‎   
 - Regarding what to do with the **backing vocals**, you have 4 options:
     1. Simply leave the original ones in.
-    2. Convert them using <u>[Mangio-Crepe](https://aihubdocs.github.io/en/rvc-resources/inference-settings/#mangio-crepe)</u> with a higher hop length.
+    2. Convert them using <u>[Mangio-Crepe](https://aihubdocs.github.io/en/rvc/resources/inference-settings/#mangio-crepe)</u> with a higher hop length.
     3. Record yourself singing them & convert the audio with RVC.
     4. Make vocals from scratch using a voice synthesizer (like SynthV) & convert them with RVC.
 ***

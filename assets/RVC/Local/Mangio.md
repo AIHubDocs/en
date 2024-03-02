@@ -12,7 +12,7 @@ order: 2000
 :::   
 - Mangio RVC is a <u>[fork</u>](https://aihubdocs.github.io/en/essentials/whats-rvc/#forks) of RVC, [Mangio621](https://github.com/Mangio621), [Kalomaze](https://github.com/kalomaze), & [Alexolotl](https://github.com/alexlnkp)
 
-- Considered one of the best forks out there. Mainly because of it's extra features, inclusion of <u>[Mangio-Crepe](https://aihubdocs.github.io/en/rvc-resources/inference-settings/#pitch-extraction-algorithm)</u>, & its stability.
+- Considered one of the best forks out there. Mainly because of it's extra features, inclusion of <u>[Mangio-Crepe](https://aihubdocs.github.io/en/rvc/resources/inference-settings/#pitch-extraction-algorithm)</u>, & its stability.
 
 - The project nowadays is a little abandoned, so don't expect many updates from the developers soon, unfortunately.     
 
@@ -108,7 +108,7 @@ If there are multiple audios in said path, click `Select audio path from the dro
 ***
 ###### ‎  
 #### 4. Modify settings. (optional)      
-If you wish, modify the <u>[inference settings](https://aihubdocs.github.io/en/rvc-resources/inference-settings/)</u> on display accordingly for better results.
+If you wish, modify the <u>[inference settings](https://aihubdocs.github.io/en/rvc/resources/inference-settings/)</u> on display accordingly for better results.
 ***
 ###### ‎  
 #### 5. Convert.
@@ -130,7 +130,7 @@ Your output audios will be located in Mangio's `audio-outputs` folder.
 ## Training :icon-dependabot:
 ###### ‎     
 !!!warning <u> NOTES: </u>
-The training guide will be centered around using <u>[TensorBoard](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard)</u>. Read about it first if you haven't already.      
+The training guide will be centered around using <u>[TensorBoard](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard)</u>. Read about it first if you haven't already.      
 
 If you encounter an issue, be sure to read the <u>[Troubleshooting](https://aihubdocs.github.io/en/rvc/local/mangio/#troubleshooting-)</u> chapter.
 !!!
@@ -157,7 +157,7 @@ In `Enter the experiment name` you insert a name for your model. Don't include s
 
 ###### ‎  
 #### 3. Select Target Sample Rate.
-In `Target sample rate` select the number that matches your datasets' [<u>sample rate</u>](https://aihubdocs.github.io/en/rvc-resources/audio-formats--sample-rate/#determining-sample-rate).        
+In `Target sample rate` select the number that matches your datasets' [<u>sample rate</u>](https://aihubdocs.github.io/en/rvc/resources/audio-formats--sample-rate/#determining-sample-rate).        
 Inputting an incorrect one might screw up the final quality.
 
 <img src="../mangio-img/6.png" alt="image" width="" height="auto">         
@@ -206,7 +206,7 @@ In `Enter the GPU index(es)` determine which GPU(s) you'll use for training, by 
 ***
 ###### ‎  
 #### 7. Select pitch extraction algorithm.
-a. At the right select the <u>[**Pitch extraction algorithm**](https://aihubdocs.github.io/en/rvc-resources/inference-settings/#pitch-extraction-algorithm)</u>.       
+a. At the right select the <u>[**Pitch extraction algorithm**](https://aihubdocs.github.io/en/rvc/resources/inference-settings/#pitch-extraction-algorithm)</u>.       
 Only use ``RMVPE``, ``Crepe`` or `Mangio-Crepe`, as the rest are obsolete.            
 
     <img src="../mangio-img/10.png" alt="image" width="270" height="auto"> 
@@ -242,7 +242,7 @@ It'll finish when the output box says `Successful index Construction`.
 :::
 ###### ‎         
 #### 9. Select save frequency.
-- Rate at which the model will be saved, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/)</u>. The saved models are known as the "checkpoints".    
+- Rate at which the model will be saved, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u>. The saved models are known as the "checkpoints".    
 
 If you are a newbie, leave it at `15`.   
     
@@ -254,9 +254,9 @@ E.g: with a value of ``10``, it will be saved after the epoch 10, 20, 30, etc.
 ***
 ###### ‎  
 #### 10. Input epochs amount.
-In `Total training epochs` you determine the total amount of <u>[epochs](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/)</u> (training cycles) for the model.     
+In `Total training epochs` you determine the total amount of <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u> (training cycles) for the model.     
 
-But since we'll use <u>[TensorBoard](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard)</u>, use an arbitrarily large value like `2000`.
+But since we'll use <u>[TensorBoard](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard)</u>, use an arbitrarily large value like `2000`.
 
 
 <img src="../mangio-img/13.png" alt="image" width="250" height="auto">
@@ -276,7 +276,7 @@ If your dataset is short (around 2 minutes or less), use ``4`` instead.
 #### 12. Launch TensorBoard.
 Now before you start training, open TB.     
 
-If you haven't already, start reading about it here <u><u>[here</u>](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard)</u>.
+If you haven't already, start reading about it here <u><u>[here</u>](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard)</u>.
 ***
 ###### ‎  
 #### 13. Begin training.
@@ -357,7 +357,7 @@ If the training finished but the model still needed training, you don't have to 
 
 ==- *The voice glitches out.*
 ###### ‎   
-- This a phenomenon called artifacting. To fix it, read <u>[here](https://aihubdocs.github.io/en/rvc-resources/artifacting/)</u>.
+- This a phenomenon called artifacting. To fix it, read <u>[here](https://aihubdocs.github.io/en/rvc/resources/artifacting/)</u>.
 
 ===
 

@@ -43,7 +43,7 @@ order: 6000
 ###### ‎
 - TensorBoard is a tool that allows you to visualize & measure the training of an AI model, through graphs & metrics.
 
-- It's specially useful for determining when to stop training a voice model, since with it you can detect when the <u><u>[overtraining</u>](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#overtraining)</u> point begins.    
+- It's specially useful for determining when to stop training a voice model, since with it you can detect when the <u><u>[overtraining</u>](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#overtraining)</u> point begins.    
 
 - Because of this, TB is the most convenient tool for RVC users for perfecting a voice model.     
 ***

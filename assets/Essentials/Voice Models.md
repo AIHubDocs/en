@@ -98,11 +98,11 @@ Tap the three dots and ``Download model``. This will download a .ZIP file of it.
 ‎   
 ‎   
 If you need a link for it, use the other methods.       
-If it only exists in weights.gg, download the .ZIP & upload it to HF. Learn more <u>[here](https://aihubdocs.github.io/en/rvc-resources/uploading-models-to-hugging-face/)</u>.  
+If it only exists in weights.gg, download the .ZIP & upload it to HF. Learn more <u>[here](https://aihubdocs.github.io/en/rvc/resources/uploading-models-to-hugging-face/)</u>.  
 ###### ‎  
 !!! *Regarding 'epochs'.*
 Epoch is a unit of measuring the training cycles of a model.        
-More epochs don't equal better model. Learn more <u>[here</u>](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/).
+More epochs don't equal better model. Learn more <u>[here</u>](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/).
 !!!
 
 +++ Voice Models channel     
@@ -215,7 +215,7 @@ If you need its link, right-click it and copy the address.
 ###### ‎   
 !!! <u>*In case there isn't a .ZIP.*</u>
 Download the model's <u>[correct files](https://aihubdocs.github.io/en/essentials/voice-models/#voice-model-files)</u>.     
-If you need it as a **link**, upload it yourself. Learn <u>[here</u>](https://aihubdocs.github.io/en/rvc-resources/uploading-models-to-hugging-face/).
+If you need it as a **link**, upload it yourself. Learn <u>[here</u>](https://aihubdocs.github.io/en/rvc/resources/uploading-models-to-hugging-face/).
 !!!
 +++
 ##### ‎ 

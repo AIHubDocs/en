@@ -155,7 +155,7 @@ b. Select the model in the ``Voice Model`` & `Index File` dropdown.
 
 ‎  
 #### 4. Modify settings. (optional)      
--  Unfold `Advanced Settings` if you wish to modify the <u>[inference settings](https://aihubdocs.github.io/en/rvc-resources/inference-settings/)</u> for better results.
+-  Unfold `Advanced Settings` if you wish to modify the <u>[inference settings](https://aihubdocs.github.io/en/rvc/resources/inference-settings/)</u> for better results.
 
     <img src="..\appliocolab-img/3-advanced.png" alt="image" width="550">‎   
 ***
@@ -231,7 +231,7 @@ iv. Then paste it on the `Dataset Path` bar.
 ###### ‎    
 ##### a. Pitch extraction algorithm
 ###### ‎  
-- Select the <u>[algorithm](https://aihubdocs.github.io/en/rvc-resources/inference-settings/#pitch-extraction-algorithm)</u> you want. Use either ``Crepe`` or ``RMVPE``, as the rest are outdated.
+- Select the <u>[algorithm](https://aihubdocs.github.io/en/rvc/resources/inference-settings/#pitch-extraction-algorithm)</u> you want. Use either ``Crepe`` or ``RMVPE``, as the rest are outdated.
 
     <img src="..\appliocolab-img\4-f0.png" alt="image" width="400">
 
@@ -239,7 +239,7 @@ iv. Then paste it on the `Dataset Path` bar.
 ###### ‎  
 ##### b. Hop Length (optional)
 ###### ‎  
-- If you chose ``Crepe``, you can modify its <u>[hop length](https://aihubdocs.github.io/en/rvc-resources/inference-settings/#mangio-crepe)</u>.
+- If you chose ``Crepe``, you can modify its <u>[hop length](https://aihubdocs.github.io/en/rvc/resources/inference-settings/#mangio-crepe)</u>.
 
     <img src="..\appliocolab-img\4-hoplength.png" alt="image" width="900">
 
@@ -266,7 +266,7 @@ It'll finish when it says `extracted successfully`.
 ###### ‎  
 ##### b. Save Every Epoch
 ###### ‎  
-- Rate at which the model will be saved, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/)</u>. The saved models are known as the "checkpoints".    
+- Rate at which the model will be saved, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u>. The saved models are known as the "checkpoints".    
 ‎   
 - If you are a newbie, leave it at `15`.              
 
@@ -278,9 +278,9 @@ It'll finish when it says `extracted successfully`.
 ###### ‎  
 ##### c. Total Epoch
 ###### ‎  
-- Input the total amount of <u>[epochs](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/)</u> (training cycles) for the model.     
+- Input the total amount of <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u> (training cycles) for the model.     
 ‎   
-- But since we'll use <u>[TensorBoard](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard)</u>, use an arbitrarily large value like `1000`
+- But since we'll use <u>[TensorBoard](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard)</u>, use an arbitrarily large value like `1000`
 
     <img src="..\appliocolab-img\4-epoch.png" alt="image" width="420">‎   
 
@@ -295,7 +295,7 @@ It'll finish when it says `extracted successfully`.
 ###### ‎  
 - Press `Start Training` to begin the training process.     
 ‎   
-- <u>[TB](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard)</u> will be available in the Colab. Remember to monitor it, as well as the cell's logs just in case.           
+- <u>[TB](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard)</u> will be available in the Colab. Remember to monitor it, as well as the cell's logs just in case.           
 ‎   
 - The latter will show you errors if they happen, and information about the epochs & checkpoints.   
 ‎  
@@ -366,7 +366,7 @@ iii. And that's all, have fun with your model. To test it, do a normal <u>[infer
  ‎     
 - You can change the **save frequency**, or increase the **Total Epoch** amount in case you didn't input enough before.      
  ‎     
-- Begin training again & remember to monitor <u>[TB</u>](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/#tensorboard) as before.  
+- Begin training again & remember to monitor <u>[TB</u>](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard) as before.  
 ===
 
 ###### ‎  
@@ -379,7 +379,7 @@ iii. And that's all, have fun with your model. To test it, do a normal <u>[infer
 ###### ‎  
 - Applio is also known for having one TTS tool by default, with **plenty** of voices to choose for.
 
-- You can also use it with **RVC models** & apply the <u>[inference settings](https://aihubdocs.github.io/en/rvc-resources/inference-settings/)</u> if you wish.
+- You can also use it with **RVC models** & apply the <u>[inference settings](https://aihubdocs.github.io/en/rvc/resources/inference-settings/)</u> if you wish.
 
 - Additionally, you can download the **Eleven Labs** TTS <u>[plugin](https://aihubdocs.github.io/en/rvc/cloud/applio-colab/#plugins)</u>.       
 ***
@@ -396,7 +396,7 @@ iii. And that's all, have fun with your model. To test it, do a normal <u>[infer
 
    <img src="../appliocolab-img/5-vm.png" alt="image" width="600" height="auto">‎    
 ‎             
-- To modify the <u>[inference settings](https://aihubdocs.github.io/en/rvc-resources/inference-settings/)</u> or the output folder for the TTS/RVC audio, unfold `Advanced Settings`.
+- To modify the <u>[inference settings](https://aihubdocs.github.io/en/rvc/resources/inference-settings/)</u> or the output folder for the TTS/RVC audio, unfold `Advanced Settings`.
 
 ***
 ###### ‎      
@@ -514,7 +514,7 @@ If the frequencies don't reach the top of the spectrogram, see at which number p
 
 ==- *The voice glitches out.*
 ###### ‎   
-- This a phenomenon called artifacting. To fix it, read <u>[here](https://aihubdocs.github.io/en/rvc-resources/artifacting/)</u>.
+- This a phenomenon called artifacting. To fix it, read <u>[here](https://aihubdocs.github.io/en/rvc/resources/artifacting/)</u>.
 
 ===
 

@@ -62,14 +62,14 @@ Make sure to tick `🗹 Create a desktop shortcut` for an easier access to UVR.
     <img src="../uvrmvsep-img/4.jpg" alt="image" width="300" height="auto">         ‎    
 
 !!!success 
-For better results, have the audio in a <u>[lossless format](https://aihubdocs.github.io/en/rvc-resources/audio-formats--sample-rate/)</u> (**WAV** or **FLAC**), & not MP3.
+For better results, have the audio in a <u>[lossless format](https://aihubdocs.github.io/en/rvc/resources/audio-formats--sample-rate/)</u> (**WAV** or **FLAC**), & not MP3.
 !!!
 ***
 ‎ 
 #### 2. Select FLAC & GPU Conversion.
 ###### ‎  
 a. At the right you can select the output format.       
-We recommend picking `FLAC`. Learn why <u>[here](https://aihubdocs.github.io/en/rvc-resources/audio-formats--sample-rate/)</u>.   
+We recommend picking `FLAC`. Learn why <u>[here](https://aihubdocs.github.io/en/rvc/resources/audio-formats--sample-rate/)</u>.   
 ‎  
 b. If your GPU is **compatible with <u>[CUDA](https://aihubdocs.github.io/en/extra/glossary/#cuda)</u>**, toggle `GPU Conversion` on for a faster process.    
 
@@ -113,14 +113,14 @@ b. Now click the long `Start Processing` button.
     <img src="../uvrmvsep-img/4.jpg" alt="image" width="300" height="auto">         ‎    
 
 !!!success 
-For better results, have the audio in a [lossless format](https://aihubdocs.github.io/en/rvc-resources/audio-formats--sample-rate/)</u> (**WAV** or **FLAC**), & not MP3.
+For better results, have the audio in a [lossless format](https://aihubdocs.github.io/en/rvc/resources/audio-formats--sample-rate/)</u> (**WAV** or **FLAC**), & not MP3.
 !!!
 ***
 ‎   
 #### 2. Select FLAC & GPU Conversion.
 ###### ‎      
 a. At the right you can select the output format.       
-We recommend picking `FLAC`. Learn why <u>[here](https://aihubdocs.github.io/en/rvc-resources/audio-formats--sample-rate/)</u>.     
+We recommend picking `FLAC`. Learn why <u>[here](https://aihubdocs.github.io/en/rvc/resources/audio-formats--sample-rate/)</u>.     
 ‎   
 b. If your GPU is **compatible with <u>[CUDA](https://aihubdocs.github.io/en/extra/glossary/#cuda)</u>**, toggle `GPU Conversion` on for a faster process.    
     ‎       
@@ -419,7 +419,7 @@ a. Click `Browse File` & select your audio, or simply drag & drop. The audio wil
 a. In **Separation type** select `MDX23C`     
 ‎     
 b. In **Output encoding** select `FLAC`.          
-We recommend selecting FLAC from now on. Learn more <u>[here</u>](https://aihubdocs.github.io/en/rvc-resources/audio-formats--sample-rate/).        
+We recommend selecting FLAC from now on. Learn more <u>[here</u>](https://aihubdocs.github.io/en/rvc/resources/audio-formats--sample-rate/).        
 ‎     
 c. Once the audio is done uploading, click `Separate`       
 
@@ -470,7 +470,7 @@ a. Click `Browse File` & select your audio, or simply drag & drop. The audio wil
 ‎       
 ‎     
 b. In **Output encoding** select `FLAC`.      
-We recommend selecting FLAC from now on. Learn more <u>[here</u>](https://aihubdocs.github.io/en/rvc-resources/audio-formats--sample-rate/).        
+We recommend selecting FLAC from now on. Learn more <u>[here</u>](https://aihubdocs.github.io/en/rvc/resources/audio-formats--sample-rate/).        
 
     <img src="../uvrmvsep-img/10.png" alt="image" width="420" height="auto">‎    
 ***

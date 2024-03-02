@@ -88,7 +88,7 @@ order: 4000
     ###### ‎    
     - Slower
     - Has higher quality
-    - More prone to noise & <u>[artifacting</u>](https://aihubdocs.github.io/en/rvc-resources/artifacting/). Switch to RMVPE if you can't fix it
+    - More prone to noise & <u>[artifacting</u>](https://aihubdocs.github.io/en/rvc/resources/artifacting/). Switch to RMVPE if you can't fix it
     - Only use it with high quality datasets/samples
     - Recommended for more **realistic** results
     ===

@@ -45,12 +45,12 @@ order: 1000
    - Incapable of hitting certain notes.
    - With slurred speech.
    - Unable of pronouncing words correctly in its intended language.
-   - With <u>[artifacting](https://aihubdocs.github.io/en/rvc-resources/artifacting/)</u>.
+   - With <u>[artifacting](https://aihubdocs.github.io/en/rvc/resources/artifacting/)</u>.
 ***
 ###### ‎ 
 #### :icon-chevron-right: An outdated extraction method was used.
 {.list-icon}
-- :icon-check-circle: Only **Crepe, Mangio-Crepe**, or **RMVPE** are allowed. Learn about them <u>[here](https://aihubdocs.github.io/en/rvc-resources/inference-settings/#pitch-extraction-algorithm)</u>
+- :icon-check-circle: Only **Crepe, Mangio-Crepe**, or **RMVPE** are allowed. Learn about them <u>[here](https://aihubdocs.github.io/en/rvc/resources/inference-settings/#pitch-extraction-algorithm)</u>
 
 - :icon-x-circle: Harvest, Dio, Crepe-Tiny, PM, etc. are obsolete.
 
@@ -83,7 +83,7 @@ order: 1000
 #### Step 2: Upload it.
 - The ZIP must be stored in Hugging Face in a **public** repo of `openrail` license.    
 
-- Learn how <u>[here</u>](https://aihubdocs.github.io/en/rvc-resources/uploading-models-to-hugging-face/).
+- Learn how <u>[here</u>](https://aihubdocs.github.io/en/rvc/resources/uploading-models-to-hugging-face/).
 ***
 ###### ‎
 #### Step 3: Prepare the submission.
@@ -104,10 +104,10 @@ order: 1000
 :     Version of RVC it was trained on (will almost always be v2).
 
 **extraction**
-:     The <u>[extraction method](https://aihubdocs.github.io/en/rvc-resources/inference-settings/#pitch-extraction-algorithm)</u> you used.
+:     The <u>[extraction method](https://aihubdocs.github.io/en/rvc/resources/inference-settings/#pitch-extraction-algorithm)</u> you used.
 
 **epochs**
-:     Total <u>[epochs](https://aihubdocs.github.io/en/rvc-resources/epochs-overtraining--tensorboard/)</u> amount.
+:     Total <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u> amount.
 
 **link**
 :     Its download link from Hugging Face.
