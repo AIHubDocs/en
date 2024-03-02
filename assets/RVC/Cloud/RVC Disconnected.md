@@ -201,6 +201,8 @@ d. And that's all. To test it, do a normal <u>[inference](https://aihubdocs.gith
 - If the training stops but the model still needed training, you don't have to start from scratch.   
 
 - You can resume from the latest checkpoint. But for this, the cell **Save preprocessed dataset files to Google Drive** must have executed prior to training. 
+
+- And if you're resuming from a new session, you should've ran the **Export Model from Notebook to Drive** cell in the previous session.
 ###### ‎  
 #### <ins>Instructions</ins>:
 1. Go to the Colab space, input the same criteria as before & execute the cells like normal, <u>**except**</u> Preprocessing & Feature Extraction.    
