@@ -13,7 +13,7 @@ links:
 - text: Need Help?
   link: https://discord.gg/aihub
   icon: question
-- text: Send Feedback
+- text: Report Issues
   link: http://aihubdocs.github.io/en/#contributions
   icon: comment
 - text: GitHub
