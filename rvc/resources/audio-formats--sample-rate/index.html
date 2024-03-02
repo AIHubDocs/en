@@ -7,39 +7,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/en">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.762650224473">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.762708112683">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
 
     <!-- Primary Meta Tags -->
-    <title>Inference Settings</title>
-    <meta name="title" content="Inference Settings">
-    <meta name="description" content="Last update: Feb 25, 2024">
+    <title>Audio Formats &amp; Sample Rate</title>
+    <meta name="title" content="Audio Formats & Sample Rate">
+    <meta name="description" content="Last update: Feb 10, 2024">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://aihubdocs.github.io/en/rvc-resources/inference-settings/">
+    <link rel="canonical" href="https://aihubdocs.github.io/en/rvc/resources/audio-formats--sample-rate/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://aihubdocs.github.io/en/rvc-resources/inference-settings/">
-    <meta property="og:title" content="Inference Settings">
-    <meta property="og:description" content="Last update: Feb 25, 2024">
+    <meta property="og:url" content="https://aihubdocs.github.io/en/rvc/resources/audio-formats--sample-rate/">
+    <meta property="og:title" content="Audio Formats & Sample Rate">
+    <meta property="og:description" content="Last update: Feb 10, 2024">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://aihubdocs.github.io/en/rvc-resources/inference-settings/">
-    <meta property="twitter:title" content="Inference Settings">
-    <meta property="twitter:description" content="Last update: Feb 25, 2024">
+    <meta property="twitter:url" content="https://aihubdocs.github.io/en/rvc/resources/audio-formats--sample-rate/">
+    <meta property="twitter:title" content="Audio Formats & Sample Rate">
+    <meta property="twitter:description" content="Last update: Feb 10, 2024">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../img/b.png" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.762650224473" rel="stylesheet">
+    <link href="../../../img/b.png" rel="icon">
+    <link href="../../../resources/css/retype.css?v=3.5.0.762708112683" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.762650224473" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.762650224473" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.762708112683" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.762708112683" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -54,10 +54,10 @@
                 <!-- Logo -->
                 <div class="flex items-center justify-between h-full py-2 md:w-75">
                     <div class="flex items-center px-2 md:px-6">
-                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                        <a id="docs-site-logo" href="../../../" class="flex items-center leading-snug text-2xl">
                             <span class="grow-0 shrink-0 overflow-hidden">
-                                <img class="max-h-10 dark:hidden md:inline-block" src="../../img/a.png">
-                                <img class="max-h-10 hidden dark:inline-block" src="../../img/a.png">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../../img/a.png">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../../img/a.png">
                             </span>
                         </a>
                     </div>
@@ -225,13 +225,29 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="inference-settings" class="break-words">
+<doc-anchor-target id="audio-formats--sample-rate" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#inference-settings">#</doc-anchor-trigger>
-        <span>Inference Settings</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#audio-formats--sample-rate">#</doc-anchor-trigger>
+        <span>Audio Formats &amp; Sample Rate</span>
     </h1>
 </doc-anchor-target>
-<p><code v-pre>Last update: Feb 25, 2024</code></p>
+<p><code v-pre>Last update: Feb 10, 2024</code></p>
+<hr>
+<div class="content-center"><doc-anchor-target id="lossy-formats">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#lossy-formats">#</doc-anchor-trigger>
+        <span>Lossy Formats</span>
+    </h2>
+</doc-anchor-target>
+</div>
+<ul>
+<li><p>Common lossy formats are <strong>MP3</strong>, OGG, OPUS, M4A, etc.</p>
+</li>
+<li><p>These compress (lose) the original quality. They&#x27;re built to be faster for transmission &amp; be space-efficient.</p>
+</li>
+<li><p>By getting rid of some data (in this case, quality), they achieve a smaller file size.</p>
+</li>
+</ul>
 <hr>
 <doc-anchor-target id="section">
     <h6>
@@ -239,21 +255,48 @@
         <span>‎</span>
     </h6>
 </doc-anchor-target>
-<div class="content-center"><doc-anchor-target id="introduction">
+<div class="content-center"><doc-anchor-target id="lossless-formats">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#introduction">#</doc-anchor-trigger>
-        <span>Introduction</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#lossless-formats">#</doc-anchor-trigger>
+        <span>Lossless Formats</span>
     </h2>
+</doc-anchor-target>
+<doc-anchor-target id="ideal-for-rvc">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ideal-for-rvc">#</doc-anchor-trigger>
+        <span><em><code v-pre>(ideal for RVC)</code></em></span>
+    </h4>
 </doc-anchor-target>
 </div>
 <ul>
-<li><p>When doing <a href="https://aihubdocs.github.io/en/extra/glossary/#inference"><u>inference</u></a></u> in RVC, you&#x27;ll come across to quite a few options that you can tweak, that influence the conversion process.</p>
+<li><p>The main ones are <strong>WAV</strong> &amp; <strong>FLAC</strong>. These don&#x27;t compress the original quality.</p>
 </li>
-<li><p>Configuring them accordingly can improve the output quality by a lot, as well as reduce artifacting, so we highly recommend learning them.</p>
+<li><p><strong>FLAC</strong> uses an algorithm that compresses the data without losing quality. We recommend it over WAV since it&#x27;s space-efficient.</p>
 </li>
-<li><p>There are some of them that are either obsolete or not important. So if a setting is not explained here, you can ignore it.</p>
+<li><p><strong>WAV</strong> doesn&#x27;t do any kind of compression. It&#x27;s purely the full original data. Therefore it has a much bigger file size.</p>
+</li>
+<li><p>They&#x27;re recommended for RVC, as the more quality an audio has, the more accurate results they&#x27;ll give.</p>
 </li>
 </ul>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5><u>NOTES:</u></h5>
+<p>Both formats give the same results &amp; don&#x27;t have an audible difference.<br />
+Converting a lossy audio to a lossless one won&#x27;t restore the lost quality.</p>
+        </div>
+    </div>
+</div>
 <hr>
 <doc-anchor-target id="section-1">
     <h6>
@@ -261,51 +304,121 @@
         <span>‎</span>
     </h6>
 </doc-anchor-target>
-<div class="content-center"><doc-anchor-target id="explanation">
+<div class="content-center"><doc-anchor-target id="sample-rate">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#explanation">#</doc-anchor-trigger>
-        <span>Explanation</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#sample-rate">#</doc-anchor-trigger>
+        <span>Sample Rate</span>
     </h2>
 </doc-anchor-target>
 </div>
-<hr>
+<ul>
+<li><p>Sample rate is a unit that determines the total amount of samples (data) that can fit within one second of an audio.</p>
+</li>
+<li><p>This higher the sample rate, the more information it stores, therefore the higher the quality.</p>
+</li>
+<li><p>They are measured in kilohertz.</p>
+</li>
+<li><p>The most common sample rates are <strong>32, 40, 44.1, &amp; 48</strong>.</p>
+</li>
+</ul>
 <doc-anchor-target id="section-2">
     <h6>
         <doc-anchor-trigger class="header-anchor-trigger" to="#section-2">#</doc-anchor-trigger>
         <span>‎</span>
     </h6>
 </doc-anchor-target>
-<div class="content-center"><doc-anchor-target id="transpose">
+<doc-anchor-target id="determining-sample-rate">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#transpose">#</doc-anchor-trigger>
-        <span><u>Transpose</u></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#determining-sample-rate">#</doc-anchor-trigger>
+        <span>Determining Sample Rate</span>
     </h3>
 </doc-anchor-target>
-<p><img src="../infsettings-img/1.png" alt="image" width="" height="auto">  ‎</p>
+<ul>
+<li><p>While training in RVC, you&#x27;ll have to input the <strong>target sample rate</strong> of your dataset.</p>
+</li>
+<li><p>Inputting an incorrect one will affect the final quality.</p>
+</li>
+<li><p>To determine the amount, we&#x27;ll use <strong>Ilaria Audio Analyzer</strong></p>
+<hr>
+<doc-anchor-target id="instructions">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#instructions">#</doc-anchor-trigger>
+        <span><u>Instructions:</u></span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li><doc-anchor-target id="step-1">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#step-1">#</doc-anchor-trigger>
+        <span>STEP 1:</span>
+    </h5>
+</doc-anchor-target>
+Enter the HF space <u><a href="https://huggingface.co/spaces/TheStinger/Ilaria_Audio_Analyzer">here</u></a>.</li>
+</ul>
+<hr>
+<ul>
+<li><doc-anchor-target id="step-2">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#step-2">#</doc-anchor-trigger>
+        <span>STEP 2:</span>
+    </h5>
+</doc-anchor-target>
+<p>Press the box on the left to input your audio. Or just simply drag the file to it.<br />
+Then click <code v-pre>Create Spectrogram and Get Info</code>.</p>
+<p><img src="../audioformats-img/1.png" alt="image" width="500" height="auto">‎</p>
+</li>
+</ul>
+<hr>
+<ul>
+<li><doc-anchor-target id="step-3">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#step-3">#</doc-anchor-trigger>
+        <span>STEP 3:</span>
+    </h5>
+</doc-anchor-target>
+<p>At the right in <code v-pre>Samples per second</code> you&#x27;ll see the audio&#x27;s full sample rate.</p>
+  <img src="../audioformats-img/2.png" alt="image" width="400" height="auto">   
+</li>
+</ul>
+<hr>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-yellow-500"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-yellow-500" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5><u>Important Note:</u></h5>
+<p>If the frequencies don&#x27;t reach the top of the spectrogram, see at which number peaks &amp; multiply it by <U><strong>2</strong></u>.</p>
+        </div>
+    </div>
 </div>
 <doc-anchor-target id="section-3">
     <h6>
         <doc-anchor-trigger class="header-anchor-trigger" to="#section-3">#</doc-anchor-trigger>
-        <span></span>
+        <span>‎</span>
     </h6>
 </doc-anchor-target>
-<doc-anchor-target id="also-known-as-pitch-it-adjusts-the-tone-of-voice">
+<ul class="list-icon">
+<li><doc-anchor-target id="example">
     <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#also-known-as-pitch-it-adjusts-the-tone-of-voice">#</doc-anchor-trigger>
-        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M5.22 8.22a.749.749 0 0 0 0 1.06l6.25 6.25a.749.749 0 0 0 1.06 0l6.25-6.25a.749.749 0 1 0-1.06-1.06L12 13.939 6.28 8.22a.749.749 0 0 0-1.06 0Z"/></g></g></svg> Also known as <u>Pitch</u>, it adjusts the tone of voice.</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example">#</doc-anchor-trigger>
+        <span><u>Example:</u></span>
     </h4>
 </doc-anchor-target>
-<ul>
-<li><p>Negative values lower the tone (e.g <code v-pre>-2</code>).</p>
-</li>
-<li><p>Positive ones raise it (e.g <code v-pre>5</code>).</p>
-</li>
-<li><p>You can use decimals if necessary (e.g <code v-pre>-4.3</code>).</p>
-</li>
+<img src="../audioformats-img/3.png" alt="image" width="480" height="auto">‎<br />
+‎</li>
 </ul>
 <blockquote>
-<p>You&#x27;ll usually have to modify this for the pitch to sound perfect. Modify it until it matches the tone of the model.</p>
+<p>Here it reached 20 kHz. <strong>Doubling</strong> it gives 40kHz. Therefore the ideal target sample rate would be <code v-pre>40k</code></p>
 </blockquote>
+</li>
+</ul>
 <hr>
 <doc-anchor-target id="section-4">
     <h6>
@@ -313,218 +426,46 @@
         <span>‎</span>
     </h6>
 </doc-anchor-target>
-<div class="content-center"><doc-anchor-target id="search-feature-ratio">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#search-feature-ratio">#</doc-anchor-trigger>
-        <span><u>Search Feature Ratio</u></span>
-    </h3>
+<div class="content-center"><doc-anchor-target id="bitrate--bit-depth">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bitrate--bit-depth">#</doc-anchor-trigger>
+        <span>Bitrate &amp; Bit Depth</span>
+    </h2>
 </doc-anchor-target>
-<img src="../infsettings-img/2.png" alt="image" width="" height="auto"> 
-</div>
-<p>‎</p>
-<doc-anchor-target id="also-known-as-index-rate-it-determines-the-level-of-influence-of-model-s-index-file">
+<doc-anchor-target id="extra-info">
     <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#also-known-as-index-rate-it-determines-the-level-of-influence-of-model-s-index-file">#</doc-anchor-trigger>
-        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M5.22 8.22a.749.749 0 0 0 0 1.06l6.25 6.25a.749.749 0 0 0 1.06 0l6.25-6.25a.749.749 0 1 0-1.06-1.06L12 13.939 6.28 8.22a.749.749 0 0 0-1.06 0Z"/></g></g></svg> Also known as <u>Index Rate</u>, it determines the level of influence of model&#x27;s <a href="https://aihubdocs.github.io/en/essentials/voice-models/#voice-model-files"><u>.INDEX</u></a> file:</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#extra-info">#</doc-anchor-trigger>
+        <span><em><code v-pre>Extra info</code></em></span>
+    </h4>
+</doc-anchor-target>
+</div>
+<doc-anchor-target id="bitrate">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bitrate">#</doc-anchor-trigger>
+        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M5.22 8.22a.749.749 0 0 0 0 1.06l6.25 6.25a.749.749 0 0 0 1.06 0l6.25-6.25a.749.749 0 1 0-1.06-1.06L12 13.939 6.28 8.22a.749.749 0 0 0-1.06 0Z"/></g></g></svg> BITRATE:</span>
     </h4>
 </doc-anchor-target>
 <ul>
-<li><p>Higher values will apply more of the .INDEX&#x27;s characteristics.</p>
-</li>
-<li><p>Lowering it can <strong>reduce <a href="https://aihubdocs.github.io/en/vocal-isolation--datasets/datasets/"><u>artifacting</u></a></strong>.</p>
-</li>
+<li>The amount of data processed per unit of time. Usually measured in kilobits per second (KBPS).</li>
+<li>Higher bitrate equals a higher quality.</li>
+<li>You can think of it as video resolution (240, 480p, 1080p, etc.).</li>
 </ul>
-<blockquote>
-<p>Remember, if the <u><a href="https://aihubdocs.github.io/en/vocal-isolation--datasets/datasets/">dataset</a></u> had other sounds like background noise, there will be noise in the .INDEX too.</p>
-</blockquote>
-<hr>
 <doc-anchor-target id="section-5">
     <h6>
         <doc-anchor-trigger class="header-anchor-trigger" to="#section-5">#</doc-anchor-trigger>
         <span>‎</span>
     </h6>
 </doc-anchor-target>
-<div class="content-center"><doc-anchor-target id="pitch-extraction-algorithm">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#pitch-extraction-algorithm">#</doc-anchor-trigger>
-        <span><u>Pitch Extraction Algorithm</u></span>
-    </h3>
-</doc-anchor-target>
-<img src="../infsettings-img/3.png" alt="image" width="440" height="auto"> 
-</div>
-<p>‎</p>
-<doc-anchor-target id="also-known-as-f0-they-re-the-algorithms-for-converting-the-vocals">
+<doc-anchor-target id="bit-depth">
     <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#also-known-as-f0-they-re-the-algorithms-for-converting-the-vocals">#</doc-anchor-trigger>
-        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M5.22 8.22a.749.749 0 0 0 0 1.06l6.25 6.25a.749.749 0 0 0 1.06 0l6.25-6.25a.749.749 0 1 0-1.06-1.06L12 13.939 6.28 8.22a.749.749 0 0 0-1.06 0Z"/></g></g></svg> Also known as <u>f0</u>, they&#x27;re the algorithms for converting the vocals.</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bit-depth">#</doc-anchor-trigger>
+        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M5.22 8.22a.749.749 0 0 0 0 1.06l6.25 6.25a.749.749 0 0 0 1.06 0l6.25-6.25a.749.749 0 1 0-1.06-1.06L12 13.939 6.28 8.22a.749.749 0 0 0-1.06 0Z"/></g></g></svg> BIT DEPTH:</span>
     </h4>
 </doc-anchor-target>
 <ul>
-<li><p>Each one works in its own way, and has its pros &amp; cons.</p>
-</li>
-<li><p>As the majority of them are obsolete, we&#x27;ll focus on the 3 best ones: <strong>RMVPE</strong>, <strong>Crepe</strong>, &amp; <strong>Mangio-Crepe</strong>.</p>
-<doc-panel id="rmvpe" collapsed>
-    <template #title><em>RMVPE</em></template>
-<doc-anchor-target id="section-6">
-    <h6>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#section-6">#</doc-anchor-trigger>
-        <span>‎</span>
-    </h6>
-</doc-anchor-target>
-<ul>
-<li>Fast</li>
-<li>Decent quality</li>
-<li>Usually sounds a little harsh</li>
-<li>Should be your <strong>go-to</strong> algorithm, due to its convenience</li>
-</ul>
-<hr>
-<p>Some <u><a href="https://aihubdocs.github.io/en/essentials/whats-rvc/#forks">forks</a></u> include <strong>RMVPE_GPU</strong> &amp; <strong>RMVPE+</strong>. Same algorithm, but with a modification:</p>
-<dl>
-<dt><u><strong>RMVPE GPU</strong></u>:</dt>
-<dd>Training only. Uses more GPU power, making you train faster.</dd>
-<dt><u><strong>RMVPE+</strong></u>:</dt>
-<dd>
-<p>Inference only. Allows you to set the maximum/minimum frequency, to reduce small distortions. Recommended for advanced users.</p>
-</dd>
-</dl>
-</doc-panel>
-<doc-panel id="crepe" collapsed>
-    <template #title><em>Crepe</em></template>
-<doc-anchor-target id="section-7">
-    <h6>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#section-7">#</doc-anchor-trigger>
-        <span>‎</span>
-    </h6>
-</doc-anchor-target>
-<ul>
-<li>Slower</li>
-<li>Has higher quality</li>
-<li>More prone to noise &amp; <u><a href="https://aihubdocs.github.io/en/rvc-resources/artifacting/">artifacting</u></a>. Switch to RMVPE if you can&#x27;t fix it</li>
-<li>Only use it with high quality datasets/samples</li>
-<li>Recommended for more <strong>realistic</strong> results</li>
-</ul>
-</doc-panel>
-<doc-panel id="mangio-crepe" collapsed>
-    <template #title><em>Mangio-Crepe</em></template>
-<doc-anchor-target id="section-8">
-    <h6>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#section-8">#</doc-anchor-trigger>
-        <span>‎</span>
-    </h6>
-</doc-anchor-target>
-<ul>
-<li>It&#x27;s crepe, but you can adjust its <strong>hop_length</strong></li>
-<li>It determines the time it takes the voice to hit a note</li>
-<li>The lower the value, the more detailed results you&#x27;ll get, but will take longer to process</li>
-<li>Useful when the audio/model performs drastic note shifts</li>
-</ul>
-<doc-anchor-target id="section-9">
-    <h6>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#section-9">#</doc-anchor-trigger>
-        <span>‎</span>
-    </h6>
-</doc-anchor-target>
-<blockquote>
-<p>Lowering it too much might lead to voice cracks.</p>
-</blockquote>
-</doc-panel>
-</li>
-</ul>
-<blockquote>
-<p>They also work the same for training models.</p>
-</blockquote>
-<hr>
-<doc-anchor-target id="section-10">
-    <h6>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#section-10">#</doc-anchor-trigger>
-        <span>‎</span>
-    </h6>
-</doc-anchor-target>
-<div class="content-center"><doc-anchor-target id="protect-voiceless-consonants">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#protect-voiceless-consonants">#</doc-anchor-trigger>
-        <span><u>Protect Voiceless Consonants</u></span>
-    </h3>
-</doc-anchor-target>
-<img src="../infsettings-img/4.png" alt="image" width="" height="auto"> 
-</div>
-<p>‎</p>
-<doc-anchor-target id="also-known-as-protection-they-suppress-breath-sounds">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#also-known-as-protection-they-suppress-breath-sounds">#</doc-anchor-trigger>
-        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M5.22 8.22a.749.749 0 0 0 0 1.06l6.25 6.25a.749.749 0 0 0 1.06 0l6.25-6.25a.749.749 0 1 0-1.06-1.06L12 13.939 6.28 8.22a.749.749 0 0 0-1.06 0Z"/></g></g></svg> Also known as <u>Protection</u>, they suppress breath sounds:</span>
-    </h4>
-</doc-anchor-target>
-<ul>
-<li><p>Decrease the value to remove more breath sounds, as they cause some artifacting.</p>
-</li>
-<li><p>A value of <code v-pre>0.5</code> <strong>disables</strong> this feature.<br />
-‎</p>
-</li>
-</ul>
-<blockquote>
-<p>Be careful, lowering it too much will make it voice sound &quot;inhumane&quot; &amp; suppress part of the words.</p>
-</blockquote>
-<hr>
-<doc-anchor-target id="section-11">
-    <h6>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#section-11">#</doc-anchor-trigger>
-        <span>‎</span>
-    </h6>
-</doc-anchor-target>
-<div class="content-center"><doc-anchor-target id="volume-envelope">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#volume-envelope">#</doc-anchor-trigger>
-        <span><u>Volume Envelope</u></span>
-    </h3>
-</doc-anchor-target>
-<img src="../infsettings-img/5.png" alt="image" width="" height="auto"> 
-</div>
-<p>‎</p>
-<doc-anchor-target id="also-known-as-remix-mix-rate-controls-the-loudness-of-the-output">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#also-known-as-remix-mix-rate-controls-the-loudness-of-the-output">#</doc-anchor-trigger>
-        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M5.22 8.22a.749.749 0 0 0 0 1.06l6.25 6.25a.749.749 0 0 0 1.06 0l6.25-6.25a.749.749 0 1 0-1.06-1.06L12 13.939 6.28 8.22a.749.749 0 0 0-1.06 0Z"/></g></g></svg> Also known as <u>Remix Mix Rate</u>, controls the loudness of the output:</span>
-    </h4>
-</doc-anchor-target>
-<ul>
-<li><p>The closer to <code v-pre>0</code>, the more the output will <strong>match</strong> the <strong>loudness</strong> of the <strong>input</strong> audio.</p>
-</li>
-<li><p>The closer to <code v-pre>1</code>, the more it will match the loudness of the <a href="https://aihubdocs.github.io/en/vocal-isolation--datasets/datasets"><u>dataset</u></a> the <strong>model</strong> was trained on.</p>
-</li>
-</ul>
-<blockquote>
-<p>Basically, leave it at 0 if you want the audio to try to keep its original volume.</p>
-</blockquote>
-<hr>
-<doc-anchor-target id="section-12">
-    <h6>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#section-12">#</doc-anchor-trigger>
-        <span>‎</span>
-    </h6>
-</doc-anchor-target>
-<div class="content-center"><doc-anchor-target id="split-audio">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#split-audio">#</doc-anchor-trigger>
-        <span><u>Split Audio</u></span>
-    </h3>
-</doc-anchor-target>
-<img src="../infsettings-img/6.png" alt="image" width="200" height="auto"> 
-</div>
-<p>‎</p>
-<doc-anchor-target id="gives-a-faster-inference-more-consistent-output-volume">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#gives-a-faster-inference-more-consistent-output-volume">#</doc-anchor-trigger>
-        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M5.22 8.22a.749.749 0 0 0 0 1.06l6.25 6.25a.749.749 0 0 0 1.06 0l6.25-6.25a.749.749 0 1 0-1.06-1.06L12 13.939 6.28 8.22a.749.749 0 0 0-1.06 0Z"/></g></g></svg> Gives a faster inference &amp; more consistent output volume:</span>
-    </h4>
-</doc-anchor-target>
-<ul>
-<li><p>There&#x27;s an error where the volume of the output lowers in some parts.</p>
-</li>
-<li><p>To prevent this, Split Audio divides the audio &amp; infers them one by one. Then unites them at the end.</p>
-</li>
-<li><p>Doing it this way is faster too.</p>
-</li>
+<li>Defines the dynamic range of each sample.</li>
+<li>This determines the difference between the quietest &amp; loudest sound of an audio.</li>
+<li>Basically, higher bit depths represent more accurately the loudness of an audio.</li>
 </ul>
 <hr>
 <div class="content-right"><p><code v-pre>Written by Julia &amp; Alex</code></p>
@@ -547,20 +488,20 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../rvc-resources/epochs-overtraining--tensorboard/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../../rvc/resources/artifacting/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Epochs, Overtraining & Tensorboard</span>
+                                                <span class="block mt-1">Artifacting</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../rvc-resources/artifacting/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../../rvc/resources/uploading-models-to-hugging-face/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Artifacting</span>
+                                                <span class="block mt-1"> Uploading Models to Hugging Face</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -604,6 +545,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Inference Settings", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Audio Formats & Sample Rate", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
