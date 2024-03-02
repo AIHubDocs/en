@@ -6,8 +6,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-root" content="/en">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.762710668053">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.762720782526">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -18,28 +17,28 @@
     <meta name="description" content="Last update: Mar 2, 2024">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://aihubdocs.github.io/en/other-ai/tts-tools/">
+    <link rel="canonical" href="/other-ai/tts-tools/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://aihubdocs.github.io/en/other-ai/tts-tools/">
+    <meta property="og:url" content="/other-ai/tts-tools/">
     <meta property="og:title" content="TTS Tools">
     <meta property="og:description" content="Last update: Mar 2, 2024">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://aihubdocs.github.io/en/other-ai/tts-tools/">
+    <meta property="twitter:url" content="/other-ai/tts-tools/">
     <meta property="twitter:title" content="TTS Tools">
     <meta property="twitter:description" content="Last update: Mar 2, 2024">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../img/b.png" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.762710668053" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.762720782526" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.762710668053" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.762720782526" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.762710668053" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.762720782526" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -304,9 +303,12 @@ MAN/WOMAN: for bias towards speaker</p>
     </h2>
 </doc-anchor-target>
 <ul>
-<li><p>This is Microsoft Edge TTS, which is <strong>good quality</strong>, multilingual &amp; works great on long sentences. It can be used only online (API):</p>
+<li>This is Microsoft Edge TTS, which is <strong>good quality</strong>, multilingual &amp; works great on long sentences. It can be used only online (API):</li>
+</ul>
+<doc-tabs>
+<doc-tab v-cloak id="online">
+<template #title>Online</template>
 <ul>
-<li><strong>Online</strong></li>
 <li><a href="https://github.com/Nick088Official/Edge-TTS-Google-Colab/tree/main">Edge TTS Google Colab</a></li>
 <li><a href="https://huggingface.co/spaces/Nick088/Edge-TTS">Edge TTS Hugging Face Space</a></li>
 <li><a href="https://colab.research.google.com/drive/16LkwvFZeudTpUOsE_6bMjOq2qkxFo8Hr?usp=sharing#scrollTo=t8gn3pmO14On">Use Ilaria TTS inside of Ilaria RVC UI Colab</a> (with Voice Cloning, mixing with RVC)</li>
@@ -314,8 +316,10 @@ MAN/WOMAN: for bias towards speaker</p>
 <li><a href="https://colab.research.google.com/github/iahispano/applio/blob/master/assets/Applio.ipynb">Use the TTS in Applio RVC Fork UI Google Colab</a> (with Voice Cloning, mixing with RVC)</li>
 <li><a href="https://huggingface.co/spaces/IAHispano/Applio">Use the TTS in Applio RVC Fork Hugging Face Space</a> (with Voice Cloning, mixing with RVC)</li>
 <li><a href="https://github.com/IAHispano/Applio">Use Applio RVC Fork</a> (with Voice Cloning, mixing with RVC)</li>
-<li>Microsoft Edge:</li>
 </ul>
+</doc-tab>
+<doc-tab v-cloak id="microsoft-edge">
+<template #title>Microsoft Edge:</template>
 <ol type="a">
 <li><p>Download the Microsoft Edge Browser</p>
 </li>
@@ -324,8 +328,6 @@ MAN/WOMAN: for bias towards speaker</p>
 <li><p>Paste the following code:</p>
 </li>
 </ol>
-</li>
-</ul>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -369,6 +371,8 @@ function genText() {
 <li><p>After you click generate, you can also select Voice options in the toolbar and change the speed to a faster or slower speech pace.</p>
 </li>
 </ol>
+</doc-tab>
+</doc-tabs>
 <hr>
 <doc-anchor-target id="styletts2">
     <h2>
@@ -386,17 +390,23 @@ It has 2 versions:
 <p><strong>Key Difference:</strong></p>
 <p><strong>LJSpeech</strong>: The dataset consists of <strong>single-speaker</strong> recordings, making it suitable for training TTS models with a consistent voice.
 <strong>LibriTTS</strong>: The dataset includes <strong>multispeaker</strong> recordings, allowing StyleTTS 2 to adapt to different voices.</p>
-<p><strong>Locally</strong></p>
+<doc-tabs>
+<doc-tab v-cloak id="locally">
+<template #title>Locally</template>
 <ul>
 <li><a href="https://github.com/yl4579/StyleTTS2">Official StyleTTS2 Guide</a></li>
 </ul>
-<p><strong>Online</strong></p>
+</doc-tab>
+<doc-tab v-cloak id="online">
+<template #title>Online</template>
 <ul>
 <li><a href="https://huggingface.co/spaces/styletts2/styletts2">StyleTTS2 Hugging Face Space</a> (If you duplicate the space to skip queue, without GPU you can only inference)</li>
 <li><a href="https://colab.research.google.com/github/yl4579/StyleTTS2/blob/main/Colab/StyleTTS2_Demo_LJSpeech.ipynb">StyleTTS2 LJSpeech Inference Google Colab</a></li>
 <li><a href="https://colab.research.google.com/github/yl4579/StyleTTS2/blob/main/Colab/StyleTTS2_Demo_LibriTTS.ipynb">StyleTTS2 LibriTTS Inference Google Colab</a></li>
 <li><a href="https://colab.research.google.com/github/yl4579/StyleTTS2/blob/main/Colab/StyleTTS2_Finetune_Demo.ipynb">StyleTTS2 Finetuning Google Colab</a></li>
 </ul>
+</doc-tab>
+</doc-tabs>
 <hr>
 <doc-anchor-target id="tortoise-tts">
     <h2>
@@ -405,17 +415,25 @@ It has 2 versions:
     </h2>
 </doc-anchor-target>
 <hr>
-<p>Tortoise is expressive but it’s kinda slow.
-You can use it both locally and online:</p>
-<p><strong>Locally</strong></p>
+<ul>
+<li>Tortoise is expressive but it’s kinda slow.
+You can use it both locally and online:</li>
+</ul>
+<doc-tabs>
+<doc-tab v-cloak id="locally">
+<template #title>Locally</template>
 <ul>
 <li><a href="https://github.com/neonbjb/tortoise-tts">Official Tortoise TTS Github Repository</a></li>
 </ul>
-<p><strong>Online</strong></p>
+</doc-tab>
+<doc-tab v-cloak id="online">
+<template #title>Online</template>
 <ul>
 <li><a href="https://huggingface.co/spaces/Manmay/tortoise-tts">Tortoise TTS Hugging Face Space</a></li>
 <li><a href="https://colab.research.google.com/github/Nick088Official/Easier-Tortoise-TTS-Google-Colab/blob/main/Easier_Tortoise_TTS.ipynb">Easier Tortoise TTS Google Colab</a></li>
 </ul>
+</doc-tab>
+</doc-tabs>
 <hr>
 <doc-anchor-target id="xtts2">
     <h2>
@@ -424,19 +442,27 @@ You can use it both locally and online:</p>
     </h2>
 </doc-anchor-target>
 <hr>
-<p>Developed by Coqui AI, which has been <strong>discontinued</strong> unfortunately, Built on the <span class="docs-emoji">&#x1F422;</span>Tortoise, ⓍTTS has important model changes that make <strong>cross-language 0 Shot voice cloning</strong> and <strong>multilingual</strong> speech generation super easy. <strong>You need less training data, at least a 2 minutes audio.</strong>
-You can use it either online or locally:</p>
-<p><strong>Locally</strong></p>
+<ul>
+<li>Developed by Coqui AI, which has been <strong>discontinued</strong> unfortunately, Built on the <span class="docs-emoji">&#x1F422;</span>Tortoise, ⓍTTS has important model changes that make <strong>cross-language 0 Shot voice cloning</strong> and <strong>multilingual</strong> speech generation super easy. <strong>You need less training data, at least a 2 minutes audio.</strong>
+You can use it either online or locally:</li>
+</ul>
+<doc-tabs>
+<doc-tab v-cloak id="locally">
+<template #title>Locally</template>
 <ul>
 <li><a href="https://docs.coqui.ai/en/latest/models/xtts.html">Official XTTS 2 Guide</a></li>
 <li><a href="https://github.com/BoltzmannEntropy/xtts2-ui">XTTS 2 UI Fork</a></li>
 </ul>
-<p><strong>Online</strong></p>
+</doc-tab>
+<doc-tab v-cloak id="online">
+<template #title>Online</template>
 <ul>
 <li><a href="https://huggingface.co/spaces/coqui/xtts">XTTS 2 Hugging Face Space</a></li>
 <li><a href="https://colab.research.google.com/github/camenduru/coqui-XTTS-colab/blob/main/coqui_XTTS_v2_colab.ipynb">XTTS 2 Inference UI Google Colab</a>: Run it and click the Gradio Public Link</li>
 <li><a href="https://colab.research.google.com/drive/1GiI4_X724M8q2W-zZ-jXo7cWTV7RfaH-?usp=sharing">XTTS 2 Training &amp; Inference UI Google Colab</a>: <a href="https://www.youtube.com/watch?v=8tpDiiouGxc">Watch this Video Tutorial for it!</a></li>
 </ul>
+</doc-tab>
+</doc-tabs>
 <hr>
 <doc-anchor-target id="metavoice">
     <h2>
@@ -445,21 +471,29 @@ You can use it either online or locally:</p>
     </h2>
 </doc-anchor-target>
 <hr>
-<p><strong>MetaVoice-1B</strong> is a 1.2B parameter base model <strong>trained on 100K hours of speech for TTS</strong> (text-to-speech). It has been built with the following priorities:
+<ul>
+<li><strong>MetaVoice-1B</strong> is a 1.2B parameter base model <strong>trained on 100K hours of speech for TTS</strong> (text-to-speech). It has been built with the following priorities:
 <strong>Emotional speech rhythm and tone in English.</strong>
 <strong>Zero-shot cloning for American &amp; British voices, with 30s reference audio.</strong>
-It can be used both locally and online:</p>
-<p><strong>Locally</strong></p>
-<ul>
-<li><a href="https://github.com/metavoiceio/metavoice-src">Official MetaVoice 1B Model Github Repository</a></li>
+It can be used both locally and online:</li>
 </ul>
-<p><strong>Online</strong></p>
+<doc-tabs>
+<doc-tab v-cloak id="locally">
+<template #title>Locally</template>
+<ul>
+<li><a href="https://github.com/metavoiceio/metavoice-src">MetaVoice 1B Model Github Repository</a></li>
+</ul>
+</doc-tab>
+<doc-tab v-cloak id="online">
+<template #title>Online</template>
 <ul>
 <li><a href="https://ttsdemo.themetavoice.xyz/">MetaVoice 1B Model TTS with 0 Shot Training Demo</a></li>
 <li><a href="https://huggingface.co/spaces/mrfakename/MetaVoice-1B-v0.1">MetaVoice 1B Model TTS with 0 Shot Training Hugging Face Space</a></li>
 <li><a href="https://colab.research.google.com/github/Nick088Official/Easier-MetaVoice-1B-Google-Colab/blob/main/Easier_MetaVoice_1B.ipynb">Easier MetaVoice 1B Model TTS with 0 Shot Training Google Colab</a></li>
 <li><a href="https://colab.research.google.com/github/Nick088Official/Easier-MetaVoice-1B-Google-Colab/blob/main/Easier_MetaVoice_1B.ipynb">Freemium MetaVoice Studio Only Premade Voices</a></li>
 </ul>
+</doc-tab>
+</doc-tabs>
 <hr>
 <doc-anchor-target id="melotts">
     <h2>
@@ -468,18 +502,26 @@ It can be used both locally and online:</p>
     </h2>
 </doc-anchor-target>
 <hr>
-<p>MeloTTS is a <strong>high-quality multilingual</strong> text-to-speech library by MyShell.ai with <strong>almost real time inference</strong>.
-It can be used both locally and online:</p>
-<p><strong>Locally</strong></p>
+<ul>
+<li>MeloTTS is a <strong>high-quality multilingual</strong> text-to-speech library by MyShell.ai with <strong>almost real time inference</strong>.
+It can be used both locally and online:</li>
+</ul>
+<doc-tabs>
+<doc-tab v-cloak id="locally">
+<template #title>Locally</template>
 <ul>
 <li><a href="https://github.com/myshell-ai/MeloTTS">Official MeloTTS Github Repository</a></li>
 </ul>
-<p>Online:</p>
+</doc-tab>
+<doc-tab v-cloak id="online">
+<template #title>Online</template>
 <ul>
 <li><a href="https://huggingface.co/spaces/mrfakename/MeloTTS">MeloTTS Hugging Face Space</a></li>
 <li><a href="https://colab.research.google.com/github/Nick088Official/MeloTTS-Google-Colabs/blob/main/MeloTTS_UI.ipynb">MeloTTS UI Google Colab</a></li>
 <li><a href="https://colab.research.google.com/github/Nick088Official/MeloTTS-Google-Colabs/blob/main/MeloTTS_NO_UI.ipynb">MeloTTS NO UI Google Colab</a></li>
 </ul>
+</doc-tab>
+</doc-tabs>
 <hr>
 <doc-anchor-target id="gpt-sovits">
     <h2>
@@ -491,14 +533,20 @@ It can be used both locally and online:</p>
 <p>GPT-SoVITS has <strong>cross language inference</strong>, but there could be some noises, it&#x27;s also very good especially with <strong>chinese</strong>, but also with english.
 <strong>WARNING: MOST PARTS OF THIS PROGRAM ARE IN JAPANESE AND NOT DEEPLY TESTED, will prolly have have a deeper guide when Delik releases it.</strong>
 It can be used both locally and online:</p>
-<p><strong>Locally</strong></p>
+<doc-tabs>
+<doc-tab v-cloak id="locally">
+<template #title>Locally</template>
 <ul>
 <li><a href="https://github.com/RVC-Boss/GPT-SoVITS/">Official GPT-SoVITS Github Repository</a></li>
 </ul>
-<p><strong>Online</strong></p>
+</doc-tab>
+<doc-tab v-cloak id="online">
+<template #title>Online</template>
 <ul>
 <li><a href="https://colab.research.google.com/github/RVC-Boss/GPT-SoVITS/blob/main/colab_webui.ipynb#scrollTo=4oRGUzkrk8C7">GPT-SoVITS Google Colab Finetuning &amp; Inference UI</a></li>
 </ul>
+</doc-tab>
+</doc-tabs>
 <hr>
 <doc-anchor-target id="gtts">
     <h2>
@@ -508,7 +556,7 @@ It can be used both locally and online:</p>
 </doc-anchor-target>
 <hr>
 <p><strong>Google Text To Speech</strong>, the same one used in Google Translator, it has <strong>very few voices in different languages</strong>, kinda <strong>robotic</strong> and doesn’t let you choose the gender of the voice, except in the colab version where i made a function to change the pitch of it, but it isn&#x27;t that great. It can be used only online (API) :</p>
-<p><strong>Online</strong></p>
+<p>Online</p>
 <ul>
 <li><a href="https://colab.research.google.com/github/Nick088Official/gTTS-Google-Colab/blob/main/gTTS.ipynb">gTTS Google Colab</a></li>
 <li><a href="https://huggingface.co/spaces/Nick088/gTTS">gTTS Hugging Face Space</a></li>
@@ -516,15 +564,15 @@ It can be used both locally and online:</p>
 <li>Use Google Translator</li>
 </ul>
 <hr>
-<div class="content-right"><p><code v-pre>Written by Nick088 - Redone by Julia</code></p>
+<div class="content-center"><p><code v-pre>Written by Nick088</code></p>
 </div>
-<p>‎</p>
-<div class="content-right"><p><a href="http://aihubdocs.github.io/en/#contributions" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-500 dark:text-blue-400 border border-blue-500 dark:border-blue-400 hover:bg-blue-100 dark:hover:bg-transparent dark:hover:border-blue-200 dark:hover:text-blue-200 transition-colors duration-200 ease-out h-8 px-4 text-base rounded-full">
+<div class="content-center"><p><code v-pre>Redone by Julia</code></p>
+</div>
+<div class="content-center"><p><a href="http://aihubdocs.github.io/en/#contributions" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-500 dark:text-blue-400 border border-blue-500 dark:border-blue-400 hover:bg-blue-100 dark:hover:bg-transparent dark:hover:border-blue-200 dark:hover:text-blue-200 transition-colors duration-200 ease-out h-8 px-4 text-base rounded-full">
     <span>Report Issues</span>
     <span><svg xmlns="http://www.w3.org/2000/svg" class="mb-px inline-flex ml-2" width="22" height="22" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M1.513 1.96a1.374 1.374 0 0 1 1.499-.21l19.335 9.215a1.147 1.147 0 0 1 0 2.07L3.012 22.25a1.374 1.374 0 0 1-1.947-1.46L2.49 12 1.065 3.21a1.375 1.375 0 0 1 .448-1.25Zm2.375 10.79-1.304 8.042L21.031 12 2.584 3.208l1.304 8.042h7.362a.75.75 0 0 1 0 1.5Z"/></g></svg></span>
 </a></p>
 </div>
-<p>‎</p>
 <hr>
 
                                 
