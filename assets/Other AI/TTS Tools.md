@@ -17,31 +17,34 @@ icon: chevron-right
 ***
 ## ElevenLabs/11Labs
 ***
-- <u>[ElevenLabs](https://elevenlabs.io/)</u> is a **freemium** (only one in this guide) service that offers TTS, training TTS models & translating videos from different languages.
+- <u>[ElevenLabs](https://elevenlabs.io/)</u> is a **freemium** service (only one in this guide) that offers TTS, training TTS models & translating videos from different languages.
 
 ***
 ## Bark TTS
 ***
 
-- Bark is a **multilingual** TTS model created by Suno AI. It’s good at expressing **emotions** & non-speech sounds, such as laughter, laughs, sighs, music, gasps, clearing throat, hesitations ( - or … ), ♪ for song lyrics, emphasis of words.
-MAN/WOMAN: for bias towards speaker
+- Bark is a **multilingual** TTS model created by <u>[Suno AI](https://www.suno.ai/)</u>. 
+- It’s characterized by its great ability to express **emotions** & non-speech sounds.
+- Examples are laughter, laughs, sighs, gasps, clearing throat, hesitations ( - or … ), emphasis of words, etc.
 
 - It can be used both <u>[locally](https://aihubdocs.github.io/en/extra/glossary/#local-running)</u> or in the <u>[cloud](http://aihubdocs.github.io/en/extra/glossary/#cloud-based)</u>:
 
-+++ **:icon-device-desktop: ‎ LOCAL**
-- [Official Guide](https://github.com/suno-ai/bark)
-- [Fixed Fork](https://github.com/Nick088Official/bark-gui-fix) (Gradio UI & finetuning)
-- [Voice Cloning Fork](https://github.com/KevinWang676/Bark-Voice-Cloning/tree/main)
+  +++ :icon-device-desktop: ‎ LOCAL
+  {.list-icon}
+  - :icon-book: [Official Guide](https://github.com/suno-ai/bark)
+  - :icon-repo-forked: [Fixed Fork](https://github.com/Nick088Official/bark-gui-fix) (Gradio UI & finetuning)
+  - :icon-rocket: [Voice Cloning Fork](https://github.com/KevinWang676/Bark-Voice-Cloning/tree/main)
 
-+++ **:icon-cloud: ‎ CLOUD**
+  +++ :icon-cloud: ‎ CLOUD
 
-- [Easier Bark 0 Shot Voice Cloning Fork Google Colab](https://colab.research.google.com/github/Nick088Official/Easier-Bark-Voice-Cloning-Google-Colab/blob/main/Bark_Voice_Cloning.ipynb)
-- [Easier Bark TTS Colab](https://colab.research.google.com/github/Nick088Official/Easier-Bark-TTS-Google-Colab/blob/main/Easier_Bark_TTS.ipynb)
-- [Official Bark TTS Hugging Face Space](https://huggingface.co/spaces/suno/bark)
-- [Bark GUI Google Colab](https://colab.research.google.com/github/Nick088Official/bark-gui-fix-google-colab/blob/main/Bark_GUI_Fix.ipynb) (Gradio UI with finetuning)
-- [Easier Bark 0 Shot Voice Cloning Fork Google Colab](https://colab.research.google.com/github/Nick088Official/Easier-Bark-Voice-Cloning-Google-Colab/blob/main/Bark_Voice_Cloning.ipynb)
-- [Bark GUI 0 Shot Voice Cloning Hugging Face Space](https://huggingface.co/spaces/kevinwang676/Bark-with-Voice-Cloning) (Need GPU for Voice Cloning 0 shot training, so unless you duplicate the space with your paid GPU, you can only TTS)
-+++
+  {.list-icon}
+  - [Easier Bark 0 Shot Voice Cloning Fork Google Colab](https://colab.research.google.com/github/Nick088Official/Easier-Bark-Voice-Cloning-Google-Colab/blob/main/Bark_Voice_Cloning.ipynb)
+  - [Easier Bark TTS Colab](https://colab.research.google.com/github/Nick088Official/Easier-Bark-TTS-Google-Colab/blob/main/Easier_Bark_TTS.ipynb)
+  - [Official Bark TTS Hugging Face Space](https://huggingface.co/spaces/suno/bark)
+  - [Bark GUI Google Colab](https://colab.research.google.com/github/Nick088Official/bark-gui-fix-google-colab/blob/main/Bark_GUI_Fix.ipynb) (Gradio UI with finetuning)
+  - [Easier Bark 0 Shot Voice Cloning Fork Google Colab](https://colab.research.google.com/github/Nick088Official/Easier-Bark-Voice-Cloning-Google-Colab/blob/main/Bark_Voice_Cloning.ipynb)
+  - [Bark GUI 0 Shot Voice Cloning Hugging Face Space](https://huggingface.co/spaces/kevinwang676/Bark-with-Voice-Cloning) (Need GPU for Voice Cloning 0 shot training, so unless you duplicate the space with your paid GPU, you can only TTS)
+  +++
 ***
 ## Edge TTS
 

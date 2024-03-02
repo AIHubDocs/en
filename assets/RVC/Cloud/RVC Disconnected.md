@@ -167,11 +167,15 @@ But if your dataset is small (around 2 minutes or less), use ``4``.
 
 1. For this, first download the model of the lowest point (**Step 7b**) in case you are already overtraining.
 
-2. Then, run the **Export Model from Notebook to Drive** cell.
+2. Stop training by pressing the stop button of the **Training** cell.
+
+3. Run the **Export Model from Notebook to Drive** cell.
 
     <img src="../rvcdisconnected-img/22.png" alt="image" width="330" height="auto">‎        
 ‎       
 3. Once your GPU runtime resets, begin the <u>[retraining](http://aihubdocs.github.io/en/rvc/cloud/rvc-disconnected/#resuming-)</U> procedure.
+
+- After exporting, you are free to resume training until runtime is exhausted or close the session.
 ***
 ###### ‎ 
 #### 7. Download model. 
