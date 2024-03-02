@@ -9,7 +9,7 @@ icon: chevron-right
 ***
 - TTS is an abbreviation of Text To Speech, an AI that converts any given text into vocal speech.
 
-- Some TTS make the speech from scratch, but others mentioned here are mixed with <u>[RVC](http://localhost:5000/en/essentials/whats-rvc/)</u>, converting audio to audio.
+- Some TTS make the speech from scratch, but others mentioned here are mixed with <u>[RVC](http://aihubdocs.github.io/en/essentials/whats-rvc/)</u>, converting audio to audio.
 
 - but in some cases like Applio, it generates a TTS Audio of Edge TTS and then it changes the audio voice to the RVC model voice.
 
@@ -26,14 +26,16 @@ icon: chevron-right
 - Bark is a **multilingual** TTS model created by Suno AI. It’s good at expressing **emotions** & non-speech sounds, such as laughter, laughs, sighs, music, gasps, clearing throat, hesitations ( - or … ), ♪ for song lyrics, emphasis of words.
 MAN/WOMAN: for bias towards speaker
 
-- It can be used both <u>[locally](https://aihubdocs.github.io/en/extra/glossary/#local-running)</u> or on the <u>[cloud](http://aihubdocs.github.io/en/extra/glossary/#cloud-based)</u>:
+- It can be used both <u>[locally](https://aihubdocs.github.io/en/extra/glossary/#local-running)</u> or in the <u>[cloud](http://aihubdocs.github.io/en/extra/glossary/#cloud-based)</u>:
 
 +++ **:icon-device-desktop: ‎ LOCAL**
-- [Official Bark TTS Guide](https://github.com/suno-ai/bark)
+- [Official Guide](https://github.com/suno-ai/bark)
 - [Fixed Fork](https://github.com/Nick088Official/bark-gui-fix) (Gradio UI & finetuning)
-- [Voice Cloning Fork](https://github.com/KevinWang676/Bark-Voice-Cloning/tree/main) (0 shot training. Remember that it needs GPU to train voices)
+- [Voice Cloning Fork](https://github.com/KevinWang676/Bark-Voice-Cloning/tree/main)
 
 +++ **:icon-cloud: ‎ CLOUD**
+
+- [Easier Bark 0 Shot Voice Cloning Fork Google Colab](https://colab.research.google.com/github/Nick088Official/Easier-Bark-Voice-Cloning-Google-Colab/blob/main/Bark_Voice_Cloning.ipynb)
 - [Easier Bark TTS Colab](https://colab.research.google.com/github/Nick088Official/Easier-Bark-TTS-Google-Colab/blob/main/Easier_Bark_TTS.ipynb)
 - [Official Bark TTS Hugging Face Space](https://huggingface.co/spaces/suno/bark)
 - [Bark GUI Google Colab](https://colab.research.google.com/github/Nick088Official/bark-gui-fix-google-colab/blob/main/Bark_GUI_Fix.ipynb) (Gradio UI with finetuning)
