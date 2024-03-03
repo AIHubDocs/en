@@ -9,11 +9,9 @@ icon: chevron-right
 ***
 - TTS is an abbreviation of Text To Speech, an AI that converts any given text into vocal speech.
 
-- Some TTS make the speech from scratch, but others mentioned here are mixed with <u>[RVC](http://aihubdocs.github.io/en/essentials/whats-rvc/)</u>, converting audio to audio.
+- The ones listed here offer a decent variety of features & options, such as <u>[model training](https://aihubdocs.github.io/en/extra/glossary/#model-training)</u>, <u>[fine-tuning](https://aihubdocs.github.io/en/extra/glossary/#fine-tuning)</u>, <u>[0 shot training](https://aihubdocs.github.io/en/extra/glossary/#0-shot-training)</u>, or being <u>[mixed with RVC](https://ominous-waffle-r44vr6g95vvj2wqrx-5000.app.github.dev/other-ai/tts-tools/#rvc-forks)</u>.
 
-- but in some cases like Applio, it generates a TTS Audio of Edge TTS and then it changes the audio voice to the RVC model voice.
-
-- Here's a list of some of the best TTS tools out there.
+- Here's an index of the best TTS tools out there:
 ***
 ## ElevenLabs/11Labs
 ***
@@ -38,75 +36,76 @@ icon: chevron-right
   +++ :icon-cloud: ‎ CLOUD
 
   {.list-icon}
-  - [Easier Bark 0 Shot Voice Cloning Fork Google Colab](https://colab.research.google.com/github/Nick088Official/Easier-Bark-Voice-Cloning-Google-Colab/blob/main/Bark_Voice_Cloning.ipynb)
-  - [Easier Bark TTS Colab](https://colab.research.google.com/github/Nick088Official/Easier-Bark-TTS-Google-Colab/blob/main/Easier_Bark_TTS.ipynb)
-  - [Official Bark TTS Hugging Face Space](https://huggingface.co/spaces/suno/bark)
-  - [Bark GUI Google Colab](https://colab.research.google.com/github/Nick088Official/bark-gui-fix-google-colab/blob/main/Bark_GUI_Fix.ipynb) (Gradio UI with finetuning)
-  - [Easier Bark 0 Shot Voice Cloning Fork Google Colab](https://colab.research.google.com/github/Nick088Official/Easier-Bark-Voice-Cloning-Google-Colab/blob/main/Bark_Voice_Cloning.ipynb)
-  - [Bark GUI 0 Shot Voice Cloning Hugging Face Space](https://huggingface.co/spaces/kevinwang676/Bark-with-Voice-Cloning) (Need GPU for Voice Cloning 0 shot training, so unless you duplicate the space with your paid GPU, you can only TTS)
+  - [0 Shot Voice Cloning Version](https://colab.research.google.com/github/Nick088Official/Easier-Bark-Voice-Cloning-Google-Colab/blob/main/Bark_Voice_Cloning.ipynb)
+  - [Easier Bark](https://colab.research.google.com/github/Nick088Official/Easier-Bark-TTS-Google-Colab/blob/main/Easier_Bark_TTS.ipynb)
+  - [Official HF Space](https://huggingface.co/spaces/suno/bark)
+  - [GUI Colab](https://colab.research.google.com/github/Nick088Official/bark-gui-fix-google-colab/blob/main/Bark_GUI_Fix.ipynb) (With finetuning)
+  - [0 Shot Voice Cloning Colab](https://colab.research.google.com/github/Nick088Official/Easier-Bark-Voice-Cloning-Google-Colab/blob/main/Bark_Voice_Cloning.ipynb)
+  - [0 Shot Voice Cloning HF Space](https://huggingface.co/spaces/kevinwang676/Bark-with-Voice-Cloning) (Need GPU for Voice Cloning 0 shot training, so unless you duplicate the space with your paid GPU, you can only TTS)
   +++
 ***
 ## Edge TTS
+***
+- This is Microsoft Edge TTS, which is good **quality**, multilingual & works great on long sentences. 
 
-- This is Microsoft Edge TTS, which is **good quality**, multilingual & works great on long sentences. It can be used only online (API):
+- It can only be used online via their API, through their web browser, a HF/Colab space or **mixed with <u>[RVC](http://aihubdocs.github.io/en/essentials/whats-rvc/)</u>**.
 
-+++ Online
-  - [Edge TTS Google Colab](https://github.com/Nick088Official/Edge-TTS-Google-Colab/tree/main)
-  - [Edge TTS Hugging Face Space](https://huggingface.co/spaces/Nick088/Edge-TTS)
-  - [Use Ilaria TTS inside of Ilaria RVC UI Colab](https://colab.research.google.com/drive/16LkwvFZeudTpUOsE_6bMjOq2qkxFo8Hr?usp=sharing#scrollTo=t8gn3pmO14On) (with Voice Cloning, mixing with RVC)
-  - [Use Ilaria TTS Inside of Ilaria RVC Hugging Face Space](https://huggingface.co/spaces/TheStinger/Ilaria_RVC) (with Voice Cloning, mixing with RVC)
-  - [Use the TTS in Applio RVC Fork UI Google Colab](https://colab.research.google.com/github/iahispano/applio/blob/master/assets/Applio.ipynb) (with Voice Cloning, mixing with RVC)
-  - [Use the TTS in Applio RVC Fork Hugging Face Space](https://huggingface.co/spaces/IAHispano/Applio) (with Voice Cloning, mixing with RVC)
-  - [Use Applio RVC Fork](https://github.com/IAHispano/Applio) (with Voice Cloning, mixing with RVC)
-+++ Microsoft Edge:
-  a. Download the Microsoft Edge Browser
+  +++ :icon-globe: ‎ BROWSER
+  1. [Download the browser.](https://www.microsoft.com/en-us/edge/download?ch=1&form=MA13FJ)
   
-  b. Open your Notepad
+  2. Open your Notepad & paste the following code:
   
-  c. Paste the following code:
-  
-```
-<!DOCTYPE html>
-<html>
-<body style="background-color:#dddddd">
+    ```
+  <!DOCTYPE html>
+  <html>
+  <body style="background-color:#dddddd">
 
-<h3 aria-hidden="true">Browser TTS "Hack"</h3>
+  <h3 aria-hidden="true">Browser TTS "Hack"</h3>
 
-<textarea rows="10" cols="50" id="ttsText" style="background-color:#eeeeee"></textarea>
-<br />
-<button aria-hidden="true" onclick="genText()"><font aria-hidden="true">Generate</font></button>
+  <textarea rows="10" cols="50" id="ttsText" style="background-color:#eeeeee"></textarea>
+  <br />
+  <button aria-hidden="true" onclick="genText()"><font aria-hidden="true">Generate</font></button>
 
-<pre id="tts"></pre>
+  <pre id="tts"></pre>
 
-<script>
-function genText() {
+  <script>
+  function genText() {
   var x = document.getElementById("ttsText").value;
   document.getElementById("tts").innerHTML = x;
-}
-</script>
+  }
+  </script>
 
 
 
-</body>
-</html>
-```
+  </body>
+  </html>
+  ```   
+  ###### ‎   
+  3. Save it as “Microsoft Edge TTS.txt”
+  
+  4. Rename it to “Microsoft Edge TTS.html”
+  
+  5. Open Microsoft Edge & drag the .html to it.
 
-  d. Save it as “Microsoft Edge TTS.txt”
+  6. Use [Audacity](https://www.audacityteam.org/download/) to record the audio. Set the recording mode to loopback to record the internal audio (Realtek driver might be needed).
   
-  e. Rename the file to “Microsoft Edge TTS.html”
+  7. In the TTS input the text you want & click Generate. Stop recording when the voice is done.
   
-  f. Open Microsoft Edge
+  8. You can then select Voice Options in the toolbar & change the speed to a faster/slower speech.
   
-  g. Drag the .html to it
-  
-  h. Write anything you want
-  
-  i. Use [Audacity](https://www.audacityteam.org/download/) to record the audio, set the recording mode to loopback and it allows to record the internal audio (Realtek driver might be needed)
-  
-  j. Click Generate and then stop recording when the voice is done.
-  
-  k. After you click generate, you can also select Voice options in the toolbar and change the speed to a faster or slower speech pace.
-+++
+  +++ :icon-cloud: ‎ SPACES
+  {.list-icon}
+  - 📒 [Google Colab](https://github.com/Nick088Official/Edge-TTS-Google-Colab/tree/main)   
+  - 🤗 [Hugging Face](https://huggingface.co/spaces/Nick088/Edge-TTS)
+
+  +++ :icon-dependabot: RVC FORKS
+  - [Ilaria RVC](https://aihubdocs.github.io/en/rvc/cloud/ilaria-rvc/#tts-) 
+  - [Applio Colab](https://aihubdocs.github.io/en/rvc/cloud/applio-colab/#tts)
+  - [Local Applio](https://aihubdocs.github.io/en/rvc/local/applio/)   
+  ‎
+  !!!
+  These being mixed with RVC means it generates the speech & runs the output through RVC, applying the voice model.
+  !!!
 ***
 ## StyleTTS2
 ***
