@@ -15,7 +15,7 @@ links:
   icon: question
 - text: Report Issues
   link: http://aihubdocs.github.io/en/#contributions
-  icon: comment
+  icon: stop
 - text: GitHub
   link: https://github.com/AIHubDocs
   icon: mark-github
