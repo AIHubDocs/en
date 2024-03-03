@@ -43,11 +43,11 @@ order: 5000
 ===
 ***
 ###### ‎
-###### ‎
 :::content-center
 ## Setting Up :icon-download:
 :::
-###### ‎
+***
+
 1. Access the Colab space <u>[here](https://colab.research.google.com/github/iahispano/applio/blob/master/assets/Applio.ipynb)</u>.
 Then log in to your Google account.
 ***
@@ -60,18 +60,23 @@ Then log in to your Google account.
     <img src="..\appliocolab-img\2-instdone.png" alt="image" width="260">‎     
 
 ***
-3. If you are going to <u>[infer](https://aihubdocs.github.io/en/extra/glossary/#inference)</u>/train models, click the folder on the left ( :icon-file-directory-fill: ) & press the Google Drive button.
+###### ‎
+3. If you are going to <u>[infer](https://aihubdocs.github.io/en/extra/glossary/#inference)</u> or <u>[train models](https://aihubdocs.github.io/en/extra/glossary/#model-training)</u>, run the **Extra** cell.
 
-    <img src="..\appliocolab-img\2-files.png" alt="image" width="210">‎     
+    <img src="..\appliocolab-img\2-extra.png" alt="image" width="260">‎     
 ‎       
-- For mobile users, tap the three lines ( :icon-three-bars: ) on the top left & press **Show File Explorer**.
+- To save time, unfold Extra & cancel the custom pretrain download, if you aren't going to use them.       
+
+    <img src="..\appliocolab-img\2-pretrain.png" alt="image" width="300">‎
 
 ***
-4. It'll direct you to a cell. Execute it & grant the permissions. This will take a minute.      
+###### ‎
+4. Grant the permissions to Google Drive.     
 ‎   
-    <img src="..\appliocolab-img\2-gd.png" alt="image" width="300">‎   
+    <img src="../rvcdisconnected-img/4.png" alt="image" width="400" height="auto">‎   
 
 ***
+###### ‎
 5. Execute **Start Applio**.
 
     <img src="..\appliocolab-img\2-start.png" alt="image" width="300">‎     
@@ -101,7 +106,7 @@ You have two ways of uploading it: through <u>[**its link**](https://aihubdocs.g
     a. Go to the **Download** tab & paste the link in the `Model Link` bar.     
     It must be from Hugging Face or Google Drive.        
     ‎       
-    <img src="..\appliocolab-img\3-download-model.png" alt="image" width="490">    
+    <img src="..\appliocolab-img\3-download-model.png" alt="image" width="780">    
     ‎       
     b. Press ``Download Model``.
     +++ Manually
@@ -293,32 +298,42 @@ It'll finish when it says `extracted successfully`.
 ###### ‎  
 ##### e. Start Training
 ###### ‎  
-- Press `Start Training` to begin the training process.     
-‎   
-- <u>[TB](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard)</u> will be available in the Colab. Remember to monitor it, as well as the cell's logs just in case.           
-‎   
-- The latter will show you errors if they happen, and information about the epochs & checkpoints.   
-‎  
-    <img src="..\appliocolab-img\4-logs.png" alt="image" width="600">‎   
+i. Tick **Save Only Latest**
+
+    <img src="..\appliocolab-img\4-savelatest.png" alt="image" width="240">‎    
 ‎       
 ‎   
-- **While training, you might get disconnected if you:**      
-   - <u>[Stay AFK](https://rentry.org/colab_workarounds)</u> for a long time.     
-   - Disconnect from your Internet.       
-   - Don't solve the captchas that (might) pop up occasionally.    
-   - Run out of <u>[GPU runtime](http://aihubdocs.github.io/en/extra/glossary/#google-colab)</u>.     
-‎    
-- So after around 2:30 hours of training, download the model of the lowest point, just in case you're already overtraining. As once the session ends, its files will be gone.      
-‎    
-- Once your GPU runtime resets, begin the <u>[retraining](http://aihubdocs.github.io/en/rvc/cloud/applio-colab/#5-resuming)</U> procedure.  
+ii.  Press `Start Training` below to begin the training process.     
+‎   
+    <img src="..\appliocolab-img\4-startraining.png" alt="image" width="520">‎   
+***
+###### ‎  
+##### f. Monitor training 
+###### ‎  
+i. <u>[TB](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard)</u> will be available in the Colab. Remember to monitor it, as well as the cell's logs just in case.             
 
+    The latter will show you errors if they happen, and information about the epochs & checkpoints.   
+‎  
+    <img src="..\appliocolab-img\4-logs.png" alt="image" width="800">‎   
+‎  
+‎       
+ii. If after around 2:30 hours of training you don't detect <u>[OT](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#overtraining)</u> <u>[download the model](https://aihubdocs.github.io/en/rvc/cloud/applio-colab/#c-get-the-pth)</u> of the lowest point, in case it's already OT, and the <u>[.INDEX](https://aihubdocs.github.io/en/rvc/cloud/applio-colab/#b-get-the-index)</u>.     
+‎    
+iii. Then once your GPU runtime resets, begin the <u>[retraining](http://aihubdocs.github.io/en/rvc/cloud/applio-colab/#5-resuming)</U> procedure.       
+***
+!!!warning While training, you might get disconnected if you:    
+- <u>[Stay AFK](https://rentry.org/colab_workarounds)</u> for a long time.     
+- Disconnect from your Internet.       
+- Don't solve the captchas that (might) pop up occasionally.    
+- Run out of <u>[GPU runtime](http://aihubdocs.github.io/en/extra/glossary/#google-colab)</u>. 
+!!!
 ===
 
-==- 4. FINAL STEP
+==- 4. DOWNLOAD
 ###### ‎  
 ##### a. Stop training
 ###### ‎  
-- When you're very sure of overtraining, you can stop training by going to the `Settings` tab & press `Restart Applio`.
+- When you're very sure of overtraining, you can stop training by going to the **Settings** tab & press `Restart Applio`.
 
     <img src="../appliocolab-img/4-stoptrain.png" alt="image" width="715" height="auto"> ‎  
 ‎       
@@ -361,12 +376,20 @@ iii. And that's all, have fun with your model. To test it, do a normal <u>[infer
 ==- 5. RESUMING
 ###### ‎  
 - In case the training finished but the model still needed training, you don't have to start from scratch.        
-‎     
-- Simply enter the **same settings & criteria** that you've previously inserted. You don't have to do the preprocess, extract feature or train the .INDEX again.      
+  
+1. Simply enter the **same settings & criteria** that you had previously inserted. You don't have to do preprocess, extract feature or train the .INDEX again.      
  ‎     
-- You can change the **save frequency**, or increase the **Total Epoch** amount in case you didn't input enough before.      
- ‎     
-- Begin training again & remember to monitor <u>[TB</u>](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard) as before.  
+2. You can change the **save frequency** or increase the **Total Epoch** amount, in case you didn't input enough before.      
+ ‎  
+3. If you are starting a new session, unfold the **Extra** cell & input the model name you assigned before.      
+ ‎  
+        <img src="../appliocolab-img/4-retrain.png" alt="image" width="400" height="auto">   ‎       
+ ‎  
+- For this, the Auto Backup cell must've ran in the previous session.        
+ ‎  
+        <img src="../appliocolab-img/4-autobackup.png" alt="image" width="600" height="auto">   
+ ‎  
+4. Begin training again & remember to monitor <u>[TB</u>](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard) as before.  
 ===
 
 ###### ‎  
