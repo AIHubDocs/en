@@ -3,7 +3,7 @@ icon: chevron-right
 order: 5000
 ---
 
-``Last update: Feb 28, 2024``
+``Last update: Mar 3, 2024``
 
 ***
 :::content-center
@@ -48,7 +48,7 @@ order: 5000
 ## Setting Up :icon-download:
 :::
 ###### ‎
-1. Access the Colab space [here](https://colab.research.google.com/github/iahispano/applio/blob/master/assets/Applio.ipynb).
+1. Access the Colab space <u>[here](https://colab.research.google.com/github/iahispano/applio/blob/master/assets/Applio.ipynb)</u>.
 Then log in to your Google account.
 ***
 2. Execute the **Install Applio** cell. This will take around 2 minutes.
