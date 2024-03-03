@@ -46,7 +46,7 @@ order: 5000
 ## Download :icon-download:
 :::
 ###### ‎
-1. Easiest way to download it is by going to their Hugging Face repo <u>[here](https://huggingface.co/IAHispano/Applio/blob/main/Compiled/ApplioV3.0.7.zip)</u>, and click [ :icon-download: **download** ] on the right.
+1. Easiest way to download it is by going to their Hugging Face repo <u>[here](https://huggingface.co/IAHispano/Applio/blob/main/Compiled/ApplioV3.0.8.zip)</u>, and click [ :icon-download: **download** ] on the right.
 
     <img src="..\applio-img\2-localappliodl.png" alt="image" width="400">
 
