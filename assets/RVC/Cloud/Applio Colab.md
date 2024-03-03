@@ -10,7 +10,6 @@ order: 5000
 <img src="..\appliocolab-img\banner.png" alt="image" width="600">
 
 :::
-
 ###### ‎
 :::content-center
 ## Introduction ‎
@@ -46,11 +45,11 @@ order: 5000
 :::content-center
 ## Setting Up :icon-download:
 :::
-***
-
+###### ‎
 1. Access the Colab space <u>[here](https://colab.research.google.com/github/iahispano/applio/blob/master/assets/Applio.ipynb)</u>.
 Then log in to your Google account.
 ***
+###### ‎
 2. Execute the **Install Applio** cell. This will take around 2 minutes.
 
     <img src="..\appliocolab-img\2-install.png" alt="image" width="260">‎     
@@ -89,14 +88,12 @@ Then log in to your Google account.
 !!! 
 ***
 ###### ‎       
-###### ‎   
 :::content-center
 ## Inference :icon-unmute:   
 !!!success
 Be sure to read the <u>[Troubleshooting](https://aihubdocs.github.io/en/rvc/cloud/applio-colab/#troubleshooting)</u> chapter if any issue arises.
 !!!
 :::
-###### ‎  
 ###### ‎   
 #### 1. Upload voice model.
 - Go to the **Download** tab.       
@@ -392,7 +389,6 @@ iii. And that's all, have fun with your model. To test it, do a normal <u>[infer
 4. Begin training again & remember to monitor <u>[TB</u>](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard) as before.  
 ===
 
-###### ‎  
 ###### ‎  
 ###### ‎  
 :::content-center
