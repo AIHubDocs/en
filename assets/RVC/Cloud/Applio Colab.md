@@ -33,7 +33,6 @@ order: 5000
 - Automatic model upload
 - Has Mangio-Crepe
 - User-friendly UI
-- TensorBoard included
 ||| ❌ **CONS** 
 - A little slower compared w/ forks
 - More unstable
@@ -60,11 +59,11 @@ Then log in to your Google account.
 
 ***
 ###### ‎
-3. If you are going to <u>[infer](https://aihubdocs.github.io/en/extra/glossary/#inference)</u> or <u>[train models](https://aihubdocs.github.io/en/extra/glossary/#model-training)</u>, run the **Extra** cell.
+3. Then run the **Extra** cell.
 
     <img src="..\appliocolab-img\2-extra.png" alt="image" width="260">‎     
 ‎       
-- To save time, unfold Extra & cancel the custom pretrain download, if you aren't going to use them.       
+- To save time, unfold it & cancel the custom pretrain download, if you aren't going to use them.       
 
     <img src="..\appliocolab-img\2-pretrain.png" alt="image" width="300">‎
 
