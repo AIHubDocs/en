@@ -198,6 +198,7 @@ ii. In Colab click the folder on the left ( :icon-file-directory-fill: ) & click
 ‎       
    <img src="..\appliocolab-img\4-refresh.png" alt="image" width="220">‎    
 ‎   
+    (For mobile users: tap the three lines on the top left & `Show file browser`)       
 ‎   
 iii. Open `drive`, localize your dataset, right-click it & click `Copy path`.     
 ‎   
