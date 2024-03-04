@@ -59,7 +59,7 @@ Then log in to your Google account.
 
 ***
 ###### ‎
-3. Then run the **Extra** cell.
+3. If you are going to train models, upload your dataset to your Google Drive storage & run the **Extra** cell.
 
     <img src="..\appliocolab-img\2-extra.png" alt="image" width="260">‎     
 ‎       

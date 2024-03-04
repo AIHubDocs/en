@@ -141,7 +141,7 @@ b. To download it, in GD open `rvcDisconnected` & the folder named after the mod
 <u>E.g:</u> with a value of ``10``, it will be saved after the epoch 10, 20, 30, etc.   
 
 `total_epochs`
-:   The total amount of <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard//)</u> for the model. But since we'll use <u>[TensorBoard](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard)</u>, use an arbitrarily large number like ``2000``.
+:   The total amount of <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u> for the model. But since we'll use <u>[TensorBoard](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard)</u>, use an arbitrarily large number like ``2000``.
 
 `batch_size`
 :   Use ``8`` if you are a newbie.

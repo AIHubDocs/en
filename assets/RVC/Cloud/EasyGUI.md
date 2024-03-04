@@ -9,7 +9,7 @@ visibility: private
 ***
 ## Introduction :icon-book:
 ***
-- The EasyGUI Colab is a port of the custom layout of <u>[Mainline]()</u> made by <u>[Rejekts](https://ko-fi.com/rejekts)</u>, named as the Colab.
+- The EasyGUI Colab is a port of the custom layout of <u>[Mainline](https://aihubdocs.github.io/en/rvc/local/mainline/)</u> made by <u>[Rejekts](https://ko-fi.com/rejekts)</u>, named as the Colab.
 
 - Its strongest points are its active maintenance & that it holds the simplicity of Mainline.
 
@@ -88,7 +88,7 @@ iii. Paste the path in the **dataset_folder** bar. Then run the **STEP 1** cell.
 
 ===
 
-=== **STEP 2**
+==- **STEP 2**
 ###### ‎
 ##### a. f0method
 ###### ‎
@@ -103,23 +103,58 @@ ii. Then run the cell.
 
 ===
 
-=== **STEP 3**
+==- **STEP 3**
 ###### ‎
 ##### a. Train index
 ###### ‎
 i. Run the **STEP 3** to generate the <u>[.INDEX](https://aihubdocs.github.io/en/essentials/voice-models/#voice-model-files)</u> of the model.
 
-ii. Open the file explorer & go to RVC, logs, and in your model's folder locate the INDEX named **added_** & download it.
+ii. To download it, open the file explorer & go to RVC, logs, and in your model's folder right-click the INDEX named **added_** & press `Download`.
 
 <img src="..\easygui-img\3-indexdl.png" alt="image" width="390">‎   
-‎ 
+
 ===
 
 === **FINAL STEP**
+Define these values:
 
+#### a. Model name
+- The name you assigned the model previously.
+
+#### b. Save frequency
+- Rate at which the model will be saved, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u>. The saved models are known as the "checkpoints".
+
+- If you are a newbie, leave it at `15`.      
+
+- **E.g:** with a value of ``10``, it will be saved after the epoch 10, 20, 30, etc.   
+
+#### c. Epochs
+- Total amount of <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u> for the model.
+- But since we'll use <u>[TensorBoard](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard)</u>, use an arbitrarily large number like ``2000``.
+
+#### d. Batch size
+- If you are a newbie, leave it at `8`. If your dataset is smaller (around 2 minutes or less) use `4` instead.
+
+#### e. Start training
+i. Begin training by running said cell. 
+
+ii. <u>[TB](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard)</u> will open in a momment. Remember to monitor it, as well as the cell's logs just in case.     
+
+    The latter will show you errors if they happen, and information about the epochs & checkpoints.   
+
+<img src="..\easygui-img\3-logs.png" alt="image" width="800">‎   
+
+iii. If after around 2:30 hours of training you don't detect <u>[OT](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#overtraining)</u> <u>[download the model]()</u> of the lowest point in case it's already OT, and the 
+
+
+!!!warning While training, you might get disconnected if you:    
+- <u>[Stay AFK](https://rentry.org/colab_workarounds)</u> for a long time.     
+- Disconnect from your Internet.       
+- Don't solve the captchas that (might) pop up occasionally.    
+- Run out of <u>[GPU runtime](http://aihubdocs.github.io/en/extra/glossary/#google-colab)</u>. 
+!!!
 ===
 
-- step 1 will take around 4 minutes
 ***
 ## Inference :icon-unmute:
 ***
