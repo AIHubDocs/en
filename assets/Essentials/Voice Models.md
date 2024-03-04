@@ -6,7 +6,7 @@ order: 3000
 
 # :icon-dependabot: Voice Models
 
-``Last update: Feb 22, 2024``        
+``Last update: Mar 4, 2024``        
 
 ‎
 :   ‎
@@ -150,7 +150,7 @@ You can listen to the audio sample to get a preview of the it.
 
 - This is a Discord bot developed by the IA Hispano team.
 - It searches the models uploaded on every RVC/AI Hub Discord server.
-- Alternatively, you can use the [web version](https://applio.org/models).
+- There's also its <u>[web version](https://applio.org/models)</u>. Has less models but unlike weights.gg, it has direct download & the Hugging Face link.
 ***
 ###### ‎
 :::content-center
