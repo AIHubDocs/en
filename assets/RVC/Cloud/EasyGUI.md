@@ -1,7 +1,7 @@
 ---
 icon: chevron-right
 order: 5000
-visibility: private
+visibility: 
 ---
 ``Last update: Mar 4, 2024`` 
 ‎  
@@ -36,7 +36,6 @@ visibility: private
 
 ## Setting Up :icon-download:
 ***
-###### ‎
 #### 1. Prepare dataset
 - Open your Google Drive storage, make a new folder & place your dataset in it.
 
@@ -116,34 +115,32 @@ ii. To download it, open the file explorer & go to RVC, logs, and in your model'
 ===
 
 === **FINAL STEP**
-Define these values:
-
-#### a. Model name
+##### a. Model name
 - The name you assigned the model previously.
 
-#### b. Save frequency
+##### b. Save frequency
 - Rate at which the model will be saved, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u>. The saved models are known as the "checkpoints".
 
 - If you are a newbie, leave it at `15`.      
 
 - **E.g:** with a value of ``10``, it will be saved after the epoch 10, 20, 30, etc.   
 
-#### c. Epochs
+##### c. Epochs
 - Total amount of <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u> for the model.
 - But since we'll use <u>[TensorBoard](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard)</u>, use an arbitrarily large number like ``2000``.
 
-#### d. Batch size
+##### d. Batch size
 - If you are a newbie, leave it at `8`. If your dataset is smaller (around 2 minutes or less) use `4` instead.
 
-#### e. Start training
-i. Begin training by running said cell. 
+##### e. Start training
+i. Begin training by running said cell. All the training files will be stored in your GD storage, so 
 
 ii. <u>[TB](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard)</u> will open in a momment. Remember to monitor it, as well as the cell's logs just in case.     
 
     The latter will show you errors if they happen, and information about the epochs & checkpoints.   
 
-<img src="..\easygui-img\3-logs.png" alt="image" width="800">‎   
-
+    <img src="..\easygui-img\3-logs.png" alt="image" width="500">‎   
+‎   
 iii. If after around 2:30 hours of training you don't detect <u>[OT](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#overtraining)</u> <u>[download the model]()</u> of the lowest point in case it's already OT, and the 
 
 
@@ -158,6 +155,22 @@ iii. If after around 2:30 hours of training you don't detect <u>[OT](https://aih
 ***
 ## Inference :icon-unmute:
 ***
+###### ‎
+#### 1. Input model
+- Modify the [pitch](https://aihubdocs.github.io/en/rvc/resources/inference-settings/#transpose) of the output.
+***
+###### ‎
+#### 2. Upload INDEX
+***
+###### ‎
+#### 3. Input vocals
+***
+###### ‎
+#### 4. Modify settings (optional)
+- Modify the <u>[inference settings](https://aihubdocs.github.io/en/rvc/resources/inference-settings/)</u> for better results if you wish.
+***
+###### ‎
+#### 5. Convert
 ***
 ## Troubleshooting :icon-tools:
 ***

@@ -28,7 +28,7 @@ Remember that the cleaner your input audio is, the better the results.
 ###### ‎ 
 ### Solutions    
 #### 1. Use a lossless format:
-- If possible, it's best if your audio is in a <u>[lossless format](https://aihubdocs.github.io/en/rvc/resources/audio-formats--sample-rate/)</u> like **WAV** or **FLAC**, preserving its original quality.
+- If possible, it's best if your audio is in a <u>[lossless format](https://aihubdocs.github.io/en/rvc/resources/sample-rate--formats/)</u> like **WAV** or **FLAC**, preserving its original quality.
 
 - Avoid using lossy ones like MP3 or OGG.
 ‎   

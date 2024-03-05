@@ -37,7 +37,7 @@ icon: chevron-right
 - Ensure there isn't background noise, reverb, overlapping voices, music, distortion, or small silences. You'll learn more in the **Cleaning Datasets** section below.
 
 #### :icon-chevron-down: Audio quality.
-- The higher the audio quality, the better. If possible have it in a <u>[lossless](https://aihubdocs.github.io/en/rvc/resources/audio-formats--sample-rate/)</u> format like **WAV** or **FLAC**, not a lossy one like MP3.
+- The higher the audio quality, the better. If possible have it in a <u>[lossless](https://aihubdocs.github.io/en/rvc/resources/sample-rate--formats/)</u> format like **WAV** or **FLAC**, not a lossy one like MP3.
 
 #### :icon-chevron-down: No sibilance/popping.
 - Additionally, don't include harsh sibilance (loud "S" & "SH" pronunciation) or popping sounds (loud "P" sound).

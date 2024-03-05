@@ -97,7 +97,7 @@ a. Go to the `Set Training Variables` cell.
 :   If you aren't familiar with pretrains, select `original`.
 
 `target_sample_rate`
-:   Select your dataset's <u>[sample rate</u>](https://aihubdocs.github.io/en/rvc/resources/audio-formats--sample-rate/#sample-rate).
+:   Select your dataset's <u>[sample rate</u>](https://aihubdocs.github.io/en/rvc/resources/sample-rate--formats/#sample-rate).
 
 ``pitch_extraction_algorithm``
 :   The <u>[extraction method](https://aihubdocs.github.io/en/rvc/resources/inference-settings/#pitch-extraction-algorithm)</u>. Don't use Harvest, as it's obsolete.        

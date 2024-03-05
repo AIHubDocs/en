@@ -149,7 +149,7 @@ In `Enter the experiment name` you insert a name for your model. Don't include s
 
 ###### ‎  
 #### 3. Select Target Sample Rate.
-In `Target sample rate` select the number that matches your datasets' <u>[sample rate</u>](https://aihubdocs.github.io/en/rvc/resources/audio-formats--sample-rate/#sample-rate).        
+In `Target sample rate` select the number that matches your datasets' <u>[sample rate</u>](https://aihubdocs.github.io/en/rvc/resources/sample-rate--formats/#sample-rate).        
 Inputting an incorrect one might screw up the final quality.
 
 <img src="../mainline-img/g.png" alt="image" width="" height="auto">         

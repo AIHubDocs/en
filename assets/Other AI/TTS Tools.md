@@ -2,7 +2,7 @@
 icon: chevron-right
 ---
 
-``Last update: Mar 3, 2024``
+``Last update: Mar 4, 2024``
 ***
 
 ## Introduction :icon-book:
@@ -11,12 +11,13 @@ icon: chevron-right
 
 - The ones listed here offer a decent variety of features & options, such as <u>[model training](https://aihubdocs.github.io/en/extra/glossary/#model-training)</u>, <u>[fine-tuning](https://aihubdocs.github.io/en/extra/glossary/#fine-tuning)</u>, <u>[0 shot training](https://aihubdocs.github.io/en/extra/glossary/#0-shot-training)</u>, or being <u>[mixed with RVC](https://ominous-waffle-r44vr6g95vvj2wqrx-5000.app.github.dev/other-ai/tts-tools/#rvc-forks)</u>.
 
-- Here's an index of the best TTS tools out there:
+- Here's an index of the best TTS tools out there:    
+‎
 ***
 ## ElevenLabs/11Labs
 ***
-- <u>[ElevenLabs](https://elevenlabs.io/)</u> is a **freemium** service (only one in this guide) that offers TTS, training TTS models & translating videos from different languages.
-
+- <u>[ElevenLabs](https://elevenlabs.io/)</u> is a **freemium** service (only one in this guide) that offers TTS, training TTS models & translating videos from different languages.    
+‎
 ***
 ## Bark TTS
 ***
@@ -42,7 +43,8 @@ icon: chevron-right
   - [Official HF Space](https://huggingface.co/spaces/suno/bark)
   - [0 Shot Voice Cloning HF Space](https://huggingface.co/spaces/kevinwang676/Bark-with-Voice-Cloning)
     - For training you'll need a paid GPU. Otherwise you can only TTS.
-  +++
+  +++    
+###### ‎
 ***
 ## Edge TTS
 ***
@@ -105,7 +107,8 @@ icon: chevron-right
   ‎
   !!!
   These being mixed with RVC means it generates the speech & runs the output through RVC, applying the voice model.
-  !!!
+  !!!    
+###### ‎
 ***
 ## StyleTTS2
 ***
@@ -130,7 +133,8 @@ icon: chevron-right
 - [LibriTTS Colab](https://colab.research.google.com/github/yl4579/StyleTTS2/blob/main/Colab/StyleTTS2_Demo_LibriTTS.ipynb)
 - [StyleTTS2 Finetuning Colab](https://colab.research.google.com/github/yl4579/StyleTTS2/blob/main/Colab/StyleTTS2_Finetune_Demo.ipynb)     
 - [StyleTTS2 HF Space](https://huggingface.co/spaces/styletts2/styletts2) (Duplicate the space to skip queue. Without GPU you can only infer)
-+++
++++    
+###### ‎
 ***
 ## Tortoise TTS
 ***
@@ -143,7 +147,8 @@ icon: chevron-right
 +++ :icon-cloud: ONLINE
 - [Colab Space](https://colab.research.google.com/github/Nick088Official/Easier-Tortoise-TTS-Google-Colab/blob/main/Easier_Tortoise_TTS.ipynb)
 - [HF Space](https://huggingface.co/spaces/Manmay/tortoise-tts)
-+++
++++    
+###### ‎
 ***
 ## XTTS2
 ***
@@ -163,7 +168,27 @@ icon: chevron-right
 - [Inference UI Colab](https://colab.research.google.com/github/camenduru/coqui-XTTS-colab/blob/main/coqui_XTTS_v2_colab.ipynb) (Run it & click the Public Link)
 - [Training & Inference UI Colab](https://colab.research.google.com/drive/1GiI4_X724M8q2W-zZ-jXo7cWTV7RfaH-?usp=sharing) | [Video Tutorial](https://www.youtube.com/watch?v=8tpDiiouGxc)
 - [HF Space](https://huggingface.co/spaces/coqui/xtts)
-+++
++++    
+###### ‎
+***
+## OpenVoice
+***
+- Has Versatile Instant Voice Cloning (aka 0 Shot Training)
+- Contains cross-lingual & flexible voice style control
+- Available both locally & online:
+
++++ :icon-device-desktop: LOCAL
+{.list-icon}
+- :icon-repo: [Official GitHub repo](https://github.com/myshell-ai/OpenVoice)
+
++++ :icon-cloud: ONLINE
+- [Inference GUI Colab](https://colab.research.google.com/github/camenduru/OpenVoice-colab/blob/main/OpenVoice_colab.ipynb)
+- [Official Demo Part 1 Colab](https://colab.research.google.com/github/myshell-ai/OpenVoice/blob/main/demo_part1.ipynb)
+- [Official Demo Part 2 Colab](https://colab.research.google.com/github/myshell-ai/OpenVoice/blob/main/demo_part2.ipynb)
+- [Official HF Space](https://huggingface.co/spaces/myshell-ai/OpenVoice)
++++    
+###### ‎
+
 ***
 ## MetaVoice-1B
 ***
@@ -183,7 +208,8 @@ icon: chevron-right
 - [TTS with 0 Shot Training Demo](https://ttsdemo.themetavoice.xyz/) | [Easier Version](https://colab.research.google.com/github/Nick088Official/Easier-MetaVoice-1B-Google-Colab/blob/main/Easier_MetaVoice_1B.ipynb)
 - [TTS with 0 Shot Training HF Space](https://huggingface.co/spaces/mrfakename/MetaVoice-1B-v0.1)
 - [Freemium MetaVoice Studio](https://colab.research.google.com/github/Nick088Official/Easier-MetaVoice-1B-Google-Colab/blob/main/Easier_MetaVoice_1B.ipynb) (Only premade voices)
-+++
++++    
+###### ‎
 ***
 ## MeloTTS
 ***
@@ -200,7 +226,8 @@ icon: chevron-right
 - [UI Colab](https://colab.research.google.com/github/Nick088Official/MeloTTS-Google-Colabs/blob/main/MeloTTS_UI.ipynb)
 - [NO UI Colab](https://colab.research.google.com/github/Nick088Official/MeloTTS-Google-Colabs/blob/main/MeloTTS_NO_UI.ipynb)
 - [HF Space](https://huggingface.co/spaces/mrfakename/MeloTTS)
-+++
++++    
+###### ‎
 ***
 ## GPT-SoVITS
 ***
@@ -215,7 +242,8 @@ icon: chevron-right
 
 +++ :icon-cloud: ONLINE
 - [Colab Space](https://colab.research.google.com/github/RVC-Boss/GPT-SoVITS/blob/main/colab_webui.ipynb#scrollTo=4oRGUzkrk8C7) (with fine-tuning, inference & UI)
-+++
++++    
+###### ‎
 ***
 ## gTTS
 ***
