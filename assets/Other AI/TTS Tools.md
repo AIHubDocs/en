@@ -165,9 +165,9 @@ icon: chevron-right
 - [XTTS 2 UI Fork](https://github.com/BoltzmannEntropy/xtts2-ui)
 
 +++ :icon-cloud: ONLINE
-- [Inference UI Colab](https://colab.research.google.com/github/camenduru/coqui-XTTS-colab/blob/main/coqui_XTTS_v2_colab.ipynb) (Run it & click the Public Link)
-- [Training & Inference UI Colab](https://colab.research.google.com/drive/1GiI4_X724M8q2W-zZ-jXo7cWTV7RfaH-?usp=sharing) | [Video Tutorial](https://www.youtube.com/watch?v=8tpDiiouGxc)
-- [HF Space](https://huggingface.co/spaces/coqui/xtts)
+- [Inference 0 Shot Training UI Colab](https://colab.research.google.com/github/camenduru/coqui-XTTS-colab/blob/main/coqui_XTTS_v2_colab.ipynb) (Run it & click the Public Link)
+- [Training & Inference UI Colab](https://colab.research.google.com/github/Nick088Official/XTTS2_UI_Inference_Training_Google_Colab/blob/main/XTTS2_Inf_Train.ipynb)
+- [Inference 0 Shot Training HF Space](https://huggingface.co/spaces/coqui/xtts)
 +++    
 ###### ‎
 ***
