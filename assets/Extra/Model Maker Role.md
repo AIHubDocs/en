@@ -83,7 +83,7 @@ order: 1000
 #### Step 2: Upload it.
 - The ZIP must be stored in Hugging Face in a **public** repo of `openrail` license.    
 
-- Learn how <u>[here</u>](https://aihubdocs.github.io/en/rvc/resources/uploading-models-to-hugging-face/).
+- Learn how <u>[here</u>](https://aihubdocs.github.io/en/rvc/resources/hugging-face-upload/).
 ***
 ###### ‎
 #### Step 3: Prepare the submission.

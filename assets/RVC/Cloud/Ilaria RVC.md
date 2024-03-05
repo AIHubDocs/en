@@ -188,7 +188,7 @@ At the right press the three dots & then `Download`.
 
 ==- *My model doesn't have a link from HF/GD.*
 ###### ‎
-- You'll have to create the link yourself. Learn how <u>[here</u>](https://aihubdocs.github.io/en/rvc/resources/uploading-models-to-hugging-face/).
+- You'll have to create the link yourself. Learn how <u>[here</u>](https://aihubdocs.github.io/en/rvc/resources/hugging-face-upload/).
 ===
 
 ==- *I can't download my model.* 
@@ -197,7 +197,7 @@ At the right press the three dots & then `Download`.
 
     1. **Link is private:** 
         - If it's from GD, ensure the `General access` is set as `Anyone with the link`.
-        - If it's from HF, ensure the repo is set as `Public`. Learn more <u><u>[here</u>](https://aihubdocs.github.io/en/rvc/resources/uploading-models-to-hugging-face/)</u>.            
+        - If it's from HF, ensure the repo is set as `Public`. Learn more <u><u>[here</u>](https://aihubdocs.github.io/en/rvc/resources/hugging-face-upload/)</u>.            
         ‎   
     2. **Invalid HF link:**
         - The HF link must contain the word "**.zip**".
