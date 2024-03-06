@@ -3,7 +3,7 @@ icon: chevron-right
 order: 5000
 visibility: private
 ---
-``Last update: Mar 5, 2024`` 
+``Last update: Mar 6, 2024`` 
 ‎  
 
 ***
@@ -13,21 +13,20 @@ visibility: private
 
 - Its strongest points are its active maintenance & that it holds the simplicity of Mainline.
 
-- The Colab offers two ways to use it, with or without the UI. The latter being available **only** for Pro tier users.        
+- The Colab offers two ways to use it, with or without the UI. The first one being ideal for newbies.        
 ‎         
 #### Pros & Cons :icon-tasklist:
 ==- *Learn more*
 !!! *The pros & cons are subjective to your necessities.*        
 !!! 
 ||| ✔️ **PROS** 
-- Very complete
 - Active maintenance          
 - UI version
+- Automatic model upload
 - Feature to save model to HF
 ||| ❌ **CONS** 
 - Has less features    
 - No <u>[Mangio-Crepe</u>](https://aihubdocs.github.io/en/rvc/resources/inference-settings/#pitch-extraction-algorithm) 
-- Manual model upload
 - Usage limit for free users
 ||| 
 ===
@@ -57,13 +56,181 @@ b. Then **Log in** to your Google account.
 ‎       
 <img src="..\easygui-img\2-installdone.png" alt="image" width="220">‎    
 ‎    
-!!! Connecting to GD is not mandatory, but highly recommended.
-As inputting files through Colab is much slower.
+
+***
+###### ‎
+#### 4. Open UI (optional)
+- 
+- If you are going to train models, ensure load models from drive & open tensorboard are ticked
+
+- Then run the cell.
+
+<img src="..\easygui-img\2-openui.png" alt="image" width="220">‎    
+
+- Open the public url.
+
+<img src="..\easygui-img\2-publicurl.png" alt="image" width="220">‎    
+
+***
+!!!
+Connecting to GD is not mandatory, but highly recommended, as submitting files through Colab is much slower.        
+Don't close Colab until you're done using EasyGUI, or it will stop working.
 !!!
 ###### ‎
 
 ***
-## Training :icon-rocket:
+## With UI
+***
+
+### Inference :icon-unmute:
+***
+#### 1. Download model
+a. Go to the **Download Model** tab & paste the <u>[model link]()</u> in the upper bar.
+
+<img src="..\easygui-img\ui-i-modellink.png" alt="image" width="220">‎ 
+
+b. In **Name your model** insert a name for it. Don't include spaces/special characters. Then press ``Download``.
+
+<img src="..\easygui-img\ui-i-namemodel.png" alt="image" width="220">‎ 
+***
+
+#### 2. Select model
+a. Return to the **Model Inference** tab & click `Refresh voice list and index path`.
+
+b. Then select the model in **Inferencing voice**. 
+
+<img src="..\easygui-img\ui-i-refreshselect.png" alt="image" width="220">‎ 
+
+***
+#### 3. Input vocals
+a. Click the upload box & select your vocals. Or simply drag & drop.
+
+<img src="..\easygui-img\ui-i-uploadaudio.png" alt="image" width="220">‎ 
+
+b. Once done uploading, click `Refresh` again.
+***
+#### 4. Modify settings (optional)
+- If you wish, modify the [inference settings]() for better results. Unfold the **General settings** menu to see more.
+
+!!!
+The **Index Rate** is in the **Auto-detect index path** bar, and **Pitch** is on the right of `Refresh`.
+!!!
+
+***
+#### 5. Convert
+a. Begin processing by clicking the `Convert` button on top.
+
+b. Once done, you'll be able to hear the results in the **Export audio** box. To download it, click the 3 dots on the right & `Download`.
+
+<img src="..\easygui-img\ui-i-output.png" alt="image" width="220">‎ 
+
+***
+### Training :icon-rocket:
+
+!!!warning
+**For newbies:** if a setting isn't mentioned, leave it untouched.
+!!!
+#### 1. Name the model
+- Go to the **Train** tab. First set a name for your model in **Enter the experiment name**.
+
+<img src="..\easygui-img\ui-t-name.png" alt="image" width="220">‎ 
+
+***
+
+#### 2. Target sample rate
+- Select your dataset's <u>[sample rate]()</u>.
+
+<img src="..\easygui-img\ui-t-samplerate.png" alt="image" width="220">‎ 
+
+***
+#### 3. Select dataset
+
+a. Press the upload box & select your dataset. Or simply drag & drop. 
+
+<img src="..\easygui-img\ui-t-inputds.png" alt="image" width="220">‎ 
+
+b. Once it's done uploading, press **Process Data**. It'll finish when the logs say ``Process data``. 
+
+<img src="..\easygui-img\ui-t-endpreprocess.png"alt="image" width="220">‎ 
+
+***
+#### 4. Feature extraction
+- Press `Feature extraction`
+
+***
+#### 5. Total training epochs
+- Input the total amount of <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u> (training cycles) for the model.
+
+- But since we'll use <u>[TensorBoard](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard)</u>, use an arbitrarily large value like `1000`
+
+<img src="..\easygui-img\ui-t-epochs.png"alt="image"width="220">‎
+
+***
+## Without UI
+***
+
+###### ‎
+***
+### Inference :icon-unmute:
+***
+#### 1. Input model
+- Depending on your device, the process of inputting the model varies.
+
+    +++ :icon-device-desktop: ‎ DESKTOP
+    a. Upload the model to Google Drive.    
+    ‎   
+    <img src="..\easygui-img\4-modelfolder.png" alt="image" width="350">‎   
+    ‎   
+    b. Click the folder symbol ( icon-file-directory ) & go to **drive -> MyDrive**.
+    
+        <img src="..\easygui-img\4-pthgd.png" alt="image" width="260">‎     
+    ‎   
+    c. Drag & drop the .PTH to the folder **RVC -> assets -> weights**.       
+    ‎   
+    <img src="..\easygui-img\4-weights.png" alt="image" width="270">‎  
+    ‎  
+    d. In **model_name** input the name of the PTH followed by `.pth`.      
+    ‎   
+    <img src="..\easygui-img\4-modelname.png" alt="image" width="320">‎  
+    +++ :icon-device-mobile: MOBILE
+    a. Upload the model's INDEX to Google Drive.
+    +++
+***
+###### ‎
+#### 2. Upload INDEX
+a. Open the file explorer, open **MyDrive**, right-click the INDEX & click **Copy path**.
+
+    <img src="..\easygui-img\4-index.png" alt="image" width="400">‎     
+‎   
+b. Then paste it in the **index_path** bar.
+
+    <img src="..\easygui-img\4-indexpath.png" alt="image" width="550">‎  
+***
+###### ‎
+#### 3. Input vocals
+a. Upload the vocals to GD & copy the path.
+
+    <img src="..\easygui-img\4-audio.png" alt="image" width="380">‎     
+‎   
+b. Paste it in the **input_path** & **output_path** bars.       
+
+   <img src="..\easygui-img\4-inputoutput.png" alt="image" width="430">‎      
+
+***
+###### ‎
+#### 4. Modify settings (optional)
+- Modify the <u>[inference settings](https://aihubdocs.github.io/en/rvc/resources/inference-settings/)</u> for better results if you wish.
+
+
+***
+###### ‎
+#### 5. Convert
+a. Run the cell to begin processing the audio. 
+
+b. Once done, a playable audio will 
+
+
+### Training :icon-rocket:
 ***
 ==- **STEP 1** 
 ###### ‎
@@ -154,65 +321,10 @@ iii. If after around 2:30 hours of training you don't detect <u>[OT](https://aih
 - Run out of <u>[GPU runtime](http://aihubdocs.github.io/en/extra/glossary/#google-colab)</u>. 
 !!!
 ===
-###### ‎
-***
-## Inference :icon-unmute:
-***
-#### 1. Input model
-- Depending on your device, the process of inputting the model varies.
-
-    +++ :icon-device-desktop: ‎ DESKTOP
-    a. Upload the model to Google Drive.    
-    ‎   
-    <img src="..\easygui-img\4-modelfolder.png" alt="image" width="350">‎   
-    ‎   
-    b. Click the folder symbol ( icon-file-directory ) & go to **drive -> MyDrive**.
-    
-        <img src="..\easygui-img\4-pthgd.png" alt="image" width="260">‎     
-    ‎   
-    c. Drag & drop the .PTH to the folder **RVC -> assets -> weights**.       
-    ‎   
-    <img src="..\easygui-img\4-weights.png" alt="image" width="270">‎  
-    ‎  
-    d. In **model_name** input the name of the PTH followed by `.pth`.      
-    ‎   
-    <img src="..\easygui-img\4-modelname.png" alt="image" width="320">‎  
-    +++ :icon-device-mobile: MOBILE
-    a. Upload the model's INDEX to Google Drive.
-    +++
-***
-###### ‎
-#### 2. Upload INDEX
-a. Open the file explorer, open **MyDrive**, right-click the INDEX & click **Copy path**.
-
-    <img src="..\easygui-img\4-index.png" alt="image" width="400">‎     
-‎   
-b. Then paste it in the **index_path** bar.
-
-    <img src="..\easygui-img\4-indexpath.png" alt="image" width="550">‎  
-***
-###### ‎
-#### 3. Input vocals
-a. Upload the vocals to GD & copy the path.
-
-    <img src="..\easygui-img\4-audio.png" alt="image" width="380">‎     
-‎   
-b. Paste it in the **input_path** & **output_path** bars.       
-
-   <img src="..\easygui-img\4-inputoutput.png" alt="image" width="430">‎      
-
-***
-###### ‎
-#### 4. Modify settings (optional)
-- Modify the <u>[inference settings](https://aihubdocs.github.io/en/rvc/resources/inference-settings/)</u> for better results if you wish.
 
 
-***
-###### ‎
-#### 5. Convert
-a. Run the cell to begin processing the audio. 
-
-b. Once done, a playable audio will 
 ***
 ## Troubleshooting :icon-tools:
 ***
+
+https://paypal.me/lesantillan
