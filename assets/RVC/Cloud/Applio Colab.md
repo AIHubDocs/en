@@ -517,14 +517,6 @@ If the frequencies don't reach the top of the spectrogram, see at which number p
 ###### ‎
 ###### ‎
 :::content-center
-## Applio Cli
-:::
-
-
-***
-###### ‎
-###### ‎
-:::content-center
 ## Troubleshooting
 :::
 ###### ‎ 

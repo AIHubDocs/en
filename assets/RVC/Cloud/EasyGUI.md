@@ -357,8 +357,6 @@ ii. <u>[TB](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--te
 
     <img src="..\easygui-img\3-logs.png" alt="image" width="500">‎   
 ‎   
-iii. If after around 2:30 hours of training you don't detect <u>[OT](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#overtraining)</u> <u>[download the model]()</u> of the lowest point in case it's already OT, and the 
-
 
 !!!warning While training, you might get disconnected if you:    
 - <u>[Stay AFK](https://rentry.org/colab_workarounds)</u> for a long time.     
@@ -366,6 +364,10 @@ iii. If after around 2:30 hours of training you don't detect <u>[OT](https://aih
 - Don't solve the captchas that (might) pop up occasionally.    
 - Run out of <u>[GPU runtime](http://aihubdocs.github.io/en/extra/glossary/#google-colab)</u>. 
 !!!
+
+- If the session ends due to exhausting GPU runtime, don't worry, if you followed the [Setting Up]() procedure, all the training files will be stored in your GD storage.
+
+- Once the GPU runtime refills, begin the [retraining]() procedure.
 ===
 
 
