@@ -7,15 +7,17 @@ visibility: private
 ‎  
 
 ***
-## Introduction :icon-book:
-***
+:::content-center
+## Introduction
+:::
+
 - The EasyGUI Colab is a port of the custom layout of <u>[Mainline](https://aihubdocs.github.io/en/rvc/local/mainline/)</u> made by <u>[Rejekts](https://ko-fi.com/rejekts)</u>, named as the Colab.
 
 - Its strongest points are its active maintenance & that it holds the simplicity of Mainline.
 
 - The Colab offers two ways to use it, with or without the UI. The first one being ideal for newbies.        
 ‎         
-#### Pros & Cons :icon-tasklist:
+#### Pros & Cons
 ==- *Learn more*
 !!! *The pros & cons are subjective to your necessities.*        
 !!! 
@@ -31,19 +33,25 @@ visibility: private
 ||| 
 ===
 ###### ‎
-***
 
-## Setting Up :icon-download:
 ***
+:::content-center
+## Setting Up
+‎    
+:   ‎
+
+:::
+
 #### 1. Prepare dataset (optional)
-- If you're going to train models, go to Google Drive, make a new folder & place your dataset in it.
+- If you're going to train models, go to Google Drive & make a new folder with your dataset in it.
 
     <img src="..\easygui-img\dataset.png" alt="image" width="300">
 
 *** 
 ###### ‎
 #### 2. Enter the Colab
-a. Access the Colab space <u>[here](https://colab.research.google.com/drive/1r4IRL0UA7JEoZ0ZK8PKfMyTIBHKpyhcw#scrollTo=Sb5fzhzEXK8X)</u>.      
+a. Access the Colab space <u>[here](https://colab.research.google.com/drive/1r4IRL0UA7JEoZ0ZK8PKfMyTIBHKpyhcw#scrollTo=Sb5fzhzEXK8X)</u>.  
+
 b. Then **Log in** to your Google account.
 ***
 ###### ‎
@@ -55,66 +63,66 @@ b. Then **Log in** to your Google account.
 - When it finishes the cell will look like this.    
 ‎       
 <img src="..\easygui-img\2-installdone.png" alt="image" width="220">‎    
-‎    
+
 
 ***
 ###### ‎
 #### 4. Open UI (optional)
-- 
-- If you are going to train models, ensure load models from drive & open tensorboard are ticked
+a. Run **Open the easyGUI**.
 
-- Then run the cell.
+    <img src="..\easygui-img\2-openui.png" alt="image" width="320">‎    
+‎     
+- If you are going to train models, first ensure **load_models_from_drive** & **open_tensorboard** are ticked.
 
-<img src="..\easygui-img\2-openui.png" alt="image" width="220">‎    
+b. Then open the **public url**.
 
-- Open the public url.
-
-<img src="..\easygui-img\2-publicurl.png" alt="image" width="220">‎    
-
-***
-!!!
-Connecting to GD is not mandatory, but highly recommended, as submitting files through Colab is much slower.        
-Don't close Colab until you're done using EasyGUI, or it will stop working.
-!!!
-###### ‎
+    <img src="..\easygui-img\2-publicurl.png" alt="image" width="530">‎    
+‎    
+!!!warning Don't close Colab until you're done using EasyGUI, or it will stop working.
+!!!     
 
 ***
+:::content-center
 ## With UI
-***
+:::
+‎    
+:   ‎    
 
-### Inference :icon-unmute:
-***
+### Inference 
+
 #### 1. Download model
-a. Go to the **Download Model** tab & paste the <u>[model link]()</u> in the upper bar.
+a. Go to the **Download Model** tab & paste the <u>[model link](https://aihubdocs.github.io/en/essentials/voice-models/#how-to-search-voice-models)</u> in the upper bar.
 
-<img src="..\easygui-img\ui-i-modellink.png" alt="image" width="220">‎ 
+    <img src="..\easygui-img\ui-i-modellink.png" alt="image" width="450">‎      
+‎   
+b. In **Name your model** insert a name for it. Don't include spaces/special characters.        
+Then press ``Download``.
 
-b. In **Name your model** insert a name for it. Don't include spaces/special characters. Then press ``Download``.
+    <img src="..\easygui-img\ui-i-namemodel.png" alt="image" width="520">‎ 
 
-<img src="..\easygui-img\ui-i-namemodel.png" alt="image" width="220">‎ 
 ***
-
+###### ‎
 #### 2. Select model
 a. Return to the **Model Inference** tab & click `Refresh voice list and index path`.
 
 b. Then select the model in **Inferencing voice**. 
 
-<img src="..\easygui-img\ui-i-refreshselect.png" alt="image" width="220">‎ 
+    <img src="..\easygui-img\ui-i-refreshselect.png" alt="image" width="620">‎ 
 
 ***
+###### ‎
 #### 3. Input vocals
 a. Click the upload box & select your vocals. Or simply drag & drop.
 
-<img src="..\easygui-img\ui-i-uploadaudio.png" alt="image" width="220">‎ 
-
-b. Once done uploading, click `Refresh` again.
+    <img src="..\easygui-img\ui-i-uploadaudio.png" alt="image" width="320">‎        
+‎    
+b. Once it's done uploading, click `Refresh` again.
 ***
+###### ‎  
 #### 4. Modify settings (optional)
-- If you wish, modify the [inference settings]() for better results. Unfold the **General settings** menu to see more.
+- If you wish, modify the [inference settings](https://aihubdocs.github.io/en/rvc/resources/artifacting/) for better results. Unfold the **General settings** menu to see more.
 
-!!!
-The **Index Rate** is in the **Auto-detect index path** bar, and **Pitch** is on the right of `Refresh`.
-!!!
+- The **Index Rate** is in the **Auto-detect index path** bar, and **Pitch** is on the right of `Refresh`.
 
 ***
 #### 5. Convert
@@ -122,66 +130,86 @@ a. Begin processing by clicking the `Convert` button on top.
 
 b. Once done, you'll be able to hear the results in the **Export audio** box. To download it, click the 3 dots on the right & `Download`.
 
-<img src="..\easygui-img\ui-i-output.png" alt="image" width="220">‎ 
+    <img src="..\easygui-img\ui-i-output.png" alt="image" width="590">‎ 
 
 ***
+###### ‎
 ### Training :icon-rocket:
 
-!!!warning
-**For newbies:** if a setting isn't mentioned, leave it untouched.
-!!!
+>**For newbies:** if a setting isn't mentioned, leave it untouched.
+
+###### ‎
 #### 1. Name the model
-- Go to the **Train** tab. First set a name for your model in **Enter the experiment name**.
+a. Go to the **Train** tab. 
 
-<img src="..\easygui-img\ui-t-name.png" alt="image" width="220">‎ 
+b. First set a name for your model in **Enter the experiment name**.
 
+    <img src="..\easygui-img\ui-t-name.png" alt="image" width="520">‎   
+‎       
+- Don't include spaces/special characters, to avoid errors.
 ***
-
+###### ‎
 #### 2. Target sample rate
-- Select your dataset's <u>[sample rate]()</u>.
+- Select your dataset's <u>[sample rate](https://aihubdocs.github.io/en/rvc/resources/sample-rate--formats/#sample-rate)</u>.
 
-<img src="..\easygui-img\ui-t-samplerate.png" alt="image" width="220">‎ 
+    <img src="..\easygui-img\ui-t-samplerate.png" alt="image" width="300">‎ 
 
 ***
+###### ‎
 #### 3. Select dataset
 
 a. Press the upload box & select your dataset. Or simply drag & drop. 
 
-<img src="..\easygui-img\ui-t-inputds.png" alt="image" width="220">‎ 
-
+    <img src="..\easygui-img\ui-t-inputds.png" alt="image" width="500">‎    
+‎   
 b. Once it's done uploading, press **Process Data**. It'll finish when the logs say ``end preprocess``. 
 
-<img src="..\easygui-img\ui-t-endpreprocess.png" alt="image" width="220">‎ 
+    <img src="..\easygui-img\ui-t-endpreprocess.png" alt="image" width="500">‎ 
 
 ***
+###### ‎
 #### 4. Feature extraction
 - Press `Feature extraction`
 
 ***
+###### ‎    
 #### 5. Total training epochs
 - Input the total amount of <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u> (training cycles) for the model.
 
 - But since we'll use <u>[TensorBoard](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard)</u>, use an arbitrarily large value like `1000`
 
-<img src="..\easygui-img\ui-t-epochs.png" alt="image" width="220">‎
+    <img src="..\easygui-img\ui-t-epochs.png" alt="image" width="420">‎
 
 ***
+###### ‎
 #### 6. Save frequency
 - Rate at which the model will be saved, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u>. The saved models are known as the "checkpoints".    
 
 - If you are a newbie, leave it at `15`.  
 
+    <img src="..\easygui-img\ui-t-saverate.png" alt="image" width="570">‎     
+‎   
 - E.g: with a value of ``10``, it will be saved after the epoch 10, 20, 30, etc.   
-***
-#### 7. Batch size
-- If you are a newbie, use `8`. But in case your dataset is short (around 2 minutes or less), use `4`.
-***
-#### 8. Cache 
-- For a faster training, set **Cache all training sets to GPU memory** as yes, if your dataset is less 10 minutes.
 
 ***
+###### ‎
+#### 7. Batch size
+- If you are a newbie, use `8`. But if your dataset is short (around 2 minutes or less), use `4`.
+
+    <img src="..\easygui-img\ui-t-gpu.png" alt="image" width="590">‎  
+
+***
+###### ‎
+#### 8. Cache (optional)
+- For a faster training, set **Cache all training sets to GPU memory** as ``Yes``, if your dataset is less 10 minutes.
+
+    <img src="..\easygui-img\ui-t-cache.png" alt="image" width="590">‎  
+
+
+***
+###### ‎
 #### 9. Train INDEX
-- Press ´Train feature index´ to get the model's [.INDEX]() file.
+- Press ``Train feature index`` to get the model's [.INDEX](https://aihubdocs.github.io/en/essentials/voice-models/#-index) file.
 
 ***
 ## Without UI
@@ -344,5 +372,3 @@ iii. If after around 2:30 hours of training you don't detect <u>[OT](https://aih
 ***
 ## Troubleshooting :icon-tools:
 ***
-
-https://paypal.me/lesantillan
