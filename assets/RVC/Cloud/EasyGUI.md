@@ -38,7 +38,7 @@ visibility: private
 #### 1. Prepare dataset (optional)
 - If you're going to train models, go to Google Drive, make a new folder & place your dataset in it.
 
-    <img src="..\easygui-img\2-dataset.png" alt="image" width="300">
+    <img src="..\easygui-img\dataset.png" alt="image" width="300">
 
 *** 
 ###### ‎
@@ -149,9 +149,9 @@ a. Press the upload box & select your dataset. Or simply drag & drop.
 
 <img src="..\easygui-img\ui-t-inputds.png" alt="image" width="220">‎ 
 
-b. Once it's done uploading, press **Process Data**. It'll finish when the logs say ``Process data``. 
+b. Once it's done uploading, press **Process Data**. It'll finish when the logs say ``end preprocess``. 
 
-<img src="..\easygui-img\ui-t-endpreprocess.png"alt="image" width="220">‎ 
+<img src="..\easygui-img\ui-t-endpreprocess.png" alt="image" width="220">‎ 
 
 ***
 #### 4. Feature extraction
@@ -163,7 +163,25 @@ b. Once it's done uploading, press **Process Data**. It'll finish when the logs 
 
 - But since we'll use <u>[TensorBoard](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard)</u>, use an arbitrarily large value like `1000`
 
-<img src="..\easygui-img\ui-t-epochs.png"alt="image"width="220">‎
+<img src="..\easygui-img\ui-t-epochs.png" alt="image" width="220">‎
+
+***
+#### 6. Save frequency
+- Rate at which the model will be saved, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u>. The saved models are known as the "checkpoints".    
+
+- If you are a newbie, leave it at `15`.  
+
+- E.g: with a value of ``10``, it will be saved after the epoch 10, 20, 30, etc.   
+***
+#### 7. Batch size
+- If you are a newbie, use `8`. But in case your dataset is short (around 2 minutes or less), use `4`.
+***
+#### 8. Cache 
+- For a faster training, set **Cache all training sets to GPU memory** as yes, if your dataset is less 10 minutes.
+
+***
+#### 9. Train INDEX
+- Press ´Train feature index´ to get the model's [.INDEX]() file.
 
 ***
 ## Without UI
