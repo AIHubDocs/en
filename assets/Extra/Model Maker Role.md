@@ -4,7 +4,7 @@ icon: chevron-right
 order: 1000
 ---
 
-``Last update: Feb 29, 2024``
+``Last update: Mar 7, 2024``
 ***
 ###### ‎ 
 :::content-center
@@ -50,7 +50,7 @@ order: 1000
 ###### ‎ 
 #### :icon-chevron-right: An outdated extraction method was used.
 {.list-icon}
-- :icon-check-circle: Only **Crepe, Mangio-Crepe**, or **RMVPE** are allowed. Learn about them <u>[here](https://aihubdocs.github.io/en/rvc/resources/inference-settings/#pitch-extraction-algorithm)</u>
+- :icon-check-circle: Only **Mangio-Crepe** & **RMVPE** are allowed. Learn about them <u>[here](https://aihubdocs.github.io/en/rvc/resources/inference-settings/#pitch-extraction-algorithm)</u>
 
 - :icon-x-circle: Harvest, Dio, Crepe-Tiny, PM, etc. are obsolete.
 
