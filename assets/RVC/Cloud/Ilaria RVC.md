@@ -3,7 +3,7 @@ icon: chevron-right
 order: 6000
 ---
 
-``Last update: Feb 25, 2024``
+``Last update: Mar 8, 2024``
 ‎ 
 ***  
 ###### ‎ 
@@ -16,7 +16,7 @@ order: 6000
 
 - And for this it's considered one of the best alternatives for doing inference through the cloud.       
 ‎               
-### Pros & Cons :icon-tasklist:
+#### Pros & Cons :icon-tasklist:
 ==- ***Learn more***
 !!! *The pros & cons are subjective to your necessities.*        
 !!!
@@ -37,9 +37,9 @@ order: 6000
 ###### ‎ 
 :::content-center
 ## Inference :icon-unmute:
-
-!!!success
-If you encounter an issue, read the <u>[Troubleshooting</u>](https://aihubdocs.github.io/en/rvc/cloud/ilaria-rvc/#troubleshooting-) chapter below.
+#### [`See video tutorial`](https://www.youtube.com/watch?v=wh4cLMLLkj0)
+!!!info
+If any issues arises, read the <u>[Troubleshooting</u>](https://aihubdocs.github.io/en/rvc/cloud/ilaria-rvc/#troubleshooting-) chapter.
 !!!
 :::
 

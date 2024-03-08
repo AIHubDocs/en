@@ -3,7 +3,7 @@ icon: chevron-right
 order: 3000
 ---
 
-``Last update: Mar 2, 2024``
+``Last update: Mar 8, 2024``
 ***
 :::content-center
 
@@ -14,8 +14,8 @@ order: 3000
 :::
 ### :icon-chevron-down:Backing vocals
 - Vocal lines that contribute to the sound of the lead vocals in a song.      
-***
 
+***
 ###### ‎
 ### :icon-chevron-down:Cloud-based
 - Any software or application that's stored, managed, and available through the provider's virtual servers, and is accessed through a web browser.        
