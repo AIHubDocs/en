@@ -1,4 +1,8 @@
-**COLAB TUTORIAL COMING SOON**
+---
+icon: chevron-right
+---
+
+**COLAB TUTORIAL COMING SOON**		
 This tutorial is made by Delik. If you have any questions and/or suggestions you can contact me on discord (**delik**) or wechat (**Dellikk**)
 
 !!!info GPT-SoVITS is an open-source repository focused on TTS and cross language inference. Currently it only supports Chinese, English and Japanese. More languages coming soon!
