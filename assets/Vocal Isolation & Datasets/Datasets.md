@@ -88,7 +88,7 @@ icon: chevron-right
     ‎       
 - And finally, introduce these values:  
     - **Format**: ``FLAC``    
-    - **Bit depth**: ``24 bit`
+    - **Bit depth**: ``24 bit``
     - **Level**: ``8``         
     ‎       
 <img src="../datasets-img/5.png" alt="image" width="650" height="auto">
