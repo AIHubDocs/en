@@ -1,10 +1,11 @@
 # AI Hub Docs
 
-- This project is a beginner-friendly documentation of RVC (Retrieval-based Voice Conversion) & related apps, made by members of the AI Hub community.
+## Introduction :icon-book:
+- This project is a documentation of AI tools, mostly <u>[RVC](https://aihubdocs.github.io/en/essentials/whats-rvc/)</u>-related apps. Made by members of [<u>**AI HUB**</u>](https://discord.com/invite/aihub).
 
-- Here you'll find simple & convenient guides verified by experts in RVC.
+- <ins>Topics include</ins>: model training, inference, audio isolation, datasets, TensorBoard, & more.
 
-- <ins>Topics include</ins>: model training, inference, audio isolation, datasets, TensorBoard, & more. Either locally or through the cloud.
+- Verified by the experts, either locally or through the cloud.
 
 ## Contributions
 - We'll appreciate any **feedback**, big or small. You can directly **contact us** in <u>[AI Hub](https://discord.gg/aihub)</u>: **@eddycrack864** - **@ailen2091**

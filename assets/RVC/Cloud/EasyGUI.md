@@ -339,11 +339,11 @@ ii. To download it, open the file explorer & go to RVC, logs, and in your model'
 - The name you assigned the model previously.
 
 ##### b. Save frequency
-- Rate at which the model will be saved, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u>. The saved models are known as the "checkpoints".
+- Frequency of the <u>[saving checkpoints](https://aihubdocs.github.io/en/extra/glossary/#checkpoints)</u>, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u>.   
 
-- If you are a newbie, leave it at `15`.      
+- If you are a newbie, simply leave it at `15`.        
 
-- **E.g:** with a value of ``10``, it will be saved after the epoch 10, 20, 30, etc.   
+- E.g: with a value of ``10``, they will be saved after the epoch 10, 20, 30, etc.     
 
 ##### c. Epochs
 - Total amount of <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u> for the model.

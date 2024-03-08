@@ -6,7 +6,7 @@ order: 3000
 
 # :icon-dependabot: Voice Models
 
-``Last update: Mar 4, 2024``        
+``Last update: Mar 8, 2024``        
 
 ‎
 :   ‎
@@ -33,7 +33,7 @@ Learn how <u>[here</u>](https://aihubdocs.github.io/en/essentials/how-to-make-vo
 ##### :icon-triangle-down: <u>PTH:</u>
 - This file is the model itself.
 - Contains data regarding pitch.     
-- While training, RVC generates other .PTHs named `D_` or `G_`, but these are training checkpoints, not usable models.  
+- While training, RVC generates other .PTHs named `D_` and `G_`, but these are the <u>[checkpoints](https://aihubdocs.github.io/en/extra/glossary/#checkpoints)</u>, not usable models.  
 ***
 !!!warning *Be sure to upload the correct files mentioned before.*
 As people sometimes upload them incorrectly.

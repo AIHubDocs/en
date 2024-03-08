@@ -16,12 +16,36 @@ order: 3000
 - Vocal lines that contribute to the sound of the lead vocals in a song.      
 
 ***
+
+###### ‎
+### :icon-chevron-down:Checkpoints
+
+
+- In RVC, these are files of a model that generate over the course of training, that can be very useful.        
+‎  
+- The rate at which they're saved is determined by the **save frequency** value (or save rate or similar names). **For newbies, it's recommended use a value of `15`.**      
+‎    
+- **They are divided by two types:**  
+‎  
+    - <u>**Weights:**</u>    
+        - These are actual models.
+        - They're organized with this format: **modelname_epoch_step.pth**
+        - Example: `Tyler_e60_s120.pth`    
+‎  
+    - <u>**G and D:**</u>
+        - Named **G_** and **D_**, followed by the step number & **.pth**.
+        - Example: `G_70.pth` and `D_70.pth` 
+        - These allow you to resume training, if G and D's numbers match.
+
+***
 ###### ‎
 ### :icon-chevron-down:Cloud-based
 - Any software or application that's stored, managed, and available through the provider's virtual servers, and is accessed through a web browser.        
 
-- The opposite of <u>[local running</u>](https://aihubdocs.github.io/en/extra/glossary/#local-running).          
+- The opposite of <u>[local running</u>](https://aihubdocs.github.io/en/extra/glossary/#local-running).       
+
 ***
+
 ###### ‎       
 ### :icon-chevron-down:CUDA
 - A technology developed by NVIDIA, that uses the power of graphics cards to perform calculations that require great processing power.    

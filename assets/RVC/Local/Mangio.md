@@ -3,7 +3,7 @@ icon: chevron-right
 order: 2000
 ---
 
-``Last update: Feb 14, 2024``   
+``Last update: Mar 8, 2024``   
  
 ***
 ###### ‎ 
@@ -242,11 +242,11 @@ It'll finish when the output box says `Successful index Construction`.
 :::
 ###### ‎         
 #### 9. Select save frequency.
-- Rate at which the model will be saved, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u>. The saved models are known as the "checkpoints".    
+Frequency of the <u>[saving checkpoints](https://aihubdocs.github.io/en/extra/glossary/#checkpoints)</u>, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u>.       
 
-If you are a newbie, leave it at `15`.   
+If you are a newbie, simply leave it at `15`.    
     
-E.g: with a value of ``10``, it will be saved after the epoch 10, 20, 30, etc.                  
+E.g: with a value of ``10``, they will be saved after the epoch 10, 20, 30, etc.              
 ‎   
 
 <img src="../mangio-img/12.png" alt="image" width="250" height="auto"> 

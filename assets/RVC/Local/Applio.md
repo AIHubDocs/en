@@ -3,7 +3,7 @@ icon: chevron-right
 order: 5000
 ---
 
-``Last update: Mar 1, 2024``
+``Last update: Mar 8, 2024``
 
 ***
 :::content-center
@@ -233,14 +233,14 @@ It'll finish when it says `extracted successfully`.
 ###### ‎  
 ##### b. Save Every Epoch
 ###### ‎  
-- Rate at which the model will be saved, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u>. The saved models are known as the "checkpoints".    
+- Frequency of the <u>[saving checkpoints](https://aihubdocs.github.io/en/extra/glossary/#checkpoints)</u>, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u>.      
 ‎   
-- If you are a newbie, leave it at `15`.              
+- If you are a newbie, simply leave it at `15`.              
 
     <img src="..\applio-img\4-freq.png" alt="image" width="420">‎   
 ‎   
 ‎   
-- E.g: with a value of ``10``, it will be saved after the epoch 10, 20, 30, etc.   
+- E.g: with a value of ``10``, they will be saved after the epoch 10, 20, 30, etc.   
 ***
 ###### ‎  
 ##### c. Total Epoch
@@ -301,7 +301,7 @@ iii. Select the **.INDEX** named ``added_`` & move it to your newly made folder.
 ###### ‎  
 ##### c. Get the PTH
 ###### ‎  
-i. In said folder you'll also find all the checkpoints.         
+i. In said folder you'll also find all the <u>[checkpoints](https://aihubdocs.github.io/en/extra/glossary/#checkpoints)</u>.         
 ‎  
 ii. Select the one **closest** to ***before*** the overtraining point, and move it to the new folder.
 

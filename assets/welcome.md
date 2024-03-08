@@ -2,14 +2,14 @@
 icon: home-fill
 ---
 # :icon-home-fill: Home
-``Last update: Mar 3, 2024``         
+``Last update: Mar 8, 2024``         
 ***
 :::content-center
 <img src=".\img\a.png" alt="image" width="345" height="auto">
 
 ###### ‎
 
-#### **``Documentation of RVC & related apps.``**
+#### **``AI and RVC-related guides.``**
 :::
 :::content-center
 ##### <u>[LEARN MORE](https://aihubdocs.github.io/en/#introduction)</u>
@@ -19,7 +19,7 @@ icon: home-fill
 !!!success ‎  
 :::content-center
 ## <u>Essentials</u>
-#### - Starting point for newbies -      
+#### - Starting point for beginners -      
 :::
 ###### ‎
 #### :icon-chevron-right: 🎵 <u>[How to Make AI Cover](https://aihubdocs.github.io/en/essentials/how-to-make-ai-cover/)</u>
@@ -36,10 +36,9 @@ icon: home-fill
 ***
 ###### ‎    
 ## Introduction :icon-book:
-- This website is a beginner-friendly documentation of **RVC** (Retrieval-based Voice Conversion) & related apps, made by members of the [<u>**AI Hub**</u>](https://discord.com/invite/aihub) community.
+- This site is a documentation of AI tools, mostly <u>[RVC](https://aihubdocs.github.io/en/essentials/whats-rvc/)</u>-related apps. Made by members of [<u>**AI HUB**</u>](https://discord.com/invite/aihub).
 
-- You'll find **simple & convenient guides**, verified by experts in RVC.       
-<u>Topics include</u>: model training, inference, audio isolation, datasets, TensorBoard, & more. For **all** devices.      
+- See **simple & convenient guides** regarding model training, inference, audio isolation, datasets, TensorBoard, & more. Verified by the experts & for **all** devices.      
 ***
 ###### ‎  
 

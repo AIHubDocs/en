@@ -3,7 +3,7 @@ icon: chevron-right
 order: 2000
 ---
 
-``Last update: Mar 2, 2024``
+``Last update: Mar 8, 2024``
 ***
 ###### ‎
 :::content-center
@@ -137,7 +137,7 @@ b. To download it, in GD open `rvcDisconnected` & the folder named after the mod
 - #### <u>Define these values:</u>
 
 `save_frequency`
-:   Rate at which the model will be saved, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u>. The saved models are known as the "checkpoints". If you are a newbie, leave it at `15`.      
+:   Frequency of the <u>[saving checkpoints](https://aihubdocs.github.io/en/extra/glossary/#checkpoints)</u>, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u>. If you're a newbie, simply leave it at `15`.      
 <u>E.g:</u> with a value of ``10``, it will be saved after the epoch 10, 20, 30, etc.   
 
 `total_epochs`
@@ -184,7 +184,7 @@ a. When you're very sure of overtraining, you can stop training by pressing the 
 b. Click the folder symbol on the left.     
 (For mobile users: tap the three lines on the top left & `Show file browser`)     
 
-    Open the ``Mangio-RVC-Fork`` folder, then `weights`. You'll find the checkpoints.    
+    Open the ``Mangio-RVC-Fork`` folder, then `weights`. You'll find the <u>[checkpoints](https://aihubdocs.github.io/en/extra/glossary/#checkpoints)</u>.    
 
     <img src="../rvcdisconnected-img/20.png" alt="image" width="210" height="auto">‎    
 ‎   
