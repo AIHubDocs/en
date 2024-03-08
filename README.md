@@ -1,6 +1,6 @@
 # AI Hub Docs
 
-## Introduction :icon-book:
+## Introduction
 - This project is a documentation of AI tools, mostly <u>[RVC](https://aihubdocs.github.io/en/essentials/whats-rvc/)</u>-related apps. Made by members of [<u>**AI HUB**</u>](https://discord.com/invite/aihub).
 
 - <ins>Topics include</ins>: model training, inference, audio isolation, datasets, TensorBoard, & more.
