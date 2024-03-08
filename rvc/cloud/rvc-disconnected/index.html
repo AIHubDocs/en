@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/en">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.763188137540">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.763227286448">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -15,7 +15,7 @@
     <!-- Primary Meta Tags -->
     <title>RVC Disconnected</title>
     <meta name="title" content="RVC Disconnected">
-    <meta name="description" content="Last update: Mar 2, 2024">
+    <meta name="description" content="Last update: Mar 8, 2024">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://aihubdocs.github.io/en/rvc/cloud/rvc-disconnected/">
@@ -24,22 +24,22 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aihubdocs.github.io/en/rvc/cloud/rvc-disconnected/">
     <meta property="og:title" content="RVC Disconnected">
-    <meta property="og:description" content="Last update: Mar 2, 2024">
+    <meta property="og:description" content="Last update: Mar 8, 2024">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://aihubdocs.github.io/en/rvc/cloud/rvc-disconnected/">
     <meta property="twitter:title" content="RVC Disconnected">
-    <meta property="twitter:description" content="Last update: Mar 2, 2024">
+    <meta property="twitter:description" content="Last update: Mar 8, 2024">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../img/b.png" rel="icon">
-    <link href="../../../resources/css/retype.css?v=3.5.0.763188137540" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=3.5.0.763227286448" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.763188137540" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.763227286448" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.763188137540" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.763227286448" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -231,7 +231,7 @@
         <span>RVC Disconnected</span>
     </h1>
 </doc-anchor-target>
-<p><code v-pre>Last update: Mar 2, 2024</code></p>
+<p><code v-pre>Last update: Mar 8, 2024</code></p>
 <hr>
 <doc-anchor-target id="section">
     <h6>
@@ -552,7 +552,7 @@ Example: <code v-pre>kalomaze.zip</code></p>
 </ul>
 <dl>
 <dt><code v-pre>save_frequency</code></dt>
-<dd>Rate at which the model will be saved, based on the <u><a href="https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/">epochs</a></u>. The saved models are known as the &quot;checkpoints&quot;. If you are a newbie, leave it at <code v-pre>15</code>.<br />
+<dd>Frequency of the <u><a href="https://aihubdocs.github.io/en/extra/glossary/#checkpoints">saving checkpoints</a></u>, based on the <u><a href="https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/">epochs</a></u>. If you&#x27;re a newbie, simply leave it at <code v-pre>15</code>.<br />
 <u>E.g:</u> with a value of <code v-pre>10</code>, it will be saved after the epoch 10, 20, 30, etc.</dd>
 <dt><code v-pre>total_epochs</code></dt>
 <dd>The total amount of <u><a href="https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/">epochs</a></u> for the model. But since we&#x27;ll use <u><a href="https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard">TensorBoard</a></u>, use an arbitrarily large number like <code v-pre>2000</code>.</dd>
@@ -636,7 +636,7 @@ But if your dataset is small (around 2 minutes or less), use <code v-pre>4</code
 </li>
 <li><p>Click the folder symbol on the left.<br />
 (For mobile users: tap the three lines on the top left &amp; <code v-pre>Show file browser</code>)</p>
-<p>Open the <code v-pre>Mangio-RVC-Fork</code> folder, then <code v-pre>weights</code>. You&#x27;ll find the checkpoints.</p>
+<p>Open the <code v-pre>Mangio-RVC-Fork</code> folder, then <code v-pre>weights</code>. You&#x27;ll find the <u><a href="https://aihubdocs.github.io/en/extra/glossary/#checkpoints">checkpoints</a></u>.</p>
 <p><img src="../rvcdisconnected-img/20.png" alt="image" width="210" height="auto">‎<br />
 ‎</p>
 </li>
