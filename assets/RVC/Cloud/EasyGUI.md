@@ -136,7 +136,6 @@ b. Once done, you'll be able to hear the results in the **Export audio** box. To
 ###### ‎
 ### Training :icon-rocket:
 
->**For newbies:** if a setting isn't mentioned, leave it untouched.
 
 ###### ‎
 #### 1. Name the model
@@ -209,16 +208,17 @@ b. Once it's done uploading, press **Process Data**. It'll finish when the logs 
 ***
 ###### ‎
 #### 9. Train INDEX
-- Press ``Train feature index`` to get the model's [.INDEX](https://aihubdocs.github.io/en/essentials/voice-models/#-index) file.
-
-***
-## Without UI
-***
+- 
 
 ###### ‎
 ***
+:::content-center
+## Without UI
+:::
+‎
+:   ‎
+
 ### Inference :icon-unmute:
-***
 #### 1. Input model
 - Depending on your device, the process of inputting the model varies.
 
@@ -228,7 +228,7 @@ b. Once it's done uploading, press **Process Data**. It'll finish when the logs 
     <img src="..\easygui-img\4-modelfolder.png" alt="image" width="350">‎   
     ‎   
     b. Click the folder symbol ( icon-file-directory ) & go to **drive -> MyDrive**.
-    
+
         <img src="..\easygui-img\4-pthgd.png" alt="image" width="260">‎     
     ‎   
     c. Drag & drop the .PTH to the folder **RVC -> assets -> weights**.       
@@ -237,7 +237,7 @@ b. Once it's done uploading, press **Process Data**. It'll finish when the logs 
     ‎  
     d. In **model_name** input the name of the PTH followed by `.pth`.      
     ‎   
-    <img src="..\easygui-img\4-modelname.png" alt="image" width="320">‎  
+    <img src="..\easygui-img\4-modelpath.png" alt="image" width="320">‎  
     +++ :icon-device-mobile: MOBILE
     a. Upload the model's INDEX to Google Drive.
     +++
@@ -258,7 +258,7 @@ a. Upload the vocals to GD & copy the path.
 
     <img src="..\easygui-img\4-audio.png" alt="image" width="380">‎     
 ‎   
-b. Paste it in the **input_path** & **output_path** bars.       
+b. Paste it in the **input_path** & **save_as** bars.       
 
    <img src="..\easygui-img\4-inputoutput.png" alt="image" width="430">‎      
 
@@ -271,12 +271,16 @@ b. Paste it in the **input_path** & **output_path** bars.
 ***
 ###### ‎
 #### 5. Convert
-a. Run the cell to begin processing the audio. 
+a. Run the cell to begin converting. 
 
-b. Once done, a playable audio will 
+b. Once done, a playable audio will appear, where you can listen to the results. To download it, click the three dots & download. 
 
+   <img src="..\easygui-img\4-outputaudio.png" alt="image" width="430">‎  
 
-### Training :icon-rocket:
+###### ‎
+
+***
+### Training
 ***
 ==- **STEP 1** 
 ###### ‎
