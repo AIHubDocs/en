@@ -7,39 +7,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/en">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.763230197332">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.763262566311">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
 
     <!-- Primary Meta Tags -->
-    <title>Epochs, Overtraining &amp; TensorBoard</title>
-    <meta name="title" content="Epochs, Overtraining & TensorBoard">
+    <title>Epochs &amp; TensorBoard</title>
+    <meta name="title" content="Epochs & TensorBoard">
     <meta name="description" content="Last update: Feb 10, 2024">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/">
+    <link rel="canonical" href="https://aihubdocs.github.io/en/rvc/resources/epochs--tensorboard/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/">
-    <meta property="og:title" content="Epochs, Overtraining & TensorBoard">
+    <meta property="og:url" content="https://aihubdocs.github.io/en/rvc/resources/epochs--tensorboard/">
+    <meta property="og:title" content="Epochs & TensorBoard">
     <meta property="og:description" content="Last update: Feb 10, 2024">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/">
-    <meta property="twitter:title" content="Epochs, Overtraining & TensorBoard">
+    <meta property="twitter:url" content="https://aihubdocs.github.io/en/rvc/resources/epochs--tensorboard/">
+    <meta property="twitter:title" content="Epochs & TensorBoard">
     <meta property="twitter:description" content="Last update: Feb 10, 2024">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../img/b.png" rel="icon">
-    <link href="../../../resources/css/retype.css?v=3.5.0.763230197332" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=3.5.0.763262566311" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.763230197332" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.763262566311" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.763230197332" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.763262566311" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -225,10 +225,10 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="epochs-overtraining--tensorboard" class="break-words">
+<doc-anchor-target id="epochs--tensorboard" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#epochs-overtraining--tensorboard">#</doc-anchor-trigger>
-        <span>Epochs, Overtraining &amp; TensorBoard</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#epochs--tensorboard">#</doc-anchor-trigger>
+        <span>Epochs &amp; TensorBoard</span>
     </h1>
 </doc-anchor-target>
 <p><code v-pre>Last update: Feb 10, 2024</code></p>
@@ -249,7 +249,7 @@
 <ul>
 <li><p>&quot;Epoch&quot; is a unit of measuring the training cycles of an AI model.</p>
 </li>
-<li><p>In other words, the amount of times the model went over its <u><a href="https://aihubdocs.github.io/en/vocal-isolation--datasets/datasets/">dataset</a></u> and learned from it.</p>
+<li><p>In other words, the amount of times the model went over its <u><a href="https://aihubdocs.github.io/en/rvc/resources/datasets/">dataset</a></u> and learned from it.</p>
 </li>
 </ul>
 <doc-anchor-target id="section-1">
@@ -308,7 +308,7 @@
     </h6>
 </doc-anchor-target>
 <ul>
-<li><p>In the field of AI, is when an AI model learns its <u><a href="https://aihubdocs.github.io/en/vocal-isolation--datasets/datasets/">dataset</a></u> too well, to the point where it centers too much around it &amp; starts replicating undesired data.</p>
+<li><p>In the field of AI, is when an AI model learns its <u><a href="https://aihubdocs.github.io/en/rvc/resources/datasets/">dataset</a></u> too well, to the point where it centers too much around it &amp; starts replicating undesired data.</p>
 </li>
 <li><p>The model performs very well with data of the dataset, but poorly with new data, as it has lost its ability to replicate anything that deviates from it.</p>
 </li>
@@ -339,7 +339,7 @@
 <ul>
 <li><p>TensorBoard is a tool that allows you to visualize &amp; measure the training of an AI model, through graphs &amp; metrics.</p>
 </li>
-<li><p>It&#x27;s specially useful for determining when to stop training a voice model, since with it you can detect when the <u><u><a href="https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#overtraining">overtraining</u></a></u> point begins.</p>
+<li><p>It&#x27;s specially useful for determining when to stop training a voice model, since with it you can detect when the <u><u><a href="https://aihubdocs.github.io/en/rvc/resources/epochs--tensorboard/#overtraining">overtraining</u></a></u> point begins.</p>
 </li>
 <li><p>Because of this, TB is the most convenient tool for RVC users for perfecting a voice model.</p>
 </li>
@@ -585,10 +585,10 @@ For more information, check the guide for your RVC in this website.</p>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../../rvc/resources/inference-settings/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../../rvc/resources/vocal-isolation/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Inference Settings</span>
+                                                <span class="block mt-1">Vocal Isolation</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -632,6 +632,6 @@ For more information, check the guide for your RVC in this website.</p>
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Epochs, Overtraining & TensorBoard", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Epochs & TensorBoard", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
