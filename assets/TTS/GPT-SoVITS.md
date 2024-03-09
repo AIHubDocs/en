@@ -20,7 +20,7 @@ order: 1000
 		
 - Currently it only supports Chinese, English & Japanese. More languages are coming soon.		
 	
-- You'll requiere great specs & a NVIDIA GPU with >=6G VRAM to run it smoothly. Otherwise, use the Colab.
+- You'll require great specs & a NVIDIA GPU with >=6G VRAM to run it smoothly. Otherwise, use the Colab.
 
 - This guide is a translation of the original one with a few tweaks, made by Delik. [ Discord: @delik - Wechat: Dellikk ]
 ‎
@@ -107,19 +107,19 @@ b. Tick **Open labelling WebUI** to open Text Labelling WebUI. A new tab will op
 ***
 
 ###### ‎
-#### 5 Formatting
+#### 5. Formatting
+
 a. Click **1-GPT-SOVITS-TTS** & **1A-Dataset formatting** to enter the training page.
 ![](https://i.postimg.cc/YqGYtLsN/screenshot-2.png)
+
 b. Input the name of your model in **Experiment/model name**, & the ``.list`` file path to **Text labelling file**.
 
+c. Scroll down to the end & start **One-click formatting** to begin formatting.	
 ***
 
 ###### ‎
-#### 6. SoVits Training
-a. Scroll down to the end & start **One-click formatting** to begin training.	
-
-
-b. Scroll up then click **1B-Fine-tuned training**.   
+#### 6. SoVITS Training
+a. Scroll up then click **1B-Fine-tuned training**.   
 ‎   
 ![](https://i.postimg.cc/0Q1SrsVy/screenshot-2.png)‎		
 ###### ‎      
@@ -164,7 +164,7 @@ DPO training
 ‎
 :   ‎
 
-c. After that, click **Start GPT training**
+After that, click **Start GPT training**
 
 !!!warning You can't train both simultaneously unless you have 2 or more GPUs.
 !!!
