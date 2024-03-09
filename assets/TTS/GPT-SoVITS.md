@@ -114,7 +114,7 @@ a. Click **1-GPT-SOVITS-TTS** & **1A-Dataset formatting** to enter the training 
 
 b. Input the name of your model in **Experiment/model name**, & the ``.list`` file path to **Text labelling file**.
 
-c. Scroll down to the end & start **One-click formatting** to begin training.	
+c. Scroll down to the end & start **One-click formatting** to begin formatting.	
 ***
 
 ###### ‎
