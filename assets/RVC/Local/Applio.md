@@ -150,7 +150,7 @@ b. Once it's done, you can hear the results in the **Export Audio** box below.
 ## Training :icon-dependabot:
 ###### ‎   
 !!!warning
-The training guide will be centered around using <u>[TensorBoard](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard)</u>. Read about it first if you haven't already.      
+The training guide will be centered around using <u>[TensorBoard](https://aihubdocs.github.io/en/rvc/resources/epochs--tensorboard/#tensorboard)</u>. Read about it first if you haven't already.      
 If you encounter an issue, be sure to read the <u>[Troubleshooting](https://aihubdocs.github.io/en/rvc/local/mainline/#troubleshooting-)</u> chapter.
 !!!
 :::
@@ -233,7 +233,7 @@ It'll finish when it says `extracted successfully`.
 ###### ‎  
 ##### b. Save Every Epoch
 ###### ‎  
-- Frequency of the <u>[saving checkpoints](https://aihubdocs.github.io/en/extra/glossary/#checkpoints)</u>, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u>.      
+- Frequency of the <u>[saving checkpoints](https://aihubdocs.github.io/en/extra/glossary/#checkpoints)</u>, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs--tensorboard/)</u>.      
 ‎   
 - If you are a newbie, simply leave it at `15`.              
 
@@ -245,9 +245,9 @@ It'll finish when it says `extracted successfully`.
 ###### ‎  
 ##### c. Total Epoch
 ###### ‎  
-- Input the total amount of <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u> (training cycles) for the model.     
+- Input the total amount of <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs--tensorboard/)</u> (training cycles) for the model.     
 ‎   
-- But since we'll use <u>[TensorBoard](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard)</u>, use an arbitrarily large value like `1000`
+- But since we'll use <u>[TensorBoard](https://aihubdocs.github.io/en/rvc/resources/epochs--tensorboard/#tensorboard)</u>, use an arbitrarily large value like `1000`
 
     <img src="..\applio-img\4-epoch.png" alt="image" width="420">‎   
 ***
@@ -268,7 +268,7 @@ It'll finish when it says `extracted successfully`.
 ###### ‎  
 - Press `Start Training` to begin the training process.     
 ‎   
-- To open <u>[TB](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard)</u>, execute `run-tensorboard` in Applio's folder. Remember to monitor it, as well as the console just in case.           
+- To open <u>[TB](https://aihubdocs.github.io/en/rvc/resources/epochs--tensorboard/#tensorboard)</u>, execute `run-tensorboard` in Applio's folder. Remember to monitor it, as well as the console just in case.           
 ‎   
 - The latter will show you errors if they happen, and information about the epochs & checkpoints.   
 

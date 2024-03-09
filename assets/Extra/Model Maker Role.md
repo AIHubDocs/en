@@ -83,7 +83,7 @@ order: 1000
 #### Step 2: Upload it.
 - The ZIP must be stored in Hugging Face in a **public** repo of `openrail` license.    
 
-- Learn how <u>[here</u>](https://aihubdocs.github.io/en/rvc/resources/hugging-face-upload/).
+- Learn how <u>[here</u>](https://aihubdocs.github.io/en/essentials/voice-models/#uploading-to-hugging-face).
 ***
 ###### ‎
 #### Step 3: Prepare the submission.
@@ -107,7 +107,7 @@ order: 1000
 :     The <u>[extraction method](https://aihubdocs.github.io/en/rvc/resources/inference-settings/#pitch-extraction-algorithm)</u> you used.
 
 **epochs**
-:     Total <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u> amount.
+:     Total <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs--tensorboard/)</u> amount.
 
 **link**
 :     Its download link from Hugging Face.

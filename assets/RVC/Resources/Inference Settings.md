@@ -1,6 +1,6 @@
 ---
 icon: chevron-right
-order: 4000
+order: 1000
 ---
 
 ``Last update: Feb 25, 2024``
@@ -49,9 +49,9 @@ order: 4000
 
 - Higher values will apply more of the .INDEX's characteristics.   
 
-- Lowering it can **reduce [<u>artifacting</u>](https://aihubdocs.github.io/en/vocal-isolation--datasets/datasets/)**.      
+- Lowering it can **reduce [<u>artifacting</u>](https://aihubdocs.github.io/en/rvc/resources/datasets/)**.      
      
->Remember, if the <u>[dataset](https://aihubdocs.github.io/en/vocal-isolation--datasets/datasets/)</u> had other sounds like background noise, there will be noise in the .INDEX too.
+>Remember, if the <u>[dataset](https://aihubdocs.github.io/en/rvc/resources/datasets/)</u> had other sounds like background noise, there will be noise in the .INDEX too.
 
 ***
 ###### ‎
@@ -132,7 +132,7 @@ order: 4000
 #### :icon-chevron-down: Also known as <u>Remix Mix Rate</u>, controls the loudness of the output:
 - The closer to ``0``, the more the output will **match** the **loudness** of the **input** audio.
 
-- The closer to ``1``, the more it will match the loudness of the [<u>dataset</u>](https://aihubdocs.github.io/en/vocal-isolation--datasets/datasets) the **model** was trained on.
+- The closer to ``1``, the more it will match the loudness of the [<u>dataset</u>](https://aihubdocs.github.io/en/rvc/resources/datasets/) the **model** was trained on.
 
 >Basically, leave it at 0 if you want the audio to try to keep its original volume.
 ***

@@ -1,6 +1,6 @@
 ---
 icon: chevron-right
-order: 3000
+order: 2000
 ---
 
 ``Last update: Feb 10, 2024``
@@ -28,19 +28,19 @@ Remember that the cleaner your input audio is, the better the results.
 ###### ‎ 
 ### Solutions    
 #### 1. Use a lossless format:
-- If possible, it's best if your audio is in a <u>[lossless format](https://aihubdocs.github.io/en/rvc/resources/sample-rate--formats/)</u> like **WAV** or **FLAC**, preserving its original quality.
+- If possible, it's best if your audio is in a <u>[lossless format](https://aihubdocs.github.io/en/extra/glossary/#lossless-formats)</u> like **WAV** or **FLAC**, preserving its original quality.
 
 - Avoid using lossy ones like MP3 or OGG.
 ‎   
 #### 2. If doing inference:
-- Remove undesired noises with an <u>[audio isolation</u>](https://aihubdocs.github.io/en/vocal-isolation--datasets/vocal-isolation/) software.
+- Remove undesired noises with an <u>[vocal isolation</u>](http://aihubdocs.github.io/en/rvc/resources/vocal-isolation/) software.
 
 - Lowering the <u>[search feature ratio</u>](https://aihubdocs.github.io/en/rvc/resources/inference-settings/) can also minimize this issue.
 
 - If breathing sounds produce it, lower the <u>[Protection](https://aihubdocs.github.io/en/rvc/resources/inference-settings/)</u> value.
 ‎   
 #### 3. If training models:
-- Ensure to <u>[clean your dataset](https://aihubdocs.github.io/en/vocal-isolation--datasets/datasets/#cleaning-datasets)</u> properly, this includes removing silences and distortions.
+- Ensure to <u>[clean your dataset](https://aihubdocs.github.io/en/rvc/resources/datasets/#cleaning-datasets)</u> properly, this includes removing silences and distortions.
 
 ***
 :::content-right

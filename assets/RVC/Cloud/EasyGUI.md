@@ -149,7 +149,7 @@ b. First set a name for your model in **Enter the experiment name**.
 ***
 ###### ‎
 #### 2. Target sample rate
-- Select your dataset's <u>[sample rate](https://aihubdocs.github.io/en/rvc/resources/sample-rate--formats/#sample-rate)</u>.
+- Select your dataset's <u>[sample rate](https://aihubdocs.github.io/en/rvc/resources/datasets/#sample-rate)</u>.
 
     <img src="..\easygui-img\ui-t-samplerate.png" alt="image" width="300">‎ 
 
@@ -173,16 +173,16 @@ b. Once it's done uploading, press **Process Data**. It'll finish when the logs 
 ***
 ###### ‎    
 #### 5. Total training epochs
-- Input the total amount of <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u> (training cycles) for the model.
+- Input the total amount of <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs--tensorboard/)</u> (training cycles) for the model.
 
-- But since we'll use <u>[TensorBoard](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard)</u>, use an arbitrarily large value like `1000`
+- But since we'll use <u>[TensorBoard](https://aihubdocs.github.io/en/rvc/resources/epochs--tensorboard/#tensorboard)</u>, use an arbitrarily large value like `1000`
 
     <img src="..\easygui-img\ui-t-epochs.png" alt="image" width="420">‎
 
 ***
 ###### ‎
 #### 6. Save frequency
-- Rate at which the model will be saved, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u>. The saved models are known as the "checkpoints".    
+- Rate at which the model will be saved, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs--tensorboard/)</u>. The saved models are known as the "checkpoints".    
 
 - If you are a newbie, leave it at `15`.  
 
@@ -339,15 +339,15 @@ ii. To download it, open the file explorer & go to RVC, logs, and in your model'
 - The name you assigned the model previously.
 
 ##### b. Save frequency
-- Frequency of the <u>[saving checkpoints](https://aihubdocs.github.io/en/extra/glossary/#checkpoints)</u>, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u>.   
+- Frequency of the <u>[saving checkpoints](https://aihubdocs.github.io/en/extra/glossary/#checkpoints)</u>, based on the <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs--tensorboard/)</u>.   
 
 - If you are a newbie, simply leave it at `15`.        
 
 - E.g: with a value of ``10``, they will be saved after the epoch 10, 20, 30, etc.     
 
 ##### c. Epochs
-- Total amount of <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u> for the model.
-- But since we'll use <u>[TensorBoard](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard)</u>, use an arbitrarily large number like ``2000``.
+- Total amount of <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs--tensorboard/)</u> for the model.
+- But since we'll use <u>[TensorBoard](https://aihubdocs.github.io/en/rvc/resources/epochs--tensorboard/#tensorboard)</u>, use an arbitrarily large number like ``2000``.
 
 ##### d. Batch size
 - If you are a newbie, leave it at `8`. If your dataset is smaller (around 2 minutes or less) use `4` instead.
@@ -355,7 +355,7 @@ ii. To download it, open the file explorer & go to RVC, logs, and in your model'
 ##### e. Start training
 i. Begin training by running said cell. All the training files will be stored in your GD storage, so 
 
-ii. <u>[TB](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard)</u> will open in a momment. Remember to monitor it, as well as the cell's logs just in case.     
+ii. <u>[TB](https://aihubdocs.github.io/en/rvc/resources/epochs--tensorboard/#tensorboard)</u> will open in a momment. Remember to monitor it, as well as the cell's logs just in case.     
 
     The latter will show you errors if they happen, and information about the epochs & checkpoints.   
 

@@ -16,10 +16,26 @@ order: 3000
 - Vocal lines that contribute to the sound of the lead vocals in a song.      
 
 ***
+###### ‎   
+### :icon-chevron-down:Bit depth
+- In the field of digital audio, it defines the dynamic range of each sample.
 
+- This determines the difference between the quietest & loudest sound. 
+
+- Basically, higher bit depths represent more accurately the loudness of an audio.     
+
+***
+###### ‎   
+### :icon-chevron-down:Bitrate
+- The amount of data processed per certain unit of time, usually in kilobits per second (KBPS).
+
+- Higher bitrate equals a higher quality.
+
+- You can think of it as video resolution (240, 480, 1080, etc.).     
+   
+***
 ###### ‎
 ### :icon-chevron-down:Checkpoints
-
 
 - In RVC, these are files of a model that generate over the course of training, that can be very useful.        
 ‎  
@@ -100,9 +116,42 @@ order: 3000
 ### :icon-chevron-down:Local running
 - Running locally is a process that involves running apps in your own machine, using its resources.       
 
-- The opposite of <u>[cloud-based](https://aihubdocs.github.io/en/extra/glossary/#cloud-based)</u>.        
+- The opposite of <u>[cloud-based](https://aihubdocs.github.io/en/extra/glossary/#cloud-based)</u>.    
+
 ***
 
+###### ‎ 
+### :icon-chevron-down:Lossless Formats
+- Audio formats that **don't compress** (lose) the original quality.        
+‎       
+- They're recommended for RVC, as the more quality an audio has, the more accurate results they'll offer.       
+‎         
+- The main ones are **WAV & FLAC**:     
+    ‎   
+    - **FLAC:**   
+        - Its algorithm compresses the data without losing quality. 
+        - It's recommended over WAV since it's space-efficient.          
+‎   
+    - **WAV:**
+        - Doesn't do any kind of compression. It's purely the original data.
+        - Therefore it has a much bigger file size.
+        - It's more accurate to describe it as an *uncompressed* format
+        
+!!!
+Both formats give the same results & don't have an audible difference.      
+Converting a lossy audio to a lossless one won't restore the lost quality.
+!!!
+***
+###### ‎ 
+### :icon-chevron-down:Lossy Formats
+
+- Audio formats that **compress** (lose) the original quality. They're built to be space-efficient.
+
+- So by getting rid of some data (in this case, quality), they achieve a smaller file size.       
+
+- Common lossy formats are **MP3**, OGG, OPUS, M4A, etc.
+
+***
 ###### ‎       
 ### :icon-chevron-down:Model training
 - In the field of AI, is the process where an AI model is fed with its dataset & learns from it.
@@ -122,7 +171,7 @@ order: 3000
 
 - For example, in TTS you do inference by cloning a voice with an audio, a data it hasn't seen before.
 
-- Different from making a dataset & doing the long training process, based on lots of criteria such as <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/)</u>. 
+- Different from making a dataset & doing the long training process, based on lots of criteria such as <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs--tensorboard/)</u>. 
 
 - In some cases you can do it on GPU, some in CPU.
 ***

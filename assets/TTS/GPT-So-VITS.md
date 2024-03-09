@@ -1,7 +1,9 @@
 ---
 icon: chevron-right
+order: 2000
 ---
 
+# GPT-So-VITS
 **COLAB TUTORIAL COMING SOON**		
 This tutorial is made by Delik. If you have any questions and/or suggestions you can contact me on discord (**delik**) or wechat (**Dellikk**)
 

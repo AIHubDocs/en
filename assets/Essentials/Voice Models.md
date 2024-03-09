@@ -14,13 +14,12 @@ order: 3000
 :::content-center
 ## What is a Voice Model
 :::
-###### ‎
 - ***In the field of AI***, is a program that was trained to recognize certain patterns or make certain decisions.
 
 - **In this case**, voice models are models trained to **replicate** a voice, and with AI they apply it to the input audio.
 
-- There are plenty of them uploaded to the internet, made by the public. And the best way to make them is with the software **RVC**.    
-Learn how <u>[here</u>](https://aihubdocs.github.io/en/essentials/how-to-make-voice-models/).      
+- There are plenty of them uploaded to the internet, made by the public. And the best way to make them is with <u>[RVC</u>](https://aihubdocs.github.io/en/essentials/how-to-make-voice-models/)</u>.   
+
 ###### ‎   
 ### Voice Model Files 
 ==- *They are made up of two files:*       
@@ -43,7 +42,7 @@ As people sometimes upload them incorrectly.
 ***
 ###### ‎
 :::content-center
-## How to Search Voice Models
+## How to Search Models
 #### *``Four methods to find one online.``*
 :::
 ###### ‎  
@@ -54,27 +53,20 @@ As people sometimes upload them incorrectly.
 :::content-center  
 <img src="../searchrvcmodels-img/1.png" alt="image" width="300" height="auto">           
 :::  
-***
-:::content-center
-### <u>Description</u>  
-:::
+
 - This a website where people can upload voice models.
 - Models uploaded in **AI Hub** & **AI Hub France** get automatically stored here too.  
 - Users can read/share feedback about the models through comments & likes.     
 ***
 ###### ‎
-:::content-center
-### <u>How to Search</u>  
-:::
-###### ‎
-#### 1. Log in.   
-Access the website <u>[here</u>](https://weights.gg) & login by clicking the icon on the upper right corner.
+#### 1. Log in 
+- Access the website <u>[here</u>](https://weights.gg) & login by clicking the icon on the top right corner.
 ***
 ###### ‎
-#### 2. Search the model.
-Type the name of the model in the ``Search`` bar & click a result.     
+#### 2. Search
+- Type the name of the model in the ``Search`` bar & click a result.     
       
-<img src="../searchrvcmodels-img/2.png" alt="image" width="260" height="auto"> ‎    
+    <img src="../searchrvcmodels-img/2.png" alt="image" width="260" height="auto"> ‎    
 ‎   
 
 !!!
@@ -82,103 +74,89 @@ If you get models from different years, remember, the person's voice changes ove
 !!!
 ***
 ###### ‎
-#### 3. Evaluate the model. (optional)      
+#### 3. Evaluate model (optional)      
 - Check the description, likes, comments, & audio sample. Feedback can help you know how great the model is.        
 - The sample of the gender & vocal style according to the model gives the most accurate representation.     
 - This step is specially useful if you get multiple results of the same model.   
 
     <img src="../searchrvcmodels-img/3.png" alt="image" width="400" height="auto">
 
+!!!success
+If you're curious about the epochs, <u>[learn more here](https://aihubdocs.github.io/en/rvc/resources/epochs--tensorboard/)</u>.
+!!!
 ***
 ###### ‎
-#### 4. Download model.       
-Tap the three dots and ``Download model``. This will download a .ZIP file of it.     
+#### 4. Download       
+- Tap the three dots & ``Download model``. It will download a .ZIP file of it.     
 ‎  
 <img src="../searchrvcmodels-img/4.png" alt="image" width="600" height="auto">‎                          
 ‎   
-‎   
-If you need a link for it, use the other methods.       
-If it only exists in weights.gg, download the .ZIP & upload it to HF. Learn more <u>[here](https://aihubdocs.github.io/en/rvc/resources/hugging-face-upload/)</u>.  
-###### ‎  
-!!! *Regarding 'epochs'.*
-Epoch is a unit of measuring the training cycles of a model.        
-More epochs don't equal better model. Learn more <u>[here</u>](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/).
-!!!
+- If you need a link for it, use the other methods.     
+
+- If it only exists in weights.gg, download the .ZIP & <u>[upload it to HF](https://aihubdocs.github.io/en/essentials/voice-models/#uploading-to-hugging-face)</u>.  
 
 +++ Voice Models channel     
 :::content-center
 <img src="../searchrvcmodels-img/aihub.png" alt="image" width="200" height="auto">        
 :::
-***
-:::content-center
-### <u>Description</u>  
-:::
+‎   
+
 - This is a forum channel in **AI Hub** where people upload their own voice models.       
 - Searching here is specially useful if you need the model as a link, as the posts include one.       
 ***
-:::content-center
-### <u>How to Search</u>
-:::
 ###### ‎   
-#### 1. Enter the channel.     
-If you haven't already, join AI Hub <u>[here</u>](https://discord.gg/aihub).         
-Then go to the ``#voice-models`` channel.       
+#### 1. Enter the channel   
+- If you haven't already, join AI Hub <u>[here</u>](https://discord.gg/aihub).         
+- Then go to the ``#voice-models`` channel.       
        
 <img src="../searchrvcmodels-img/5.png" alt="image" width="480" height="auto"> 
 
 ***
 ###### ‎
-#### 2. Search the model.        
-In the upper search bar, search your model & click the post.
+#### 2. Search    
+- In the upper search bar, search your model & click the post.
 ***
 ###### ‎
-#### 3. Download model.      
-Click then Hugging Face link to download the model, or copy it if that's what you need.      
-You can listen to the audio sample to get a preview of the it.
+#### 3. Download   
+- Click the Hugging Face link to download the model, or copy it if that's what you need.      
+- You can listen to the audio sample to get a preview of the it.
 
-<img src="../searchrvcmodels-img/6.png" alt="image" width="480" height="auto"> 
+    <img src="../searchrvcmodels-img/6.png" alt="image" width="480" height="auto"> 
 
 +++ Applio Bot
 :::content-center
 <img src="../searchrvcmodels-img/applio.png" alt="image" width="200" height="auto"> 
 :::
-***
-
-:::content-center
-### <u>Description</u>  
-:::
-
+‎   
 - This is a Discord bot developed by the IA Hispano team.
 - It searches the models uploaded on every RVC/AI Hub Discord server.
-- There's also its <u>[web version](https://applio.org/models)</u>. Has less models but unlike weights.gg, it has direct download & the Hugging Face link.
+- There's also its <u>[web version](https://applio.org/models)</u>. Has less models but offers direct download & the Hugging Face link.
 ***
-###### ‎
-:::content-center
-### <u>How to Search</u>  
-:::
-###### ‎
-#### 1. Enter the channel.      
-If you haven't already, join AI Hub <u>[here</u>](https://discord.gg/aihub).        
-Head over to the ``#search-models`` channel.
-***
-###### ‎
-#### 2. Type command.        
-##### <u>In the chat:</u>
-- Type ``/search``
-- Select the **Applio** command
-- Type the name of your model
-- Send the message
 
-<img src="../searchrvcmodels-img/8.png" alt="image" width="340" height="auto"> 
+###### ‎
+#### 1. Enter the channel     
+- If you haven't already, join AI Hub <u>[here</u>](https://discord.gg/aihub).        
+- Head over to the ``#search-models`` channel.
+***
+###### ‎
+#### 2. Type command        
+- #### In the chat:
+    1. Type ``/search``
+    2. Select the **Applio** command
+    3. Type the model
+    4. Send the message      
+
+    ‎   
+
+    <img src="../searchrvcmodels-img/8.png" alt="image" width="340" height="auto"> 
 
 ***     
 ###### ‎
-#### 3. <u>Download model</u>.
-   <img src="../searchrvcmodels-img/7.png" alt="image" width="400" height="auto"> ‎    
-‎   
+#### 3. Download
+‎ ‎ ‎ ‎ ‎ ‎ <img src="../searchrvcmodels-img/7.png" alt="image" width="500" height="auto"> ‎     
 - 📤‎ Click ``Download`` to **download** it.        
 
-- 🔗‎ To get its **link**, right-click ``Download Model`` and tap ``Copy link``.      
+- 🔗‎ To get its **link**, right-click ``Download Model`` & tap ``Copy link``.      
 
 - 👀‎ If there are **multiple** models, click the ``Select a result`` bar to see the others.     
 
@@ -190,45 +168,99 @@ Head over to the ``#search-models`` channel.
 :::content-center
 <img src="../searchrvcmodels-img/11.png" alt="image" width="510" height="auto">       
 :::
-***
-###### ‎
-### <u>Description</u>  
-:::
+‎   
+
 - This is a free & open-source platform for storing AI models, interactive AI apps, & datasets.
 - Here's where people usually store their RVC models.
 ***
 ###### ‎
-:::content-center
-### <u>How to Search</u>  
-:::
-###### ‎
-1. Go to the model search page <u>[here</u>](https://huggingface.co/models).
-Search the model in the ``Filter by name`` bar.
+1. Go to the <u>[models page](https://huggingface.co/models)</u> & search the model in the ``Filter by name`` bar.
 
     <img src="../searchrvcmodels-img/9.png" alt="image" width="" height="auto">‎                   
 ‎       
-2. Click the model and go to the ``Files and versions`` tab.       
-To download it, click the download symbol ( :icon-download: ) on the right the .ZIP file.
-If you need its link, right-click it and copy the address.
+2. Click the model & go to the ``Files and versions`` tab.
 
-    <img src="../searchrvcmodels-img/10.png" alt="image" width="500" height="auto">        
+3. To download it, click the download symbol ( :icon-download: ) on the right of the .ZIP file.     
+    If you need its link, right-click it and copy the address.
+
+    <img src="../searchrvcmodels-img/10.png" alt="image" width="530" height="auto">         
+  
 ###### ‎   
-!!! <u>*In case there isn't a .ZIP.*</u>
-Download the model's <u>[correct files](https://aihubdocs.github.io/en/essentials/voice-models/#voice-model-files)</u>.     
-If you need it as a **link**, upload it yourself. Learn <u>[here</u>](https://aihubdocs.github.io/en/rvc/resources/hugging-face-upload/).
-!!!
-+++
-##### ‎ 
-#### If you couldn't find the model, you have 3 options:   
-- Make the model yourself
-- Pick a different one
-- Pay a model maker to make it for you.          
 
-##### If you're interested in the first one, learn <u>[here</u>](https://aihubdocs.github.io/en/essentials/how-to-make-voice-models/).
+!!! In case there isn't a .ZIP.
+Download the <u>[correct files](https://aihubdocs.github.io/en/essentials/voice-models/#voice-model-files)</u> of the model. Then if you need its **link**, <u>[upload it to HF</u>](https://aihubdocs.github.io/en/essentials/voice-models/#uploading-to-hugging-face).
+!!!
+
++++
+
+##### ‎ 
+#### If you couldn't find one, you have 3 options:   
+- <u>[Make the model yourself](https://aihubdocs.github.io/en/essentials/how-to-make-voice-models/)</u>
+- Pick a different one
+- Comission a **model maker** to make it for you         
+
+##### ‎
+***
+:::content-center
+## Uploading to Hugging Face
+:::
+‎
+:   ‎
+
+#### 1. Zip the model        
+- Select the correct <u>[.PTH & .INDEX](https://aihubdocs.github.io/en/essentials/voice-models/#voice-model-files)</u> & <u>[zip</u>](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5) them into a **.ZIP** file.       
+
+- Ensure it's .ZIP & not .RAR or .7ZIP.
+
+***
+###### ‎ 
+#### 2. Log in
+- If you haven't already, <u>[create an account</u>](https://huggingface.co/join) & log in.
+***
+###### ‎  
+#### 3. Make repository
+a. Once logged in, tap your profile on the upper right corner, & then `New Model`.       
+
+    <img src="../hfupload-img/1.png" alt="image" width="200" height="auto">
+
+    ‎
+
+b.  In `Model name` you name the repo as you want.   
+
+c.  Make sure **License** is set as `openrail` & the repo is set as `Public`.     
+
+d.  Once done, hit `Create model`.
+
+    <img src="../hfupload-img/2.png" alt="image" width="480" height="auto"> ‎                
+***
+###### ‎ 
+#### 4. Upload model
+a. It will redirect you to the repo.        
+Go to the `Files and versions` tab on the center, click `+ Add file` on the right & then ``Upload files``.
+
+    <img src="../hfupload-img/3.png" alt="image" width="350" height="auto">‎    
+‎                         
+b. Tap the upload box & submit the ZIP. Or just drag & drop.       
+
+    <img src="../hfupload-img/4.png" alt="image" width="" height="auto">‎       
+‎       
+c. Tap on `Commit changes to main` & the model will begin to upload.
+***
+###### ‎ 
+#### 5. Copy link (optional)
+- Once it's done, it will redirect you to the files list.       
+
+- So if you need its link, right-click the download button ( :icon-download: ) of the .ZIP file on the right, and click `Copy Link`.
+
+    <img src="../hfupload-img/5.png" alt="image" width="610" height="auto">
 
 ***
 :::content-right
-`Written by Julia`      
+`Written by Julia`
+:::
+‎  
+:::content-right    
+`OG HF tutorial by FDG`  
 :::
 ‎  
 :::content-right

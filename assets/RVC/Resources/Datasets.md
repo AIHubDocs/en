@@ -1,8 +1,9 @@
 ---
 icon: chevron-right
+order: 4000
 ---
 
-``Last update: Jan 14, 2024``   
+``Last update: Mar 8, 2024``   
 ***
 ###### ‎
 :::content-center
@@ -27,26 +28,27 @@ icon: chevron-right
 ###### ‎
 :::content-center
 ## Quality
-#### ``Recommendations & requirements for a quality dataset:``  
+#### ``Recommendations for a quality dataset.``  
 :::
 ###### ‎
 #### :icon-chevron-down: Range.
-- Vocals must be clear, hit low/high notes, & pronounce every vowel correctly.
-
+- Vocals must be clear, hit low/high notes, & pronounce every vowel correctly.      
+‎   
 #### :icon-chevron-down: Clean vocals.
-- Ensure there isn't background noise, reverb, overlapping voices, music, distortion, or small silences. You'll learn more in the **Cleaning Datasets** section below.
-
+- Ensure there isn't background noise, reverb, overlapping voices, music, distortion, or small silences. You'll learn more in the **Cleaning** section below.   
+‎   
 #### :icon-chevron-down: Audio quality.
-- The higher the audio quality, the better. If possible have it in a <u>[lossless](https://aihubdocs.github.io/en/rvc/resources/sample-rate--formats/)</u> format like **WAV** or **FLAC**, not a lossy one like MP3.
-
+- The higher the audio quality, the better. If possible have it in a <u>[lossless](https://aihubdocs.github.io/en/extra/glossary/#lossless-formats)</u> format like **WAV** or **FLAC**, not a lossy one like MP3.   
+‎   
 #### :icon-chevron-down: No sibilance/popping.
-- Additionally, don't include harsh sibilance (loud "S" & "SH" pronunciation) or popping sounds (loud "P" sound).
+- Additionally, don't include harsh sibilance (loud "S" & "SH" pronunciation) or popping sounds (loud "P" sound).   
+‎   
 ***
 ###### ‎
 :::content-center
-## Cleaning Datasets
+## Cleaning
 :::
-1. First, clean the undesired noises explained before using a <u>[vocal isolation](https://aihubdocs.github.io/en/vocal-isolation--datasets/vocal-isolation/)</u> software.     
+1. First, clean the undesired noises explained before using a <u>[vocal isolation](http://aihubdocs.github.io/en/rvc/resources/vocal-isolation/)</u> software.     
 ***   
 2. Then, to remove silences, distortion & minimize (even more) noise, we'll use tools from <u>[Audacity</u>](https://www.audacityteam.org/download/). A free, simple & very light-weighted <u>[DAW](https://aihubdocs.github.io/en/extra/glossary/#daw)</u>.            
     ‎     
@@ -84,20 +86,24 @@ icon: chevron-right
     ‎   
     <img src="../datasets-img/4.png" alt="image" width="370" height="auto"> 
     ‎       
-    ‎       
-    ‎       
-- And finally, introduce these values:  
-    - **Format**: ``FLAC``    
-    - **Bit depth**: ``24 bit``
-    - **Level**: ``8``         
-    ‎       
-<img src="../datasets-img/5.png" alt="image" width="650" height="auto">
+    ‎              
+
+    - And finally, introduce these values:  
+
+        - **Format**: ``FLAC``    
+        - **Bit depth**: ``24 bit``
+        - **Level**: ``8``       
+
+        ###### ‎    
+
+        <img src="../datasets-img/5.png" alt="image" width="650" height="auto">
 
 ***
+
 ###### ‎
 :::content-center
-## Tips for Recording Datasets
-#### `Advice for making a model of yourself`
+## Recording Tips
+#### `Advice for recording a dataset.`
 :::
 ###### ‎    
 - Record while reading anything, like a book.
@@ -110,14 +116,53 @@ icon: chevron-right
 - Don't be in a room with reverb. It's best if it's in a small-to-medium sized room with lots of stuff in it, specially soft like beds, couches, pillows, etc.
 - Have a good posture, it's good for breath support.
 - Have a drink at your side to not dehydrate.
+
 ***
-:::content-right
-``Written by Julia, Faze Masta & Litsa``
+
+###### ‎  
+:::content-center
+## Sample Rate
 :::
-‎     
-:::content-right
+- This is a unit in that defines the total amount of **samples** (data) that can **fit** within **1 second** of an audio. They are measured in kilohertz (kHz).
+
+- The most common sample rates are **32, 40, 44.1, & 48**. The **higher** the sample rate, the more information it stores, therefore the higher the **quality**.  
+
+- While training in RVC, you'll have to set the **target sample rate** as your dataset's. This value affects the final quality.  
+   
+- ##### A simple way to determine it is with the <ins>Ilaria Audio Analyzer</ins> tool:  
+
+    - ##### STEP 1:   
+        Enter the HF space <u>[here</u>](https://huggingface.co/spaces/TheStinger/Ilaria_Audio_Analyzer).        
+    ***
+    - ##### STEP 2:   
+        Press the upload box & select your audio. Or just drag & drop. Then use it's done uploading, click `Create Spectrogram and Get Info`.  
+
+        <img src="../audioformats-img/1.png" alt="image" width="500" height="auto">‎   
+    ***
+    - ##### STEP 3:     
+        In ``Samples per second`` you'll see the audio's full sample rate. Insert that value in RVC.
+
+        <img src="../audioformats-img/2.png" alt="image" width="400" height="auto">   
+
+    ***
+
+    !!!danger <u>WARNING:</u>   
+    If the frequencies don't reach the top of the spectrogram, see at which number peaks & multiply it by <U>**2**</u>.
+    !!!
+
+    ###### ‎
+    {.list-icon}
+    - #### <u>Example:</u>
+        <img src="../audioformats-img/3.png" alt="image" width="480" height="auto">‎    
+    ‎
+    >Here it reached 20 kHz. **Doubling** it gives 40kHz. Therefore the ideal target sample rate would be ``40k`` 
+
+***
+
+:::content-center
+``Written by Julia, Faze Masta, Litsa, Alex``
+:::
+:::content-center
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
 :::
-‎     
-‎      
 ***

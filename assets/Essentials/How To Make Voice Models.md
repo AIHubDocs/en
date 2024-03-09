@@ -15,7 +15,7 @@ order: 5000
 
 - For the best results, having a **clean** dataset is crucial, so take the time to remove any undesired noises.
        
-- #### <u>[Learn how</u>](https://aihubdocs.github.io/en/vocal-isolation--datasets/datasets/).
+- #### <u>[Learn how</u>](https://aihubdocs.github.io/en/rvc/resources/datasets/).
 ***
 ###### ‎ 
 ### 2. Set up RVC
@@ -33,7 +33,7 @@ For local users, first ensure you meet the <u>[minimum requirements](https://aih
 ***
 ###### ‎ 
 ### 3. Train the model
-- Before you start training, we inform you that the training guides are oriented around using <u>[TensorBoard](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#tensorboard)</u>. Read about it & install it after setting up RVC.
+- Before you start training, we inform you that the training guides are oriented around using <u>[TensorBoard](https://aihubdocs.github.io/en/rvc/resources/epochs--tensorboard/#tensorboard)</u>. Read about it & install it after setting up RVC.
 
 - Good luck & remember to be patient! As this won't be an instant process.
 ***

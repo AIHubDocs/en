@@ -1,5 +1,6 @@
 ---
 icon: chevron-right
+order: 5000
 ---
 
 ``Last update: Feb 29, 2024``  
@@ -15,7 +16,7 @@ icon: chevron-right
 
 - The goal is to get an audio sample with clean vocals, which is what RVC needs to give the most accurate & quality results.
 
-- For RVC users, the best app is Ultimate Vocal Remover 5 (or **UVR**). It can be used either <u>[locally](https://aihubdocs.github.io/en/extra/glossary/#local-running)</u> or through the <u>[cloud](http://aihubdocs.github.io/en/vocal-isolation--datasets/vocal-isolation/#cloud-uvr-)</u>. 
+- For RVC users, the best app is Ultimate Vocal Remover 5 (or **UVR**). It can be used either <u>[locally](https://aihubdocs.github.io/en/extra/glossary/#local-running)</u> or through the <u>[cloud](http://aihubdocs.github.io/en/rvc/resources/vocal-isolation/#cloud-uvr-)</u>. 
 ***
 <img src="../uvrmvsep-img/3.jpg" alt="image" width="" height="auto">‎       
 
@@ -23,7 +24,7 @@ icon: chevron-right
 :::content-center
 ## Local UVR
 !!!warning 
-*You'll require great specs & GPU to run it effectively. Otherwise, use the <u>[cloud version](http://aihubdocs.github.io/en/vocal-isolation--datasets/vocal-isolation/#cloud-uvr)</u>.*
+*You'll require great specs & GPU to run it effectively. Otherwise, use the <u>[cloud version](http://aihubdocs.github.io/en/rvc/resources/vocal-isolation/#cloud-uvr)</u>.*
 !!!
 :::
 ‎ 
@@ -62,14 +63,14 @@ Make sure to tick `🗹 Create a desktop shortcut` for an easier access to UVR.
     <img src="../uvrmvsep-img/4.jpg" alt="image" width="300" height="auto">         ‎    
 
 !!!success 
-For better results, have the audio in a <u>[lossless format](https://aihubdocs.github.io/en/rvc/resources/sample-rate--formats/)</u> (**WAV** or **FLAC**), & not MP3.
+For better results, have the audio in a <u>[lossless format](https://aihubdocs.github.io/en/extra/glossary/#lossless-formats)</u> (**WAV** or **FLAC**), & not MP3.
 !!!
 ***
 ‎ 
 #### 2. Select FLAC & GPU Conversion.
 ###### ‎  
 a. At the right you can select the output format.       
-We recommend picking `FLAC`. Learn why <u>[here](https://aihubdocs.github.io/en/rvc/resources/sample-rate--formats/)</u>.   
+We recommend picking `FLAC`. Learn why <u>[here](https://aihubdocs.github.io/en/extra/glossary/#lossless-formats)</u>.   
 ‎  
 b. If your GPU is **compatible with <u>[CUDA](https://aihubdocs.github.io/en/extra/glossary/#cuda)</u>**, toggle `GPU Conversion` on for a faster process.    
 
@@ -113,14 +114,14 @@ b. Now click the long `Start Processing` button.
     <img src="../uvrmvsep-img/4.jpg" alt="image" width="300" height="auto">         ‎    
 
 !!!success 
-For better results, have the audio in a [lossless format](https://aihubdocs.github.io/en/rvc/resources/sample-rate--formats/)</u> (**WAV** or **FLAC**), & not MP3.
+For better results, have the audio in a [lossless format](https://aihubdocs.github.io/en/extra/glossary/#lossless-formats)</u> (**WAV** or **FLAC**), & not MP3.
 !!!
 ***
 ‎   
 #### 2. Select FLAC & GPU Conversion.
 ###### ‎      
 a. At the right you can select the output format.       
-We recommend picking `FLAC`. Learn why <u>[here](https://aihubdocs.github.io/en/rvc/resources/sample-rate--formats/)</u>.     
+We recommend picking `FLAC`. Learn why <u>[here](https://aihubdocs.github.io/en/extra/glossary/#lossless-formats)</u>.     
 ‎   
 b. If your GPU is **compatible with <u>[CUDA](https://aihubdocs.github.io/en/extra/glossary/#cuda)</u>**, toggle `GPU Conversion` on for a faster process.    
     ‎       
@@ -136,7 +137,7 @@ a. In **Process Method** select `VR`.
 b. Set **Window Size** to ``320``. (optional)        
 Lower Window Size yield a higher output **quality**, but will take **longer** to process.   
 ‎   
-b. Check the <u>[model list](http://aihubdocs.github.io/en/vocal-isolation--datasets/vocal-isolation/#best-models)</u>. In **Select VR Model** pick the one according to what you need to remove.         
+b. Check the <u>[model list](http://aihubdocs.github.io/en/rvc/resources/vocal-isolation/#best-models)</u>. In **Select VR Model** pick the one according to what you need to remove.         
 ‎       
 If you need to remove multiple noises, follow this pipeline for the best results:   
 ``Remove instrumental -> Remove reverb -> Extract main vocals -> Remove noise``  
@@ -186,7 +187,7 @@ Click the `Start processing` button at the bottom. And that will be all.
 
 ==- *I can't remove some of the backing vocals.*
 ###### ‎
-- Run the audio through MDX23C or DeNoise. Modify the <u>[Aggression Setting](http://aihubdocs.github.io/en/vocal-isolation--datasets/vocal-isolation/#uvr-extracted-too-little-too-much)</u> if necessary.
+- Run the audio through MDX23C or DeNoise. Modify the <u>[Aggression Setting](http://aihubdocs.github.io/en/rvc/resources/vocal-isolation/#uvr-extracted-too-little-too-much)</u> if necessary.
 ===
 
 ==- *I couldn't find my answer.*
@@ -210,7 +211,7 @@ Click the `Start processing` button at the bottom. And that will be all.
 ###### ‎       
 #### 1. Set up Colab
 ###### ‎ 
-a. First access the Colab space <u>[here](https://colab.research.google.com/github/Eddycrack864/Music-Source-Separation-Universal-Colab/blob/main/Music_Source_Separation_Universal_Colab.ipynb)</u>. This Colab only uses **WAV** audios. If yours isn't, convert it to WAV or use <u>[MVSEP](http:aihubdocs.github.io/en/vocal-isolation--datasets/vocal-isolation/#mvsep)</u>.     
+a. First access the Colab space <u>[here](https://colab.research.google.com/github/Eddycrack864/Music-Source-Separation-Universal-Colab/blob/main/Music_Source_Separation_Universal_Colab.ipynb)</u>. This Colab only uses **WAV** audios. If yours isn't, convert it to WAV or use <u>[MVSEP](http://aihubdocs.github.io/en/rvc/resources/vocal-isolation/#mvsep)</u>.     
 ‎       
 b. Then **Log in** to your Google account.      
 ‎   
@@ -308,7 +309,7 @@ Lower Window Size yield a higher output **quality**, but will take **longer** to
 ‎ 
 #### 4. Select model
 ###### ‎  
-d. Check the <u>[model list](http://aihubdocs.github.io/en/vocal-isolation--datasets/vocal-isolation/#best-models)</u> & in **CHOOSE VR MODEL** pick the one according to what you need to remove.    
+d. Check the <u>[model list](http://aihubdocs.github.io/en/rvc/resources/vocal-isolation/#best-models)</u> & in **CHOOSE VR MODEL** pick the one according to what you need to remove.    
 ‎       
 If you need to remove multiple noises, follow this pipeline for the best results:   
 ``Remove instrumental -> Remove reverb -> Extract main vocals -> Remove noise``  
@@ -384,7 +385,7 @@ b. Playable audios will then appear in the output boxes below. To download the o
 ***
 - MVSEP is a website for isolating vocals, that works similarly as UVR.
 
-- The <u>[UVR Colab](http://aihubdocs.github.io/en/vocal-isolation--datasets/vocal-isolation/#cloud-uvr)</u> is much faster & convenient for this task. Use MVSEP if you run out of GPU runtime or feel lazy to convert your audio to WAV.
+- The <u>[UVR Colab](http://aihubdocs.github.io/en/rvc/resources/vocal-isolation/#cloud-uvr)</u> is much faster & convenient for this task. Use MVSEP if you run out of GPU runtime or feel lazy to convert your audio to WAV.
 
 - For free users, you can't convert audios in batches or longer than 10 minutes. If that's your case, trim it into different pieces.
 ***
@@ -419,7 +420,7 @@ a. Click `Browse File` & select your audio, or simply drag & drop. The audio wil
 a. In **Separation type** select `MDX23C`     
 ‎     
 b. In **Output encoding** select `FLAC`.          
-We recommend selecting FLAC from now on. Learn more <u>[here</u>](https://aihubdocs.github.io/en/rvc/resources/sample-rate--formats/).        
+We recommend selecting FLAC from now on. Learn more <u>[here</u>](https://aihubdocs.github.io/en/extra/glossary/#lossless-formats).        
 ‎     
 c. Once the audio is done uploading, click `Separate`       
 
@@ -470,7 +471,7 @@ a. Click `Browse File` & select your audio, or simply drag & drop. The audio wil
 ‎       
 ‎     
 b. In **Output encoding** select `FLAC`.      
-We recommend selecting FLAC from now on. Learn more <u>[here</u>](https://aihubdocs.github.io/en/rvc/resources/sample-rate--formats/).        
+We recommend selecting FLAC from now on. Learn more <u>[here</u>](https://aihubdocs.github.io/en/extra/glossary/#lossless-formats).        
 
     <img src="../uvrmvsep-img/10.png" alt="image" width="420" height="auto">‎    
 ***
@@ -479,7 +480,7 @@ We recommend selecting FLAC from now on. Learn more <u>[here</u>](https://aihubd
 ###### ‎
 a. In **Separation Type**, select `Ultimate Vocal Remover 5 HQ`.      
 ‎     
-b. Check the <u>[model list](http://aihubdocs.github.io/en/vocal-isolation--datasets/vocal-isolation/#best-models)</u>. In `Select VR Model` pick the one according to what you need to remove.         
+b. Check the <u>[model list](http://aihubdocs.github.io/en/rvc/resources/vocal-isolation/#best-models)</u>. In `Select VR Model` pick the one according to what you need to remove.         
 ‎       
 If you need to remove multiple noises, follow this pipeline for the best results:       
 ``Remove instrumental -> Remove reverb -> Extract main vocals -> Remove noise`` 

@@ -11,7 +11,7 @@ order: 6000
 :::     
 - "Epoch" is a unit of measuring the training cycles of an AI model.     
 
-- In other words, the amount of times the model went over its <u>[dataset](https://aihubdocs.github.io/en/vocal-isolation--datasets/datasets/)</u> and learned from it.         
+- In other words, the amount of times the model went over its <u>[dataset](https://aihubdocs.github.io/en/rvc/resources/datasets/)</u> and learned from it.         
 ###### ‎ 
 #### *:icon-chevron-right: How many epochs should I use for my dataset?*
 - There isn't a way to know the right amount previous to training. It depends on the size, length & quality of the dataset.
@@ -28,7 +28,7 @@ order: 6000
 ## Overtraining
 :::
 ###### ‎       
-- In the field of AI, is when an AI model learns its <u>[dataset](https://aihubdocs.github.io/en/vocal-isolation--datasets/datasets/)</u> too well, to the point where it centers too much around it & starts replicating undesired data.
+- In the field of AI, is when an AI model learns its <u>[dataset](https://aihubdocs.github.io/en/rvc/resources/datasets/)</u> too well, to the point where it centers too much around it & starts replicating undesired data.
 
 - The model performs very well with data of the dataset, but poorly with new data, as it has lost its ability to replicate anything that deviates from it.
 
@@ -43,7 +43,7 @@ order: 6000
 ###### ‎
 - TensorBoard is a tool that allows you to visualize & measure the training of an AI model, through graphs & metrics.
 
-- It's specially useful for determining when to stop training a voice model, since with it you can detect when the <u><u>[overtraining</u>](https://aihubdocs.github.io/en/rvc/resources/epochs-overtraining--tensorboard/#overtraining)</u> point begins.    
+- It's specially useful for determining when to stop training a voice model, since with it you can detect when the <u><u>[overtraining</u>](https://aihubdocs.github.io/en/rvc/resources/epochs--tensorboard/#overtraining)</u> point begins.    
 
 - Because of this, TB is the most convenient tool for RVC users for perfecting a voice model.     
 ***
