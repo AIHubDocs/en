@@ -2,7 +2,7 @@
 icon: home-fill
 ---
 # :icon-home-fill: Home
-``Last update: Mar 8, 2024``         
+``Last update: Mar 9, 2024``         
 ***
 :::content-center
 <img src=".\img\a.png" alt="image" width="345" height="auto">
@@ -54,7 +54,6 @@ icon: home-fill
 - EasyGUI
 - Advanced training
 - Advanced dataset cleaning
-- Reform Automaze commands
 - Pretrains
 - Kaggle
 
