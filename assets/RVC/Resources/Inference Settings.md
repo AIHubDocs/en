@@ -144,7 +144,7 @@ order: 1000
 ‎   
 
 #### :icon-chevron-down: Gives a faster inference & more consistent output volume:
-- There's an error where the volume of the output lowers in some parts.
+- In RVC sometimes there's an error where the volume of the output lowers in some parts.
 
 - To prevent this, Split Audio divides the audio & infers them one by one. Then unites them at the end.
 
