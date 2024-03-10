@@ -28,7 +28,7 @@ order: 5000
     #### :icon-cloud: ‎ <u>[On the cloud](https://aihubdocs.github.io/en/rvc/cloud/rvc-disconnected/)</u>
 ###### ‎
 !!!warning
-For local users, first ensure you meet the <u>[minimum requirements](https://aihubdocs.github.io/en/essentials/whats-rvc/#what-are-the-requirements-for-rvc-locally/)</u>.
+For local users, first ensure you meet the <u>[minimum requirements](https://aihubdocs.github.io/en/essentials/whats-rvc/#what-are-the-requirements-for-rvc-locally)</u>.
 !!!
 ***
 ###### ‎ 
@@ -42,7 +42,7 @@ For local users, first ensure you meet the <u>[minimum requirements](https://aih
 :::
 ‎  
 :::content-right
-``Last update: Mar 1, 2024``
+``Last update: Mar 10, 2024``
 :::
 ‎  
 :::content-right
