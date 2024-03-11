@@ -2,7 +2,7 @@
 icon: home-fill
 ---
 # :icon-home-fill: Home
-``Last update: Mar 9, 2024``         
+``Last update: Mar 10, 2024``         
 ***
 :::content-center
 <img src=".\img\a.png" alt="image" width="345" height="auto">
@@ -57,22 +57,4 @@ icon: home-fill
 - Pretrains
 - Kaggle
 
-***
-###### ‎      
-## Credits :icon-heart:
-- **Lead by:** Julia & Eddy       
-- **General Help:** Poopmaster, Raid, Light, Faze Masta, Alexolotl, Delik     
-- **Reviewing:** Faze Masta, Alexolotl, SimplCup, Delik, Litsa        
-- **OG Guides:** Litsa, Angetyde, LollenApe, Faze Masta, M0dz, FDG, Eddy, Julia, Nick  
-- **Branding:** Grvyscale & Cthulhu
-
-***
-:::content-right    
-`Written by Julia & Eddy`      
-:::   
-‎    
-:::content-right
-[!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
-::: 
-‎     
 ***

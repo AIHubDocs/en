@@ -17,7 +17,7 @@ order: 2000
 - The project nowadays is a little abandoned, so don't expect many updates from the developers soon, unfortunately.     
 
 ‎           
-### Pros & Cons :icon-tasklist:
+#### Pros & Cons :icon-tasklist:
 ==- ***Unfold***
 !!! *The pros & cons are subjective to your necessities.*       
 !!!
@@ -367,14 +367,9 @@ If the training finished but the model still needed training, you don't have to 
 ===
 
 ***
-‎
+###### ‎
 :::content-center
-``Written by: Julia``    
-:::
-:::content-center
-``A thanks to: Poopmaster, Eddy, Raid, SimplCup.``  
-:::
-:::content-center
+#### `You have reached the end.`
+
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
 :::
-***

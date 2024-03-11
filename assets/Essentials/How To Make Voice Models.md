@@ -36,11 +36,8 @@ For local users, first ensure you meet the <u>[minimum requirements](https://aih
 - Before you start training, we inform you that the training guides are oriented around using <u>[TensorBoard](https://aihubdocs.github.io/en/rvc/resources/epochs--tensorboard/#tensorboard)</u>. Read about it & install it after setting up RVC.
 
 - Good luck & remember to be patient! As this won't be an instant process.
+
 ***
-:::content-right
-`Written by Julia`
-:::
-‎  
 :::content-right
 ``Last update: Mar 10, 2024``
 :::

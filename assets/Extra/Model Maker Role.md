@@ -144,15 +144,9 @@ You can attach more samples when you repost the model to ``#voice-models``.
 - You can then repost the model (& future models) to the ``#voice-models`` forum.
 
 ***
-:::content-right
-`Original guide: FDG`      
-`Redone by: Julia`
-:::
-‎     
-‎  
-:::content-right
+###### ‎
+:::content-center
+#### `You have reached the end.`
+
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
 :::
-‎     
-‎     
-***

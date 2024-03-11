@@ -211,18 +211,11 @@ e. Fill the **Inference text** & set the **Inference language**, then click ``St
 
 	- If you did not get your desired output, you can infer it **again** or **change reference audio** and/or **adjust GPT parameters**.
 
-***
 
+***
+###### ‎
 :::content-center
-``OG guide: 白菜工厂1145号员工``
-:::
-:::content-center
-``Translation: Delik``
-:::
-:::content-center
-``Redone by: Julia``
-:::
-:::content-center
+#### `You have reached the end.`
+
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
 :::
-***

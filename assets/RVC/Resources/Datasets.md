@@ -158,11 +158,9 @@ order: 4000
     >Here it reached 20 kHz. **Doubling** it gives 40kHz. Therefore the ideal target sample rate would be ``40k`` 
 
 ***
+###### ‎
+:::content-center
+#### `You have reached the end.`
 
-:::content-center
-``Written by Julia, Faze Masta, Litsa, Alex``
-:::
-:::content-center
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
 :::
-***

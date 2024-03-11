@@ -34,13 +34,9 @@ icon: chevron-right
    - If you encounter an error, try clicking again until it works.
 
 ***
+###### ‎
+:::content-center
+#### `You have reached the end.`
 
-:::content-right
-``Written by Nick088 & Julia``    
-:::
-‎   
-:::content-right
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
 :::
-‎   
-***

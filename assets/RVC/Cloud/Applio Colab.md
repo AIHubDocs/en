@@ -3,7 +3,7 @@ icon: chevron-right
 order: 5000
 ---
 
-``Last update: Mar 8, 2024``
+``Last update: Mar 10, 2024``
 
 ***
 :::content-center
@@ -378,7 +378,7 @@ iii. And that's all, have fun with your model. To test it, do a normal <u>[infer
  ‎     
 2. You can change the **save frequency** or increase the **Total Epoch** amount, in case you didn't input enough before.      
  ‎  
-3. If you are starting a new session, unfold the **Extra** cell & input the model name you assigned before.      
+3. If you're resuming from a new session, unfold the **Extra** cell in Colab & input the model name you assigned before.      
  ‎  
         <img src="../appliocolab-img/4-retrain.png" alt="image" width="400" height="auto">   ‎       
  ‎  
@@ -547,12 +547,9 @@ If the frequencies don't reach the top of the spectrogram, see at which number p
 - Report your issue <u>[here](http://aihubdocs.github.io/en/#contributions)</u>.
 ===
 ***
-:::content-right
-``Written by Julia & Poopmaster``    
-:::
-‎   
-:::content-right
+###### ‎
+:::content-center
+#### `You have reached the end.`
+
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
 :::
-‎   
-***

@@ -174,13 +174,11 @@ Converting a lossy audio to a lossless one won't restore the lost quality.
 - Different from making a dataset & doing the long training process, based on lots of criteria such as <u>[epochs](https://aihubdocs.github.io/en/rvc/resources/epochs--tensorboard/)</u>. 
 
 - In some cases you can do it on GPU, some in CPU.
+
 ***
-:::content-right
-``Written by Julia & Alex``    
-:::
-‎   
-:::content-right
+###### ‎
+:::content-center
+#### `You have reached the end.`
+
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
 :::
-‎   
-***

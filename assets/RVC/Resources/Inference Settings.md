@@ -149,14 +149,11 @@ order: 1000
 - To prevent this, Split Audio divides the audio & infers them one by one. Then unites them at the end.
 
 - Doing it this way is faster too.
+
 ***
-:::content-right
-`Written by Julia & Alex`     
-:::
-‎  
-:::content-right
+###### ‎
+:::content-center
+#### `You have reached the end.`
+
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
 :::
-‎  
-‎  
-***

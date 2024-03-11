@@ -19,7 +19,7 @@ order: 4000
 
 - Its actual name is not "Mainline", but it was given by the public to properly distinguish it from the other versions.     
 ‎       
-### Pros & Cons :icon-tasklist:
+#### Pros & Cons :icon-tasklist:
 ==- ***Unfold***
 !!! *The pros & cons are subjective to your necessities.*        
 !!!
@@ -362,12 +362,9 @@ If the training finished but the model still needed training, you don't have to 
 ===
 
 ***
-:::content-right
-``Written by Julia & Poopmaster``    
-:::
-‎ 
-:::content-right
+###### ‎
+:::content-center
+#### `You have reached the end.`
+
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
 :::
-‎     
-***

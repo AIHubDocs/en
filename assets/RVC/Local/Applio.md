@@ -481,12 +481,9 @@ Then you'll be able to see the plugin in the **Plugins** tab.
 ===
 
 ***
-:::content-right
-``Written by Julia & Poopmaster``    
-:::
-‎   
-:::content-right
+###### ‎
+:::content-center
+#### `You have reached the end.`
+
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
 :::
-‎   
-***

@@ -16,7 +16,7 @@ order: 3000
 
 - Making it the go-to method for training for cloud RVC users. Pretty much the only big downside is the time limit (but you can switch to another account & continue).      
 ‎       
-### Pros & Cons :icon-tasklist:
+#### Pros & Cons :icon-tasklist:
 
 ==- ***Learn more***
 !!! *The pros & cons are subjective to your necessities.*        
@@ -225,14 +225,9 @@ d. And that's all. To test it, do a normal <u>[inference](https://aihubdocs.gith
 5. Run the **Training** cell to retrain. Remember to monitor <u>[TB</u>](https://aihubdocs.github.io/en/rvc/resources/epochs--tensorboard/#tensorboard) as before.       
 
 ***
-###### ‎  
+###### ‎
 :::content-center
-``Original guide: Angetyde``     
-:::
-:::content-center
-``Redone by: Julia, Eddy, Poopmaster, Light``      
-:::
-:::content-center
+#### `You have reached the end.`
+
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
-:::  
-***
+:::

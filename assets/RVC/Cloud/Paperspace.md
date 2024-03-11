@@ -116,12 +116,11 @@ On the other hand, on Colab, it might take around 7 hours (without considering t
 >:::     
 >‎        
 >‎    
+
 ***
+###### ‎
 :::content-center
-``Original guide: LollenApe``       
-`Redone by: Julia & Leo`
-:::
-:::content-center
+#### `You have reached the end.`
+
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
 :::
-***

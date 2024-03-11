@@ -151,11 +151,9 @@ For <u>[RVC Disconnected</u>](https://aihubdocs.github.io/en/rvc/cloud/rvc-disco
 +++
 
 ***
-###### ‎    
+###### ‎
 :::content-center
-`Written by Julia, SimplCup, Litsa & Poopmaster`    
-:::
-:::content-center
+#### `You have reached the end.`
+
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
 :::
-***

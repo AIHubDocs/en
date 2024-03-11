@@ -253,19 +253,11 @@ c. Tap on `Commit changes to main` & the model will begin to upload.
 - So if you need its link, right-click the download button ( :icon-download: ) of the .ZIP file on the right, and click `Copy Link`.
 
     <img src="../hfupload-img/5.png" alt="image" width="610" height="auto">
+           
+***
+###### ‎
+:::content-center
+#### `You have reached the end.`
 
-***
-:::content-right
-`Written by Julia`
-:::
-‎  
-:::content-right    
-`OG HF tutorial by FDG`  
-:::
-‎  
-:::content-right
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
-::: 
-‎  
-‎  
-***
+:::

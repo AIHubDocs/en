@@ -3,7 +3,7 @@ icon: chevron-right
 order: 5000
 visibility: private
 ---
-``Last update: Mar 6, 2024`` 
+``Last update: Mar 10, 2024`` 
 ‎  
 
 ***
@@ -136,8 +136,6 @@ b. Once done, you'll be able to hear the results in the **Export audio** box. To
 ###### ‎
 ### Training :icon-rocket:
 
-
-###### ‎
 #### 1. Name the model
 a. Go to the **Train** tab. 
 
@@ -145,7 +143,8 @@ b. First set a name for your model in **Enter the experiment name**.
 
     <img src="..\easygui-img\ui-t-name.png" alt="image" width="520">‎   
 ‎       
-- Don't include spaces/special characters, to avoid errors.
+!!!danger Don't include spaces/special characters, to avoid errors.
+!!!
 ***
 ###### ‎
 #### 2. Target sample rate
@@ -207,10 +206,24 @@ b. Once it's done uploading, press **Process Data**. It'll finish when the logs 
 
 ***
 ###### ‎
-#### 9. Train INDEX
+#### 9. Train
 - 
 
 ###### ‎
+***
+###### ‎
+### Resuming
+- In case the training finished but the model still needed training, you don't have to start from scratch. You can resume from the latest checkpoint.
+  
+- If you're resuming from, you must have had `save_to_drive` ticked before installing EasyGUI, so the training files get saved to your Google Drive storage.
+
+
+1. To resume, simply enter the **same settings & criteria** that you had previously inserted. You don't have to do preprocess, extract feature or train the .INDEX again.      
+
+2. You can change the **save frequency** or increase the **Total Epoch** amount, in case you didn't input enough before.      
+
+
+3. 
 ***
 :::content-center
 ## Without UI
@@ -378,3 +391,11 @@ ii. <u>[TB](https://aihubdocs.github.io/en/rvc/resources/epochs--tensorboard/#te
 ***
 ## Troubleshooting :icon-tools:
 ***
+
+***
+###### ‎
+:::content-center
+#### `You have reached the end.`
+
+[!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
+:::

@@ -346,14 +346,9 @@ The other audios are the stems. Download them too if you wish.
 - #### If the voice glitches out, click <u>[here](https://aihubdocs.github.io/en/rvc/resources/inference-settings/)</u>.
 
 ***
-###### ‎   
+###### ‎
 :::content-center
-``OG NO UI guide: Eddy``     
-:::
-:::content-center
-``Redone by: Julia``  
-:::
-:::content-center
+#### `You have reached the end.`
+
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
-::: 
-***
+:::

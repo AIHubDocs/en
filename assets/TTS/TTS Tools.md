@@ -260,13 +260,9 @@ order: 2000
   - [Google Translate](https://translate.google.com/)
 
 ***
+###### ‎
 :::content-center
-``Written by Nick088``
-:::
-:::content-center
-``Redone by Julia``    
-:::
-:::content-center
+#### `You have reached the end.`
+
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
 :::
-***

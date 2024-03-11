@@ -553,12 +553,10 @@ Main Vocals | Ultimate Vocal Remover 5 HQ | UVR-BVE-4B_SN-44100-1
 Noise | Ultimate Vocal Remover 5 HQ | UVR-DeNoise
 
 +++
-:::content-right
-``Written by Julia``
-:::
-‎     
-:::content-right
-[!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)   
-::: 
-‎     
 ***
+###### ‎
+:::content-center
+#### `You have reached the end.`
+
+[!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
+:::

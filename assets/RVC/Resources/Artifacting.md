@@ -43,12 +43,9 @@ Remember that the cleaner your input audio is, the better the results.
 - Ensure to <u>[clean your dataset](https://aihubdocs.github.io/en/rvc/resources/datasets/#cleaning-datasets)</u> properly, this includes removing silences and distortions.
 
 ***
-:::content-right
-`Written by Julia`
-:::
-‎   
-:::content-right
+###### ‎
+:::content-center
+#### `You have reached the end.`
+
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
 :::
-‎   
-***

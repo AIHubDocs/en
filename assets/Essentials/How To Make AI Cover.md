@@ -61,10 +61,6 @@ For local users, first ensure you meet the <u>[minimum requirements](https://aih
     4. Make vocals from scratch using a voice synthesizer (like SynthV) & convert them with RVC.
 ***
 :::content-right
-`Written by Julia`
-:::
-‎   
-:::content-right
 ``Last update: Mar 1, 2024``
 :::
 ‎     
@@ -72,5 +68,4 @@ For local users, first ensure you meet the <u>[minimum requirements](https://aih
 [!badge variant="info" size="xl" corners="pill" icon="paper-airplane" iconAlign="right" text="Report Issues"](http://aihubdocs.github.io/en/#contributions)
 :::     
 ‎   
-  
 ***
