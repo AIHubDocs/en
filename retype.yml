@@ -1,24 +1,13 @@
 input: ./assets
 output: .retype
 
-url: aihubdocs.github.io/en
+url: # aihubdocs.github.io/en
 
 branding:
   title:
   logo: ../assets/img/a.png
   logoDark: 
   label:
-
-links:
-- text: Need Help?
-  link: https://discord.gg/aihub
-  icon: question
-- text: Report Issues
-  link: http://aihubdocs.github.io/en/#contributions
-  icon: stop
-- text: GitHub
-  link: https://github.com/AIHubDocs
-  icon: mark-github
 
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
