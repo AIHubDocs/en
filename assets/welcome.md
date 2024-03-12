@@ -47,6 +47,17 @@ icon: home-fill
 - Leave **suggestions** in the <u>[#suggestions](https://discord.com/channels/1159260121998827560/1159516963014451302)</u> channel. To **report issues**, use <u>[#help-forum](https://discord.com/channels/1159260121998827560/1192011222023950368)</u>.
 
 - You can also send an issue/pull request to our <u>[GitHub page](https://github.com/AIHubDocs)</u>.
+
+***
+###### ‎  
+
+## Credits :icon-heart:
+- **Lead by:** Julia & Eddy
+- **General Help:** Poopmaster Raid, Light, Faze Masta, Alexolotl, Delik
+- **Reviewing:** Faze Masta, Alexolotl, SimplCup, Delik, Litsa
+- **OG Guides:** Litsa, Angetyde, LollenApe, Faze Masta, MrM0dz, FDG, Eddy, Julia, Nick
+- **Backend:** Eddy & Yui
+- **Branding:** Grvyscale & Cthulhu
 ***
 ###### ‎     
 ## To-Do :icon-checklist:
